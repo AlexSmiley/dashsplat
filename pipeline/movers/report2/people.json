@@ -1,0 +1,600 @@
+{
+  "frames": {
+    "front": 99,
+    "back": 99,
+    "left_pillar": 99,
+    "right_pillar": 99,
+    "left_repeater": 99,
+    "right_repeater": 99
+  },
+  "candidates": [
+    {
+      "camera": "front",
+      "source": "work/movers/extra",
+      "id": 145,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        211.26331444487425,
+        211.26331444487425
+      ],
+      "area": 121
+    },
+    {
+      "camera": "front",
+      "source": "work/movers/extra",
+      "id": 161,
+      "cls": "person",
+      "n": 2,
+      "time": [
+        212.0132631025145,
+        212.26324598839457
+      ],
+      "area": 66
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 4,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.2487211690606,
+        190.2487211690606
+      ],
+      "area": 46
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 5,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.74868694082073,
+        190.74868694082073
+      ],
+      "area": 77
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 6,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.74868694082073,
+        190.74868694082073
+      ],
+      "area": 70
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 7,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.99866982670082,
+        190.99866982670082
+      ],
+      "area": 67
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 8,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.99866982670082,
+        190.99866982670082
+      ],
+      "area": 51
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 9,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        191.2486527125809,
+        191.2486527125809
+      ],
+      "area": 35
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 11,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        192.2485842561012,
+        192.2485842561012
+      ],
+      "area": 55
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 19,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        206.24762586538554,
+        206.24762586538554
+      ],
+      "area": 257
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 21,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        206.4976087512656,
+        206.4976087512656
+      ],
+      "area": 90
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 22,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        206.4976087512656,
+        206.4976087512656
+      ],
+      "area": 120
+    },
+    {
+      "camera": "back",
+      "source": "work/movers/extra",
+      "id": 26,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.74738626770662,
+        209.74738626770662
+      ],
+      "area": 110
+    },
+    {
+      "camera": "left_pillar",
+      "source": "work/movers/extra",
+      "id": 16,
+      "cls": "bicycle",
+      "n": 1,
+      "time": [
+        194.23721503227674,
+        194.23721503227674
+      ],
+      "area": 83
+    },
+    {
+      "camera": "left_pillar",
+      "source": "work/movers/extra",
+      "id": 20,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        194.73718080403688,
+        194.73718080403688
+      ],
+      "area": 84
+    },
+    {
+      "camera": "left_pillar",
+      "source": "work/movers/extra",
+      "id": 40,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        203.98654758159975,
+        203.98654758159975
+      ],
+      "area": 201
+    },
+    {
+      "camera": "left_pillar",
+      "source": "work/movers/extra",
+      "id": 102,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        213.76365600713166,
+        213.76365600713166
+      ],
+      "area": 49
+    },
+    {
+      "camera": "right_pillar",
+      "source": "work/movers/extra",
+      "id": 3,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.49607115320057,
+        190.49607115320057
+      ],
+      "area": 225
+    },
+    {
+      "camera": "right_pillar",
+      "source": "work/movers/extra",
+      "id": 40,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        213.24451376828762,
+        213.24451376828762
+      ],
+      "area": 112
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 5,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.24271518068642,
+        190.24271518068642
+      ],
+      "area": 108
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 6,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.49269806656648,
+        190.49269806656648
+      ],
+      "area": 108
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 7,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.49269806656648,
+        190.49269806656648
+      ],
+      "area": 88
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 9,
+      "cls": "person",
+      "n": 2,
+      "time": [
+        190.74268095244656,
+        190.99266383832665
+      ],
+      "area": 113
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 10,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.74268095244656,
+        190.74268095244656
+      ],
+      "area": 96
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 11,
+      "cls": "person",
+      "n": 2,
+      "time": [
+        191.74261249596688,
+        191.99259538184694
+      ],
+      "area": 156
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 18,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        196.24230444180827,
+        196.24230444180827
+      ],
+      "area": 29
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 19,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        196.24230444180827,
+        196.24230444180827
+      ],
+      "area": 73
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 24,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        203.24182524645042,
+        203.24182524645042
+      ],
+      "area": 72
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 45,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        207.7415171922918,
+        207.7415171922918
+      ],
+      "area": 180
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 49,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        207.9915000781719,
+        207.9915000781719
+      ],
+      "area": 85
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 64,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.24141450757227,
+        209.24141450757227
+      ],
+      "area": 70
+    },
+    {
+      "camera": "left_repeater",
+      "source": "work/movers/extra",
+      "id": 77,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        210.99129470873282,
+        210.99129470873282
+      ],
+      "area": 128
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 10,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.73765840293711,
+        190.73765840293711
+      ],
+      "area": 144
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 11,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        190.73765840293711,
+        190.73765840293711
+      ],
+      "area": 50
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 13,
+      "cls": "person",
+      "n": 3,
+      "time": [
+        190.9876412888172,
+        191.48760706057737
+      ],
+      "area": 144
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 30,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        195.23735034877853,
+        195.23735034877853
+      ],
+      "area": 36
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 34,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        199.23707652285975,
+        199.23707652285975
+      ],
+      "area": 65
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 35,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        199.73704229461993,
+        199.73704229461993
+      ],
+      "area": 58
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 46,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        204.23673424046132,
+        204.23673424046132
+      ],
+      "area": 33
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 47,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        206.23659732750193,
+        206.23659732750193
+      ],
+      "area": 85
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 50,
+      "cls": "motorcycle",
+      "n": 1,
+      "time": [
+        206.98654598514216,
+        206.98654598514216
+      ],
+      "area": 89
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 51,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        207.23652887102224,
+        207.23652887102224
+      ],
+      "area": 341
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 54,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.23639195806285,
+        209.23639195806285
+      ],
+      "area": 48
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 55,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.48637484394294,
+        209.48637484394294
+      ],
+      "area": 65
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 56,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.48637484394294,
+        209.48637484394294
+      ],
+      "area": 89
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 57,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.98634061570309,
+        209.98634061570309
+      ],
+      "area": 175
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 58,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        209.98634061570309,
+        209.98634061570309
+      ],
+      "area": 74
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 62,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        214.2638255518733,
+        214.2638255518733
+      ],
+      "area": 187
+    },
+    {
+      "camera": "right_repeater",
+      "source": "work/movers/extra",
+      "id": 64,
+      "cls": "person",
+      "n": 1,
+      "time": [
+        214.51380843775337,
+        214.51380843775337
+      ],
+      "area": 274
+    }
+  ]
+}

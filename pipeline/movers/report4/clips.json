@@ -1,0 +1,65 @@
+{
+  "bus.mp4": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "r_frame_rate": "24/1",
+          "nb_frames": "121"
+        }
+      ],
+      "format": {
+        "duration": "5.041667",
+        "size": "1090662"
+      }
+    },
+    "unique_small_frames": 121,
+    "sha256": "3537d6605bcc81af83568ab913bbb44bb850b8e3ab3b7454778f5f6af82de5d7"
+  },
+  "junction.mp4": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "r_frame_rate": "24/1",
+          "nb_frames": "238"
+        }
+      ],
+      "format": {
+        "duration": "10.333333",
+        "size": "1658051"
+      }
+    },
+    "unique_small_frames": 238,
+    "sha256": "d590ce790fa70c38c98e0c4c82c61785c998f9c508f1966ab2bb00caf15e42b6"
+  },
+  "pull-away.mp4": {
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 960,
+          "height": 600,
+          "r_frame_rate": "24/1",
+          "nb_frames": "336"
+        }
+      ],
+      "format": {
+        "duration": "15.125000",
+        "size": "2059431"
+      }
+    },
+    "unique_small_frames": 336,
+    "sha256": "7f19a890dc648811756fbffc0e46a49d7849470d66281f5e6f8ea90007ec5020"
+  }
+}

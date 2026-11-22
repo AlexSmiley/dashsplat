@@ -1,0 +1,222 @@
+{
+  "road": {
+    "dominantSwitch": {
+      "between": [
+        {
+          "frames": 385,
+          "samples": 794362,
+          "mean": 4.072667121539046,
+          "meanPerFrame": 4.260419432772967,
+          "fracOver20": 0.01632253305168173
+        },
+        {
+          "frames": 385,
+          "samples": 886737,
+          "mean": 5.103700420756098,
+          "meanPerFrame": 5.3226019790180485,
+          "fracOver20": 0.03724103088063315
+        },
+        {
+          "frames": 385,
+          "samples": 7654215,
+          "mean": 1.0345595204733602,
+          "meanPerFrame": 1.0336903177933168,
+          "fracOver20": 0.005526497491904787
+        }
+      ],
+      "transition": [
+        {
+          "frames": 64,
+          "samples": 113372,
+          "mean": 5.00334297710193,
+          "meanPerFrame": 4.980745127565446,
+          "fracOver20": 0.032168436651024944
+        },
+        {
+          "frames": 64,
+          "samples": 146390,
+          "mean": 6.374219550515746,
+          "meanPerFrame": 6.509551632346005,
+          "fracOver20": 0.06136348111209782
+        },
+        {
+          "frames": 64,
+          "samples": 1256058,
+          "mean": 1.0527292529485104,
+          "meanPerFrame": 1.0524797065444735,
+          "fracOver20": 0.007535480049488161
+        }
+      ]
+    },
+    "pairBoundary": {
+      "between": [
+        {
+          "frames": 385,
+          "samples": 781359,
+          "mean": 4.0715125825644805,
+          "meanPerFrame": 4.245710855006948,
+          "fracOver20": 0.016966592820969618
+        },
+        {
+          "frames": 385,
+          "samples": 899183,
+          "mean": 5.203288985668101,
+          "meanPerFrame": 5.4095732490461055,
+          "fracOver20": 0.03968046548922744
+        },
+        {
+          "frames": 385,
+          "samples": 7629345,
+          "mean": 1.0087500303105967,
+          "meanPerFrame": 1.008162464116407,
+          "fracOver20": 0.0053562920539050205
+        }
+      ],
+      "transition": [
+        {
+          "frames": 64,
+          "samples": 126375,
+          "mean": 4.914722057368942,
+          "meanPerFrame": 5.069226415689157,
+          "fracOver20": 0.026555885262116715
+        },
+        {
+          "frames": 64,
+          "samples": 133944,
+          "mean": 5.823724840231739,
+          "meanPerFrame": 5.986365086083475,
+          "fracOver20": 0.0472286925879472
+        },
+        {
+          "frames": 64,
+          "samples": 1280928,
+          "mean": 1.2061005770816158,
+          "meanPerFrame": 1.2060457013196337,
+          "fracOver20": 0.00851023632866172
+        }
+      ]
+    },
+    "worstDominantSwitch": {
+      "t": 118.73333333333333,
+      "mean": 8.685587364264562
+    },
+    "video": {
+      "width": 1440,
+      "height": 900,
+      "r_frame_rate": "30/1",
+      "duration": "15.000000",
+      "nb_frames": "450"
+    },
+    "meanStaticFraction": 0.1069430109739369
+  },
+  "exit": {
+    "dominantSwitch": {
+      "between": [
+        {
+          "frames": 309,
+          "samples": 880683,
+          "mean": 2.5350971916115106,
+          "meanPerFrame": 2.4549754981421583,
+          "fracOver20": 0.003423479276879422
+        },
+        {
+          "frames": 309,
+          "samples": 940583,
+          "mean": 2.879566183951868,
+          "meanPerFrame": 2.7420269064816534,
+          "fracOver20": 0.009857715905985968
+        },
+        {
+          "frames": 309,
+          "samples": 6156823,
+          "mean": 0.8649459307178394,
+          "meanPerFrame": 0.8653535802238824,
+          "fracOver20": 0.0018652477097360115
+        }
+      ],
+      "transition": [
+        {
+          "frames": 20,
+          "samples": 51168,
+          "mean": 2.756547060662914,
+          "meanPerFrame": 2.6592359608137204,
+          "fracOver20": 0.005179018136335209
+        },
+        {
+          "frames": 20,
+          "samples": 68806,
+          "mean": 3.3280673197104904,
+          "meanPerFrame": 3.1960746050223277,
+          "fracOver20": 0.0109583466558149
+        },
+        {
+          "frames": 20,
+          "samples": 384955,
+          "mean": 0.8992921250535777,
+          "meanPerFrame": 0.9019964522149162,
+          "fracOver20": 0.0022651998285513892
+        }
+      ]
+    },
+    "pairBoundary": {
+      "between": [
+        {
+          "frames": 309,
+          "samples": 870639,
+          "mean": 2.531912767519029,
+          "meanPerFrame": 2.4570778348276248,
+          "fracOver20": 0.003552563117434436
+        },
+        {
+          "frames": 309,
+          "samples": 946259,
+          "mean": 2.902640820325091,
+          "meanPerFrame": 2.762686393057064,
+          "fracOver20": 0.010004660457654828
+        },
+        {
+          "frames": 309,
+          "samples": 6141497,
+          "mean": 0.8613614889008331,
+          "meanPerFrame": 0.8620525012151522,
+          "fracOver20": 0.0018946520693570313
+        }
+      ],
+      "transition": [
+        {
+          "frames": 20,
+          "samples": 61212,
+          "mean": 2.765503496046527,
+          "meanPerFrame": 2.626754859023267,
+          "fracOver20": 0.003054956544468405
+        },
+        {
+          "frames": 20,
+          "samples": 63130,
+          "mean": 3.0225249485189294,
+          "meanPerFrame": 2.8768855374322326,
+          "fracOver20": 0.008854744178678917
+        },
+        {
+          "frames": 20,
+          "samples": 400281,
+          "mean": 0.9529730364418996,
+          "meanPerFrame": 0.9529981228997974,
+          "fracOver20": 0.0017987363876876493
+        }
+      ]
+    },
+    "worstDominantSwitch": {
+      "t": 101.56666666666666,
+      "mean": 4.362850327966607
+    },
+    "video": {
+      "width": 1440,
+      "height": 900,
+      "r_frame_rate": "30/1",
+      "duration": "11.000000",
+      "nb_frames": "330"
+    },
+    "meanStaticFraction": 0.14597026281331837
+  }
+}

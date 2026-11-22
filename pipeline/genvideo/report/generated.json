@@ -1,0 +1,13 @@
+{
+  "clips": [
+    {
+      "file": "generated/streetnvs-105-120.mp4",
+      "t0": 105,
+      "t1": 119.9,
+      "fps": 10,
+      "pose": "chase",
+      "vfov": 50,
+      "ego": "free"
+    }
+  ]
+}

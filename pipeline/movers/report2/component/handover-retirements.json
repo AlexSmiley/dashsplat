@@ -1,0 +1,14 @@
+{
+  "360": {
+    "surviving_id": 363,
+    "decision_s": 290.1666666666667,
+    "t_last": 290.6166666666667,
+    "matched_exposure_pairs": 8
+  },
+  "363": {
+    "surviving_id": 547,
+    "decision_s": 318.8333333333333,
+    "t_last": 319.2833333333333,
+    "matched_exposure_pairs": 10
+  }
+}

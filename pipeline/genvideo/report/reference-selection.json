@@ -1,0 +1,83 @@
+{
+  "000-81": [
+    {
+      "camera": "right_repeater",
+      "n": 3772,
+      "view_overlap": 0.2557213930348259
+    },
+    {
+      "camera": "left_repeater",
+      "n": 3771,
+      "view_overlap": 0.19900497512437812
+    },
+    {
+      "camera": "left_pillar",
+      "n": 3772,
+      "view_overlap": 0.18407960199004975
+    },
+    {
+      "camera": "back",
+      "n": 3758,
+      "view_overlap": 0.1781094527363184
+    },
+    {
+      "camera": "right_pillar",
+      "n": 3771,
+      "view_overlap": 0.17512437810945275
+    }
+  ],
+  "069-81": [
+    {
+      "camera": "left_repeater",
+      "n": 4020,
+      "view_overlap": 0.27630057803468205
+    },
+    {
+      "camera": "right_repeater",
+      "n": 4021,
+      "view_overlap": 0.21271676300578035
+    },
+    {
+      "camera": "back",
+      "n": 4007,
+      "view_overlap": 0.18728323699421964
+    },
+    {
+      "camera": "right_pillar",
+      "n": 4020,
+      "view_overlap": 0.1653179190751445
+    },
+    {
+      "camera": "left_pillar",
+      "n": 4021,
+      "view_overlap": 0.15838150289017341
+    }
+  ],
+  "000-49": [
+    {
+      "camera": "right_repeater",
+      "n": 3772,
+      "view_overlap": 0.2557213930348259
+    },
+    {
+      "camera": "left_repeater",
+      "n": 3771,
+      "view_overlap": 0.19900497512437812
+    },
+    {
+      "camera": "left_pillar",
+      "n": 3772,
+      "view_overlap": 0.18407960199004975
+    },
+    {
+      "camera": "back",
+      "n": 3758,
+      "view_overlap": 0.1781094527363184
+    },
+    {
+      "camera": "right_pillar",
+      "n": 3771,
+      "view_overlap": 0.17512437810945275
+    }
+  ]
+}

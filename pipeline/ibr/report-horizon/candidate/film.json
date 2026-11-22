@@ -1,0 +1,25 @@
+{
+  "sha256": "707f3a62c7721c75e71fbe5af6c28f19bf20136344d2ccb1f5686093a6dd6fe3",
+  "video": {
+    "width": 1440,
+    "height": 900,
+    "r_frame_rate": "30/1",
+    "duration": "15.000000",
+    "nb_frames": "450"
+  },
+  "slipPxPerFrame": {
+    "n": 72250,
+    "p50": 0.3233292545080692,
+    "p90": 0.9798480540029182
+  },
+  "switchSlipPxPerFrame": {
+    "n": 3987,
+    "p50": 0.3133760223776053,
+    "p90": 1.034460267245868
+  },
+  "skylineSeparationPx": {
+    "n": 51707,
+    "p50": 9.0,
+    "p90": 51.0
+  }
+}

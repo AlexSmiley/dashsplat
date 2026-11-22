@@ -1,0 +1,1847 @@
+{
+  "build": {
+    "scope": "slice",
+    "captures": {
+      "front": 246,
+      "left_pillar": 245,
+      "right_pillar": 244,
+      "left_repeater": 244,
+      "right_repeater": 245,
+      "back": 245
+    },
+    "last_release": 139.80792852595812,
+    "first_release": 84.36727961299876,
+    "records": 7817524,
+    "movers": 250528,
+    "static": 7566996,
+    "bytes": 750714619,
+    "seeds": 12737525,
+    "fps": 29.674344996096558,
+    "seconds": 49.50404129200615,
+    "events": {
+      "see_through": 5063845,
+      "sheet_replaced": 1019183,
+      "finer": 313425,
+      "mover_redraw": 223646,
+      "memory_decimated": 439793,
+      "continuations": 169332,
+      "confirmations": 10145124
+    },
+    "whole_distance": 38168819,
+    "whole_time": 50962736,
+    "panorama": {
+      "frames": 290,
+      "upper_hemisphere_measured": 0.22343826293945312
+    }
+  },
+  "scene": {
+    "records_verified": 7817524,
+    "ground_links": 132,
+    "object_tiles": 423,
+    "transient_tiles": 202,
+    "retired_before_last": 7233746,
+    "peak_extant_5hz": 579855,
+    "instances_with_no_valid_depth": 65,
+    "instances_without_exported_seed": 106,
+    "range_and_rate": {
+      "front": {
+        "frames": 246,
+        "rate": 4.401498915911564,
+        "moving_hz": 4.401498915911564,
+        "stopped_hz": null,
+        "p95_gap": 0.3333105145067634,
+        "max_gap": 0.5277416479690515,
+        "release_lag_max": 0.4008058335016784,
+        "release_reorders": 0,
+        "far_100": 43126,
+        "range_max": 163.94000335389543,
+        "range_p95": 106.37132478748158
+      },
+      "left_pillar": {
+        "frames": 245,
+        "rate": 4.383533614213967,
+        "moving_hz": 4.383533614213966,
+        "stopped_hz": null,
+        "p95_gap": 0.3333105145067776,
+        "max_gap": 0.583293400386836,
+        "release_lag_max": 0.40029313004504274,
+        "release_reorders": 0,
+        "far_100": 12,
+        "range_max": 100.94825412519344,
+        "range_p95": 48.11887767801538
+      },
+      "right_pillar": {
+        "frames": 244,
+        "rate": 4.365568312516368,
+        "moving_hz": 4.365568312516368,
+        "stopped_hz": null,
+        "p95_gap": 0.3333105145067776,
+        "max_gap": 0.6943969052224475,
+        "release_lag_max": 0.3916937209200455,
+        "release_reorders": 0,
+        "far_100": 0,
+        "range_max": 78.1414203165186,
+        "range_p95": 34.29574250243849
+      },
+      "left_repeater": {
+        "frames": 244,
+        "rate": 4.365568312516367,
+        "moving_hz": 4.365568312516367,
+        "stopped_hz": null,
+        "p95_gap": 0.3333105145067634,
+        "max_gap": 0.6943969052224332,
+        "release_lag_max": 0.39506680755413015,
+        "release_reorders": 0,
+        "far_100": 127,
+        "range_max": 123.05576008914468,
+        "range_p95": 58.14293706956437
+      },
+      "right_repeater": {
+        "frames": 245,
+        "rate": 4.383533614213967,
+        "moving_hz": 4.383533614213966,
+        "stopped_hz": null,
+        "p95_gap": 0.3333105145067634,
+        "max_gap": 0.5832934003868502,
+        "release_lag_max": 0.40008935706356397,
+        "release_reorders": 0,
+        "far_100": 10,
+        "range_max": 103.82969564078228,
+        "range_p95": 34.76902831615415
+      },
+      "back": {
+        "frames": 245,
+        "rate": 4.383533614213967,
+        "moving_hz": 4.383533614213966,
+        "stopped_hz": null,
+        "p95_gap": 0.3333105145067634,
+        "max_gap": 0.5555175241779438,
+        "release_lag_max": 0.38906081917996005,
+        "release_reorders": 0,
+        "far_100": 0,
+        "range_max": 94.72859964708712,
+        "range_p95": 30.178760349225037
+      }
+    },
+    "whole_input_snapshot": {
+      "front": {
+        "required": 1339,
+        "after_140": 905,
+        "depth_after_140": 0,
+        "sky_after_140": 0
+      },
+      "left_pillar": {
+        "required": 1338,
+        "after_140": 904,
+        "depth_after_140": 0,
+        "sky_after_140": 0
+      },
+      "right_pillar": {
+        "required": 1337,
+        "after_140": 904,
+        "depth_after_140": 0,
+        "sky_after_140": 0
+      },
+      "left_repeater": {
+        "required": 1337,
+        "after_140": 904,
+        "depth_after_140": 0,
+        "sky_after_140": 0
+      },
+      "right_repeater": {
+        "required": 1338,
+        "after_140": 904,
+        "depth_after_140": 0,
+        "sky_after_140": 0
+      },
+      "back": {
+        "required": 1338,
+        "after_140": 905,
+        "depth_after_140": 0,
+        "sky_after_140": 1
+      }
+    }
+  },
+  "photographs_and_video": {
+    "cameras": {
+      "front": {
+        "frames": [
+          {
+            "n": 3063,
+            "t": 85.74412985686654,
+            "v3": {
+              "pixels": 79165,
+              "geometry": 16932,
+              "objects": 0,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 28907,
+              "sky_occluded": 0,
+              "sse": 381473306.3333334
+            },
+            "v4": {
+              "pixels": 79165,
+              "geometry": 75669,
+              "objects": 63434,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 28907,
+              "sky_occluded": 4465,
+              "sse": 72064528.0
+            }
+          },
+          {
+            "n": 3593,
+            "t": 100.4653442475822,
+            "v3": {
+              "pixels": 83930,
+              "geometry": 61352,
+              "objects": 50114,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 23202,
+              "sky_occluded": 1595,
+              "sse": 115088448.33333334
+            },
+            "v4": {
+              "pixels": 83930,
+              "geometry": 83767,
+              "objects": 75632,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 23202,
+              "sky_occluded": 8374,
+              "sse": 57762560.66666667
+            }
+          },
+          {
+            "n": 3846,
+            "t": 107.49264092843326,
+            "v3": {
+              "pixels": 70984,
+              "geometry": 38875,
+              "objects": 29543,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 24070,
+              "sky_occluded": 25,
+              "sse": 89378285.33333334
+            },
+            "v4": {
+              "pixels": 70984,
+              "geometry": 69325,
+              "objects": 59955,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 24070,
+              "sky_occluded": 2889,
+              "sse": 81316807.33333334
+            }
+          },
+          {
+            "n": 4207,
+            "t": 117.51973223984525,
+            "v3": {
+              "pixels": 36854,
+              "geometry": 7951,
+              "objects": 2834,
+              "movers": 90,
+              "mover_object": 0,
+              "sky": 48046,
+              "sky_occluded": 35,
+              "sse": 234493505.6666667
+            },
+            "v4": {
+              "pixels": 36854,
+              "geometry": 35321,
+              "objects": 29983,
+              "movers": 90,
+              "mover_object": 90,
+              "sky": 48046,
+              "sky_occluded": 7360,
+              "sse": 28804249.333333332
+            }
+          },
+          {
+            "n": 4329,
+            "t": 120.79728563249516,
+            "v3": {
+              "pixels": 35035,
+              "geometry": 9058,
+              "objects": 3007,
+              "movers": 94,
+              "mover_object": 0,
+              "sky": 51909,
+              "sky_occluded": 6,
+              "sse": 118688143.0
+            },
+            "v4": {
+              "pixels": 35035,
+              "geometry": 33799,
+              "objects": 27326,
+              "movers": 94,
+              "mover_object": 94,
+              "sky": 51909,
+              "sky_occluded": 6302,
+              "sse": 22110454.333333336
+            }
+          },
+          {
+            "n": 4439,
+            "t": 123.85263201547387,
+            "v3": {
+              "pixels": 44737,
+              "geometry": 20946,
+              "objects": 12081,
+              "movers": 106,
+              "mover_object": 0,
+              "sky": 47519,
+              "sky_occluded": 428,
+              "sse": 134265778.0
+            },
+            "v4": {
+              "pixels": 44737,
+              "geometry": 42835,
+              "objects": 34044,
+              "movers": 106,
+              "mover_object": 106,
+              "sky": 47519,
+              "sky_occluded": 6360,
+              "sse": 36355303.66666667
+            }
+          },
+          {
+            "n": 4549,
+            "t": 126.9079783984526,
+            "v3": {
+              "pixels": 50389,
+              "geometry": 13438,
+              "objects": 6959,
+              "movers": 182,
+              "mover_object": 0,
+              "sky": 38882,
+              "sky_occluded": 123,
+              "sse": 157383868.6666667
+            },
+            "v4": {
+              "pixels": 50389,
+              "geometry": 47914,
+              "objects": 41171,
+              "movers": 182,
+              "mover_object": 182,
+              "sky": 38882,
+              "sky_occluded": 5752,
+              "sse": 41882208.333333336
+            }
+          },
+          {
+            "n": 4659,
+            "t": 129.96332478143134,
+            "v3": {
+              "pixels": 46463,
+              "geometry": 18707,
+              "objects": 8697,
+              "movers": 1216,
+              "mover_object": 0,
+              "sky": 47237,
+              "sky_occluded": 125,
+              "sse": 119858048.66666667
+            },
+            "v4": {
+              "pixels": 46463,
+              "geometry": 43502,
+              "objects": 33607,
+              "movers": 1216,
+              "mover_object": 1213,
+              "sky": 47237,
+              "sky_occluded": 5841,
+              "sse": 34989569.0
+            }
+          },
+          {
+            "n": 4879,
+            "t": 136.07401754738876,
+            "v3": {
+              "pixels": 40623,
+              "geometry": 12254,
+              "objects": 2108,
+              "movers": 54,
+              "mover_object": 0,
+              "sky": 54390,
+              "sky_occluded": 213,
+              "sse": 151678896.0
+            },
+            "v4": {
+              "pixels": 40623,
+              "geometry": 37512,
+              "objects": 27595,
+              "movers": 54,
+              "mover_object": 54,
+              "sky": 54390,
+              "sky_occluded": 7060,
+              "sse": 54210663.0
+            }
+          },
+          {
+            "n": 4989,
+            "t": 139.1293639303675,
+            "v3": {
+              "pixels": 55484,
+              "geometry": 20217,
+              "objects": 11849,
+              "movers": 54,
+              "mover_object": 0,
+              "sky": 38618,
+              "sky_occluded": 252,
+              "sse": 86585627.0
+            },
+            "v4": {
+              "pixels": 55484,
+              "geometry": 52662,
+              "objects": 45112,
+              "movers": 54,
+              "mover_object": 54,
+              "sky": 38618,
+              "sky_occluded": 6875,
+              "sse": 50558558.66666667
+            }
+          }
+        ],
+        "v3": {
+          "non_ground_geometry": 0.4041650725448071,
+          "non_ground_objects": 0.2339533241119515,
+          "photo_psnr": 13.47316037348633,
+          "moving_object_coverage": 0.0,
+          "sky_silhouette": 0.006956651273648145,
+          "min_frame_geometry": 0.2138823975241584
+        },
+        "v4": {
+          "non_ground_geometry": 0.9607147061420289,
+          "non_ground_objects": 0.8053853115159363,
+          "photo_psnr": 18.67120027906069,
+          "moving_object_coverage": 0.9983296213808464,
+          "sky_silhouette": 0.1521376433785193,
+          "min_frame_geometry": 0.9234177682593605
+        }
+      },
+      "left_pillar": {
+        "frames": [
+          {
+            "n": 3079,
+            "t": 85.74464256032317,
+            "v3": {
+              "pixels": 146799,
+              "geometry": 41069,
+              "objects": 0,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 0,
+              "sky_occluded": 0,
+              "sse": 294018197.0
+            },
+            "v4": {
+              "pixels": 146799,
+              "geometry": 129170,
+              "objects": 118544,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 0,
+              "sky_occluded": 0,
+              "sse": 249876147.0
+            }
+          },
+          {
+            "n": 3609,
+            "t": 100.46585695103883,
+            "v3": {
+              "pixels": 104667,
+              "geometry": 87394,
+              "objects": 63437,
+              "movers": 126,
+              "mover_object": 29,
+              "sky": 24405,
+              "sky_occluded": 4624,
+              "sse": 148372557.6666667
+            },
+            "v4": {
+              "pixels": 104667,
+              "geometry": 100426,
+              "objects": 93860,
+              "movers": 126,
+              "mover_object": 126,
+              "sky": 24405,
+              "sky_occluded": 7804,
+              "sse": 94418120.33333334
+            }
+          },
+          {
+            "n": 3862,
+            "t": 107.4931536318899,
+            "v3": {
+              "pixels": 24676,
+              "geometry": 6808,
+              "objects": 3793,
+              "movers": 116,
+              "mover_object": 0,
+              "sky": 47377,
+              "sky_occluded": 54,
+              "sse": 88880191.66666666
+            },
+            "v4": {
+              "pixels": 24676,
+              "geometry": 24233,
+              "objects": 21060,
+              "movers": 116,
+              "mover_object": 116,
+              "sky": 47377,
+              "sky_occluded": 6230,
+              "sse": 11910053.666666666
+            }
+          },
+          {
+            "n": 4223,
+            "t": 117.52024494330189,
+            "v3": {
+              "pixels": 67598,
+              "geometry": 15530,
+              "objects": 377,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 34006,
+              "sky_occluded": 0,
+              "sse": 117431666.66666666
+            },
+            "v4": {
+              "pixels": 67598,
+              "geometry": 55666,
+              "objects": 44715,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 34006,
+              "sky_occluded": 6419,
+              "sse": 51954378.333333336
+            }
+          },
+          {
+            "n": 4326,
+            "t": 120.7977983359518,
+            "v3": {
+              "pixels": 61765,
+              "geometry": 38729,
+              "objects": 32586,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 18730,
+              "sky_occluded": 886,
+              "sse": 85859472.0
+            },
+            "v4": {
+              "pixels": 61765,
+              "geometry": 61271,
+              "objects": 55353,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 18730,
+              "sky_occluded": 8330,
+              "sse": 58767753.333333336
+            }
+          },
+          {
+            "n": 4436,
+            "t": 123.85314471893051,
+            "v3": {
+              "pixels": 47292,
+              "geometry": 7419,
+              "objects": 0,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 28287,
+              "sky_occluded": 0,
+              "sse": 111567033.66666666
+            },
+            "v4": {
+              "pixels": 47292,
+              "geometry": 43992,
+              "objects": 36725,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 28287,
+              "sky_occluded": 4360,
+              "sse": 26915174.0
+            }
+          },
+          {
+            "n": 4546,
+            "t": 126.90849110190923,
+            "v3": {
+              "pixels": 73714,
+              "geometry": 14340,
+              "objects": 2363,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 18606,
+              "sky_occluded": 249,
+              "sse": 166281731.0
+            },
+            "v4": {
+              "pixels": 73714,
+              "geometry": 66386,
+              "objects": 56225,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 18606,
+              "sky_occluded": 6342,
+              "sse": 59744565.666666664
+            }
+          },
+          {
+            "n": 4656,
+            "t": 129.96383748488796,
+            "v3": {
+              "pixels": 93190,
+              "geometry": 27265,
+              "objects": 10985,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 2282,
+              "sky_occluded": 0,
+              "sse": 207282272.0
+            },
+            "v4": {
+              "pixels": 93190,
+              "geometry": 85344,
+              "objects": 73549,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 2282,
+              "sky_occluded": 1085,
+              "sse": 112869400.0
+            }
+          },
+          {
+            "n": 4876,
+            "t": 136.0745302508454,
+            "v3": {
+              "pixels": 42081,
+              "geometry": 7211,
+              "objects": 0,
+              "movers": 172,
+              "mover_object": 0,
+              "sky": 30142,
+              "sky_occluded": 0,
+              "sse": 183623235.0
+            },
+            "v4": {
+              "pixels": 42081,
+              "geometry": 41060,
+              "objects": 33923,
+              "movers": 172,
+              "mover_object": 172,
+              "sky": 30142,
+              "sky_occluded": 5064,
+              "sse": 37764594.666666664
+            }
+          },
+          {
+            "n": 4986,
+            "t": 139.12987663382413,
+            "v3": {
+              "pixels": 80902,
+              "geometry": 18377,
+              "objects": 4414,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 11932,
+              "sky_occluded": 450,
+              "sse": 205549487.0
+            },
+            "v4": {
+              "pixels": 80902,
+              "geometry": 75299,
+              "objects": 63796,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 11932,
+              "sky_occluded": 5743,
+              "sse": 114624255.33333333
+            }
+          }
+        ],
+        "v3": {
+          "non_ground_geometry": 0.35565866505808663,
+          "non_ground_objects": 0.1588225948047891,
+          "photo_psnr": 14.77364596989917,
+          "moving_object_coverage": 0.07004830917874397,
+          "sky_silhouette": 0.029026681559274587,
+          "min_frame_geometry": 0.15687642730271506
+        },
+        "v4": {
+          "non_ground_geometry": 0.9194314136294844,
+          "non_ground_objects": 0.8048510537456037,
+          "photo_psnr": 17.70683022943444,
+          "moving_object_coverage": 1.0,
+          "sky_silhouette": 0.23811333521808248,
+          "min_frame_geometry": 0.8234859019497618
+        }
+      },
+      "right_pillar": {
+        "frames": [
+          {
+            "n": 3078,
+            "t": 85.75324196944817,
+            "v3": {
+              "pixels": 89839,
+              "geometry": 11624,
+              "objects": 0,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 12983,
+              "sky_occluded": 0,
+              "sse": 312663443.6666667
+            },
+            "v4": {
+              "pixels": 89839,
+              "geometry": 85408,
+              "objects": 77593,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 12983,
+              "sky_occluded": 3977,
+              "sse": 103935977.0
+            }
+          },
+          {
+            "n": 3608,
+            "t": 100.47445636016383,
+            "v3": {
+              "pixels": 71773,
+              "geometry": 57077,
+              "objects": 33711,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 26539,
+              "sky_occluded": 2170,
+              "sse": 104552300.66666666
+            },
+            "v4": {
+              "pixels": 71773,
+              "geometry": 70206,
+              "objects": 61112,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 26539,
+              "sky_occluded": 7852,
+              "sse": 55390785.333333336
+            }
+          },
+          {
+            "n": 3861,
+            "t": 107.5017530410149,
+            "v3": {
+              "pixels": 86089,
+              "geometry": 50926,
+              "objects": 883,
+              "movers": 422,
+              "mover_object": 0,
+              "sky": 40965,
+              "sky_occluded": 797,
+              "sse": 344807695.0
+            },
+            "v4": {
+              "pixels": 86089,
+              "geometry": 80885,
+              "objects": 50048,
+              "movers": 422,
+              "mover_object": 422,
+              "sky": 40965,
+              "sky_occluded": 5854,
+              "sse": 112531626.99999999
+            }
+          },
+          {
+            "n": 4222,
+            "t": 117.52884435242689,
+            "v3": {
+              "pixels": 37549,
+              "geometry": 11480,
+              "objects": 1476,
+              "movers": 188,
+              "mover_object": 0,
+              "sky": 52077,
+              "sky_occluded": 7,
+              "sse": 246632245.3333333
+            },
+            "v4": {
+              "pixels": 37549,
+              "geometry": 34318,
+              "objects": 25241,
+              "movers": 188,
+              "mover_object": 188,
+              "sky": 52077,
+              "sky_occluded": 6026,
+              "sse": 44762350.0
+            }
+          },
+          {
+            "n": 4325,
+            "t": 120.8063977450768,
+            "v3": {
+              "pixels": 71388,
+              "geometry": 37809,
+              "objects": 23447,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 18106,
+              "sky_occluded": 5630,
+              "sse": 337294863.3333333
+            },
+            "v4": {
+              "pixels": 71388,
+              "geometry": 71127,
+              "objects": 56139,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 18106,
+              "sky_occluded": 11946,
+              "sse": 88998311.66666667
+            }
+          },
+          {
+            "n": 4435,
+            "t": 123.8617441280555,
+            "v3": {
+              "pixels": 58357,
+              "geometry": 29236,
+              "objects": 20035,
+              "movers": 464,
+              "mover_object": 28,
+              "sky": 25752,
+              "sky_occluded": 1793,
+              "sse": 283365262.0
+            },
+            "v4": {
+              "pixels": 58357,
+              "geometry": 56171,
+              "objects": 47065,
+              "movers": 464,
+              "mover_object": 464,
+              "sky": 25752,
+              "sky_occluded": 4866,
+              "sse": 58827052.666666664
+            }
+          },
+          {
+            "n": 4545,
+            "t": 126.91709051103423,
+            "v3": {
+              "pixels": 65069,
+              "geometry": 19875,
+              "objects": 2102,
+              "movers": 185,
+              "mover_object": 0,
+              "sky": 34017,
+              "sky_occluded": 4,
+              "sse": 354822384.3333333
+            },
+            "v4": {
+              "pixels": 65069,
+              "geometry": 58960,
+              "objects": 45619,
+              "movers": 185,
+              "mover_object": 185,
+              "sky": 34017,
+              "sky_occluded": 8401,
+              "sse": 98502446.33333333
+            }
+          },
+          {
+            "n": 4655,
+            "t": 129.97243689401296,
+            "v3": {
+              "pixels": 99441,
+              "geometry": 58391,
+              "objects": 13036,
+              "movers": 75,
+              "mover_object": 0,
+              "sky": 33154,
+              "sky_occluded": 4637,
+              "sse": 301688226.6666666
+            },
+            "v4": {
+              "pixels": 99441,
+              "geometry": 93556,
+              "objects": 74053,
+              "movers": 75,
+              "mover_object": 75,
+              "sky": 33154,
+              "sky_occluded": 12162,
+              "sse": 115061145.33333333
+            }
+          },
+          {
+            "n": 4875,
+            "t": 136.0831296599704,
+            "v3": {
+              "pixels": 47018,
+              "geometry": 17259,
+              "objects": 6951,
+              "movers": 375,
+              "mover_object": 0,
+              "sky": 37070,
+              "sky_occluded": 1616,
+              "sse": 269629187.0
+            },
+            "v4": {
+              "pixels": 47018,
+              "geometry": 43962,
+              "objects": 34029,
+              "movers": 375,
+              "mover_object": 335,
+              "sky": 37070,
+              "sky_occluded": 11748,
+              "sse": 76765878.66666667
+            }
+          },
+          {
+            "n": 4985,
+            "t": 139.13847604294912,
+            "v3": {
+              "pixels": 82501,
+              "geometry": 43500,
+              "objects": 21171,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 31467,
+              "sky_occluded": 5627,
+              "sse": 281894334.3333334
+            },
+            "v4": {
+              "pixels": 82501,
+              "geometry": 81469,
+              "objects": 65471,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 31467,
+              "sky_occluded": 16280,
+              "sse": 76457119.66666666
+            }
+          }
+        ],
+        "v3": {
+          "non_ground_geometry": 0.47555089813602924,
+          "non_ground_objects": 0.17321275443426457,
+          "photo_psnr": 12.108283944156957,
+          "moving_object_coverage": 0.016383850204798128,
+          "sky_silhouette": 0.07138371832249384,
+          "min_frame_geometry": 0.12938701454824741
+        },
+        "v4": {
+          "non_ground_geometry": 0.9535107415263799,
+          "non_ground_objects": 0.7564906124475335,
+          "photo_psnr": 17.4401868052646,
+          "moving_object_coverage": 0.9765944997074313,
+          "sky_silhouette": 0.28549642777048023,
+          "min_frame_geometry": 0.9061150471038436
+        }
+      },
+      "left_repeater": {
+        "frames": [
+          {
+            "n": 3078,
+            "t": 85.74986888281407,
+            "v3": {
+              "pixels": 118859,
+              "geometry": 35078,
+              "objects": 536,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 969,
+              "sky_occluded": 0,
+              "sse": 164599734.6666667
+            },
+            "v4": {
+              "pixels": 118859,
+              "geometry": 104686,
+              "objects": 99369,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 969,
+              "sky_occluded": 652,
+              "sse": 157844528.0
+            }
+          },
+          {
+            "n": 3608,
+            "t": 100.47108327352974,
+            "v3": {
+              "pixels": 57348,
+              "geometry": 48605,
+              "objects": 35202,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 31673,
+              "sky_occluded": 1145,
+              "sse": 92477252.0
+            },
+            "v4": {
+              "pixels": 57348,
+              "geometry": 54780,
+              "objects": 51052,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 31673,
+              "sky_occluded": 6970,
+              "sse": 58180756.0
+            }
+          },
+          {
+            "n": 3861,
+            "t": 107.49837995438081,
+            "v3": {
+              "pixels": 32706,
+              "geometry": 20368,
+              "objects": 17336,
+              "movers": 69,
+              "mover_object": 69,
+              "sky": 33958,
+              "sky_occluded": 3095,
+              "sse": 85225532.66666666
+            },
+            "v4": {
+              "pixels": 32706,
+              "geometry": 31954,
+              "objects": 29786,
+              "movers": 69,
+              "mover_object": 69,
+              "sky": 33958,
+              "sky_occluded": 10878,
+              "sse": 41054071.333333336
+            }
+          },
+          {
+            "n": 4222,
+            "t": 117.5254712657928,
+            "v3": {
+              "pixels": 28317,
+              "geometry": 6692,
+              "objects": 810,
+              "movers": 250,
+              "mover_object": 78,
+              "sky": 39831,
+              "sky_occluded": 13,
+              "sse": 101500194.33333333
+            },
+            "v4": {
+              "pixels": 28317,
+              "geometry": 27944,
+              "objects": 26065,
+              "movers": 250,
+              "mover_object": 250,
+              "sky": 39831,
+              "sky_occluded": 11070,
+              "sse": 26269998.666666664
+            }
+          },
+          {
+            "n": 4325,
+            "t": 120.8030246584427,
+            "v3": {
+              "pixels": 40089,
+              "geometry": 16991,
+              "objects": 14000,
+              "movers": 90,
+              "mover_object": 0,
+              "sky": 24000,
+              "sky_occluded": 9,
+              "sse": 123252433.66666667
+            },
+            "v4": {
+              "pixels": 40089,
+              "geometry": 39434,
+              "objects": 36857,
+              "movers": 90,
+              "mover_object": 90,
+              "sky": 24000,
+              "sky_occluded": 11568,
+              "sse": 37336259.666666664
+            }
+          },
+          {
+            "n": 4435,
+            "t": 123.85837104142142,
+            "v3": {
+              "pixels": 26091,
+              "geometry": 4180,
+              "objects": 1675,
+              "movers": 96,
+              "mover_object": 0,
+              "sky": 35922,
+              "sky_occluded": 192,
+              "sse": 133090797.66666667
+            },
+            "v4": {
+              "pixels": 26091,
+              "geometry": 25702,
+              "objects": 23273,
+              "movers": 96,
+              "mover_object": 96,
+              "sky": 35922,
+              "sky_occluded": 10207,
+              "sse": 21346809.333333336
+            }
+          },
+          {
+            "n": 4545,
+            "t": 126.91371742440015,
+            "v3": {
+              "pixels": 36760,
+              "geometry": 8705,
+              "objects": 1516,
+              "movers": 133,
+              "mover_object": 0,
+              "sky": 34972,
+              "sky_occluded": 148,
+              "sse": 164882626.0
+            },
+            "v4": {
+              "pixels": 36760,
+              "geometry": 35746,
+              "objects": 31344,
+              "movers": 133,
+              "mover_object": 133,
+              "sky": 34972,
+              "sky_occluded": 11966,
+              "sse": 33735686.666666664
+            }
+          },
+          {
+            "n": 4655,
+            "t": 129.96906380737886,
+            "v3": {
+              "pixels": 56962,
+              "geometry": 12561,
+              "objects": 4838,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 14463,
+              "sky_occluded": 1184,
+              "sse": 257092224.66666666
+            },
+            "v4": {
+              "pixels": 56962,
+              "geometry": 56655,
+              "objects": 52544,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 14463,
+              "sky_occluded": 11022,
+              "sse": 75213868.0
+            }
+          },
+          {
+            "n": 4875,
+            "t": 136.0797565733363,
+            "v3": {
+              "pixels": 37139,
+              "geometry": 3901,
+              "objects": 545,
+              "movers": 260,
+              "mover_object": 0,
+              "sky": 25126,
+              "sky_occluded": 170,
+              "sse": 254496292.33333334
+            },
+            "v4": {
+              "pixels": 37139,
+              "geometry": 36057,
+              "objects": 32722,
+              "movers": 260,
+              "mover_object": 260,
+              "sky": 25126,
+              "sky_occluded": 7670,
+              "sse": 64128342.66666667
+            }
+          },
+          {
+            "n": 4985,
+            "t": 139.13510295631505,
+            "v3": {
+              "pixels": 41208,
+              "geometry": 7662,
+              "objects": 155,
+              "movers": 493,
+              "mover_object": 0,
+              "sky": 27941,
+              "sky_occluded": 80,
+              "sse": 260541737.66666666
+            },
+            "v4": {
+              "pixels": 41208,
+              "geometry": 40450,
+              "objects": 36786,
+              "movers": 493,
+              "mover_object": 493,
+              "sky": 27941,
+              "sky_occluded": 8021,
+              "sse": 75228733.66666667
+            }
+          }
+        ],
+        "v3": {
+          "non_ground_geometry": 0.34647797273906944,
+          "non_ground_objects": 0.1611280414066657,
+          "photo_psnr": 12.761208878594877,
+          "moving_object_coverage": 0.10567936736161035,
+          "sky_silhouette": 0.022450763422662775,
+          "min_frame_geometry": 0.10503783085166536
+        },
+        "v4": {
+          "non_ground_geometry": 0.9535815461881597,
+          "non_ground_objects": 0.8828949333198732,
+          "photo_psnr": 17.19110186508626,
+          "moving_object_coverage": 1.0,
+          "sky_silhouette": 0.3348422011865132,
+          "min_frame_geometry": 0.8807578727736225
+        }
+      },
+      "right_repeater": {
+        "frames": [
+          {
+            "n": 3079,
+            "t": 85.74484633330464,
+            "v3": {
+              "pixels": 51459,
+              "geometry": 8033,
+              "objects": 0,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 28279,
+              "sky_occluded": 0,
+              "sse": 195398946.0
+            },
+            "v4": {
+              "pixels": 51459,
+              "geometry": 50832,
+              "objects": 45678,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 28279,
+              "sky_occluded": 11082,
+              "sse": 73886864.0
+            }
+          },
+          {
+            "n": 3609,
+            "t": 100.46606072402031,
+            "v3": {
+              "pixels": 44423,
+              "geometry": 26862,
+              "objects": 21272,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 27712,
+              "sky_occluded": 1775,
+              "sse": 103280466.33333331
+            },
+            "v4": {
+              "pixels": 44423,
+              "geometry": 41034,
+              "objects": 38610,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 27712,
+              "sky_occluded": 4475,
+              "sse": 53861801.666666664
+            }
+          },
+          {
+            "n": 3862,
+            "t": 107.49335740487138,
+            "v3": {
+              "pixels": 70571,
+              "geometry": 56313,
+              "objects": 16290,
+              "movers": 75,
+              "mover_object": 0,
+              "sky": 38681,
+              "sky_occluded": 944,
+              "sse": 179422014.6666667
+            },
+            "v4": {
+              "pixels": 70571,
+              "geometry": 69580,
+              "objects": 41071,
+              "movers": 75,
+              "mover_object": 42,
+              "sky": 38681,
+              "sky_occluded": 15230,
+              "sse": 80735420.33333333
+            }
+          },
+          {
+            "n": 4223,
+            "t": 117.52044871628337,
+            "v3": {
+              "pixels": 26114,
+              "geometry": 8036,
+              "objects": 1800,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 49228,
+              "sky_occluded": 0,
+              "sse": 99785781.33333333
+            },
+            "v4": {
+              "pixels": 26114,
+              "geometry": 24710,
+              "objects": 21221,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 49228,
+              "sky_occluded": 13861,
+              "sse": 26498322.0
+            }
+          },
+          {
+            "n": 4326,
+            "t": 120.79800210893326,
+            "v3": {
+              "pixels": 40447,
+              "geometry": 21511,
+              "objects": 15542,
+              "movers": 75,
+              "mover_object": 0,
+              "sky": 32577,
+              "sky_occluded": 3254,
+              "sse": 116732622.33333334
+            },
+            "v4": {
+              "pixels": 40447,
+              "geometry": 39600,
+              "objects": 34216,
+              "movers": 75,
+              "mover_object": 75,
+              "sky": 32577,
+              "sky_occluded": 17429,
+              "sse": 50576947.33333334
+            }
+          },
+          {
+            "n": 4436,
+            "t": 123.85334849191199,
+            "v3": {
+              "pixels": 40656,
+              "geometry": 15430,
+              "objects": 10271,
+              "movers": 157,
+              "mover_object": 0,
+              "sky": 31736,
+              "sky_occluded": 1300,
+              "sse": 158862026.6666667
+            },
+            "v4": {
+              "pixels": 40656,
+              "geometry": 38601,
+              "objects": 34007,
+              "movers": 157,
+              "mover_object": 145,
+              "sky": 31736,
+              "sky_occluded": 8559,
+              "sse": 36461230.33333333
+            }
+          },
+          {
+            "n": 4546,
+            "t": 126.90869487489071,
+            "v3": {
+              "pixels": 59915,
+              "geometry": 24579,
+              "objects": 14597,
+              "movers": 242,
+              "mover_object": 0,
+              "sky": 21355,
+              "sky_occluded": 550,
+              "sse": 210021437.0
+            },
+            "v4": {
+              "pixels": 59915,
+              "geometry": 56745,
+              "objects": 51164,
+              "movers": 242,
+              "mover_object": 242,
+              "sky": 21355,
+              "sky_occluded": 6278,
+              "sse": 72114802.66666666
+            }
+          },
+          {
+            "n": 4656,
+            "t": 129.96404125786944,
+            "v3": {
+              "pixels": 46294,
+              "geometry": 20431,
+              "objects": 2933,
+              "movers": 459,
+              "mover_object": 14,
+              "sky": 44168,
+              "sky_occluded": 2611,
+              "sse": 182833675.0
+            },
+            "v4": {
+              "pixels": 46294,
+              "geometry": 45397,
+              "objects": 42014,
+              "movers": 459,
+              "mover_object": 454,
+              "sky": 44168,
+              "sky_occluded": 17453,
+              "sse": 58660259.0
+            }
+          },
+          {
+            "n": 4876,
+            "t": 136.0747340238269,
+            "v3": {
+              "pixels": 33189,
+              "geometry": 7856,
+              "objects": 3558,
+              "movers": 828,
+              "mover_object": 0,
+              "sky": 38683,
+              "sky_occluded": 2498,
+              "sse": 169554794.3333333
+            },
+            "v4": {
+              "pixels": 33189,
+              "geometry": 30061,
+              "objects": 26568,
+              "movers": 828,
+              "mover_object": 828,
+              "sky": 38683,
+              "sky_occluded": 9427,
+              "sse": 60832206.99999999
+            }
+          },
+          {
+            "n": 4986,
+            "t": 139.1300804068056,
+            "v3": {
+              "pixels": 50186,
+              "geometry": 21910,
+              "objects": 8354,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 35919,
+              "sky_occluded": 3009,
+              "sse": 156113257.0
+            },
+            "v4": {
+              "pixels": 50186,
+              "geometry": 48726,
+              "objects": 41846,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 35919,
+              "sky_occluded": 18486,
+              "sse": 67998926.33333334
+            }
+          }
+        ],
+        "v3": {
+          "non_ground_geometry": 0.45538948395480666,
+          "non_ground_objects": 0.20424432384825603,
+          "photo_psnr": 12.824456100674919,
+          "moving_object_coverage": 0.007625272331154684,
+          "sky_silhouette": 0.04576302327050164,
+          "min_frame_geometry": 0.1561048601799491
+        },
+        "v4": {
+          "non_ground_geometry": 0.9612135027436353,
+          "non_ground_objects": 0.8125024284733645,
+          "photo_psnr": 17.142551436739225,
+          "moving_object_coverage": 0.9727668845315904,
+          "sky_silhouette": 0.351038359294708,
+          "min_frame_geometry": 0.9057519057519058
+        }
+      },
+      "back": {
+        "frames": [
+          {
+            "n": 3065,
+            "t": 85.75587487118825,
+            "v3": {
+              "pixels": 40977,
+              "geometry": 14017,
+              "objects": 673,
+              "movers": 24701,
+              "mover_object": 673,
+              "sky": 5436,
+              "sky_occluded": 0,
+              "sse": 58359867.33333334
+            },
+            "v4": {
+              "pixels": 40977,
+              "geometry": 39057,
+              "objects": 34996,
+              "movers": 24701,
+              "mover_object": 22953,
+              "sky": 5436,
+              "sky_occluded": 1609,
+              "sse": 38799980.333333336
+            }
+          },
+          {
+            "n": 3595,
+            "t": 100.47708926190391,
+            "v3": {
+              "pixels": 24320,
+              "geometry": 14159,
+              "objects": 8404,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 9993,
+              "sky_occluded": 157,
+              "sse": 35552427.0
+            },
+            "v4": {
+              "pixels": 24320,
+              "geometry": 21415,
+              "objects": 19133,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 9993,
+              "sky_occluded": 1193,
+              "sse": 15622866.333333334
+            }
+          },
+          {
+            "n": 3848,
+            "t": 107.50438594275498,
+            "v3": {
+              "pixels": 32154,
+              "geometry": 21286,
+              "objects": 12108,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 7876,
+              "sky_occluded": 1255,
+              "sse": 43551288.0
+            },
+            "v4": {
+              "pixels": 32154,
+              "geometry": 30423,
+              "objects": 22658,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 7876,
+              "sky_occluded": 3906,
+              "sse": 21312539.333333332
+            }
+          },
+          {
+            "n": 4209,
+            "t": 117.53147725416697,
+            "v3": {
+              "pixels": 20118,
+              "geometry": 7223,
+              "objects": 684,
+              "movers": 175,
+              "mover_object": 1,
+              "sky": 15612,
+              "sky_occluded": 0,
+              "sse": 21631495.333333332
+            },
+            "v4": {
+              "pixels": 20118,
+              "geometry": 19045,
+              "objects": 15120,
+              "movers": 175,
+              "mover_object": 175,
+              "sky": 15612,
+              "sky_occluded": 4492,
+              "sse": 14229749.333333332
+            }
+          },
+          {
+            "n": 4314,
+            "t": 120.80903064681688,
+            "v3": {
+              "pixels": 23640,
+              "geometry": 9023,
+              "objects": 3493,
+              "movers": 10744,
+              "mover_object": 1640,
+              "sky": 9962,
+              "sky_occluded": 47,
+              "sse": 34649420.66666667
+            },
+            "v4": {
+              "pixels": 23640,
+              "geometry": 22576,
+              "objects": 17807,
+              "movers": 10744,
+              "mover_object": 9796,
+              "sky": 9962,
+              "sky_occluded": 3895,
+              "sse": 13613382.333333332
+            }
+          },
+          {
+            "n": 4424,
+            "t": 123.8643770297956,
+            "v3": {
+              "pixels": 20004,
+              "geometry": 7413,
+              "objects": 3567,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 11816,
+              "sky_occluded": 429,
+              "sse": 35413272.66666667
+            },
+            "v4": {
+              "pixels": 20004,
+              "geometry": 19189,
+              "objects": 15723,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 11816,
+              "sky_occluded": 3000,
+              "sse": 11835915.666666666
+            }
+          },
+          {
+            "n": 4534,
+            "t": 126.91972341277432,
+            "v3": {
+              "pixels": 25716,
+              "geometry": 10872,
+              "objects": 4590,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 10617,
+              "sky_occluded": 210,
+              "sse": 46238907.333333336
+            },
+            "v4": {
+              "pixels": 25716,
+              "geometry": 25010,
+              "objects": 20890,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 10617,
+              "sky_occluded": 3077,
+              "sse": 14263219.666666666
+            }
+          },
+          {
+            "n": 4644,
+            "t": 129.97506979575306,
+            "v3": {
+              "pixels": 33909,
+              "geometry": 13534,
+              "objects": 3476,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 7416,
+              "sky_occluded": 114,
+              "sse": 57954758.333333336
+            },
+            "v4": {
+              "pixels": 33909,
+              "geometry": 32985,
+              "objects": 26076,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 7416,
+              "sky_occluded": 2393,
+              "sse": 25431874.0
+            }
+          },
+          {
+            "n": 4864,
+            "t": 136.08576256171048,
+            "v3": {
+              "pixels": 22638,
+              "geometry": 5210,
+              "objects": 1096,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 9609,
+              "sky_occluded": 151,
+              "sse": 40387899.333333336
+            },
+            "v4": {
+              "pixels": 22638,
+              "geometry": 19760,
+              "objects": 16111,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 9609,
+              "sky_occluded": 1704,
+              "sse": 21101533.0
+            }
+          },
+          {
+            "n": 4974,
+            "t": 139.14110894468922,
+            "v3": {
+              "pixels": 24693,
+              "geometry": 9046,
+              "objects": 2713,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 12022,
+              "sky_occluded": 794,
+              "sse": 48860723.66666667
+            },
+            "v4": {
+              "pixels": 24693,
+              "geometry": 24059,
+              "objects": 20905,
+              "movers": 0,
+              "mover_object": 0,
+              "sky": 12022,
+              "sky_occluded": 3885,
+              "sse": 23441473.333333336
+            }
+          }
+        ],
+        "v3": {
+          "non_ground_geometry": 0.4168378895398051,
+          "non_ground_objects": 0.1521577811007238,
+          "photo_psnr": 16.155593793536113,
+          "moving_object_coverage": 0.06496350364963503,
+          "sky_silhouette": 0.031457069121852546,
+          "min_frame_geometry": 0.23014400565420973
+        },
+        "v4": {
+          "non_ground_geometry": 0.9453702702400352,
+          "non_ground_objects": 0.7809217321912675,
+          "photo_psnr": 19.412141081851363,
+          "moving_object_coverage": 0.9243121841661988,
+          "sky_silhouette": 0.2904971153558724,
+          "min_frame_geometry": 0.8728686279706688
+        }
+      }
+    },
+    "orbits": {
+      "exit": {
+        "t": 93.7,
+        "frames": 180,
+        "fps": 15,
+        "seconds": 12.0,
+        "bytes": 2557031
+      },
+      "first-road": {
+        "t": 112.6,
+        "frames": 180,
+        "fps": 15,
+        "seconds": 12.0,
+        "bytes": 2513612
+      },
+      "arterial": {
+        "t": 135,
+        "frames": 180,
+        "fps": 15,
+        "seconds": 12.0,
+        "bytes": 2272634
+      },
+      "crossing-car": {
+        "t": 102.82,
+        "frames": 180,
+        "fps": 15,
+        "seconds": 12.0,
+        "bytes": 2415096
+      },
+      "passing-bus": {
+        "t": 131.78,
+        "frames": 180,
+        "fps": 15,
+        "seconds": 12.0,
+        "bytes": 2151332
+      }
+    },
+    "movie": {
+      "start": 94,
+      "frames": 300,
+      "fps": 30,
+      "seconds": 10.0,
+      "bytes": 5076374,
+      "warp": {
+        "near": [
+          0.5059769168764714,
+          9.773144841935906e-05,
+          1.3270903010033461
+        ],
+        "far": [
+          0.668268922430427,
+          9.297746194225836e-05,
+          1.6498327759197333
+        ]
+      }
+    }
+  },
+  "traffic": {
+    "crossing-car": [
+      {
+        "frame": 3656,
+        "t": 102.21522444874275,
+        "tagged_fraction": 0.0027567195037904893,
+        "fraction_outside_any_dilated_instance": 0.9602272727272727,
+        "centroid_step_m": null
+      },
+      {
+        "frame": 3665,
+        "t": 102.46520733462282,
+        "tagged_fraction": 0.0,
+        "fraction_outside_any_dilated_instance": 0.0,
+        "centroid_step_m": 4.0414696769863285
+      },
+      {
+        "frame": 3671,
+        "t": 102.6318625918762,
+        "tagged_fraction": 0.0,
+        "fraction_outside_any_dilated_instance": 0.0,
+        "centroid_step_m": 2.0617470989430386
+      },
+      {
+        "frame": 3680,
+        "t": 102.88184547775629,
+        "tagged_fraction": 0.021089077746301543,
+        "fraction_outside_any_dilated_instance": 0.9093877551020408,
+        "centroid_step_m": 5.32739589762202
+      }
+    ],
+    "passing-bus": [
+      {
+        "frame": 4697,
+        "t": 131.10264840945277,
+        "tagged_fraction": 0.7637665198237885,
+        "fraction_outside_any_dilated_instance": 0.08196380278760142,
+        "centroid_step_m": null
+      },
+      {
+        "frame": 4705,
+        "t": 131.32485541912394,
+        "tagged_fraction": 0.7176229508196721,
+        "fraction_outside_any_dilated_instance": 0.1018454280560566,
+        "centroid_step_m": 0.12089061171157602
+      },
+      {
+        "frame": 4713,
+        "t": 131.54706242879513,
+        "tagged_fraction": 0.7967332123411979,
+        "fraction_outside_any_dilated_instance": 0.16158802970729577,
+        "centroid_step_m": 0.41680760549684037
+      },
+      {
+        "frame": 4722,
+        "t": 131.7970453146752,
+        "tagged_fraction": 0.8583752695902228,
+        "fraction_outside_any_dilated_instance": 0.14339165841311763,
+        "centroid_step_m": 2.353333078847937
+      }
+    ]
+  }
+}

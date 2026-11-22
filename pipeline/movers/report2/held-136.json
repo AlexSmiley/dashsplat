@@ -1,0 +1,818 @@
+[
+ {
+  "label": "crossing-suv",
+  "cam": "front",
+  "frame": 3656,
+  "t": 102.2445265549136
+ },
+ {
+  "label": "crossing-suv",
+  "cam": "front",
+  "frame": 3683,
+  "t": 102.99426573001003
+ },
+ {
+  "label": "crossing-suv",
+  "cam": "right_pillar",
+  "frame": 3728,
+  "t": 103.82812043194899
+ },
+ {
+  "label": "crossing-suv",
+  "cam": "right_pillar",
+  "frame": 3761,
+  "t": 104.74450074955844
+ },
+ {
+  "label": "passing-bus",
+  "cam": "front",
+  "frame": 4618,
+  "t": 129.35261461776778
+ },
+ {
+  "label": "passing-bus",
+  "cam": "front",
+  "frame": 4629,
+  "t": 129.65814925606566
+ },
+ {
+  "label": "passing-bus",
+  "cam": "front",
+  "frame": 4638,
+  "t": 129.9082518462565
+ },
+ {
+  "label": "passing-bus",
+  "cam": "front",
+  "frame": 4647,
+  "t": 130.15826465821428
+ },
+ {
+  "label": "passing-bus",
+  "cam": "front",
+  "frame": 4656,
+  "t": 130.40833732232738
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_pillar",
+  "frame": 4679,
+  "t": 130.65884495843818
+ },
+ {
+  "label": "passing-bus",
+  "cam": "front",
+  "frame": 4666,
+  "t": 130.6862157887271
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_pillar",
+  "frame": 4688,
+  "t": 130.90879309125432
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_pillar",
+  "frame": 4697,
+  "t": 131.15874122407052
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_pillar",
+  "frame": 4706,
+  "t": 131.40907164058964
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_pillar",
+  "frame": 4715,
+  "t": 131.65919353872533
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4717,
+  "t": 131.74272014833153
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4726,
+  "t": 131.99241167080618
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4735,
+  "t": 132.2423581362606
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4744,
+  "t": 132.49223176086363
+ },
+ {
+  "label": "passing-bus",
+  "cam": "back",
+  "frame": 4737,
+  "t": 132.6008649906397
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4753,
+  "t": 132.74217822631803
+ },
+ {
+  "label": "passing-bus",
+  "cam": "back",
+  "frame": 4746,
+  "t": 132.85054427947867
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4762,
+  "t": 132.99216111219812
+ },
+ {
+  "label": "passing-bus",
+  "cam": "back",
+  "frame": 4755,
+  "t": 133.10033741720804
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4773,
+  "t": 133.29773217092168
+ },
+ {
+  "label": "passing-bus",
+  "cam": "back",
+  "frame": 4764,
+  "t": 133.35020645419766
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4782,
+  "t": 133.54767863637605
+ },
+ {
+  "label": "passing-bus",
+  "cam": "back",
+  "frame": 4773,
+  "t": 133.60015139044762
+ },
+ {
+  "label": "passing-bus",
+  "cam": "back",
+  "frame": 4784,
+  "t": 133.9056101294852
+ },
+ {
+  "label": "passing-bus",
+  "cam": "left_repeater",
+  "frame": 4803,
+  "t": 134.1309356163372
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4660,
+  "t": 130.51920141854148
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4669,
+  "t": 130.7691543783439
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4678,
+  "t": 131.01913726422399
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4687,
+  "t": 131.26912015010404
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4706,
+  "t": 131.79689172415078
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4715,
+  "t": 132.04690453610854
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4724,
+  "t": 132.29685749591093
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4733,
+  "t": 132.54684038179101
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4742,
+  "t": 132.79697289805952
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "front",
+  "frame": 4751,
+  "t": 133.04701563609498
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_pillar",
+  "frame": 4770,
+  "t": 133.18651919957566
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_pillar",
+  "frame": 4779,
+  "t": 133.43653683851963
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_pillar",
+  "frame": 4788,
+  "t": 133.68658923052752
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_pillar",
+  "frame": 4797,
+  "t": 133.93667637559932
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_pillar",
+  "frame": 4806,
+  "t": 134.1868677798628
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4811,
+  "t": 134.3536889323936
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_pillar",
+  "frame": 4815,
+  "t": 134.43698967799853
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4820,
+  "t": 134.60338045486822
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "back",
+  "frame": 4817,
+  "t": 134.8236561303242
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4829,
+  "t": 134.85321765904558
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4838,
+  "t": 135.10309128364864
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "back",
+  "frame": 4828,
+  "t": 135.12843177601923
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4848,
+  "t": 135.38092288658896
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4857,
+  "t": 135.63086935204336
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "back",
+  "frame": 4846,
+  "t": 135.62794215221768
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4866,
+  "t": 135.8809250787748
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4875,
+  "t": 136.1308351238035
+ },
+ {
+  "label": "black-oncoming-suv",
+  "cam": "left_repeater",
+  "frame": 4888,
+  "t": 136.49221287792463
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "left_pillar",
+  "frame": 4890,
+  "t": 136.51945057932383
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "left_pillar",
+  "frame": 4899,
+  "t": 136.7694682182678
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "left_pillar",
+  "frame": 4908,
+  "t": 137.0195553633396
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "left_pillar",
+  "frame": 4917,
+  "t": 137.2697120145392
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "left_pillar",
+  "frame": 4926,
+  "t": 137.51979915961098
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "back",
+  "frame": 4944,
+  "t": 138.35039546662122
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "back",
+  "frame": 4954,
+  "t": 138.62785063166905
+ },
+ {
+  "label": "red-oncoming-sedan",
+  "cam": "back",
+  "frame": 4963,
+  "t": 138.87764376939842
+ },
+ {
+  "label": "junction-white-suv",
+  "cam": "front",
+  "frame": 6833,
+  "t": 191.48763873608138
+ },
+ {
+  "label": "junction-white-suv",
+  "cam": "front",
+  "frame": 6914,
+  "t": 193.73790367408967
+ },
+ {
+  "label": "junction-white-suv",
+  "cam": "front",
+  "frame": 6995,
+  "t": 195.98721097761202
+ },
+ {
+  "label": "junction-white-suv",
+  "cam": "front",
+  "frame": 7094,
+  "t": 198.73657383112763
+ },
+ {
+  "label": "junction-white-suv",
+  "cam": "front",
+  "frame": 7175,
+  "t": 200.98630009973758
+ },
+ {
+  "label": "junction-silver-crossover",
+  "cam": "front",
+  "frame": 6995,
+  "t": 195.98768979485502
+ },
+ {
+  "label": "junction-silver-crossover",
+  "cam": "front",
+  "frame": 7076,
+  "t": 198.23696717229967
+ },
+ {
+  "label": "junction-silver-crossover",
+  "cam": "front",
+  "frame": 7157,
+  "t": 200.48651388444353
+ },
+ {
+  "label": "junction-red-suv",
+  "cam": "front",
+  "frame": 7266,
+  "t": 203.5143537259125
+ },
+ {
+  "label": "junction-approach-suv",
+  "cam": "left_pillar",
+  "frame": 6845,
+  "t": 191.48794434979587
+ },
+ {
+  "label": "junction-approach-suv",
+  "cam": "left_pillar",
+  "frame": 6926,
+  "t": 193.73820735948343
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_pillar",
+  "frame": 10313,
+  "t": 288.0960561229874
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10333,
+  "t": 288.73375708187837
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_pillar",
+  "frame": 10357,
+  "t": 289.31847270069017
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10368,
+  "t": 289.7063862147236
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_pillar",
+  "frame": 10386,
+  "t": 290.124042616876
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10395,
+  "t": 290.4558249864043
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_pillar",
+  "frame": 10411,
+  "t": 290.81805723839545
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10416,
+  "t": 291.038681341683
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10434,
+  "t": 291.53835575003774
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10452,
+  "t": 292.0381394196695
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10470,
+  "t": 292.5379959301526
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10488,
+  "t": 293.0378160202101
+ },
+ {
+  "label": "departing-coupe",
+  "cam": "left_repeater",
+  "frame": 10506,
+  "t": 293.53778179197025
+ },
+ {
+  "label": "oncoming-pickup",
+  "cam": "left_pillar",
+  "frame": 11103,
+  "t": 310.5077476702411
+ },
+ {
+  "label": "oncoming-pickup",
+  "cam": "left_pillar",
+  "frame": 11112,
+  "t": 310.7576610499934
+ },
+ {
+  "label": "oncoming-pickup",
+  "cam": "left_pillar",
+  "frame": 11121,
+  "t": 311.00795671344855
+ },
+ {
+  "label": "oncoming-pickup",
+  "cam": "left_pillar",
+  "frame": 11135,
+  "t": 311.39681898037315
+ },
+ {
+  "label": "oncoming-minivan",
+  "cam": "left_pillar",
+  "frame": 11135,
+  "t": 311.3966104619897
+ },
+ {
+  "label": "oncoming-minivan",
+  "cam": "left_pillar",
+  "frame": 11153,
+  "t": 311.89706277664453
+ },
+ {
+  "label": "oncoming-minivan",
+  "cam": "left_pillar",
+  "frame": 11171,
+  "t": 312.39713280759645
+ },
+ {
+  "label": "oncoming-minivan",
+  "cam": "back",
+  "frame": 11173,
+  "t": 312.6455366626586
+ },
+ {
+  "label": "oncoming-black-sedan",
+  "cam": "left_pillar",
+  "frame": 11181,
+  "t": 312.6742312614712
+ },
+ {
+  "label": "oncoming-black-sedan",
+  "cam": "left_pillar",
+  "frame": 11199,
+  "t": 313.1742665393591
+ },
+ {
+  "label": "oncoming-black-sedan",
+  "cam": "left_pillar",
+  "frame": 11217,
+  "t": 313.674718854014
+ },
+ {
+  "label": "oncoming-black-sedan",
+  "cam": "left_repeater",
+  "frame": 11224,
+  "t": 313.97995259150247
+ },
+ {
+  "label": "oncoming-black-sedan",
+  "cam": "left_repeater",
+  "frame": 11242,
+  "t": 314.4797362611342
+ },
+ {
+  "label": "oncoming-grey-suv",
+  "cam": "left_pillar",
+  "frame": 11251,
+  "t": 314.61822981851884
+ },
+ {
+  "label": "oncoming-grey-suv",
+  "cam": "left_pillar",
+  "frame": 11269,
+  "t": 315.118195590279
+ },
+ {
+  "label": "oncoming-grey-suv",
+  "cam": "left_pillar",
+  "frame": 11287,
+  "t": 315.61826562123093
+ },
+ {
+  "label": "oncoming-grey-suv",
+  "cam": "left_pillar",
+  "frame": 11305,
+  "t": 316.118613676694
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "back",
+  "frame": 11287,
+  "t": 315.8116070541715
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "back",
+  "frame": 11305,
+  "t": 316.3120661711235
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "back",
+  "frame": 11323,
+  "t": 316.81294273400704
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "back",
+  "frame": 11341,
+  "t": 317.31469213838386
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11359,
+  "t": 317.62170827385376
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "back",
+  "frame": 11359,
+  "t": 317.8160999960894
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11377,
+  "t": 318.1217435517417
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11395,
+  "t": 318.621292286735
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11413,
+  "t": 319.12035447883363
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11431,
+  "t": 319.61941667093225
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11451,
+  "t": 320.1744128991516
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11478,
+  "t": 320.9238750138972
+ },
+ {
+  "label": "turning-black-coupe",
+  "cam": "left_pillar",
+  "frame": 11505,
+  "t": 321.67347614089834
+ },
+ {
+  "label": "turning-white-sedan",
+  "cam": "front",
+  "frame": 11337,
+  "t": 317.2847616426442
+ },
+ {
+  "label": "turning-white-sedan",
+  "cam": "front",
+  "frame": 11355,
+  "t": 317.7850266751812
+ },
+ {
+  "label": "turning-white-sedan",
+  "cam": "front",
+  "frame": 11373,
+  "t": 318.2852917077182
+ },
+ {
+  "label": "turning-silver-crossover",
+  "cam": "left_pillar",
+  "frame": 11460,
+  "t": 320.4239439952009
+ },
+ {
+  "label": "turning-silver-crossover",
+  "cam": "left_repeater",
+  "frame": 11487,
+  "t": 321.2853358182736
+ },
+ {
+  "label": "turning-silver-crossover",
+  "cam": "left_repeater",
+  "frame": 11514,
+  "t": 322.0354301576166
+ },
+ {
+  "label": "turning-silver-crossover",
+  "cam": "right_repeater",
+  "frame": 11529,
+  "t": 322.4793032625339
+ },
+ {
+  "label": "turning-silver-crossover",
+  "cam": "right_repeater",
+  "frame": 11547,
+  "t": 322.97903483480013
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_pillar",
+  "frame": 11499,
+  "t": 321.50668187138933
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_pillar",
+  "frame": 11526,
+  "t": 322.25673478822125
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_pillar",
+  "frame": 11546,
+  "t": 322.8126345961022
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_repeater",
+  "frame": 11545,
+  "t": 322.8959360137072
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_repeater",
+  "frame": 11563,
+  "t": 323.39575610376465
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_repeater",
+  "frame": 11581,
+  "t": 323.89579471637614
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_repeater",
+  "frame": 11599,
+  "t": 324.3957240677106
+ },
+ {
+  "label": "junction-white-sedan",
+  "cam": "left_repeater",
+  "frame": 11617,
+  "t": 324.89579910074787
+ }
+]

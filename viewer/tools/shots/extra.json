@@ -1,0 +1,45 @@
+[
+ {
+  "id": "ladder-r7-stitched-opt-v5-movers-v1-284-today-scanned",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 284,
+  "t1": 298,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "params": {
+   "mode": "live",
+   "vehicles": "scanned"
+  },
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 7 extra (storyboard Movers): pulling away from under the overpass (286-300 s) with scanned splat vehicles; registered with the clean twin for a wipe."
+ },
+ {
+  "id": "ladder-r7-stitched-opt-v5-movers-v1-284-today-clean",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 284,
+  "t1": 298,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "params": {
+   "mode": "live"
+  },
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 7 extra (storyboard Movers): pulling away from under the overpass with clean vehicle models and the lit car; registered with the scanned twin."
+ }
+]

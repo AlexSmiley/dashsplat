@@ -1,0 +1,33 @@
+{
+  "blue-suv-ambiguous": {
+    "training_keys": 133,
+    "published_matches": [
+      {
+        "id": 547,
+        "exposures": 36,
+        "t_first": 322.37255830641175,
+        "t_last": 324.56685252691466
+      },
+      {
+        "id": 761,
+        "exposures": 31,
+        "t_first": 319.172593516441,
+        "t_last": 321.339111860735
+      },
+      {
+        "id": 825,
+        "exposures": 18,
+        "t_first": 321.506279821445,
+        "t_last": 322.86729775568097
+      }
+    ]
+  },
+  "storefront-sign": {
+    "training_keys": 17,
+    "published_matches": []
+  },
+  "fuel-price-sign": {
+    "training_keys": 24,
+    "published_matches": []
+  }
+}

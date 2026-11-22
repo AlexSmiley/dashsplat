@@ -1,0 +1,224 @@
+[
+ {
+  "name": "junction.mp4",
+  "src": "scratch/night3/g296.mp4",
+  "ss": 18,
+  "t": 7
+ },
+ {
+  "name": "ground-v5-0.2.png",
+  "src": "film/work/ground-v5-0.2.png"
+ },
+ {
+  "name": "calib-transfer.jpg",
+  "src": "scratch/calib/debug/front-transfer.jpg"
+ },
+ {
+  "name": "calib-contact.jpg",
+  "src": "scratch/calib/debug/transfer-contact.jpg"
+ },
+ {
+  "name": "depth.mp4",
+  "src": "film/work/viz/depth.mp4",
+  "copy": true
+ },
+ {
+  "name": "road-only.jpg",
+  "src": "pipeline/road/report/ground-only.jpg"
+ },
+ {
+  "name": "road-compare.jpg",
+  "src": "pipeline/road/report/compare-turn-only-turn.jpg"
+ },
+ {
+  "name": "demo-ground.mp4",
+  "src": "scratch/demo/reality-splat-ground-live-15s.mp4",
+  "ss": 0,
+  "t": 11
+ },
+ {
+  "name": "demo-world.mp4",
+  "src": "scratch/demo/reality-splat-world-stitched-15s.mp4",
+  "ss": 0,
+  "t": 13
+ },
+ {
+  "name": "v4-orbit.mp4",
+  "src": "pipeline/livemap/report/v4/orbit-v4-exit.mp4",
+  "ss": 0,
+  "t": 12
+ },
+ {
+  "name": "lad-opt2.jpg",
+  "src": "scratch/opt2/opt2-112.jpg"
+ },
+ {
+  "name": "lad-opt3.jpg",
+  "src": "scratch/opt3/viewer-112.jpg"
+ },
+ {
+  "name": "lad-v4.jpg",
+  "src": "scratch/v4/v4-viewer-112.jpg"
+ },
+ {
+  "name": "lad-v5.jpg",
+  "src": "scratch/v5/v5-viewer-112.jpg"
+ },
+ {
+  "name": "lad-mix.jpg",
+  "src": "scratch/mix/mix-112.jpg"
+ },
+ {
+  "name": "lad-g6.jpg",
+  "src": "scratch/now/g6-118.jpg"
+ },
+ {
+  "name": "ibr.mp4",
+  "src": "viewer/screenshots/photo/run-a-ibr-v1-105-120.mp4",
+  "ss": 4,
+  "t": 9
+ },
+ {
+  "name": "morph.mp4",
+  "src": "pipeline/ibr/report-m/110-125/chase.mp4",
+  "ss": 0,
+  "t": 9
+ },
+ {
+  "name": "morph-stretch.jpg",
+  "src": "pipeline/ibr/report-m/110-125/stretch.jpg"
+ },
+ {
+  "name": "streetnvs.mp4",
+  "src": "pipeline/genvideo/report/generated.mp4",
+  "ss": 0,
+  "t": 8
+ },
+ {
+  "name": "v4v3.mp4",
+  "src": "pipeline/stitch/report-v4/chase-110-125.mp4",
+  "ss": 0,
+  "t": 9
+ },
+ {
+  "name": "v5drive.mp4",
+  "src": "pipeline/stitch/report-v5/drive.mp4",
+  "ss": 0,
+  "t": 9
+ },
+ {
+  "name": "lane.jpg",
+  "src": "pipeline/groundtex/report/detail-lane.jpg"
+ },
+ {
+  "name": "v6-before.jpg",
+  "src": "pipeline/groundtex/report/v6/before-118.jpg"
+ },
+ {
+  "name": "v6-check.jpg",
+  "src": "pipeline/groundtex/report/v6/check-118.jpg"
+ },
+ {
+  "name": "movers-pull.mp4",
+  "src": "pipeline/movers/report4/pull-away.mp4",
+  "ss": 0,
+  "t": 9
+ },
+ {
+  "name": "clean-cars.mp4",
+  "src": "scratch/night2/pub-286-300.mp4",
+  "ss": 0,
+  "t": 9
+ },
+ {
+  "name": "final093.mp4",
+  "src": "scratch/night3/g093.mp4",
+  "ss": 12,
+  "t": 16
+ },
+ {
+  "name": "final296.mp4",
+  "src": "scratch/night3/g296.mp4",
+  "ss": 10.1,
+  "t": 16
+ },
+ {
+  "name": "close.mp4",
+  "src": "scratch/night3/g093.mp4",
+  "ss": 20,
+  "t": 9
+ },
+ {
+  "name": "unfold.mp4",
+  "src": "film/work/viz/unfold.mp4",
+  "copy": true
+ },
+ {
+  "name": "lane-splat.png",
+  "src": "pipeline/groundtex/report/detail-lane.jpg",
+  "crop": [
+   0,
+   22,
+   278,
+   486
+  ],
+  "scale": [
+   1112,
+   1944
+  ],
+  "nearest": true
+ },
+ {
+  "name": "lane-atlas.png",
+  "src": "pipeline/groundtex/report/detail-lane.jpg",
+  "crop": [
+   281,
+   22,
+   278,
+   486
+  ],
+  "scale": [
+   1112,
+   1944
+  ],
+  "nearest": true
+ },
+ {
+  "name": "lane-photo.png",
+  "src": "pipeline/groundtex/report/detail-lane.jpg",
+  "crop": [
+   562,
+   22,
+   278,
+   486
+  ],
+  "scale": [
+   1112,
+   1944
+  ],
+  "nearest": true
+ },
+ {
+  "name": "road-turn.jpg",
+  "src": "film/work/road/offline-turn.jpg",
+  "copy": true
+ },
+ {
+  "name": "final190.mp4",
+  "src": "scratch/night3/g190.mp4",
+  "ss": 5.5,
+  "t": 9
+ },
+ {
+  "name": "live-v4-chase.mp4",
+  "src": "pipeline/livemap/report/chase-v4-94-104.mp4",
+  "ss": 0,
+  "t": 10
+ },
+ {
+  "name": "live-v4-orbit.mp4",
+  "src": "pipeline/livemap/report/v4/orbit-v4-arterial.mp4",
+  "ss": 0,
+  "t": 12
+ }
+]

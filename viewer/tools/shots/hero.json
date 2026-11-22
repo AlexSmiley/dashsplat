@@ -1,0 +1,556 @@
+[
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 60,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-gen-palms-junction-299-329-60fps",
+  "t0": 299,
+  "t1": 329,
+  "description": "Generative mode, default chase: the palms (300-312 s) into the junction with traffic (308-328 s), clean vehicles over the clip. 60 fps (the clip itself is 30 fps, so each clip frame holds two output frames; splats, car and vehicles move at 60)."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-crane-118",
+  "t0": 113,
+  "t1": 126,
+  "campath": {
+   "kind": "crane",
+   "t0": 114.5,
+   "up": 3.5,
+   "hold": 2.5,
+   "down": 3.5,
+   "height": 70
+  },
+  "description": "Crane from the chase pose up to a heading-up top-down view 70 m above the car and back (114.5-124 s), Generative mode: the clip dissolves into the splat world as the camera lifts and returns as it lands."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-crane-320",
+  "t0": 314,
+  "t1": 327,
+  "campath": {
+   "kind": "crane",
+   "t0": 315.5,
+   "up": 3.5,
+   "hold": 2.5,
+   "down": 3.5,
+   "height": 70
+  },
+  "description": "Crane chase -> top-down (70 m) -> chase over the junction (315.5-325 s), Generative mode, clean vehicles crossing below."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-orbit-redlight-196-206",
+  "t0": 196,
+  "t1": 206,
+  "params": {
+   "mode": "live"
+  },
+  "campath": {
+   "kind": "orbit",
+   "radius": 8.5,
+   "height": 2.6,
+   "deg0": 200,
+   "degPerSec": 9,
+   "t0": 196
+  },
+  "description": "Slow orbit round the car stopped at the red light (stopped 197-202 s, pulls away at 203 s), splat view on the textured atlas, clean vehicles, lit car. Orbit 200 -> 290 deg (behind-left round to the left side), 8.5 m out, 2.6 m up."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-orbit-junction-310-322",
+  "t0": 310,
+  "t1": 322,
+  "params": {
+   "mode": "live"
+  },
+  "campath": {
+   "kind": "orbit",
+   "radius": 10,
+   "height": 3.2,
+   "deg0": 190,
+   "degPerSec": 12,
+   "t0": 310
+  },
+  "description": "Slow orbit round the car braking through the junction (18 -> 8 m/s), splat view with clean vehicles. Orbit 190 -> 334 deg (behind, round the right side to the front-right quarter), 10 m out, 3.2 m up."
+ },
+ {
+  "build": "head",
+  "scene": "hw4-drive",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 0.5,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-map-hw4-drive-0-361-x5",
+  "t0": 0,
+  "t1": 361.3,
+  "speed": 5,
+  "params": {
+   "mode": "live"
+  },
+  "campath": {
+   "kind": "map",
+   "height": 200,
+   "fov": 40,
+   "northUp": true
+  },
+  "description": "Top-down map (north up, 200 m above) following the car through the whole drive at 5x (72 s), hw4-drive (the whole-drive pipeline run), splat view with the blue path. The first 80 s are parked at the drive-through."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-carpass-brake-187-199",
+  "t0": 187,
+  "t1": 199,
+  "params": {
+   "mode": "live",
+   "ribbon": "0"
+  },
+  "campath": {
+   "kind": "spline",
+   "frame": "car",
+   "keys": [
+    {
+     "t": 187,
+     "pos": [
+      -5.5,
+      -1.8,
+      0.9
+     ],
+     "look": [
+      0.2,
+      0,
+      0.7
+     ],
+     "fov": 40
+    },
+    {
+     "t": 190,
+     "pos": [
+      -3.2,
+      2.6,
+      1
+     ],
+     "look": [
+      0.8,
+      0,
+      0.7
+     ],
+     "fov": 40
+    },
+    {
+     "t": 193,
+     "pos": [
+      1.4,
+      3.4,
+      1.2
+     ],
+     "look": [
+      1.4,
+      0,
+      0.6
+     ],
+     "fov": 40
+    },
+    {
+     "t": 196,
+     "pos": [
+      5.2,
+      2.4,
+      1.1
+     ],
+     "look": [
+      1.6,
+      0,
+      0.6
+     ],
+     "fov": 40
+    },
+    {
+     "t": 199,
+     "pos": [
+      7,
+      -0.8,
+      1.6
+     ],
+     "look": [
+      1.4,
+      0,
+      0.6
+     ],
+     "fov": 40
+    }
+   ]
+  },
+  "description": "Close pass on the ego car braking to the red light (13 -> 0 m/s): brake lights from behind, along the left flank (reflections of the splat world), round to the front. Splat view, no path ribbon."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-carpass-side-300-308",
+  "t0": 300,
+  "t1": 308,
+  "params": {
+   "mode": "live",
+   "ribbon": "0"
+  },
+  "campath": {
+   "kind": "spline",
+   "frame": "car",
+   "keys": [
+    {
+     "t": 300,
+     "pos": [
+      -5,
+      -2.6,
+      1.1
+     ],
+     "look": [
+      0.6,
+      0,
+      0.7
+     ],
+     "fov": 42
+    },
+    {
+     "t": 302.7,
+     "pos": [
+      -1.2,
+      -3.1,
+      0.9
+     ],
+     "look": [
+      1,
+      0,
+      0.7
+     ],
+     "fov": 42
+    },
+    {
+     "t": 305.3,
+     "pos": [
+      2.6,
+      -3.1,
+      0.9
+     ],
+     "look": [
+      1.6,
+      0,
+      0.6
+     ],
+     "fov": 42
+    },
+    {
+     "t": 308,
+     "pos": [
+      6,
+      -2,
+      1.3
+     ],
+     "look": [
+      1.4,
+      0,
+      0.6
+     ],
+     "fov": 42
+    }
+   ]
+  },
+  "description": "Close pass along the right flank at 20 m/s past the palms: the roadside streams through the car's reflections. Splat view, no path ribbon."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-carpass-tail-312-320",
+  "t0": 312,
+  "t1": 320,
+  "params": {
+   "mode": "live",
+   "ribbon": "0"
+  },
+  "campath": {
+   "kind": "spline",
+   "frame": "car",
+   "keys": [
+    {
+     "t": 312,
+     "pos": [
+      -6.5,
+      0.8,
+      1.2
+     ],
+     "look": [
+      0,
+      0,
+      0.8
+     ],
+     "fov": 34
+    },
+    {
+     "t": 316,
+     "pos": [
+      -3.6,
+      -1.4,
+      0.75
+     ],
+     "look": [
+      -0.4,
+      0,
+      0.75
+     ],
+     "fov": 34
+    },
+    {
+     "t": 320,
+     "pos": [
+      -2.4,
+      2,
+      1.5
+     ],
+     "look": [
+      0.2,
+      0,
+      0.7
+     ],
+     "fov": 38
+    }
+   ]
+  },
+  "description": "Low close-up on the tail lights as the car brakes into the junction (17 -> 8 m/s), drifting from behind-left to behind-right. Splat view, no path ribbon."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-predicted-108-122",
+  "t0": 108.5,
+  "t1": 122,
+  "keys": {
+   "maskAmt": [
+    [
+     109.5,
+     0
+    ],
+    [
+     110.5,
+     1
+    ],
+    [
+     114.5,
+     1
+    ],
+    [
+     115.5,
+     0
+    ],
+    [
+     117.5,
+     0
+    ],
+    [
+     118.5,
+     1
+    ]
+   ]
+  },
+  "description": "Generative mode with the 'Predicted' provenance overlay easing on (109.5-110.5 s), off (114.5-115.5 s) and on again (117.5-118.5 s) over the generated clip."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-predicted-311-326",
+  "t0": 311,
+  "t1": 326,
+  "keys": {
+   "maskAmt": [
+    [
+     312.5,
+     0
+    ],
+    [
+     313.5,
+     1
+    ],
+    [
+     318.5,
+     1
+    ],
+    [
+     319.5,
+     0
+    ],
+    [
+     321.5,
+     0
+    ],
+    [
+     322.5,
+     1
+    ]
+   ]
+  },
+  "description": "Generative mode at the junction with the 'Predicted' overlay easing on (312.5-313.5 s), off (318.5-319.5 s) and on again (321.5-322.5 s)."
+ },
+ {
+  "build": "head",
+  "scene": "hw4-raw-224-254",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-hw4-raw-226-252",
+  "t0": 226,
+  "t1": 252,
+  "description": "hw4-raw-224-254, for contrast: the raw HW4 pipeline scene in today's viewer, default chase and default mode (its generated clip covers 233-237 s)."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 60,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-gen-100-122-60fps",
+  "t0": 100,
+  "t1": 122,
+  "description": "Extra (storyboard Final1 / Close): Generative mode, default chase, 100-122 s at 60 fps."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "hero-gen-redlight-190-206",
+  "t0": 190,
+  "t1": 206,
+  "description": "Extra (storyboard Final3): Generative mode braking to and holding at the red light (stopped 197-202 s), default chase."
+ }
+]

@@ -1,0 +1,23 @@
+dashsplat
+Copyright 2026 Ryan Vogel
+
+The source code written for this project is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The author's own images, videos and documents in this repository (stage reports, research notes, renders,
+screenshots and the film's notes) are licensed under the Creative Commons Attribution 4.0 International licence
+(CC BY 4.0, https://creativecommons.org/licenses/by/4.0/), except where third-party content appears in them.
+Images that show generated frames or other model outputs may also be subject to those models' terms.
+
+Third-party content included in this repository:
+
+- viewer/public/models/model3.glb: "2024 Tesla Model 3" by RBLXSupercars (the credit embedded in the file; the project's notes also recorded "Tesla model 3 2024" by brandonleong28)
+  (https://sketchfab.com/3d-models/tesla-model-3-2024-36c52f3f89f6439c90310f14e8ff33f2), licensed CC BY 4.0,
+  modified by viewer/tools/prepare-car.ts. It also appears in viewer screenshots and renders.
+- viewer/public/streets.json: data (c) OpenStreetMap contributors, available under the Open Database License
+  (https://opendatacommons.org/licenses/odbl/1-0/). Street names from it appear in viewer screenshots.
+
+No model weights are included. The models the pipeline downloads keep their own licences, and several of them are
+for non-commercial use only; the Apache License of this code does not change that. See THIRD_PARTY.md.
+
+dashsplat is an independent hobby project. It is not affiliated with, endorsed by or sponsored by Tesla, Inc.
+Tesla, Model 3 and other Tesla names are trademarks of Tesla, Inc.

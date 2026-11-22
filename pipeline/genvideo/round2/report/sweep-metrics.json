@@ -1,0 +1,642 @@
+{
+  "pure": {
+    "measures": {
+      "frames": 81,
+      "overlap": {},
+      "fps": 10,
+      "size": [
+        832,
+        480
+      ],
+      "sheet_indices": [
+        0,
+        11,
+        23,
+        34,
+        46,
+        57,
+        69,
+        80
+      ],
+      "change_dE76_gt20": {
+        "all": 0.3217493978019152,
+        "valid": 0.030700722116741474
+      },
+      "reprojected_mae_255": {
+        "generated": 3.406948035955429,
+        "conditioning": 0.565258226543665,
+        "splat": 0.565258226543665
+      },
+      "paint": {
+        "anchors": 14,
+        "tested": 138,
+        "frames_tested": 54,
+        "frames_all_patches_within_3px": 3,
+        "matched": {
+          "n": 125,
+          "median": 6.0,
+          "p90": 17.72004514666935
+        },
+        "within_3px_over_all": 0.1956521739130435,
+        "per_feature": {
+          "bike symbol": {
+            "n": 8,
+            "median": 6.0777536075910294,
+            "p90": 11.304074550240456
+          },
+          "bike direction arrow": {
+            "n": 8,
+            "median": 1.8251407699364424,
+            "p90": 12.670974860299168
+          },
+          "first through dash": {
+            "n": 6,
+            "median": 4.561552812808831,
+            "p90": 5.91547594742265
+          },
+          "cycle lane divider": {
+            "n": 11,
+            "median": 5.0,
+            "p90": 12.0
+          },
+          "through dash at 112": {
+            "n": 15,
+            "median": 7.0710678118654755,
+            "p90": 17.158642433040804
+          },
+          "right entrance dash": {
+            "n": 14,
+            "median": 4.038843615231785,
+            "p90": 16.03057733787054
+          },
+          "outer entrance dash": {
+            "n": 11,
+            "median": 4.47213595499958,
+            "p90": 18.601075237738275
+          },
+          "turn arrow at 114": {
+            "n": 3,
+            "median": 18.027756377319946,
+            "p90": 18.094167496483855
+          },
+          "through dash at 114": {
+            "n": 11,
+            "median": 3.605551275463989,
+            "p90": 12.041594578792296
+          },
+          "fork inner line": {
+            "n": 11,
+            "median": 11.180339887498949,
+            "p90": 17.08800749063506
+          },
+          "through dash at 116": {
+            "n": 9,
+            "median": 7.280109889280518,
+            "p90": 17.73693488028845
+          },
+          "merge line at 116": {
+            "n": 10,
+            "median": 12.777173889570204,
+            "p90": 17.77286939109188
+          },
+          "later through dash": {
+            "n": 3,
+            "median": 3.605551275463989,
+            "p90": 7.170916453731637
+          },
+          "later split line": {
+            "n": 5,
+            "median": 11.40175425099138,
+            "p90": 15.517384564266521
+          }
+        }
+      }
+    },
+    "photo": {
+      "samples": 15916,
+      "exposures": 59,
+      "conditioning_mae": 8.62260197564027,
+      "splat_mae": 8.62260197564027,
+      "generated_mae": 16.966721230099687
+    },
+    "timing": {
+      "arguments": {
+        "window": "000-81",
+        "size": [
+          832,
+          480
+        ],
+        "steps": 20,
+        "cfg": 1.0,
+        "dtype": "bf16",
+        "seed": 42,
+        "previous": null,
+        "resident": false,
+        "tiled": true,
+        "output": "work/genvideo/round2/pure.mp4",
+        "checkpoint_steps": true,
+        "inputs": "work/genvideo/round2/inputs",
+        "refs": 6,
+        "sigma": 1.0,
+        "cond_scale": 1.0,
+        "codec_out": null
+      },
+      "stages": {
+        "text": 0.6369250840216409,
+        "vae load": 2.8251642920076847,
+        "WanVideoUnit_ShapeChecker": 2.825376959022833,
+        "WanVideoUnit_NoiseInitializer": 2.837978459021542,
+        "StreetNVSUnit_ImageEmbedderFused": 4.738396708999062,
+        "StreetNVSUnit_ReferenceLatents": 9.273291834018892,
+        "StreetNVSUnit_COND": 66.77068541699555,
+        "dit load": 67.16295883400016,
+        "controls ready": 67.61298325000098,
+        "denoise 1": 85.79692462499952,
+        "denoise 2": 99.86663837500964,
+        "denoise 3": 117.979908334004,
+        "denoise 4": 133.95546512500732,
+        "denoise 5": 161.80701529199723,
+        "denoise 6": 173.53868483399856,
+        "denoise 7": 189.97178700001677,
+        "denoise 8": 210.32255395900575,
+        "denoise 9": 223.50014979200205,
+        "denoise 10": 233.7008830840059,
+        "denoise 11": 244.01873587499722,
+        "denoise 12": 258.8111761670152,
+        "denoise 13": 285.60262499999953,
+        "denoise 14": 331.85525962500833,
+        "denoise 15": 360.0262982090062,
+        "denoise 16": 436.31767041701823,
+        "denoise 17": 456.55265399999917,
+        "denoise 18": 478.4134776669962,
+        "denoise 19": 490.9608037500002,
+        "denoise 20": 529.998067959008,
+        "saved": 585.5000502500043
+      },
+      "wall_s": 585.5000502500043,
+      "resumed_at_step": 0,
+      "frames": 81,
+      "peak_driver_MiB": 5511.703125,
+      "system_vm_pressure_max": 2,
+      "system_swapout_delta_pages": 2708926,
+      "peak_process_rss_MiB": 3791.296875,
+      "torch": "2.15.0"
+    }
+  },
+  "medium": {
+    "measures": {
+      "frames": 81,
+      "overlap": {},
+      "fps": 10,
+      "size": [
+        832,
+        480
+      ],
+      "sheet_indices": [
+        0,
+        11,
+        23,
+        34,
+        46,
+        57,
+        69,
+        80
+      ],
+      "change_dE76_gt20": {
+        "all": 0.0019055797918645138,
+        "valid": 0.0007674079905625235
+      },
+      "reprojected_mae_255": {
+        "generated": 2.9535885781049727,
+        "conditioning": 0.565258226543665,
+        "splat": 0.565258226543665
+      },
+      "paint": {
+        "anchors": 14,
+        "tested": 138,
+        "frames_tested": 54,
+        "frames_all_patches_within_3px": 12,
+        "matched": {
+          "n": 136,
+          "median": 2.23606797749979,
+          "p90": 16.55294535724685
+        },
+        "within_3px_over_all": 0.5579710144927537,
+        "per_feature": {
+          "bike symbol": {
+            "n": 6,
+            "median": 0.5,
+            "p90": 2.2882456112707374
+          },
+          "bike direction arrow": {
+            "n": 11,
+            "median": 1.0,
+            "p90": 7.615773105863909
+          },
+          "first through dash": {
+            "n": 6,
+            "median": 8.505645891172126,
+            "p90": 13.735446569103726
+          },
+          "cycle lane divider": {
+            "n": 11,
+            "median": 2.23606797749979,
+            "p90": 11.180339887498949
+          },
+          "through dash at 112": {
+            "n": 15,
+            "median": 5.0990195135927845,
+            "p90": 18.681541692269406
+          },
+          "right entrance dash": {
+            "n": 15,
+            "median": 1.4142135623730951,
+            "p90": 10.638320372125625
+          },
+          "outer entrance dash": {
+            "n": 15,
+            "median": 1.4142135623730951,
+            "p90": 15.565318535152393
+          },
+          "turn arrow at 114": {
+            "n": 8,
+            "median": 1.7071067811865475,
+            "p90": 2.4652475842498527
+          },
+          "through dash at 114": {
+            "n": 11,
+            "median": 1.0,
+            "p90": 2.23606797749979
+          },
+          "fork inner line": {
+            "n": 11,
+            "median": 6.708203932499369,
+            "p90": 17.46424919657298
+          },
+          "through dash at 116": {
+            "n": 9,
+            "median": 3.0,
+            "p90": 17.10499786896307
+          },
+          "merge line at 116": {
+            "n": 10,
+            "median": 10.82455532033676,
+            "p90": 16.195239514987843
+          },
+          "later through dash": {
+            "n": 3,
+            "median": 1.0,
+            "p90": 1.8
+          },
+          "later split line": {
+            "n": 5,
+            "median": 10.770329614269007,
+            "p90": 18.472217635273907
+          }
+        }
+      }
+    },
+    "photo": {
+      "samples": 15916,
+      "exposures": 59,
+      "conditioning_mae": 8.62260197564027,
+      "splat_mae": 8.62260197564027,
+      "generated_mae": 9.311342900408725
+    },
+    "timing": {
+      "arguments": {
+        "window": "000-81",
+        "size": [
+          832,
+          480
+        ],
+        "steps": 20,
+        "cfg": 1.0,
+        "dtype": "bf16",
+        "seed": 42,
+        "previous": null,
+        "resident": false,
+        "tiled": true,
+        "output": "work/genvideo/round2/medium.mp4",
+        "checkpoint_steps": true,
+        "inputs": "work/genvideo/round2/inputs",
+        "refs": 6,
+        "sigma": 0.5,
+        "cond_scale": 1.25,
+        "codec_out": null,
+        "query_chunk": 192,
+        "cache_controls": true
+      },
+      "stages": {
+        "text": 0.5850352919951547,
+        "vae load": 0.6012828749953769,
+        "cached controls": 0.6061005840019789,
+        "dit load": 0.8977448749938048,
+        "controls ready": 1.2169467919738963,
+        "denoise 19": 17.723187208990566,
+        "denoise 20": 31.00992587499786,
+        "saved": 63.030596166994656
+      },
+      "wall_s": 724.0883664999856,
+      "resumed_at_step": 18,
+      "frames": 81,
+      "peak_driver_MiB": 4470.703125,
+      "system_vm_pressure_max": 1,
+      "system_swapout_delta_pages": 63306,
+      "peak_process_rss_MiB": 3319.015625,
+      "torch": "2.15.0"
+    }
+  },
+  "tight": {
+    "measures": {
+      "frames": 81,
+      "overlap": {},
+      "fps": 10,
+      "size": [
+        832,
+        480
+      ],
+      "sheet_indices": [
+        0,
+        11,
+        23,
+        34,
+        46,
+        57,
+        69,
+        80
+      ],
+      "change_dE76_gt20": {
+        "all": 0.00019469422681228236,
+        "valid": 5.070144843520337e-05
+      },
+      "reprojected_mae_255": {
+        "generated": 2.5649560198187826,
+        "conditioning": 0.565258226543665,
+        "splat": 0.565258226543665
+      },
+      "paint": {
+        "anchors": 14,
+        "tested": 138,
+        "frames_tested": 54,
+        "frames_all_patches_within_3px": 21,
+        "matched": {
+          "n": 138,
+          "median": 1.0,
+          "p90": 11.324809058156443
+        },
+        "within_3px_over_all": 0.6884057971014492,
+        "per_feature": {
+          "bike symbol": {
+            "n": 8,
+            "median": 0.5,
+            "p90": 1.4142135623730951
+          },
+          "bike direction arrow": {
+            "n": 11,
+            "median": 1.0,
+            "p90": 2.23606797749979
+          },
+          "first through dash": {
+            "n": 6,
+            "median": 8.323802860618635,
+            "p90": 15.446221994724901
+          },
+          "cycle lane divider": {
+            "n": 11,
+            "median": 2.23606797749979,
+            "p90": 8.0
+          },
+          "through dash at 112": {
+            "n": 15,
+            "median": 1.0,
+            "p90": 7.8597707064534
+          },
+          "right entrance dash": {
+            "n": 15,
+            "median": 0.0,
+            "p90": 9.486832980505138
+          },
+          "outer entrance dash": {
+            "n": 15,
+            "median": 1.0,
+            "p90": 14.650751702132181
+          },
+          "turn arrow at 114": {
+            "n": 8,
+            "median": 1.0,
+            "p90": 1.0
+          },
+          "through dash at 114": {
+            "n": 11,
+            "median": 1.4142135623730951,
+            "p90": 2.23606797749979
+          },
+          "fork inner line": {
+            "n": 11,
+            "median": 4.123105625617661,
+            "p90": 18.384776310850235
+          },
+          "through dash at 116": {
+            "n": 9,
+            "median": 2.23606797749979,
+            "p90": 10.760968803463317
+          },
+          "merge line at 116": {
+            "n": 10,
+            "median": 4.23606797749979,
+            "p90": 15.001564396805959
+          },
+          "later through dash": {
+            "n": 3,
+            "median": 1.0,
+            "p90": 1.0
+          },
+          "later split line": {
+            "n": 5,
+            "median": 0.0,
+            "p90": 10.295453501482386
+          }
+        }
+      }
+    },
+    "photo": {
+      "samples": 15916,
+      "exposures": 59,
+      "conditioning_mae": 8.62260197564027,
+      "splat_mae": 8.62260197564027,
+      "generated_mae": 8.947767423037519
+    },
+    "timing": {
+      "arguments": {
+        "window": "000-81",
+        "size": [
+          832,
+          480
+        ],
+        "steps": 8,
+        "cfg": 1.0,
+        "dtype": "bf16",
+        "seed": 42,
+        "previous": null,
+        "resident": false,
+        "tiled": true,
+        "output": "work/genvideo/round2/tight.mp4",
+        "checkpoint_steps": true,
+        "inputs": "work/genvideo/round2/inputs",
+        "refs": 6,
+        "sigma": 0.2,
+        "cond_scale": 1.25,
+        "codec_out": "work/genvideo/round2/codec.mp4",
+        "query_chunk": 192,
+        "cache_controls": true
+      },
+      "stages": {
+        "text": 0.5840337080007885,
+        "vae load": 0.5994893329916522,
+        "cached controls": 0.6061035830061883,
+        "dit load": 0.9057416669966187,
+        "controls ready": 1.1507782499829773,
+        "denoise 1": 19.49693575000856,
+        "denoise 2": 31.694773708004504,
+        "denoise 3": 56.63700066698948,
+        "denoise 4": 68.44657924998319,
+        "denoise 5": 80.12851416700869,
+        "denoise 6": 99.39794979200815,
+        "denoise 7": 116.2836795419862,
+        "denoise 8": 135.4129836249922,
+        "saved": 176.23756633300218
+      },
+      "wall_s": 176.23756633300218,
+      "resumed_at_step": 0,
+      "frames": 81,
+      "peak_driver_MiB": 4470.703125,
+      "system_vm_pressure_max": 1,
+      "system_swapout_delta_pages": 33520,
+      "peak_process_rss_MiB": 3317.3125,
+      "torch": "2.15.0"
+    }
+  },
+  "codec": {
+    "measures": {
+      "frames": 81,
+      "overlap": {},
+      "fps": 10,
+      "size": [
+        832,
+        480
+      ],
+      "sheet_indices": [
+        0,
+        11,
+        23,
+        34,
+        46,
+        57,
+        69,
+        80
+      ],
+      "change_dE76_gt20": {
+        "all": 4.58758705286483e-05,
+        "valid": 5.962370284161663e-06
+      },
+      "reprojected_mae_255": {
+        "generated": 1.7231902480125427,
+        "conditioning": 0.565258226543665,
+        "splat": 0.565258226543665
+      },
+      "paint": {
+        "anchors": 14,
+        "tested": 138,
+        "frames_tested": 54,
+        "frames_all_patches_within_3px": 40,
+        "matched": {
+          "n": 138,
+          "median": 0.0,
+          "p90": 3.450526049803161
+        },
+        "within_3px_over_all": 0.8913043478260869,
+        "per_feature": {
+          "bike symbol": {
+            "n": 8,
+            "median": 0.0,
+            "p90": 1.0
+          },
+          "bike direction arrow": {
+            "n": 11,
+            "median": 0.0,
+            "p90": 1.0
+          },
+          "first through dash": {
+            "n": 6,
+            "median": 1.118033988749895,
+            "p90": 8.06329101791615
+          },
+          "cycle lane divider": {
+            "n": 11,
+            "median": 0.0,
+            "p90": 10.198039027185569
+          },
+          "through dash at 112": {
+            "n": 15,
+            "median": 0.0,
+            "p90": 6.596969000988255
+          },
+          "right entrance dash": {
+            "n": 15,
+            "median": 0.0,
+            "p90": 12.151766158512526
+          },
+          "outer entrance dash": {
+            "n": 15,
+            "median": 0.0,
+            "p90": 0.8485281374238566
+          },
+          "turn arrow at 114": {
+            "n": 8,
+            "median": 0.0,
+            "p90": 1.1242640687119285
+          },
+          "through dash at 114": {
+            "n": 11,
+            "median": 0.0,
+            "p90": 2.23606797749979
+          },
+          "fork inner line": {
+            "n": 11,
+            "median": 0.0,
+            "p90": 6.324555320336759
+          },
+          "through dash at 116": {
+            "n": 9,
+            "median": 0.0,
+            "p90": 0.44721359549995837
+          },
+          "merge line at 116": {
+            "n": 10,
+            "median": 0.5,
+            "p90": 2.3124611797498105
+          },
+          "later through dash": {
+            "n": 3,
+            "median": 0.0,
+            "p90": 0.0
+          },
+          "later split line": {
+            "n": 5,
+            "median": 0.0,
+            "p90": 0.6000000000000001
+          }
+        }
+      }
+    },
+    "photo": {
+      "samples": 15916,
+      "exposures": 59,
+      "conditioning_mae": 8.62260197564027,
+      "splat_mae": 8.62260197564027,
+      "generated_mae": 8.82962638509726
+    },
+    "timing": null
+  }
+}

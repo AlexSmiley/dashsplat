@@ -1,0 +1,61 @@
+# OS and editor files
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# Python and JavaScript
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+dist/
+
+# Installation and pipeline outputs. With RS_INSTALL left unset the checkout is the installation root, so
+# environments, model weights, footage, calibration, per-drive work and published scenes land here.
+/envs/
+/third_party/
+/data/
+/calib/
+/poses/
+/depth/
+/masks/
+/road/
+/maps/
+/work/
+/scene/
+/scenes/
+/bench/
+/clips/
+/tools/run-chase/
+/viewer-cache-tool
+out/
+scratch/
+deploy/dist/
+*.log
+
+# Footage, never committed (raw clips go under data/, which is ignored above)
+reference/*.mp4
+
+# Large proof media stays out of git (reports may link to these files; they were kept on the author's machines)
+pipeline/**/*.zip
+pipeline/ibr/report-m/**/*.mp4
+!/pipeline/ibr/report-m/110-125/viewer.mp4
+pipeline/ibr/report-v3/*.mp4
+pipeline/ibr/report-horizon/**/*.mp4
+pipeline/ibr/report-chase/*.mp4
+/pipeline/ibr/report/exit-93-104.mp4
+/pipeline/ibr/report/road-105-120.mp4
+/pipeline/livemap/report/v5/chase-v5-108-118.mp4
+pipeline/genvideo/round2/report/*.zip
+/pipeline/genvideo/round2/report/tight.mp4
+
+# Film: renders, capture library, working media, build output, licensed fonts
+film/out/
+film/captures/
+film/work/
+film/render/target/
+film/render/media/

@@ -1,0 +1,40 @@
+{
+  "left_pillar": {
+    "shown": [
+      130.74156201873708,
+      131.29707954291504,
+      131.852597067093
+    ],
+    "wheel_count": 71,
+    "held_wheels": 8,
+    "held_abs_p50_px": 1.9261578797456167,
+    "wheel_minus_mask_bottom_px_p50": -0.5455615186589569,
+    "abs_p90_px": 6.108173483489679,
+    "depth_road_neighbour_count": 0,
+    "road_clearance_p50_m": null,
+    "road_clearance_abs_p90_m": null,
+    "ego_left_range_m": [
+      24.486279448795162,
+      25.487165504305036
+    ]
+  },
+  "left_repeater": {
+    "shown": [
+      131.7189440085394,
+      132.49666854238853,
+      133.27439307623766
+    ],
+    "wheel_count": 96,
+    "held_wheels": 10,
+    "held_abs_p50_px": 0.5160006623726758,
+    "wheel_minus_mask_bottom_px_p50": 0.5072965044017366,
+    "abs_p90_px": 3.0673459819870033,
+    "depth_road_neighbour_count": 0,
+    "road_clearance_p50_m": null,
+    "road_clearance_abs_p90_m": null,
+    "ego_left_range_m": [
+      23.60161443153721,
+      24.71287740023875
+    ]
+  }
+}

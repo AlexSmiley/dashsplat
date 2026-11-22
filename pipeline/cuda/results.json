@@ -1,0 +1,208 @@
+{
+  "hardware": "1 NVIDIA A40, 46068 MiB, driver 595.112.07",
+  "torch": "2.9.1+cu128",
+  "rate_per_hour": {
+    "gpu": 0.59,
+    "total": 0.598
+  },
+  "depth": {
+    "t0": 233.0,
+    "keyframes": 12,
+    "t_keys": [
+      233.14304208819212,
+      233.3096918680979,
+      233.44856668468606,
+      233.5874415012742,
+      233.69854135454474,
+      233.80964120781528,
+      233.92074106108578,
+      234.0318409143563,
+      234.14294076762684,
+      234.22626565757972,
+      234.30959054753262,
+      234.3929154374855
+    ],
+    "memory_free_pct_start": null,
+    "masks_s_per_keyframe": 0.8432448108990988,
+    "configs": {
+      "production": {
+        "models": {
+          "front": "da3-large-1.1",
+          "back": "da3-large-1.1",
+          "left_pillar": "mapanything-nomask",
+          "right_pillar": "mapanything-nomask",
+          "left_repeater": "mapanything-nomask",
+          "right_repeater": "mapanything-nomask"
+        },
+        "depth_s_per_camera": {
+          "front": 1.1915852030118306,
+          "back": 1.5663411815961201,
+          "left_pillar": 0.8417657613754272,
+          "right_pillar": 1.7168576121330261,
+          "left_repeater": 0.958818773428599,
+          "right_repeater": 1.7996728618939717
+        },
+        "depth_s_per_keyframe": 8.075041393438974,
+        "total_s_per_keyframe": 8.918286204338074
+      }
+    },
+    "memory_free_pct_end": null
+  },
+  "difix": [
+    {
+      "size": [
+        1472,
+        960
+      ],
+      "dtype": "float16",
+      "compile": false,
+      "batch": 1,
+      "fps": 0.45375694913622744,
+      "times_s": [
+        2.2177085900329985,
+        2.203822997980751,
+        2.3057117089629173,
+        2.201008358038962,
+        2.198004439997021
+      ],
+      "allocated_GB": 11.248531968,
+      "reserved_GB": 15.034482688
+    },
+    {
+      "size": [
+        1472,
+        960
+      ],
+      "dtype": "float32",
+      "compile": false,
+      "batch": 1,
+      "fps": 0.17822805379873874,
+      "times_s": [
+        5.805787516001146,
+        5.61512098798994,
+        5.610788978985511,
+        5.593579692998901,
+        5.596658668015152
+      ],
+      "allocated_GB": 22.480219648,
+      "reserved_GB": 28.525461504
+    },
+    {
+      "size": [
+        1472,
+        960
+      ],
+      "dtype": "float16",
+      "compile": true,
+      "batch": 1,
+      "fps": 0.4557033663564665,
+      "times_s": [
+        2.1642116820439696,
+        2.0998488159966655,
+        2.1944099469692446,
+        2.1980305300094187,
+        2.2050670299795456
+      ],
+      "allocated_GB": 11.2480896,
+      "reserved_GB": 15.017705472
+    },
+    {
+      "size": [
+        1024,
+        576
+      ],
+      "dtype": "float16",
+      "compile": false,
+      "batch": 1,
+      "fps": 1.2173500108333957,
+      "times_s": [
+        0.8081807990092784,
+        0.8851707769790664,
+        0.8097975529963151,
+        0.8861187699949369,
+        0.821456434961874
+      ],
+      "allocated_GB": 6.217364992,
+      "reserved_GB": 7.860125696
+    },
+    {
+      "size": [
+        1024,
+        576
+      ],
+      "dtype": "float16",
+      "compile": false,
+      "batch": 2,
+      "error": "The size of tensor a (2) must match the size of tensor b (4) at non-singleton dimension 0"
+    },
+    {
+      "size": [
+        1024,
+        576
+      ],
+      "dtype": "float32",
+      "compile": false,
+      "batch": 1,
+      "fps": 0.5566398807531384,
+      "times_s": [
+        1.9741232199594378,
+        1.8052976159960963,
+        1.70092019403819,
+        1.7964936300413683,
+        1.634137409972027
+      ],
+      "allocated_GB": 12.4071808,
+      "reserved_GB": 14.403239936
+    },
+    {
+      "size": [
+        1024,
+        576
+      ],
+      "dtype": "float32",
+      "compile": false,
+      "batch": 2,
+      "error": "The size of tensor a (2) must match the size of tensor b (4) at non-singleton dimension 0"
+    },
+    {
+      "size": [
+        1024,
+        576
+      ],
+      "dtype": "float16",
+      "compile": true,
+      "batch": 1,
+      "fps": 1.2457138768791898,
+      "times_s": [
+        0.8060622419579886,
+        0.798878823989071,
+        0.7986172009841539,
+        0.8041765110101551,
+        0.8027525570360012
+      ],
+      "allocated_GB": 6.217709056,
+      "reserved_GB": 7.849639936
+    }
+  ],
+  "splat": {
+    "iter_s": 350.96995256349607,
+    "splats": 162460,
+    "crop": [
+      736,
+      480
+    ],
+    "backend": "gsplat, color-only Adam surrogate",
+    "allocated_GB": 0.049154048
+  },
+  "full_pipeline": null,
+  "account": {
+    "checked_at": "2026-11-22T13:51:37.282993+00:00",
+    "starting_balance": "REDACTED",
+    "ending_balance": "REDACTED",
+    "balance_delta": "0.1969951251",
+    "current_spend_per_hour": 0,
+    "pods": [],
+    "endpoints": [],
+    "network_volumes": []
+  }
+}

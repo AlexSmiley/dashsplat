@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- The author's launchd job that kept deploy/serve.ts running on his Mac Studio (installation in
+     /Users/anomaly/dev/reality-splat, built viewer in web/dist, scenes in scene/, served to the LAN on port 8090).
+     An example only: change the label, the bun path and every path before using it on your machine. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>dev.vogel.reality-splat-viewer</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/bun</string>
+    <string>serve.ts</string>
+    <string>dist</string>
+    <string>../scene</string>
+    <string>8090</string>
+    <string>0.0.0.0</string>
+  </array>
+  <key>WorkingDirectory</key><string>/Users/anomaly/dev/reality-splat/web</string>
+  <key>RunAtLoad</key><true/>
+  <key>KeepAlive</key><true/>
+  <key>StandardOutPath</key><string>/Users/anomaly/dev/reality-splat/web/serve.log</string>
+  <key>StandardErrorPath</key><string>/Users/anomaly/dev/reality-splat/web/serve.log</string>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "arguments": {
+    "window": "000-81",
+    "size": [
+      512,
+      320
+    ],
+    "steps": 20,
+    "cfg": 5.0,
+    "dtype": "bf16",
+    "seed": 42,
+    "previous": null,
+    "resident": false,
+    "tiled": true,
+    "output": "work/genvideo/track-000-81.mp4",
+    "checkpoint_steps": true
+  },
+  "stages": {
+    "text": 0.3828850410063751,
+    "vae load": 2.834111000003759,
+    "WanVideoUnit_ShapeChecker": 2.8342232080176473,
+    "WanVideoUnit_NoiseInitializer": 2.8400983329920564,
+    "StreetNVSUnit_ImageEmbedderFused": 3.516972750017885,
+    "StreetNVSUnit_ReferenceLatents": 4.32392241602065,
+    "StreetNVSUnit_COND": 18.392043875006493,
+    "dit load": 18.783089875010774,
+    "controls ready": 18.9233113329974,
+    "denoise 12": 37.31309995800257,
+    "denoise 13": 47.78126162500121,
+    "denoise 14": 66.3226806250168,
+    "denoise 15": 82.89706254101475,
+    "denoise 16": 105.6156936660118,
+    "denoise 17": 116.68579537500045,
+    "denoise 18": 126.1642035410041,
+    "denoise 19": 137.0198928329919,
+    "denoise 20": 152.10637758299708,
+    "saved": 169.3831046250125
+  },
+  "wall_s": 453.3875305840047,
+  "resumed_at_step": 11,
+  "frames": 81,
+  "peak_driver_MiB": 3274.90625,
+  "system_vm_pressure_max": 1,
+  "system_swapout_delta_pages": 44586,
+  "peak_process_rss_MiB": 3459.078125,
+  "torch": "2.15.0"
+}

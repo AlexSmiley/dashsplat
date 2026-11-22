@@ -1,0 +1,165 @@
+{
+  "total": [
+    136,
+    0,
+    10
+  ],
+  "objects": {
+    "crossing-suv": {
+      "counts": [
+        4,
+        0,
+        0
+      ],
+      "max_step_m": 0.4713,
+      "centre_median_px": 4.602460626530848
+    },
+    "passing-bus": {
+      "counts": [
+        26,
+        0,
+        1
+      ],
+      "max_step_m": 1.4483,
+      "centre_median_px": 3.1640385677025114
+    },
+    "black-oncoming-suv": {
+      "counts": [
+        28,
+        0,
+        5
+      ],
+      "max_step_m": 1.169,
+      "centre_median_px": 3.4795065009728607
+    },
+    "red-oncoming-sedan": {
+      "counts": [
+        8,
+        0,
+        0
+      ],
+      "max_step_m": 1.5455,
+      "centre_median_px": 1.702554812790296
+    },
+    "junction-white-suv": {
+      "counts": [
+        5,
+        0,
+        0
+      ],
+      "max_step_m": 0.7682,
+      "centre_median_px": 3.032198926923408
+    },
+    "junction-silver-crossover": {
+      "counts": [
+        3,
+        0,
+        0
+      ],
+      "max_step_m": 0.749,
+      "centre_median_px": 1.798599804771435
+    },
+    "junction-red-suv": {
+      "counts": [
+        1,
+        0,
+        0
+      ],
+      "max_step_m": 0.6054,
+      "centre_median_px": 7.115882566325888
+    },
+    "junction-approach-suv": {
+      "counts": [
+        2,
+        0,
+        0
+      ],
+      "max_step_m": 0.3348,
+      "centre_median_px": 1.3716298290481952
+    },
+    "departing-coupe": {
+      "counts": [
+        13,
+        0,
+        0
+      ],
+      "max_step_m": 0.3512,
+      "centre_median_px": 10.716569201218475
+    },
+    "oncoming-pickup": {
+      "counts": [
+        4,
+        0,
+        2
+      ],
+      "max_step_m": 0.4852,
+      "centre_median_px": 6.303740297159712
+    },
+    "oncoming-minivan": {
+      "counts": [
+        4,
+        0,
+        1
+      ],
+      "max_step_m": 0.4472,
+      "centre_median_px": 3.7693373855345405
+    },
+    "oncoming-black-sedan": {
+      "counts": [
+        5,
+        0,
+        0
+      ],
+      "max_step_m": 0.9256,
+      "centre_median_px": 2.081065246817731
+    },
+    "oncoming-grey-suv": {
+      "counts": [
+        4,
+        0,
+        0
+      ],
+      "max_step_m": 0.5644,
+      "centre_median_px": 1.2457076568173333
+    },
+    "turning-black-coupe": {
+      "counts": [
+        13,
+        0,
+        0
+      ],
+      "max_step_m": 0.4844,
+      "centre_median_px": 6.346225282669384
+    },
+    "turning-white-sedan": {
+      "counts": [
+        3,
+        0,
+        0
+      ],
+      "max_step_m": 0.2072,
+      "centre_median_px": 2.312034224127279
+    },
+    "turning-silver-crossover": {
+      "counts": [
+        5,
+        0,
+        1
+      ],
+      "max_step_m": 0.5997,
+      "centre_median_px": 5.474555016766278
+    },
+    "junction-white-sedan": {
+      "counts": [
+        8,
+        0,
+        0
+      ],
+      "max_step_m": 0.6414,
+      "centre_median_px": 3.718054595420564
+    }
+  },
+  "flags_over_1_5": [
+    "red-oncoming-sedan"
+  ]
+}

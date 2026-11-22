@@ -1,0 +1,904 @@
+[
+ {
+  "id": "ladder-r1-road-live-v1-110-auth",
+  "build": "e7f92d6",
+  "scene": "road-live-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 1: the first ground-only live map, in the first viewer (16:53) as it looked then."
+ },
+ {
+  "id": "ladder-r1-road-live-v1-312-auth",
+  "build": "e7f92d6",
+  "scene": "road-live-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 1: the first ground-only live map, in the first viewer (16:53) as it looked then."
+ },
+ {
+  "id": "ladder-r1-road-live-v2-110-auth",
+  "build": "e7f92d6",
+  "scene": "road-live-v2",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 1: ground-only live map v2, in the first viewer (16:53)."
+ },
+ {
+  "id": "ladder-r1-road-live-v2-312-auth",
+  "build": "e7f92d6",
+  "scene": "road-live-v2",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 1: ground-only live map v2, in the first viewer (16:53)."
+ },
+ {
+  "id": "ladder-r2-live-v3-110-auth",
+  "build": "e7f92d6",
+  "scene": "live-v3",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 2: live world v3 (ground plus the first static objects), in the first viewer (16:53)."
+ },
+ {
+  "id": "ladder-r2-live-v3-312-auth",
+  "build": "e7f92d6",
+  "scene": "live-v3",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 2: live world v3 (ground plus the first static objects), in the first viewer (16:53)."
+ },
+ {
+  "id": "ladder-r2-live-v4-110-auth",
+  "build": "e8e1ada",
+  "scene": "live-v4",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 2 (extra, for the storyboard's First world): live world v4, newest view wins, in the realism-pass viewer (17:22)."
+ },
+ {
+  "id": "ladder-r2-live-v4-312-auth",
+  "build": "e8e1ada",
+  "scene": "live-v4",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 2 (extra, for the storyboard's First world): live world v4, newest view wins, in the realism-pass viewer (17:22)."
+ },
+ {
+  "id": "ladder-r2-live-v5-110-auth",
+  "build": "e8e1ada",
+  "scene": "live-v5",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 2: live world v5 (roadside profiles), in the realism-pass viewer (17:22)."
+ },
+ {
+  "id": "ladder-r2-live-v5-312-auth",
+  "build": "e8e1ada",
+  "scene": "live-v5",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 2,
+  "camera": "authentic: the build's damped follow camera, before the Tesla-matched chase pose (d083540)",
+  "description": "Rung 2: live world v5 (roadside profiles), in the realism-pass viewer (17:22)."
+ },
+ {
+  "id": "ladder-r1-road-live-v1-110-today",
+  "build": "head",
+  "scene": "road-live-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 1: ground-only live map v1, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r1-road-live-v1-312-today",
+  "build": "head",
+  "scene": "road-live-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 1: ground-only live map v1, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r1-road-live-v2-110-today",
+  "build": "head",
+  "scene": "road-live-v2",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 1: ground-only live map v2, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r1-road-live-v2-312-today",
+  "build": "head",
+  "scene": "road-live-v2",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 1: ground-only live map v2, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r2-live-v3-110-today",
+  "build": "head",
+  "scene": "live-v3",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 2: live world v3, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r2-live-v3-312-today",
+  "build": "head",
+  "scene": "live-v3",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 2: live world v3, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r2-live-v4-110-today",
+  "build": "head",
+  "scene": "live-v4",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 2: live world v4, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r2-live-v4-312-today",
+  "build": "head",
+  "scene": "live-v4",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 2: live world v4, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r2-live-v5-110-today",
+  "build": "head",
+  "scene": "live-v5",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 2: live world v5, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r2-live-v5-312-today",
+  "build": "head",
+  "scene": "live-v5",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 2: live world v5, through today's viewer and chase camera (registered with the later rungs)."
+ },
+ {
+  "id": "ladder-r3-stitched-opt-v1-110-today",
+  "build": "head",
+  "scene": "stitched-opt-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 3: optimiser v1 (first pass, 17:06), today's viewer."
+ },
+ {
+  "id": "ladder-r3-stitched-opt-v1-312-today",
+  "build": "head",
+  "scene": "stitched-opt-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 3: optimiser v1 (first pass, 17:06), today's viewer."
+ },
+ {
+  "id": "ladder-r3-stitched-opt-v2-110-today",
+  "build": "head",
+  "scene": "stitched-opt-v2",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 3: optimiser v2 (dense initialisation, 18:02), today's viewer."
+ },
+ {
+  "id": "ladder-r3-stitched-opt-v2-312-today",
+  "build": "head",
+  "scene": "stitched-opt-v2",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 3: optimiser v2 (dense initialisation, 18:02), today's viewer."
+ },
+ {
+  "id": "ladder-r3-stitched-opt-v3-110-today",
+  "build": "head",
+  "scene": "stitched-opt-v3",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 3: optimiser v3 (opaque crowns, 18:14), today's viewer, splats only."
+ },
+ {
+  "id": "ladder-r3-stitched-opt-v3-312-today",
+  "build": "head",
+  "scene": "stitched-opt-v3",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 3: optimiser v3 (opaque crowns, 18:14), today's viewer, splats only."
+ },
+ {
+  "id": "ladder-r4-stitched-opt-v3-110-auth-photo",
+  "build": "844ad5d",
+  "scene": "stitched-opt-v3",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "layers": "all"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 4 (rejected): optimiser v3 with the borrowed photographic layers on (sky, backdrop, cut-outs, movers), in the photo-layer viewer (18:53)."
+ },
+ {
+  "id": "ladder-r4-stitched-opt-v3-312-auth-photo",
+  "build": "844ad5d",
+  "scene": "stitched-opt-v3",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "layers": "all"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 4 (rejected): optimiser v3 with the borrowed photographic layers on (sky, backdrop, cut-outs, movers), in the photo-layer viewer (18:53)."
+ },
+ {
+  "id": "ladder-r4-ibr-v1-110-auth",
+  "build": "844ad5d",
+  "scene": "ibr-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 1,
+  "camera": "authentic: the build's chase pose",
+  "description": "Rung 4 (rejected): the image-based chase view ibr-v1, photographs chosen by viewpoint, in the photo-layer viewer (18:53)."
+ },
+ {
+  "id": "ladder-r4-ibr-v1-312-auth",
+  "build": "844ad5d",
+  "scene": "ibr-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 1,
+  "camera": "authentic: the build's chase pose",
+  "description": "Rung 4 (rejected): the image-based chase view ibr-v1, photographs chosen by viewpoint, in the photo-layer viewer (18:53)."
+ },
+ {
+  "id": "ladder-r5-stitched-opt-v4-110-today",
+  "build": "head",
+  "scene": "stitched-opt-v4",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live",
+   "ground": "0"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 5: optimiser v4 (photographs as teacher, 19:46), splat ground, today's viewer."
+ },
+ {
+  "id": "ladder-r5-stitched-opt-v4-312-today",
+  "build": "head",
+  "scene": "stitched-opt-v4",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live",
+   "ground": "0"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 5: optimiser v4 (photographs as teacher, 19:46), splat ground, today's viewer."
+ },
+ {
+  "id": "ladder-r5-stitched-opt-v5-110-today-splatground",
+  "build": "head",
+  "scene": "stitched-opt-v5",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live",
+   "ground": "0"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 5: optimiser v5 (20:01) with its splat ground, today's viewer."
+ },
+ {
+  "id": "ladder-r5-stitched-opt-v5-312-today-splatground",
+  "build": "head",
+  "scene": "stitched-opt-v5",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live",
+   "ground": "0"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 5: optimiser v5 (20:01) with its splat ground, today's viewer."
+ },
+ {
+  "id": "ladder-r6-stitched-opt-v5-110-today-atlas",
+  "build": "head",
+  "scene": "stitched-opt-v5",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 6: optimiser v5 on the textured ground atlas (20:35 onwards), today's viewer."
+ },
+ {
+  "id": "ladder-r6-stitched-opt-v5-312-today-atlas",
+  "build": "head",
+  "scene": "stitched-opt-v5",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 6: optimiser v5 on the textured ground atlas (20:35 onwards), today's viewer."
+ },
+ {
+  "id": "ladder-r7-stitched-opt-v5-movers-v1-110-today-scanned",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live",
+   "vehicles": "scanned"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 7: movers v1 as scanned splat vehicles (20:11), today's viewer (the ego car is today's lit car)."
+ },
+ {
+  "id": "ladder-r7-stitched-opt-v5-movers-v1-312-today-scanned",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live",
+   "vehicles": "scanned"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 7: movers v1 as scanned splat vehicles (20:11), today's viewer (the ego car is today's lit car)."
+ },
+ {
+  "id": "ladder-r7-stitched-opt-v5-movers-v1-110-today-clean",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 7: clean vehicle models (00:26) and the lit ego car (22:28), splat view, today's viewer."
+ },
+ {
+  "id": "ladder-r7-stitched-opt-v5-movers-v1-312-today-clean",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {
+   "mode": "live"
+  },
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 7: clean vehicle models (00:26) and the lit ego car (22:28), splat view, today's viewer."
+ },
+ {
+  "id": "ladder-r8-stitched-opt-v5-movers-v1-110-today-generative",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 110,
+  "t1": 122,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 8: Generative mode, the generated clip with clean vehicles drawn over it, today's viewer."
+ },
+ {
+  "id": "ladder-r8-stitched-opt-v5-movers-v1-312-today-generative",
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "t0": 312,
+  "t1": 326,
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off",
+   "on"
+  ],
+  "params": {},
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "description": "Rung 8: Generative mode, the generated clip with clean vehicles drawn over it, today's viewer."
+ }
+]

@@ -1,0 +1,134 @@
+{
+  "revision": 4,
+  "sha256": "707f3a62c7721c75e71fbe5af6c28f19bf20136344d2ccb1f5686093a6dd6fe3",
+  "range": {
+    "startM": 45.0,
+    "splatFadeM": [
+      40.0,
+      60.0
+    ],
+    "reference": "horizontal-eye-range",
+    "bands": 1
+  },
+  "photoBytes": 113759513,
+  "numPanoramas": 348,
+  "skyFiles": 1,
+  "baseRecords": 1044,
+  "cutouts": 768,
+  "sumUncoveredColumns": 346,
+  "maxUncoveredColumns": 55,
+  "mattePartialTexelsP50": 1.0,
+  "mattePartialTexelsP90": 3.0,
+  "budget": {
+    "0-85.00": {
+      "uniqueBytes": 335856,
+      "meanMBs": 0.003951247058823529,
+      "peakRollingMB": 0.335856
+    },
+    "85-140.00": {
+      "uniqueBytes": 28919596,
+      "meanMBs": 0.5258108363636363,
+      "peakRollingMB": 1.217686
+    },
+    "190-215.00": {
+      "uniqueBytes": 6914557,
+      "meanMBs": 0.27658228,
+      "peakRollingMB": 0.751639
+    },
+    "286-330.00": {
+      "uniqueBytes": 19387729,
+      "meanMBs": 0.44063020454545454,
+      "peakRollingMB": 0.904526
+    },
+    "105-120.00": {
+      "uniqueBytes": 7104382,
+      "meanMBs": 0.47362546666666666,
+      "peakRollingMB": 0.888604
+    },
+    "0-361.42": {
+      "uniqueBytes": 108718848,
+      "meanMBs": 0.3008105192659689,
+      "peakRollingMB": 1.217686
+    }
+  },
+  "samples": [
+    {
+      "time": 0.0,
+      "sourceTimes": [
+        0.0
+      ],
+      "backdropPixels": 250023
+    },
+    {
+      "time": 85.0,
+      "sourceTimes": [
+        0.0
+      ],
+      "backdropPixels": 267361
+    },
+    {
+      "time": 140.0,
+      "sourceTimes": [
+        138.9349327969052,
+        139.268243311412
+      ],
+      "backdropPixels": 352119
+    },
+    {
+      "time": 190.0,
+      "sourceTimes": [
+        188.6259753346228,
+        189.45925162088975
+      ],
+      "backdropPixels": 293388
+    },
+    {
+      "time": 203.0,
+      "sourceTimes": [
+        191.51466646034814,
+        193.04233965183752
+      ],
+      "backdropPixels": 342268
+    },
+    {
+      "time": 215.0,
+      "sourceTimes": [
+        213.79091917988393,
+        214.37421258027078
+      ],
+      "backdropPixels": 312254
+    },
+    {
+      "time": 286.0,
+      "sourceTimes": [
+        249.89955825145066,
+        251.48278319535783
+      ],
+      "backdropPixels": 302927
+    },
+    {
+      "time": 310.0,
+      "sourceTimes": [
+        308.64553643326883,
+        309.2288298336557
+      ],
+      "backdropPixels": 301193
+    },
+    {
+      "time": 330.0,
+      "sourceTimes": [
+        328.14420153191486,
+        329.1441330754352
+      ],
+      "backdropPixels": 313138
+    },
+    {
+      "time": 361.4,
+      "sourceTimes": [
+        359.5864934003868,
+        360.39199381044483
+      ],
+      "backdropPixels": 294838
+    }
+  ]
+}

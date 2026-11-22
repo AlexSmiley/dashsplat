@@ -1,0 +1,146 @@
+{
+  "crossing-suv": {
+    "n": 4,
+    "over90pct": 3,
+    "under10pct": 1,
+    "median_coverage": 0.9669471153846154,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.08332762862669085
+  },
+  "oncoming-pickup": {
+    "n": 4,
+    "over90pct": 3,
+    "under10pct": 0,
+    "median_coverage": 0.9661979166666667,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.027775876208863792
+  },
+  "oncoming-minivan": {
+    "n": 4,
+    "over90pct": 4,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "oncoming-black-sedan": {
+    "n": 5,
+    "over90pct": 5,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "oncoming-grey-suv": {
+    "n": 4,
+    "over90pct": 4,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "turning-black-coupe": {
+    "n": 13,
+    "over90pct": 13,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "turning-white-sedan": {
+    "n": 3,
+    "over90pct": 3,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "turning-silver-crossover": {
+    "n": 5,
+    "over90pct": 4,
+    "under10pct": 0,
+    "median_coverage": 0.9614337568058077,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.08332762862670506
+  },
+  "junction-white-sedan": {
+    "n": 8,
+    "over90pct": 5,
+    "under10pct": 3,
+    "median_coverage": 0.9791695541695542,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "passing-bus": {
+    "n": 26,
+    "over90pct": 23,
+    "under10pct": 3,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.027775876208892214
+  },
+  "black-oncoming-suv": {
+    "n": 28,
+    "over90pct": 21,
+    "under10pct": 7,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.027775876208892214
+  },
+  "red-oncoming-sedan": {
+    "n": 8,
+    "over90pct": 7,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.027775876208892214
+  },
+  "junction-white-suv": {
+    "n": 5,
+    "over90pct": 5,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.24998288588005835
+  },
+  "junction-silver-crossover": {
+    "n": 3,
+    "over90pct": 3,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.24998288588005835
+  },
+  "junction-red-suv": {
+    "n": 1,
+    "over90pct": 1,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.24998288588005835
+  },
+  "junction-approach-suv": {
+    "n": 2,
+    "over90pct": 2,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.24998288588008677
+  },
+  "departing-coupe": {
+    "n": 13,
+    "over90pct": 13,
+    "under10pct": 0,
+    "median_coverage": 1.0,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  },
+  "turning-blue-suv": {
+    "n": 16,
+    "over90pct": 0,
+    "under10pct": 16,
+    "median_coverage": 0.007574846557777511,
+    "skipped": 0,
+    "nearest_anchor_p50_s": 0.05555175241778443
+  }
+}

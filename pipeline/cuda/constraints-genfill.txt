@@ -1,0 +1,15 @@
+accelerate==0.29.3
+diffusers==0.25.1
+einops==0.8.2
+huggingface-hub==0.25.1
+importlib-metadata==10.2.0
+lazy-importer==0.1.0
+numpy==1.26.4
+peft==0.9.0
+Pillow==13.0.0
+regex==2026.11.19
+safetensors==0.8.0
+tokenizers==0.15.2
+tqdm==4.70.1
+transformers==4.38.0
+zipp==4.1.2

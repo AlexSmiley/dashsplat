@@ -1,0 +1,52 @@
+# Rigid-layer chase proof · revised viewer camera
+
+**Decision: keep the result private.** The road no longer breaks into photographic triangles, and the crossing SUV is visible. The objects around the road are not reliably grounded or continuous. A foreground tree that fades in over a painted arrow is still wrong even when every vertex of its plane is motionless.
+
+[Road · 105–120 s](report-chase/road-105-120.mp4) · [Exit · 93–104 s](report-chase/exit-93-104.mp4) · [Contact versus ground alone](report-chase/ground-contact.jpg) · [Current vehicles](report-chase/traffic.jpg)
+
+## 1. Stability in motion
+
+| Film | Nearest-source changes | Stable-point luma: between → switch | Stable-point luma: between → pair boundary | All static: between → switch |
+|---|---:|---:|---:|---:|
+| road | 64 | 4.07 → 5.00 | 4.07 → 4.91 | 5.10 → 6.37 |
+| exit | 20 | 2.54 → 2.76 | 2.53 → 2.77 | 2.88 → 3.33 |
+
+**Both films miss the “no higher at transitions” target**, whichever type of front-source transition is used and whether the mean is weighted by pixels or averaged per frame. The problem is not a torn road anymore: around **101.57 s**, the near exit tree fades between incompatible silhouettes; at **118.73 s**, a clipped roadside tree changes width while the lane markings stay put. [Road handover from the decoded film](report-chase/road-switch.jpg) · [Exit handover](report-chase/exit-switch.jpg) · [Exit turn and ground marking](report-chase/exit-anchor.jpg). [Road sequence](report-chase/road-sequence.jpg) · [Exit sequence](report-chase/exit-sequence.jpg).
+
+Source changes have two definitions in this proof. **Dominant switch**: the nearer of the two front keyframes changes. **Pair boundary**: the outgoing base pair is replaced by its neighbour. The render uses continuous fractional path weights both before and after these events. The error is absolute display-luma change on a 0–255 scale; each current point is reprojected into the previous chase. Sample every eighth pixel. The headline comparison retains visible static samples with the same object ID and axial-depth agreement within max(0.35 m, 5.5%). The far shell has one ID; subjects moving across that shell are not guaranteed to be physically identical. The secondary all-static measure also counts changed or disappearing supports instead of silently excluding them. These diagnostics are not held-out camera truth. [Per-frame road](report-chase/road.json) · [Per-frame exit](report-chase/exit.json) · [Counts and alternative measures](report-chase/motion.json).
+
+## 2. Placement and the six rules
+
+| Rule | What held | Limit visible at the revised camera |
+|---|---|---|
+| 1 · Adjacent sources only | One adjacent front pair, linearly weighted by projected camera-path distance; pillars have their own adjacent pairs and fixed soft angular margins. No historical pillar object is permitted in the middle of the image. | The calibration gives the front camera only about ±23° horizontally. At 100 s the selected pair points 50.9° away. For 117/330 exit frames and 101/450 road frames, neither front sensor contains the **direction** of the centre chase ray at infinity. This is a coverage witness, not proof that all central nearby surfaces are absent. Gaps contain sky/ground/backdrop rather than substitute objects. |
+| 2 · Sky | Photographed sky is rotated at infinity, with a smoothly extended colour field where no pixel is observed. Nothing triangulates the sky. | Extension restores continuity, not missing clouds or wires. Some colour bands across lenses and thin wires which fade with the mask are still visible. |
+| 3 · Ground | **Stitched** ground only, registered from the stitched to the live trajectory. No historical ground RGB is projected; there is no photograph hole-fill. The kerb, road arrows and lane markings stay on that same surface. | Beyond the measured corridor, the apron is smooth and often empty; this makes unsupported contact visible. |
+| 4 · Upright placement | Feathered cut-out on a vertical world plane, with ground intersection under supported lowest pixels. Long components can be split up to three ways at persistent range discontinuities. Building, tree, pole, sign and signal classes came from running the unmodified mask producer. | **Failed.** Lowest labelled pixels sometimes belong to foliage or occluders, not the trunk touching the ground. At 99.27 s one labelled tree lies over the painted exit lane. At 112 s the median tree stands plausibly on the island, but the near right pole has no measured stitched ground below its labelled foot. Counting non-distant static quad observations, only 2,277 of 6,075 have ground contacts; the other 3,798 use median range. Distant segments share one 92 m cylinder. |
+| 5 · Movers | Historical instance pixels are excluded, including unknown/parked. Each current instance has one cut-out even if its mask is disconnected. Current front/pillars are time-selected; duplicate cross-camera contacts are coalesced; depth testing stays on. | At 102.833 s the white crossing SUV has **623** visible pixels, from track 46 at 102.799 s. Prototype 1 at this **same new pose** has zero. At 131.767 s, one confirmed-moving front track contributes 45 pixels; another contributes zero. This proves source timing and visibility on the SUV, not multiview ground truth or continuous identities for all movers. |
+| 6 · Persistent identity | All observations assigned to a given near-object track share exactly one normal and world-plane offset. Matched adjacent textures cross-fade as one object instead of z-fighting. | **Failed visibly.** Across the three cameras, 1,813/2,847 retained near-object identities appear in only one output base keyframe. A tree cluster often splits between exposures, or reaches the sensor edge without its trunk. Its silhouette fades to empty space or a different patch even when the tracked plane is fixed. The ±30° proofs expose hard source-crop edges and translucent duplicate foliage. |
+
+**Colour:** acquisitions retain their fitted exposure/shading maps; all lenses share the chromatic reference of the original front exposure. A front-referenced residual fit for each pillar uses sky measurements in the same 4° world-direction cells, matched within 16 seconds through the turn (2,211 left and 2,335 right cell observations). No neutral-road white balance or viewer grade is applied. The old pink road cast is gone; the source sky is cool, and the sparse right-hand views are still not a perfect colour match. [Fit measurements](report-chase/lens-match.json).
+
+## 3. Detail and comparisons
+
+Each comparison is **v5 · first RGB-D mesh prototype · rigid layers · actual front photograph nearest playback time**. All three world panels are rendered at exactly the same exported pose, not copied from the old chase. The physical front photograph shows content, not chase ground truth. Edge strength is p90 Sobel luminance magnitude / 8 on the **same opaque rigid-layer static interiors** in all renders (not on all pixels). It quantifies texture rather than correct depth. These are different poses/regions from Task I's 18.6 vs 4.4 result.
+
+| T | −30° | Straight | +30° | Straight P90: v5 / mesh / rigid | Front pair behind car |
+|---|---|---|---|---:|---:|
+| 100 s | [-30°](report-chase/100--30.jpg) | [chase](report-chase/100-+0.jpg) | [30°](report-chase/100-+30.jpg) | 3.7 / 28.9 / 12.7 | 13.16 m |
+| 112 s | [-30°](report-chase/112--30.jpg) | [chase](report-chase/112-+0.jpg) | [30°](report-chase/112-+30.jpg) | 3.2 / 28.2 / 12.5 | 16.35 m |
+| 128 s | [-30°](report-chase/128--30.jpg) | [chase](report-chase/128-+0.jpg) | [30°](report-chase/128-+30.jpg) | 3.1 / 17.4 / 8.8 | 17.05 m |
+| 135 s | [-30°](report-chase/135--30.jpg) | [chase](report-chase/135-+0.jpg) | [30°](report-chase/135-+30.jpg) | 4.4 / 24.0 / 11.1 | 17.08 m |
+
+Buildings, signals and windows survive on straights. The rigid version is sharper than v5, but loses high-frequency detail to matte erosion, rectification and blending. At 135 s the green signals remain intelligible; pole fragments around them show why sharpness ranks third. [Per-pose data](report-chase/stills.json).
+
+## Pose provenance, controls and payload
+
+The [default track](report-chase/poses/chase.json) is the literal stdout of `cd viewer && bun tools/chase-track.ts <live-v5-dir> 80 138 30 1440 900`; azimuth-only orbits invoke the same viewer exporter body with the existing `placeChase` argument set to ±π/6. No viewer file was edited. Every camera-to-world position was verified against its exported frame; conversion from Three.js camera axes to computer-vision axes is a single diag(1, −1, −1) on the right. Camera quaternion agreement after normalization is within 8×10⁻⁷. Dimensions are 1440×900, vertical FOV is 50°. [Source and pose hashes](report-chase/poses/SHA256SUMS) · [Visibility, neighbours, stops and original-mesh traffic](report-chase/pose-audit.json).
+
+[Stopped render at 81.5 s](report-chase/stopped-81.5.jpg): 0 m/s; no historical front exposure traversed the chase location, which is 15.77 m from the closest camera position. For the stopped light at 200 s, the actual nearest front position is at 192.042 s, **15.85 m** back along the path and **0.25 m** away in XY. There is no production depth within ±2 s; this is a location check, not a claimed render.
+
+The three-lens private bake contains 676 base exposures, 2,756 current-time exposure records, 90,996,078 bytes of referenced image assets and 3,774,070 bytes of manifests. Loading each selected base/mover asset once per clip costs **1.67 MB/s** for the road (2.89 MB peak rolling second) and **0.86 MB/s** for the exit (1.46 MB peak). This conservatively requests both pillars; it excludes shared stitched terrain, poses, non-referenced build intermediates, transport overhead, and startup metadata. Neither a measured player bitrate nor a published scene. [Bank audit](report-chase/bank.json).
+
+Reproduction on Studio: `python -m pipeline.ibr.popup_sem`, then `pipeline.ibr.popup_layers`, `pipeline.ibr.popup_horizon`, `pipeline.ibr.popup_color`. Copy the pose exports into `work/ibr/popup-v2/poses/`. Run `python -m pipeline.ibr.popup_proof` with `road`, `exit` and `stills`; `pipeline.ibr.popup_audit` produces the ground and payload witnesses and `pipeline/ibr/popup_measure.py` summarizes both movies. The prior prototype’s FORMAT.md remains its own contract; there is no promoted layered format, scene or cache.

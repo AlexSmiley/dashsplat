@@ -1,0 +1,45 @@
+{
+ "source": "OpenStreetMap Nominatim (ODbL)",
+ "entries": [
+  {
+   "kind": "start",
+   "s": 0,
+   "lat": 30.2464939,
+   "lon": -81.5199962,
+   "road": "Gate Parkway",
+   "city": "Jacksonville"
+  },
+  {
+   "kind": "turn",
+   "s": 98,
+   "lat": 30.2467972,
+   "lon": -81.520619,
+   "road": "Commerce Village Drive",
+   "city": "Jacksonville"
+  },
+  {
+   "kind": "turn",
+   "s": 154,
+   "lat": 30.2469392,
+   "lon": -81.521076,
+   "road": "Gate Parkway",
+   "city": "Jacksonville"
+  },
+  {
+   "kind": "turn",
+   "s": 2840,
+   "lat": 30.2545879,
+   "lon": -81.5357744,
+   "road": "Town Center Parkway",
+   "city": "Jacksonville"
+  },
+  {
+   "kind": "end",
+   "s": 3324,
+   "lat": 30.2551623,
+   "lon": -81.5308479,
+   "road": "Town Center Parkway",
+   "city": "Jacksonville"
+  }
+ ]
+}

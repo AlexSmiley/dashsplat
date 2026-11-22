@@ -1,0 +1,19 @@
+{
+  "103.7": {
+    "discoveries": 169,
+    "assigned_observations": 716,
+    "active_models": []
+  },
+  "131.3": {
+    "discoveries": 780,
+    "assigned_observations": 4891,
+    "active_models": [
+      {
+        "id": 701,
+        "knots": 65,
+        "measured": 7438,
+        "inferred": 4967
+      }
+    ]
+  }
+}

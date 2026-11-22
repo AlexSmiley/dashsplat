@@ -1,0 +1,599 @@
+{
+  "scene": "stitched-opt-v5-movers-v1",
+  "parent": "stitched-opt-v5",
+  "identical_static_PLY_and_RSB": 924,
+  "grade": {
+    "gains": [
+      1.1564625729008318,
+      0.9366391224367785,
+      0.9366391224367785
+    ],
+    "road": [
+      0.3843137323856354,
+      0.4745098054409027,
+      0.4745098054409027
+    ],
+    "samples": 120000
+  },
+  "objects_sha256": "b9f88e3ee3e39d029f4dc939f419cff87f03dc3e520e63c4fb69ba5470c59461",
+  "measured": 126185,
+  "inferred": 300601,
+  "actors": {
+    "1": {
+      "name": "crossing-suv",
+      "fixed": false,
+      "t": [
+        101.805604,
+        105.86116
+      ],
+      "max_step_m": 0.4635,
+      "size": [
+        3.534,
+        1.8555,
+        1.1309
+      ],
+      "sigma_xy": [
+        1.166,
+        0.724
+      ]
+    },
+    "2": {
+      "name": "passing-bus",
+      "fixed": false,
+      "t": [
+        128.053807,
+        134.942696
+      ],
+      "max_step_m": 1.2187,
+      "size": [
+        12.7308,
+        2.5534,
+        3.3158
+      ],
+      "sigma_xy": [
+        4.201,
+        0.996
+      ]
+    },
+    "3": {
+      "name": "black-oncoming-suv",
+      "fixed": false,
+      "t": [
+        129.859239,
+        137.248128
+      ],
+      "max_step_m": 1.3662,
+      "size": [
+        5.2745,
+        1.8902,
+        1.8898
+      ],
+      "sigma_xy": [
+        1.741,
+        0.737
+      ]
+    },
+    "4": {
+      "name": "red-oncoming-sedan",
+      "fixed": false,
+      "t": [
+        136.333899,
+        139.556121
+      ],
+      "max_step_m": 1.492,
+      "size": [
+        4.659,
+        1.8773,
+        1.4889
+      ],
+      "sigma_xy": [
+        1.537,
+        0.732
+      ]
+    },
+    "5": {
+      "name": "junction-white-suv",
+      "fixed": false,
+      "t": [
+        189.688476,
+        200.994032
+      ],
+      "max_step_m": 0.7891,
+      "size": [
+        4.6434,
+        1.882,
+        1.4487
+      ],
+      "sigma_xy": [
+        1.532,
+        0.734
+      ]
+    },
+    "6": {
+      "name": "junction-silver-crossover",
+      "fixed": false,
+      "t": [
+        194.188168,
+        202.743724
+      ],
+      "max_step_m": 0.7455,
+      "size": [
+        4.6464,
+        1.8775,
+        1.3081
+      ],
+      "sigma_xy": [
+        1.533,
+        0.732
+      ]
+    },
+    "7": {
+      "name": "junction-red-suv",
+      "fixed": false,
+      "t": [
+        201.687655,
+        204.74321
+      ],
+      "max_step_m": 0.4627,
+      "size": [
+        4.555,
+        1.8314,
+        1.43
+      ],
+      "sigma_xy": [
+        1.503,
+        0.714
+      ]
+    },
+    "8": {
+      "name": "junction-approach-suv",
+      "fixed": false,
+      "t": [
+        190.163547,
+        194.219103
+      ],
+      "max_step_m": 0.2117,
+      "size": [
+        3.2866,
+        1.8695,
+        1.1309
+      ],
+      "sigma_xy": [
+        1.085,
+        0.729
+      ]
+    },
+    "9": {
+      "name": "departing-coupe",
+      "fixed": false,
+      "t": [
+        286.018096,
+        294.656985
+      ],
+      "max_step_m": 0.3281,
+      "size": [
+        4.673,
+        1.8873,
+        1.4719
+      ],
+      "sigma_xy": [
+        1.542,
+        0.736
+      ]
+    },
+    "10": {
+      "name": "oncoming-pickup",
+      "fixed": false,
+      "t": [
+        310.23866,
+        311.960882
+      ],
+      "max_step_m": 0.4919,
+      "size": [
+        4.6903,
+        1.8741,
+        1.7095
+      ],
+      "sigma_xy": [
+        1.548,
+        0.731
+      ]
+    },
+    "11": {
+      "name": "oncoming-minivan",
+      "fixed": false,
+      "t": [
+        311.016384,
+        313.32194
+      ],
+      "max_step_m": 0.476,
+      "size": [
+        4.6557,
+        1.8814,
+        1.5376
+      ],
+      "sigma_xy": [
+        1.536,
+        0.734
+      ]
+    },
+    "12": {
+      "name": "oncoming-black-sedan",
+      "fixed": false,
+      "t": [
+        312.294075,
+        315.432964
+      ],
+      "max_step_m": 0.9236,
+      "size": [
+        4.6271,
+        1.8785,
+        1.244
+      ],
+      "sigma_xy": [
+        1.527,
+        0.733
+      ]
+    },
+    "13": {
+      "name": "oncoming-grey-suv",
+      "fixed": false,
+      "t": [
+        314.238386,
+        316.960608
+      ],
+      "max_step_m": 0.5855,
+      "size": [
+        3.7753,
+        1.8741,
+        1.4447
+      ],
+      "sigma_xy": [
+        1.246,
+        0.731
+      ]
+    },
+    "14": {
+      "name": "turning-black-coupe",
+      "fixed": false,
+      "t": [
+        315.407018,
+        322.87924
+      ],
+      "max_step_m": 0.486,
+      "size": [
+        4.6502,
+        1.8791,
+        1.3619
+      ],
+      "sigma_xy": [
+        1.535,
+        0.733
+      ]
+    },
+    "15": {
+      "name": "turning-white-sedan",
+      "fixed": false,
+      "t": [
+        316.402024,
+        318.707579
+      ],
+      "max_step_m": 0.1656,
+      "size": [
+        3.2866,
+        1.8792,
+        1.3374
+      ],
+      "sigma_xy": [
+        1.085,
+        0.733
+      ]
+    },
+    "16": {
+      "name": "turning-silver-crossover",
+      "fixed": false,
+      "t": [
+        319.904665,
+        323.793554
+      ],
+      "max_step_m": 0.5368,
+      "size": [
+        3.534,
+        1.8797,
+        1.1309
+      ],
+      "sigma_xy": [
+        1.166,
+        0.733
+      ]
+    },
+    "17": {
+      "name": "junction-white-sedan",
+      "fixed": false,
+      "t": [
+        318.673316,
+        326.978872
+      ],
+      "max_step_m": 0.0467,
+      "size": [
+        4.62082,
+        1.87553,
+        1.55523
+      ],
+      "sigma_xy": [
+        1.525,
+        0.731
+      ]
+    },
+    "20562": {
+      "name": "blue crossing off-roader",
+      "fixed": false,
+      "t": [
+        212.520247,
+        215.659135
+      ],
+      "max_step_m": 0.7489,
+      "size": [
+        4.65572,
+        1.8817,
+        2.032
+      ],
+      "sigma_xy": [
+        1.536,
+        0.734
+      ]
+    },
+    "20709": {
+      "name": "white sedan ahead",
+      "fixed": false,
+      "t": [
+        303.486241,
+        317.041797
+      ],
+      "max_step_m": 0.8619,
+      "size": [
+        4.67145,
+        1.89432,
+        1.59568
+      ],
+      "sigma_xy": [
+        1.542,
+        0.739
+      ]
+    },
+    "20773": {
+      "name": "dark SUV ahead",
+      "fixed": false,
+      "t": [
+        307.041553,
+        314.513776
+      ],
+      "max_step_m": 0.4627,
+      "size": [
+        4.62236,
+        1.7654,
+        1.73706
+      ],
+      "sigma_xy": [
+        1.525,
+        0.689
+      ]
+    },
+    "20787": {
+      "name": "silver SUV ahead",
+      "fixed": false,
+      "t": [
+        307.097105,
+        319.902661
+      ],
+      "max_step_m": 0.5652,
+      "size": [
+        4.65583,
+        1.9015,
+        1.64736
+      ],
+      "sigma_xy": [
+        1.536,
+        0.742
+      ]
+    },
+    "21062": {
+      "name": "dark SUV after the turn",
+      "fixed": false,
+      "t": [
+        322.707147,
+        330.67937
+      ],
+      "max_step_m": 0.6226,
+      "size": [
+        4.67449,
+        1.88974,
+        2.032
+      ],
+      "sigma_xy": [
+        1.543,
+        0.737
+      ]
+    },
+    "21074": {
+      "name": "white sedan after the turn",
+      "fixed": false,
+      "t": [
+        323.09601,
+        330.651565
+      ],
+      "max_step_m": 0.5524,
+      "size": [
+        4.66885,
+        1.91285,
+        1.7372
+      ],
+      "sigma_xy": [
+        1.541,
+        0.746
+      ]
+    },
+    "20401": {
+      "name": "far white sedan behind the blue SUV queue",
+      "fixed": true,
+      "t": [
+        286,
+        330
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.48048,
+        1.87856,
+        1.12
+      ],
+      "sigma_xy": [
+        1.479,
+        0.733
+      ]
+    },
+    "10004": {
+      "name": "silver sedan",
+      "fixed": true,
+      "t": [
+        85,
+        140
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.52686,
+        1.87864,
+        1.12
+      ],
+      "sigma_xy": [
+        1.494,
+        0.733
+      ]
+    },
+    "10007": {
+      "name": "burgundy sedan",
+      "fixed": true,
+      "t": [
+        85,
+        140
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.67816,
+        1.8794,
+        1.53905
+      ],
+      "sigma_xy": [
+        1.544,
+        0.733
+      ]
+    },
+    "10492": {
+      "name": "distant blue vehicle",
+      "fixed": true,
+      "t": [
+        190,
+        215
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        3.52226,
+        1.79875,
+        1.18493
+      ],
+      "sigma_xy": [
+        1.162,
+        0.702
+      ]
+    },
+    "10587": {
+      "name": "grey Tesla at the light",
+      "fixed": true,
+      "t": [
+        285.534847,
+        292.350683
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        5.00945,
+        1.88642,
+        1.62593
+      ],
+      "sigma_xy": [
+        1.653,
+        0.736
+      ]
+    },
+    "10593": {
+      "name": "white Tesla across the intersection",
+      "fixed": true,
+      "t": [
+        289.612149,
+        293.683466
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.64006,
+        1.88266,
+        1.63132
+      ],
+      "sigma_xy": [
+        1.531,
+        0.734
+      ]
+    },
+    "10935": {
+      "name": "red SUV at the roadside",
+      "fixed": true,
+      "t": [
+        286,
+        330
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.64925,
+        1.89074,
+        1.78781
+      ],
+      "sigma_xy": [
+        1.534,
+        0.737
+      ]
+    },
+    "10972": {
+      "name": "blue SUV at the corner",
+      "fixed": true,
+      "t": [
+        286,
+        330
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.26085,
+        1.86962,
+        1.67879
+      ],
+      "sigma_xy": [
+        1.406,
+        0.729
+      ]
+    },
+    "11091": {
+      "name": "silver SUV stationary at end of observation",
+      "fixed": true,
+      "t": [
+        326.330959,
+        330.457888
+      ],
+      "max_step_m": 0.0,
+      "size": [
+        4.63035,
+        1.87986,
+        2.08
+      ],
+      "sigma_xy": [
+        1.528,
+        0.733
+      ]
+    }
+  }
+}

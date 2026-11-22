@@ -1,0 +1,32 @@
+{
+  "131.85": {
+    "assignments": 3212,
+    "token": [
+      "left_pillar",
+      202
+    ],
+    "primary_id_at_cut": 228,
+    "pose_knots": 97,
+    "max_numeric_error": 0.0
+  },
+  "134.48": {
+    "assignments": 3502,
+    "token": [
+      "left_repeater",
+      565
+    ],
+    "primary_id_at_cut": 238,
+    "pose_knots": 133,
+    "max_numeric_error": 0.0
+  },
+  "322.82": {
+    "assignments": 15815,
+    "token": [
+      "left_repeater",
+      1466
+    ],
+    "primary_id_at_cut": 735,
+    "pose_knots": 251,
+    "max_numeric_error": 0.0
+  }
+}

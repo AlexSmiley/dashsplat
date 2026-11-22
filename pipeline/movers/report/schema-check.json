@@ -1,0 +1,26 @@
+{
+  "live": {
+    "objects": 17,
+    "track_samples": 2553,
+    "ply_records": 427737,
+    "first_second_third_runs": [
+      427737,
+      283456,
+      219763
+    ],
+    "source_hardlinked_tiles": 1396,
+    "cache_entries_checked": 1411
+  },
+  "stitched": {
+    "objects": 17,
+    "track_samples": 3054,
+    "ply_records": 257275,
+    "first_second_third_runs": [
+      257275,
+      33083,
+      10322
+    ],
+    "source_hardlinked_tiles": 368,
+    "cache_entries_checked": 464
+  }
+}

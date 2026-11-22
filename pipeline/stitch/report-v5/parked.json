@@ -1,0 +1,94 @@
+{
+  "190-215": {
+    "parked_tracks": [
+      {
+        "track": 492,
+        "probe_frames": 15,
+        "nearby_static_support": 0,
+        "median_distance_m": 0.8336374124449446
+      },
+      {
+        "track": 498,
+        "probe_frames": 4,
+        "nearby_static_support": 0,
+        "median_distance_m": 5.484317133182415
+      },
+      {
+        "track": 502,
+        "probe_frames": 3,
+        "nearby_static_support": 2,
+        "median_distance_m": 0.4254949796103735
+      }
+    ],
+    "removed_moving_rows": 330,
+    "parked_rows": 22,
+    "parked_removed": 0
+  },
+  "286-330": {
+    "parked_tracks": [
+      {
+        "track": 587,
+        "probe_frames": 13,
+        "nearby_static_support": 11,
+        "median_distance_m": 0.2618393891768162
+      },
+      {
+        "track": 589,
+        "probe_frames": 14,
+        "nearby_static_support": 10,
+        "median_distance_m": 0.22661962498023266
+      },
+      {
+        "track": 593,
+        "probe_frames": 14,
+        "nearby_static_support": 5,
+        "median_distance_m": 0.9143898632770124
+      },
+      {
+        "track": 770,
+        "probe_frames": 13,
+        "nearby_static_support": 1,
+        "median_distance_m": 0.8914296127456536
+      },
+      {
+        "track": 789,
+        "probe_frames": 14,
+        "nearby_static_support": 4,
+        "median_distance_m": 0.672849437686803
+      },
+      {
+        "track": 935,
+        "probe_frames": 17,
+        "nearby_static_support": 0,
+        "median_distance_m": 16.76165094264416
+      },
+      {
+        "track": 972,
+        "probe_frames": 13,
+        "nearby_static_support": 6,
+        "median_distance_m": 0.46766654229831905
+      },
+      {
+        "track": 976,
+        "probe_frames": 14,
+        "nearby_static_support": 6,
+        "median_distance_m": 2.057663182396173
+      },
+      {
+        "track": 1040,
+        "probe_frames": 15,
+        "nearby_static_support": 11,
+        "median_distance_m": 0.32664741446550466
+      },
+      {
+        "track": 1091,
+        "probe_frames": 15,
+        "nearby_static_support": 6,
+        "median_distance_m": 1.056613632886386
+      }
+    ],
+    "removed_moving_rows": 5204,
+    "parked_rows": 703,
+    "parked_removed": 0
+  }
+}

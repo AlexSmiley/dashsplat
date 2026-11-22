@@ -1,0 +1,36 @@
+{
+  "1": {
+    "samples": 147,
+    "supported_wheels": 588,
+    "total_wheels": 588,
+    "before_abs_p50_m": 0.05438364218997957,
+    "after_signed_p50_m": 0.00030988198300771486,
+    "after_abs_p90_m": 0.015602023586552497,
+    "nearest_p50_m": 0.023441185646623147
+  },
+  "2": {
+    "fit_wheel_contacts": 108,
+    "max_vertical_adjust_m": 0.43394224037814527,
+    "samples": 231,
+    "supported_wheels": 8,
+    "total_wheels": 924,
+    "before_abs_p50_m": 0.07008470413303375,
+    "after_signed_p50_m": -0.07008470413303375,
+    "after_abs_p90_m": 0.07219176814308166,
+    "nearest_p50_m": 4.24609775795191
+  },
+  "3": {
+    "samples": 249,
+    "supported_wheels": 271,
+    "total_wheels": 996,
+    "before_abs_p50_m": 0.07741857910442351,
+    "after_signed_p50_m": -0.002812222308567605,
+    "after_abs_p90_m": 0.03548529424214536,
+    "nearest_p50_m": 1.504598076026296
+  },
+  "4": {
+    "samples": 117,
+    "supported_wheels": 0,
+    "total_wheels": 468
+  }
+}

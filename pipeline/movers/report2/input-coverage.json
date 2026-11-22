@@ -1,0 +1,122 @@
+{
+  "front": {
+    "85-140": {
+      "depth": 1122,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 1122,
+      "work/movers/extra/masks/dyn": 0
+    },
+    "190-215": {
+      "depth": 0,
+      "work/movers/extra/depth": 19,
+      "masks/dyn": 0,
+      "work/movers/extra/masks/dyn": 99
+    },
+    "286-330": {
+      "depth": 960,
+      "work/movers/extra/depth": 13,
+      "masks/dyn": 960,
+      "work/movers/extra/masks/dyn": 0
+    }
+  },
+  "back": {
+    "85-140": {
+      "depth": 1138,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 1138,
+      "work/movers/extra/masks/dyn": 0
+    },
+    "190-215": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 0,
+      "work/movers/extra/masks/dyn": 99
+    },
+    "286-330": {
+      "depth": 967,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 967,
+      "work/movers/extra/masks/dyn": 0
+    }
+  },
+  "left_pillar": {
+    "85-140": {
+      "depth": 1137,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 1137,
+      "work/movers/extra/masks/dyn": 0
+    },
+    "190-215": {
+      "depth": 0,
+      "work/movers/extra/depth": 19,
+      "masks/dyn": 0,
+      "work/movers/extra/masks/dyn": 99
+    },
+    "286-330": {
+      "depth": 954,
+      "work/movers/extra/depth": 13,
+      "masks/dyn": 967,
+      "work/movers/extra/masks/dyn": 0
+    }
+  },
+  "right_pillar": {
+    "85-140": {
+      "depth": 1137,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 1137,
+      "work/movers/extra/masks/dyn": 0
+    },
+    "190-215": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 0,
+      "work/movers/extra/masks/dyn": 99
+    },
+    "286-330": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 965,
+      "work/movers/extra/masks/dyn": 0
+    }
+  },
+  "left_repeater": {
+    "85-140": {
+      "depth": 1137,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 1137,
+      "work/movers/extra/masks/dyn": 0
+    },
+    "190-215": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 0,
+      "work/movers/extra/masks/dyn": 99
+    },
+    "286-330": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 965,
+      "work/movers/extra/masks/dyn": 0
+    }
+  },
+  "right_repeater": {
+    "85-140": {
+      "depth": 1137,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 1137,
+      "work/movers/extra/masks/dyn": 0
+    },
+    "190-215": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 0,
+      "work/movers/extra/masks/dyn": 99
+    },
+    "286-330": {
+      "depth": 0,
+      "work/movers/extra/depth": 0,
+      "masks/dyn": 967,
+      "work/movers/extra/masks/dyn": 0
+    }
+  }
+}

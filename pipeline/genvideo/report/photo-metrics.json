@@ -1,0 +1,391 @@
+{
+  "summary": {
+    "samples": 2635,
+    "exposures": 38,
+    "conditioning_mae": 9.271347245229038,
+    "splat_mae": 17.188488428416242,
+    "generated_mae": 15.519544471690054
+  },
+  "exposures": [
+    {
+      "frame": 5,
+      "cam": "back",
+      "exposure": 3776,
+      "offset_s": -0.0041777802984910295,
+      "count": 13,
+      "conditioning_mae": 9.20512866973877,
+      "splat_mae": 7.820512771606445,
+      "generated_mae": 9.871794700622559
+    },
+    {
+      "frame": 5,
+      "cam": "left_pillar",
+      "exposure": 3790,
+      "offset_s": -0.0054733316726753856,
+      "count": 15,
+      "conditioning_mae": 10.04444408416748,
+      "splat_mae": 51.17777633666992,
+      "generated_mae": 22.0222225189209
+    },
+    {
+      "frame": 5,
+      "cam": "right_pillar",
+      "exposure": 3789,
+      "offset_s": -0.004943685887170091,
+      "count": 22,
+      "conditioning_mae": 31.606060028076172,
+      "splat_mae": 72.28787994384766,
+      "generated_mae": 40.530303955078125
+    },
+    {
+      "frame": 21,
+      "cam": "back",
+      "exposure": 3833,
+      "offset_s": -0.02095283639133072,
+      "count": 15,
+      "conditioning_mae": 9.822221755981445,
+      "splat_mae": 10.088889122009277,
+      "generated_mae": 7.44444465637207
+    },
+    {
+      "frame": 21,
+      "cam": "left_pillar",
+      "exposure": 3847,
+      "offset_s": -0.022248387765515076,
+      "count": 26,
+      "conditioning_mae": 11.384614944458008,
+      "splat_mae": 30.564102172851562,
+      "generated_mae": 16.85897445678711
+    },
+    {
+      "frame": 21,
+      "cam": "right_pillar",
+      "exposure": 3846,
+      "offset_s": -0.02171874198000978,
+      "count": 24,
+      "conditioning_mae": 10.18055534362793,
+      "splat_mae": 52.55555725097656,
+      "generated_mae": 12.31944465637207
+    },
+    {
+      "frame": 36,
+      "cam": "front",
+      "exposure": 3889,
+      "offset_s": 0.08700360541585894,
+      "count": 15,
+      "conditioning_mae": 7.688889026641846,
+      "splat_mae": 18.755556106567383,
+      "generated_mae": 29.133333206176758
+    },
+    {
+      "frame": 36,
+      "cam": "left_pillar",
+      "exposure": 3905,
+      "offset_s": 0.08875243235054597,
+      "count": 33,
+      "conditioning_mae": 24.565656661987305,
+      "splat_mae": 41.9595947265625,
+      "generated_mae": 30.272727966308594
+    },
+    {
+      "frame": 52,
+      "cam": "back",
+      "exposure": 3947,
+      "offset_s": 0.04549705142297,
+      "count": 18,
+      "conditioning_mae": 3.7037036418914795,
+      "splat_mae": 7.037036895751953,
+      "generated_mae": 11.55555534362793
+    },
+    {
+      "frame": 52,
+      "cam": "left_pillar",
+      "exposure": 3961,
+      "offset_s": 0.04420150004879986,
+      "count": 34,
+      "conditioning_mae": 7.196078300476074,
+      "splat_mae": 14.382352828979492,
+      "generated_mae": 16.27450942993164
+    },
+    {
+      "frame": 67,
+      "cam": "back",
+      "exposure": 4001,
+      "offset_s": 0.045394366703433775,
+      "count": 60,
+      "conditioning_mae": 12.116666793823242,
+      "splat_mae": 12.583333015441895,
+      "generated_mae": 18.19444465637207
+    },
+    {
+      "frame": 67,
+      "cam": "right_pillar",
+      "exposure": 4014,
+      "offset_s": 0.044628461114768925,
+      "count": 12,
+      "conditioning_mae": 23.55555534362793,
+      "splat_mae": 20.97222137451172,
+      "generated_mae": 20.0
+    },
+    {
+      "frame": 67,
+      "cam": "right_repeater",
+      "exposure": 4017,
+      "offset_s": 0.0997506170344451,
+      "count": 28,
+      "conditioning_mae": 10.773809432983398,
+      "splat_mae": 12.428571701049805,
+      "generated_mae": 17.011905670166016
+    },
+    {
+      "frame": 83,
+      "cam": "front",
+      "exposure": 4057,
+      "offset_s": 0.05335080851062912,
+      "count": 62,
+      "conditioning_mae": 5.806451797485352,
+      "splat_mae": 32.74193572998047,
+      "generated_mae": 8.709677696228027
+    },
+    {
+      "frame": 83,
+      "cam": "back",
+      "exposure": 4057,
+      "offset_s": 0.0008434344017018702,
+      "count": 59,
+      "conditioning_mae": 6.474576473236084,
+      "splat_mae": 9.112994194030762,
+      "generated_mae": 12.621468544006348
+    },
+    {
+      "frame": 83,
+      "cam": "left_pillar",
+      "exposure": 4073,
+      "offset_s": 0.05509963544531615,
+      "count": 30,
+      "conditioning_mae": 28.244443893432617,
+      "splat_mae": 28.255556106567383,
+      "generated_mae": 22.94444465637207
+    },
+    {
+      "frame": 83,
+      "cam": "right_pillar",
+      "exposure": 4070,
+      "offset_s": 7.752881302280912e-05,
+      "count": 21,
+      "conditioning_mae": 18.58730125427246,
+      "splat_mae": 50.492061614990234,
+      "generated_mae": 32.349205017089844
+    },
+    {
+      "frame": 83,
+      "cam": "left_repeater",
+      "exposure": 4072,
+      "offset_s": 0.05600060868336243,
+      "count": 16,
+      "conditioning_mae": 5.458333492279053,
+      "splat_mae": 6.125,
+      "generated_mae": 9.895833015441895
+    },
+    {
+      "frame": 83,
+      "cam": "right_repeater",
+      "exposure": 4073,
+      "offset_s": 0.055199684732713195,
+      "count": 52,
+      "conditioning_mae": 8.070512771606445,
+      "splat_mae": 10.35897445678711,
+      "generated_mae": 17.55769157409668
+    },
+    {
+      "frame": 98,
+      "cam": "front",
+      "exposure": 4113,
+      "offset_s": 0.10879987620889153,
+      "count": 43,
+      "conditioning_mae": 6.062015533447266,
+      "splat_mae": 30.697673797607422,
+      "generated_mae": 9.015503883361816
+    },
+    {
+      "frame": 98,
+      "cam": "back",
+      "exposure": 4115,
+      "offset_s": 0.11184425451774871,
+      "count": 325,
+      "conditioning_mae": 7.501538276672363,
+      "splat_mae": 9.521025657653809,
+      "generated_mae": 12.047179222106934
+    },
+    {
+      "frame": 98,
+      "cam": "left_pillar",
+      "exposure": 4129,
+      "offset_s": 0.11054870314357856,
+      "count": 23,
+      "conditioning_mae": 9.492753982543945,
+      "splat_mae": 16.04347801208496,
+      "generated_mae": 19.202898025512695
+    },
+    {
+      "frame": 98,
+      "cam": "right_pillar",
+      "exposure": 4128,
+      "offset_s": 0.11107834892908386,
+      "count": 38,
+      "conditioning_mae": 13.368420600891113,
+      "splat_mae": 37.71929931640625,
+      "generated_mae": 24.61403465270996
+    },
+    {
+      "frame": 98,
+      "cam": "left_repeater",
+      "exposure": 4120,
+      "offset_s": -0.1107573332895555,
+      "count": 31,
+      "conditioning_mae": 4.7419352531433105,
+      "splat_mae": 6.709677219390869,
+      "generated_mae": 10.333333015441895
+    },
+    {
+      "frame": 98,
+      "cam": "right_repeater",
+      "exposure": 4129,
+      "offset_s": 0.1106487524309756,
+      "count": 14,
+      "conditioning_mae": 5.976190567016602,
+      "splat_mae": 5.261904716491699,
+      "generated_mae": 10.547618865966797
+    },
+    {
+      "frame": 114,
+      "cam": "back",
+      "exposure": 4169,
+      "offset_s": 0.011741569798203955,
+      "count": 233,
+      "conditioning_mae": 3.600858449935913,
+      "splat_mae": 5.9170241355896,
+      "generated_mae": 10.896995544433594
+    },
+    {
+      "frame": 114,
+      "cam": "left_pillar",
+      "exposure": 4185,
+      "offset_s": 0.06599777084183245,
+      "count": 34,
+      "conditioning_mae": 6.715686321258545,
+      "splat_mae": 11.235294342041016,
+      "generated_mae": 10.970588684082031
+    },
+    {
+      "frame": 114,
+      "cam": "right_pillar",
+      "exposure": 4182,
+      "offset_s": 0.010975664209539104,
+      "count": 54,
+      "conditioning_mae": 18.234567642211914,
+      "splat_mae": 59.561729431152344,
+      "generated_mae": 28.06172752380371
+    },
+    {
+      "frame": 114,
+      "cam": "right_repeater",
+      "exposure": 4185,
+      "offset_s": 0.06609782012921528,
+      "count": 80,
+      "conditioning_mae": 7.629166603088379,
+      "splat_mae": 20.741666793823242,
+      "generated_mae": 16.0
+    },
+    {
+      "frame": 129,
+      "cam": "back",
+      "exposure": 4226,
+      "offset_s": 0.09496651370535858,
+      "count": 165,
+      "conditioning_mae": 6.105050563812256,
+      "splat_mae": 6.092929363250732,
+      "generated_mae": 12.5090913772583
+    },
+    {
+      "frame": 129,
+      "cam": "left_pillar",
+      "exposure": 4234,
+      "offset_s": -0.07298429492219327,
+      "count": 50,
+      "conditioning_mae": 10.239999771118164,
+      "splat_mae": 38.459999084472656,
+      "generated_mae": 21.546667098999023
+    },
+    {
+      "frame": 129,
+      "cam": "right_pillar",
+      "exposure": 4239,
+      "offset_s": 0.09420060811669373,
+      "count": 83,
+      "conditioning_mae": 14.277108192443848,
+      "splat_mae": 22.514057159423828,
+      "generated_mae": 17.23293113708496
+    },
+    {
+      "frame": 129,
+      "cam": "left_repeater",
+      "exposure": 4239,
+      "offset_s": 0.09457193556923471,
+      "count": 82,
+      "conditioning_mae": 4.833333492279053,
+      "splat_mae": 9.186991691589355,
+      "generated_mae": 14.813008308410645
+    },
+    {
+      "frame": 145,
+      "cam": "front",
+      "exposure": 4280,
+      "offset_s": 0.0473712030947695,
+      "count": 49,
+      "conditioning_mae": 7.639455795288086,
+      "splat_mae": 26.387754440307617,
+      "generated_mae": 7.346938610076904
+    },
+    {
+      "frame": 145,
+      "cam": "back",
+      "exposure": 4282,
+      "offset_s": 0.050415581403626675,
+      "count": 221,
+      "conditioning_mae": 4.707390785217285,
+      "splat_mae": 6.924585342407227,
+      "generated_mae": 11.019607543945312
+    },
+    {
+      "frame": 145,
+      "cam": "left_pillar",
+      "exposure": 4296,
+      "offset_s": 0.04912003002945653,
+      "count": 159,
+      "conditioning_mae": 5.0272536277771,
+      "splat_mae": 17.96855354309082,
+      "generated_mae": 11.802934646606445
+    },
+    {
+      "frame": 145,
+      "cam": "right_pillar",
+      "exposure": 4295,
+      "offset_s": 0.049649675814961824,
+      "count": 112,
+      "conditioning_mae": 15.741071701049805,
+      "splat_mae": 16.35714340209961,
+      "generated_mae": 34.60714340209961
+    },
+    {
+      "frame": 145,
+      "cam": "right_repeater",
+      "exposure": 4296,
+      "offset_s": 0.04922007931685357,
+      "count": 284,
+      "conditioning_mae": 15.301643371582031,
+      "splat_mae": 19.99530601501465,
+      "generated_mae": 16.828638076782227
+    }
+  ]
+}

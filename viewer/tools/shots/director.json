@@ -1,0 +1,446 @@
+[
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-points-to-splats-110-122",
+  "t0": 110,
+  "t1": 122,
+  "params": {
+   "mode": "live",
+   "director": "points"
+  },
+  "keys": {
+   "dir": [
+    [
+     112,
+     1
+    ],
+    [
+     114.5,
+     1
+    ],
+    [
+     118,
+     0
+    ]
+   ]
+  },
+  "description": "Director look 'points': every splat as its centre, a dot a few pixels across (ground splats, no atlas), held to 114.5 s, then growing back into full splats by 118 s. Default chase."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-points-orbit-redlight-196-206",
+  "t0": 196,
+  "t1": 206,
+  "params": {
+   "mode": "live",
+   "director": "points"
+  },
+  "keys": {
+   "dir": [
+    [
+     199,
+     1
+    ],
+    [
+     203,
+     0
+    ]
+   ]
+  },
+  "campath": {
+   "kind": "orbit",
+   "radius": 8.5,
+   "height": 2.6,
+   "deg0": 200,
+   "degPerSec": 9,
+   "t0": 196
+  },
+  "description": "The red-light orbit of hero-orbit-redlight-196-206 in the 'points' look: dots until 199 s, grown into full splats by 203 s (no atlas: the ground is splats too)."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-depth-110-122",
+  "t0": 110,
+  "t1": 122,
+  "params": {
+   "mode": "live",
+   "director": "depth"
+  },
+  "keys": {
+   "dir": [
+    [
+     111,
+     0
+    ],
+    [
+     113,
+     1
+    ]
+   ]
+  },
+  "description": "Director look 'depth': the splat view (ground splats, no atlas) easing over 111-113 s into colour by distance from the camera (warm white near, accent blue, navy far) on a dark sky. Default chase."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-height-312-326",
+  "t0": 312,
+  "t1": 326,
+  "params": {
+   "mode": "live",
+   "director": "height"
+  },
+  "keys": {
+   "dir": [
+    [
+     313,
+     0
+    ],
+    [
+     315,
+     1
+    ]
+   ]
+  },
+  "description": "Director look 'height': the splat view easing over 313-315 s into colour by height above the road (slate road, blue kerbs, pale cyan at roof height, warm white crowns, amber above) on a dark sky, through the junction. Default chase."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-height-crane-118",
+  "t0": 113,
+  "t1": 126,
+  "params": {
+   "mode": "live",
+   "director": "height"
+  },
+  "campath": {
+   "kind": "crane",
+   "t0": 114.5,
+   "up": 3.5,
+   "hold": 2.5,
+   "down": 3.5,
+   "height": 70
+  },
+  "description": "The 118 s crane (chase -> top-down 70 m -> chase) in the 'height' look throughout."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-tiles-chase-108-122",
+  "t0": 108,
+  "t1": 122,
+  "params": {
+   "mode": "live",
+   "director": "tiles",
+   "dreach": "70"
+  },
+  "description": "Director look 'tiles': each splat tile's bounds light up (accent blue, decaying to a faint outline) and its splats fade in as the car comes within 70 m of it, so the world assembles ahead of the car in driving order. Ground atlas on. Default chase."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 0.5,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-tiles-map-84-132-x2",
+  "t0": 84,
+  "t1": 132,
+  "speed": 2,
+  "params": {
+   "mode": "live",
+   "director": "tiles",
+   "dreach": "70"
+  },
+  "campath": {
+   "kind": "map",
+   "height": 150,
+   "fov": 40,
+   "northUp": true
+  },
+  "description": "The 'tiles' look from above: top-down (north up, 150 m) following the car out of the car park and along the first straight at 2x; tiles light up and fill in as the car comes within 70 m."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-atlas-chase-108-122",
+  "t0": 108,
+  "t1": 122,
+  "params": {
+   "mode": "live",
+   "director": "atlas"
+  },
+  "description": "Director look 'atlas': the ground atlas alone on a dark ground and sky (no splats, no vehicles), its 10 m tiles fading in as the car comes within 55 m, the car and its blue path on it. Default chase."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 0.5,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-atlas-map-84-132-x2",
+  "t0": 84,
+  "t1": 132,
+  "speed": 2,
+  "params": {
+   "mode": "live",
+   "director": "atlas"
+  },
+  "campath": {
+   "kind": "map",
+   "height": 90,
+   "fov": 40,
+   "northUp": false
+  },
+  "description": "The 'atlas' look from above: heading-up top-down 90 m above the car at 2x, the road painting itself in tile by tile in driving order on black."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-atlasmask-110-122",
+  "t0": 110,
+  "t1": 122,
+  "params": {
+   "mode": "live",
+   "director": "atlasmask"
+  },
+  "keys": {
+   "dir": [
+    [
+     111,
+     0
+    ],
+    [
+     112,
+     1
+    ],
+    [
+     118,
+     1
+    ],
+    [
+     119,
+     0
+    ]
+   ]
+  },
+  "description": "Director look 'atlasmask': the ground atlas's observed / predicted mask (predicted texels tinted violet) eased on over 111-112 s and off over 118-119 s, splat view. Default chase."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-atlasmask-map-312-326",
+  "t0": 312,
+  "t1": 326,
+  "params": {
+   "mode": "live",
+   "director": "atlasmask"
+  },
+  "keys": {
+   "dir": [
+    [
+     313,
+     0
+    ],
+    [
+     314.5,
+     1
+    ]
+   ]
+  },
+  "campath": {
+   "kind": "map",
+   "height": 70,
+   "fov": 40,
+   "northUp": false
+  },
+  "description": "The atlas's predicted mask from 70 m above the car (heading up) through the junction, eased on over 313-314.5 s."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-tracks-junction-top-304-330",
+  "t0": 304,
+  "t1": 330,
+  "params": {
+   "mode": "live",
+   "director": "atlas,tracks",
+   "dreach": "5000"
+  },
+  "campath": {
+   "kind": "spline",
+   "frame": "world",
+   "reach": 320,
+   "keys": [
+    {
+     "t": 300,
+     "pos": [
+      -1507,
+      850,
+      130
+     ],
+     "look": [
+      -1530,
+      850,
+      0
+     ],
+     "fov": 40
+    },
+    {
+     "t": 340,
+     "pos": [
+      -1507,
+      850,
+      130
+     ],
+     "look": [
+      -1530,
+      850,
+      0
+     ],
+     "fov": 40
+    }
+   ]
+  },
+  "description": "Director looks 'atlas' + 'tracks': static top-down over the junction (130 m up, north to the right): the ground atlas alone on black, every tracked vehicle as a clean model with its box (moving blue, parked white, predicted dimmer) and the last 6 s of each moving track as a ribbon on the road (predicted stretches dashed); the ego car arrives on its blue path at about 312 s and turns right."
+ },
+ {
+  "build": "head",
+  "scene": "stitched-opt-v5-movers-v1",
+  "fps": 30,
+  "size": [
+   3840,
+   2160
+  ],
+  "hud": [
+   "off"
+  ],
+  "preroll": 1,
+  "camera": "today's Tesla-matched chase pose",
+  "id": "dir-tracks-chase-308-326",
+  "t0": 308,
+  "t1": 326,
+  "params": {
+   "mode": "live",
+   "director": "tracks"
+  },
+  "description": "The 'tracks' look from the default chase camera through the junction: boxes on every vehicle and their recent tracks on the road."
+ }
+]

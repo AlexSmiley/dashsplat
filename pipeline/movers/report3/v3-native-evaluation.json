@@ -1,0 +1,436 @@
+{
+  "objects": 55,
+  "total_strict": [
+    136,
+    57,
+    38
+  ],
+  "total_allow_fragment": [
+    136,
+    40,
+    52
+  ],
+  "objects_benchmark": {
+    "crossing-suv": {
+      "strict": [
+        4,
+        1,
+        3
+      ],
+      "centre_median_px": 24.1362235546368,
+      "median_iou": 0.16924118646171,
+      "allow_fragment": [
+        4,
+        1,
+        3
+      ],
+      "primary": [
+        43
+      ],
+      "associated_fragments": [
+        43
+      ],
+      "max_step_m": 0.8787
+    },
+    "passing-bus": {
+      "strict": [
+        26,
+        9,
+        1
+      ],
+      "centre_median_px": 8.040626494437586,
+      "median_iou": 0.6885272110464496,
+      "allow_fragment": [
+        26,
+        6,
+        4
+      ],
+      "primary": [
+        256
+      ],
+      "associated_fragments": [
+        235,
+        256
+      ],
+      "max_step_m": 0.6386
+    },
+    "black-oncoming-suv": {
+      "strict": [
+        28,
+        18,
+        10
+      ],
+      "centre_median_px": 50.38291164497912,
+      "median_iou": 0.0,
+      "allow_fragment": [
+        28,
+        9,
+        19
+      ],
+      "primary": [
+        246
+      ],
+      "associated_fragments": [
+        246,
+        266
+      ],
+      "max_step_m": 0.4559
+    },
+    "red-oncoming-sedan": {
+      "strict": [
+        8,
+        3,
+        5
+      ],
+      "centre_median_px": 44.22565737443115,
+      "median_iou": 0.0,
+      "allow_fragment": [
+        8,
+        3,
+        4
+      ],
+      "primary": [
+        279
+      ],
+      "associated_fragments": [
+        279,
+        291
+      ],
+      "max_step_m": 1.0833
+    },
+    "junction-white-suv": {
+      "strict": [
+        5,
+        2,
+        2
+      ],
+      "centre_median_px": 24.169933793683622,
+      "median_iou": 0.37279084812847757,
+      "allow_fragment": [
+        5,
+        2,
+        2
+      ],
+      "primary": [
+        305
+      ],
+      "associated_fragments": [
+        305
+      ],
+      "max_step_m": 0.9807
+    },
+    "junction-silver-crossover": {
+      "strict": [
+        3,
+        2,
+        1
+      ],
+      "centre_median_px": 11.528167797862283,
+      "median_iou": 0.25317374730644926,
+      "allow_fragment": [
+        3,
+        0,
+        3
+      ],
+      "primary": [
+        329
+      ],
+      "associated_fragments": [
+        318,
+        329
+      ],
+      "max_step_m": 0.5341
+    },
+    "junction-red-suv": {
+      "strict": [
+        1,
+        1,
+        0
+      ],
+      "centre_median_px": null,
+      "median_iou": null,
+      "allow_fragment": [
+        1,
+        1,
+        0
+      ],
+      "primary": [
+        336
+      ],
+      "associated_fragments": [
+        336
+      ],
+      "max_step_m": 0.4251
+    },
+    "junction-approach-suv": {
+      "strict": [
+        2,
+        0,
+        1
+      ],
+      "centre_median_px": 3.712568790304986,
+      "median_iou": 0.5792196499090416,
+      "allow_fragment": [
+        2,
+        0,
+        1
+      ],
+      "primary": [
+        307
+      ],
+      "associated_fragments": [
+        307
+      ],
+      "max_step_m": 0.393
+    },
+    "departing-coupe": {
+      "strict": [
+        13,
+        3,
+        0
+      ],
+      "centre_median_px": 9.988816508929881,
+      "median_iou": 0.8239558888708668,
+      "allow_fragment": [
+        13,
+        1,
+        0
+      ],
+      "primary": [
+        363
+      ],
+      "associated_fragments": [
+        360,
+        363
+      ],
+      "max_step_m": 1.0563
+    },
+    "oncoming-pickup": {
+      "strict": [
+        4,
+        3,
+        1
+      ],
+      "centre_median_px": 34.32378844513408,
+      "median_iou": 0.13799058822061144,
+      "allow_fragment": [
+        4,
+        3,
+        1
+      ],
+      "primary": [
+        641
+      ],
+      "associated_fragments": [
+        641
+      ],
+      "max_step_m": 1.0891
+    },
+    "oncoming-minivan": {
+      "strict": [
+        4,
+        2,
+        2
+      ],
+      "centre_median_px": 38.5946859607694,
+      "median_iou": 0.20559933647325326,
+      "allow_fragment": [
+        4,
+        2,
+        2
+      ],
+      "primary": [
+        659
+      ],
+      "associated_fragments": [
+        659
+      ],
+      "max_step_m": 0.9959
+    },
+    "oncoming-black-sedan": {
+      "strict": [
+        5,
+        1,
+        4
+      ],
+      "centre_median_px": 80.52328947555708,
+      "median_iou": 0.028993954095170468,
+      "allow_fragment": [
+        5,
+        1,
+        4
+      ],
+      "primary": [
+        662
+      ],
+      "associated_fragments": [
+        662
+      ],
+      "max_step_m": 1.0911
+    },
+    "oncoming-grey-suv": {
+      "strict": [
+        4,
+        4,
+        0
+      ],
+      "centre_median_px": null,
+      "median_iou": null,
+      "allow_fragment": [
+        4,
+        4,
+        0
+      ],
+      "primary": [
+        724
+      ],
+      "associated_fragments": [
+        724
+      ],
+      "max_step_m": 0.6619
+    },
+    "turning-black-coupe": {
+      "strict": [
+        13,
+        0,
+        3
+      ],
+      "centre_median_px": 15.43781165979176,
+      "median_iou": 0.691981159217479,
+      "allow_fragment": [
+        13,
+        0,
+        3
+      ],
+      "primary": [
+        547
+      ],
+      "associated_fragments": [
+        547
+      ],
+      "max_step_m": 1.0833
+    },
+    "turning-white-sedan": {
+      "strict": [
+        3,
+        3,
+        0
+      ],
+      "centre_median_px": null,
+      "median_iou": null,
+      "allow_fragment": [
+        3,
+        3,
+        0
+      ],
+      "primary": [
+        764
+      ],
+      "associated_fragments": [
+        764
+      ],
+      "max_step_m": 0.428
+    },
+    "turning-silver-crossover": {
+      "strict": [
+        5,
+        1,
+        4
+      ],
+      "centre_median_px": 43.48899784249383,
+      "median_iou": 0.13039110074876023,
+      "allow_fragment": [
+        5,
+        1,
+        4
+      ],
+      "primary": [
+        815
+      ],
+      "associated_fragments": [
+        815
+      ],
+      "max_step_m": 1.0771
+    },
+    "junction-white-sedan": {
+      "strict": [
+        8,
+        4,
+        1
+      ],
+      "centre_median_px": 16.03516987089416,
+      "median_iou": 0.5091686524839936,
+      "allow_fragment": [
+        8,
+        3,
+        2
+      ],
+      "primary": [
+        845
+      ],
+      "associated_fragments": [
+        829,
+        845
+      ],
+      "max_step_m": 0.7127
+    }
+  },
+  "max_frame_step_m_by_discovered_id": {
+    "3": 0.7729,
+    "4": 0.3934,
+    "12": 1.0835,
+    "43": 0.8787,
+    "235": 0.6726,
+    "246": 0.4559,
+    "256": 0.6386,
+    "266": 0.3863,
+    "272": 0.6165,
+    "279": 1.0833,
+    "291": 0.8198,
+    "305": 0.9807,
+    "307": 0.393,
+    "318": 0.9272,
+    "329": 0.5341,
+    "336": 0.4251,
+    "359": 1.0911,
+    "360": 0.2781,
+    "363": 1.0563,
+    "365": 0.533,
+    "370": 0.4879,
+    "374": 0.1531,
+    "382": 0.655,
+    "401": 0.2818,
+    "483": 1.0911,
+    "513": 0.9013,
+    "519": 1.0837,
+    "547": 1.0833,
+    "557": 1.0911,
+    "565": 1.0911,
+    "588": 0.8896,
+    "634": 1.0833,
+    "641": 1.0891,
+    "659": 0.9959,
+    "662": 1.0911,
+    "724": 0.6619,
+    "731": 0.3985,
+    "733": 1.0904,
+    "750": 0.481,
+    "754": 0.3259,
+    "761": 0.5843,
+    "764": 0.428,
+    "767": 0.3589,
+    "772": 0.7164,
+    "777": 1.0911,
+    "780": 1.0911,
+    "815": 1.0771,
+    "825": 0.9069,
+    "829": 0.2314,
+    "845": 0.7127,
+    "853": 0.9222,
+    "854": 0.7468,
+    "858": 1.0833,
+    "860": 0.5677,
+    "877": 0.4633
+  },
+  "flags_over_1_5": []
+}

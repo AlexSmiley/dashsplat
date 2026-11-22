@@ -1,0 +1,26 @@
+[
+  {
+    "control": "red parking-lot car",
+    "n": 54,
+    "moving_residual": 0.5859704911176358,
+    "stationary_residual": 0.9948681378222544,
+    "speed": 4.033720356792346,
+    "live_pass": true
+  },
+  {
+    "control": "grey car beside wall",
+    "n": 33,
+    "moving_residual": 0.23038394038599386,
+    "stationary_residual": 0.2621819272585307,
+    "speed": 1.2076567466696975,
+    "live_pass": false
+  },
+  {
+    "control": "grey junction vehicle",
+    "n": 82,
+    "moving_residual": 0.7867203921508178,
+    "stationary_residual": 1.703708293921117,
+    "speed": 9.781027875837704,
+    "live_pass": true
+  }
+]

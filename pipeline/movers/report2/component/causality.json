@@ -1,0 +1,110 @@
+{
+  "103.7": {
+    "discoveries": 58,
+    "assigned_observations": 486,
+    "active_models": [
+      {
+        "id": 43,
+        "knots": 45,
+        "measured": 16125,
+        "inferred": 5325
+      }
+    ]
+  },
+  "131.3": {
+    "discoveries": 258,
+    "assigned_observations": 3134,
+    "active_models": [
+      {
+        "id": 235,
+        "knots": 39,
+        "measured": 3336,
+        "inferred": 5838
+      },
+      {
+        "id": 246,
+        "knots": 4,
+        "measured": 8684,
+        "inferred": 4992
+      },
+      {
+        "id": 256,
+        "knots": 2,
+        "measured": 29244,
+        "inferred": 7831
+      }
+    ]
+  },
+  "319.05": {
+    "discoveries": 801,
+    "assigned_observations": 15199,
+    "active_models": [
+      {
+        "id": 363,
+        "knots": 1067,
+        "measured": 217054,
+        "inferred": 6268
+      },
+      {
+        "id": 519,
+        "knots": 151,
+        "measured": 6476,
+        "inferred": 5504
+      },
+      {
+        "id": 547,
+        "knots": 320,
+        "measured": 134065,
+        "inferred": 9050
+      },
+      {
+        "id": 565,
+        "knots": 321,
+        "measured": 70911,
+        "inferred": 5235
+      },
+      {
+        "id": 662,
+        "knots": 225,
+        "measured": 33648,
+        "inferred": 6069
+      },
+      {
+        "id": 724,
+        "knots": 98,
+        "measured": 22784,
+        "inferred": 5753
+      },
+      {
+        "id": 733,
+        "knots": 98,
+        "measured": 5951,
+        "inferred": 4731
+      },
+      {
+        "id": 754,
+        "knots": 14,
+        "measured": 8687,
+        "inferred": 5198
+      },
+      {
+        "id": 764,
+        "knots": 47,
+        "measured": 34999,
+        "inferred": 6424
+      },
+      {
+        "id": 772,
+        "knots": 36,
+        "measured": 22308,
+        "inferred": 5033
+      },
+      {
+        "id": 777,
+        "knots": 30,
+        "measured": 7324,
+        "inferred": 4850
+      }
+    ]
+  }
+}

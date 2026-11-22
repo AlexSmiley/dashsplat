@@ -1,0 +1,1946 @@
+{
+  "live": {
+    "crossing-suv": {
+      "fit": {
+        "n": 25,
+        "p50": [
+          0.323,
+          15.172,
+          3.848,
+          0.924
+        ],
+        "p90": [
+          0.458,
+          45.723,
+          6.2,
+          1.692
+        ]
+      },
+      "depth_z_relative": {
+        "n": 25,
+        "p50": 0.117,
+        "p90": 0.796
+      },
+      "held": {
+        "n": 3,
+        "p50": [
+          0.349,
+          13.741,
+          3.995,
+          1.152
+        ],
+        "p90": [
+          0.37,
+          34.449,
+          8.233,
+          1.369
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 3,
+      "poses": 130,
+      "time": [
+        102.5,
+        106.083
+      ],
+      "predicted_s": 2.03,
+      "speed_p50": 20.54,
+      "speed_p95": 67.89,
+      "yaw_step_p95_deg": 1.73,
+      "max_step_m": 2.21,
+      "camera_ids": {
+        "front": [
+          46
+        ],
+        "right_pillar": [
+          54,
+          56,
+          61
+        ]
+      }
+    },
+    "passing-bus": {
+      "held": {
+        "n": 26,
+        "p50": [
+          0.73,
+          5.326,
+          1.808,
+          0.463
+        ],
+        "p90": [
+          0.821,
+          29.162,
+          5.325,
+          1.625
+        ]
+      },
+      "fit": {
+        "n": 206,
+        "p50": [
+          0.679,
+          6.681,
+          1.79,
+          0.624
+        ],
+        "p90": [
+          0.817,
+          51.894,
+          6.666,
+          2.782
+        ]
+      },
+      "depth_z_relative": {
+        "n": 206,
+        "p50": 0.782,
+        "p90": 1.387
+      },
+      "held_masks_total": 26,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 4,
+      "poses": 212,
+      "time": [
+        129.25,
+        135.111
+      ],
+      "predicted_s": 0.72,
+      "speed_p50": 17.5,
+      "speed_p95": 88.13,
+      "yaw_step_p95_deg": 3.6,
+      "max_step_m": 3.75,
+      "camera_ids": {
+        "front": [
+          392,
+          447
+        ],
+        "left_pillar": [
+          202
+        ],
+        "left_repeater": [
+          548
+        ],
+        "back": [
+          217,
+          232
+        ]
+      }
+    },
+    "black-oncoming-suv": {
+      "fit": {
+        "n": 201,
+        "p50": [
+          0.494,
+          8.331,
+          3.497,
+          0.571
+        ],
+        "p90": [
+          0.683,
+          49.211,
+          7.17,
+          3.941
+        ]
+      },
+      "depth_z_relative": {
+        "n": 201,
+        "p50": 0.48,
+        "p90": 0.995
+      },
+      "held": {
+        "n": 26,
+        "p50": [
+          0.545,
+          7.967,
+          4.172,
+          0.544
+        ],
+        "p90": [
+          0.652,
+          53.035,
+          5.685,
+          3.211
+        ]
+      },
+      "held_masks_total": 28,
+      "held_no_track": 2,
+      "held_projected_iou_below_half": 11,
+      "poses": 233,
+      "time": [
+        131.0,
+        137.444
+      ],
+      "predicted_s": 0.72,
+      "speed_p50": 13.97,
+      "speed_p95": 74.86,
+      "yaw_step_p95_deg": 17.66,
+      "max_step_m": 3.27,
+      "camera_ids": {
+        "left_pillar": [
+          211
+        ],
+        "front": [
+          430
+        ],
+        "left_repeater": [
+          565,
+          583
+        ],
+        "back": [
+          246,
+          253,
+          262
+        ]
+      }
+    },
+    "red-oncoming-sedan": {
+      "held": {
+        "n": 6,
+        "p50": [
+          0.554,
+          5.459,
+          1.669,
+          0.474
+        ],
+        "p90": [
+          0.703,
+          26.217,
+          2.286,
+          1.559
+        ]
+      },
+      "fit": {
+        "n": 45,
+        "p50": [
+          0.575,
+          4.191,
+          1.885,
+          0.45
+        ],
+        "p90": [
+          0.737,
+          32.934,
+          3.975,
+          1.964
+        ]
+      },
+      "depth_z_relative": {
+        "n": 45,
+        "p50": 1.323,
+        "p90": 1.595
+      },
+      "held_masks_total": 8,
+      "held_no_track": 2,
+      "held_projected_iou_below_half": 3,
+      "poses": 101,
+      "time": [
+        137.0,
+        139.778
+      ],
+      "predicted_s": 1.06,
+      "speed_p50": 30.08,
+      "speed_p95": 75.28,
+      "yaw_step_p95_deg": 2.77,
+      "max_step_m": 2.99,
+      "camera_ids": {
+        "left_pillar": [
+          234
+        ],
+        "back": [
+          288,
+          290,
+          292
+        ]
+      }
+    },
+    "junction-white-suv": {
+      "fit": {
+        "n": 34,
+        "p50": [
+          0.413,
+          7.722,
+          4.592,
+          0.557
+        ],
+        "p90": [
+          0.678,
+          12.491,
+          5.91,
+          1.512
+        ]
+      },
+      "depth_z_relative": {
+        "n": 5,
+        "p50": 0.107,
+        "p90": 0.468
+      },
+      "held": {
+        "n": 5,
+        "p50": [
+          0.556,
+          7.652,
+          4.541,
+          0.889
+        ],
+        "p90": [
+          0.702,
+          13.435,
+          5.302,
+          1.333
+        ]
+      },
+      "held_masks_total": 5,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 2,
+      "poses": 386,
+      "time": [
+        190.972,
+        201.667
+      ],
+      "predicted_s": 4.47,
+      "speed_p50": 17.6,
+      "speed_p95": 66.86,
+      "yaw_step_p95_deg": 11.99,
+      "max_step_m": 2.83,
+      "camera_ids": {
+        "front": [
+          1,
+          32
+        ]
+      }
+    },
+    "junction-silver-crossover": {
+      "fit": {
+        "n": 25,
+        "p50": [
+          0.566,
+          6.674,
+          2.987,
+          0.496
+        ],
+        "p90": [
+          0.769,
+          9.1,
+          4.527,
+          1.136
+        ]
+      },
+      "held": {
+        "n": 3,
+        "p50": [
+          0.62,
+          7.038,
+          1.924,
+          0.47
+        ],
+        "p90": [
+          0.757,
+          8.363,
+          3.15,
+          0.589
+        ]
+      },
+      "depth_z_relative": {
+        "n": 6,
+        "p50": 0.497,
+        "p90": 0.685
+      },
+      "held_masks_total": 3,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 1,
+      "poses": 286,
+      "time": [
+        195.5,
+        203.417
+      ],
+      "predicted_s": 2.61,
+      "speed_p50": 10.54,
+      "speed_p95": 77.03,
+      "yaw_step_p95_deg": 5.51,
+      "max_step_m": 2.81,
+      "camera_ids": {
+        "front": [
+          19
+        ]
+      }
+    },
+    "junction-red-suv": {
+      "held": {
+        "n": 1,
+        "p50": [
+          0.231,
+          15.59,
+          0.646,
+          1.959
+        ],
+        "p90": [
+          0.231,
+          15.59,
+          0.646,
+          1.959
+        ]
+      },
+      "fit": {
+        "n": 4,
+        "p50": [
+          0.351,
+          9.579,
+          5.999,
+          1.126
+        ],
+        "p90": [
+          0.427,
+          14.833,
+          8.25,
+          1.892
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 1.266,
+        "p90": 1.266
+      },
+      "held_masks_total": 1,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 1,
+      "poses": 78,
+      "time": [
+        203.389,
+        205.528
+      ],
+      "predicted_s": 1.28,
+      "speed_p50": 48.52,
+      "speed_p95": 59.45,
+      "yaw_step_p95_deg": 8.05,
+      "max_step_m": 2.51,
+      "camera_ids": {
+        "front": [
+          52
+        ]
+      }
+    },
+    "junction-approach-suv": {
+      "fit": {
+        "n": 10,
+        "p50": [
+          0.626,
+          4.25,
+          1.843,
+          0.308
+        ],
+        "p90": [
+          0.7,
+          6.049,
+          2.862,
+          0.418
+        ]
+      },
+      "depth_z_relative": {
+        "n": 2,
+        "p50": 0.199,
+        "p90": 0.229
+      },
+      "held": {
+        "n": 2,
+        "p50": [
+          0.479,
+          6.112,
+          2.189,
+          0.357
+        ],
+        "p90": [
+          0.548,
+          7.924,
+          2.403,
+          0.411
+        ]
+      },
+      "held_masks_total": 2,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 1,
+      "poses": 131,
+      "time": [
+        190.972,
+        194.583
+      ],
+      "predicted_s": 1.97,
+      "speed_p50": 11.03,
+      "speed_p95": 51.72,
+      "yaw_step_p95_deg": 18.19,
+      "max_step_m": 2.45,
+      "camera_ids": {
+        "left_pillar": [
+          1
+        ]
+      }
+    },
+    "departing-coupe": {
+      "fit": {
+        "n": 64,
+        "p50": [
+          0.816,
+          7.643,
+          4.551,
+          0.161
+        ],
+        "p90": [
+          0.86,
+          24.82,
+          18.202,
+          0.532
+        ]
+      },
+      "held": {
+        "n": 7,
+        "p50": [
+          0.828,
+          6.612,
+          4.359,
+          0.152
+        ],
+        "p90": [
+          0.859,
+          22.979,
+          6.142,
+          0.366
+        ]
+      },
+      "held_masks_total": 13,
+      "held_no_track": 6,
+      "held_projected_iou_below_half": 0,
+      "poses": 153,
+      "time": [
+        290.694,
+        294.917
+      ],
+      "predicted_s": 1.33,
+      "speed_p50": 10.16,
+      "speed_p95": 18.09,
+      "yaw_step_p95_deg": 0.78,
+      "max_step_m": 0.99,
+      "camera_ids": {
+        "left_pillar": [
+          259
+        ],
+        "left_repeater": [
+          704
+        ]
+      }
+    },
+    "oncoming-pickup": {
+      "fit": {
+        "n": 10,
+        "p50": [
+          0.654,
+          13.336,
+          15.578,
+          0.346
+        ],
+        "p90": [
+          0.691,
+          24.309,
+          17.906,
+          0.544
+        ]
+      },
+      "held": {
+        "n": 2,
+        "p50": [
+          0.331,
+          18.935,
+          20.786,
+          0.416
+        ],
+        "p90": [
+          0.596,
+          22.304,
+          25.809,
+          0.438
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 2,
+      "held_projected_iou_below_half": 1,
+      "poses": 50,
+      "time": [
+        310.944,
+        312.306
+      ],
+      "predicted_s": 0.81,
+      "speed_p50": 15.67,
+      "speed_p95": 36.95,
+      "yaw_step_p95_deg": 1.48,
+      "max_step_m": 1.79,
+      "camera_ids": {
+        "left_pillar": [
+          524,
+          518
+        ]
+      }
+    },
+    "oncoming-minivan": {
+      "fit": {
+        "n": 15,
+        "p50": [
+          0.722,
+          16.777,
+          2.769,
+          0.302
+        ],
+        "p90": [
+          0.837,
+          22.797,
+          7.813,
+          0.61
+        ]
+      },
+      "held": {
+        "n": 3,
+        "p50": [
+          0.549,
+          11.541,
+          3.872,
+          0.333
+        ],
+        "p90": [
+          0.789,
+          12.197,
+          6.827,
+          0.439
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 1,
+      "poses": 68,
+      "time": [
+        311.778,
+        313.639
+      ],
+      "predicted_s": 0.94,
+      "speed_p50": 14.11,
+      "speed_p95": 27.17,
+      "yaw_step_p95_deg": 0.84,
+      "max_step_m": 1.02,
+      "camera_ids": {
+        "left_pillar": [
+          558
+        ],
+        "back": [
+          608
+        ]
+      }
+    },
+    "oncoming-black-sedan": {
+      "fit": {
+        "n": 31,
+        "p50": [
+          0.664,
+          7.925,
+          2.866,
+          0.3
+        ],
+        "p90": [
+          0.779,
+          16.339,
+          4.204,
+          0.964
+        ]
+      },
+      "held": {
+        "n": 4,
+        "p50": [
+          0.621,
+          8.444,
+          3.525,
+          0.457
+        ],
+        "p90": [
+          0.768,
+          11.731,
+          4.579,
+          0.46
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.482,
+        "p90": 0.482
+      },
+      "held_masks_total": 5,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 0,
+      "poses": 96,
+      "time": [
+        313.111,
+        315.75
+      ],
+      "predicted_s": 0.89,
+      "speed_p50": 21.18,
+      "speed_p95": 66.27,
+      "yaw_step_p95_deg": 0.82,
+      "max_step_m": 2.91,
+      "camera_ids": {
+        "left_pillar": [
+          613
+        ],
+        "left_repeater": [
+          1288
+        ]
+      }
+    },
+    "oncoming-grey-suv": {
+      "fit": {
+        "n": 23,
+        "p50": [
+          0.659,
+          12.635,
+          3.072,
+          0.612
+        ],
+        "p90": [
+          0.844,
+          26.647,
+          5.276,
+          2.303
+        ]
+      },
+      "held": {
+        "n": 3,
+        "p50": [
+          0.65,
+          13.356,
+          2.484,
+          0.68
+        ],
+        "p90": [
+          0.689,
+          16.345,
+          3.16,
+          1.626
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 1,
+      "poses": 82,
+      "time": [
+        315.0,
+        317.25
+      ],
+      "predicted_s": 0.89,
+      "speed_p50": 21.34,
+      "speed_p95": 63.56,
+      "yaw_step_p95_deg": 4.79,
+      "max_step_m": 2.54,
+      "camera_ids": {
+        "left_pillar": [
+          683
+        ]
+      }
+    },
+    "turning-black-coupe": {
+      "fit": {
+        "n": 95,
+        "p50": [
+          0.818,
+          7.815,
+          3.379,
+          0.148
+        ],
+        "p90": [
+          0.888,
+          33.37,
+          17.838,
+          0.522
+        ]
+      },
+      "held": {
+        "n": 12,
+        "p50": [
+          0.851,
+          6.451,
+          3.457,
+          0.147
+        ],
+        "p90": [
+          0.879,
+          30.018,
+          23.415,
+          0.327
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.343,
+        "p90": 0.343
+      },
+      "held_masks_total": 13,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 0,
+      "poses": 248,
+      "time": [
+        316.25,
+        323.111
+      ],
+      "predicted_s": 2.64,
+      "speed_p50": 17.04,
+      "speed_p95": 26.07,
+      "yaw_step_p95_deg": 0.36,
+      "max_step_m": 1.25,
+      "camera_ids": {
+        "left_pillar": [
+          700,
+          743
+        ],
+        "back": [
+          627
+        ]
+      }
+    },
+    "turning-white-sedan": {
+      "fit": {
+        "n": 16,
+        "p50": [
+          0.49,
+          7.076,
+          4.472,
+          0.193
+        ],
+        "p90": [
+          0.574,
+          12.36,
+          13.698,
+          0.394
+        ]
+      },
+      "held": {
+        "n": 2,
+        "p50": [
+          0.515,
+          8.247,
+          3.837,
+          0.264
+        ],
+        "p90": [
+          0.578,
+          12.478,
+          3.931,
+          0.384
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.176,
+        "p90": 0.176
+      },
+      "held_masks_total": 3,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 1,
+      "poses": 68,
+      "time": [
+        317.722,
+        319.583
+      ],
+      "predicted_s": 0.83,
+      "speed_p50": 12.46,
+      "speed_p95": 34.23,
+      "yaw_step_p95_deg": 0.4,
+      "max_step_m": 1.62,
+      "camera_ids": {
+        "front": [
+          1676
+        ]
+      }
+    },
+    "turning-silver-crossover": {
+      "fit": {
+        "n": 36,
+        "p50": [
+          0.33,
+          11.199,
+          1.552,
+          0.5
+        ],
+        "p90": [
+          0.48,
+          34.194,
+          5.57,
+          1.105
+        ]
+      },
+      "held": {
+        "n": 4,
+        "p50": [
+          0.371,
+          16.498,
+          0.733,
+          0.842
+        ],
+        "p90": [
+          0.47,
+          24.435,
+          1.084,
+          0.904
+        ]
+      },
+      "held_masks_total": 5,
+      "held_no_track": 1,
+      "held_projected_iou_below_half": 4,
+      "poses": 121,
+      "time": [
+        320.778,
+        324.111
+      ],
+      "predicted_s": 1.72,
+      "speed_p50": 18.22,
+      "speed_p95": 59.98,
+      "yaw_step_p95_deg": 2.48,
+      "max_step_m": 2.62,
+      "camera_ids": {
+        "left_pillar": [
+          735
+        ],
+        "left_repeater": [
+          1439
+        ],
+        "back": [
+          817
+        ],
+        "right_repeater": [
+          1780
+        ]
+      }
+    },
+    "junction-white-sedan": {
+      "fit": {
+        "n": 39,
+        "p50": [
+          0.591,
+          6.078,
+          3.341,
+          0.468
+        ],
+        "p90": [
+          0.697,
+          16.04,
+          6.422,
+          0.913
+        ]
+      },
+      "held": {
+        "n": 5,
+        "p50": [
+          0.603,
+          4.201,
+          2.742,
+          0.346
+        ],
+        "p90": [
+          0.744,
+          14.221,
+          6.045,
+          0.749
+        ]
+      },
+      "held_masks_total": 8,
+      "held_no_track": 3,
+      "held_projected_iou_below_half": 0,
+      "poses": 110,
+      "time": [
+        322.861,
+        325.889
+      ],
+      "predicted_s": 1.03,
+      "speed_p50": 4.55,
+      "speed_p95": 55.29,
+      "yaw_step_p95_deg": 5.51,
+      "max_step_m": 2.28,
+      "camera_ids": {
+        "left_pillar": [
+          755
+        ],
+        "left_repeater": [
+          1466
+        ]
+      }
+    }
+  },
+  "stitched": {
+    "crossing-suv": {
+      "fit": {
+        "n": 32,
+        "p50": [
+          0.838,
+          3.055,
+          1.482,
+          0.11
+        ],
+        "p90": [
+          0.882,
+          4.051,
+          2.77,
+          0.226
+        ]
+      },
+      "depth_z_relative": {
+        "n": 32,
+        "p50": 0.134,
+        "p90": 0.58
+      },
+      "held": {
+        "n": 4,
+        "p50": [
+          0.748,
+          4.732,
+          2.369,
+          0.211
+        ],
+        "p90": [
+          0.807,
+          5.825,
+          6.064,
+          0.224
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 147,
+      "time": [
+        101.833,
+        105.889
+      ],
+      "predicted_s": 0.81,
+      "speed_p50": 15.07,
+      "speed_p95": 16.47,
+      "yaw_step_p95_deg": 0.28,
+      "max_step_m": 0.47,
+      "camera_ids": {
+        "front": [
+          46
+        ],
+        "right_pillar": [
+          54,
+          56,
+          61
+        ]
+      }
+    },
+    "passing-bus": {
+      "fit": {
+        "n": 210,
+        "p50": [
+          0.791,
+          3.346,
+          1.919,
+          0.365
+        ],
+        "p90": [
+          0.897,
+          16.107,
+          5.996,
+          1.292
+        ]
+      },
+      "depth_z_relative": {
+        "n": 210,
+        "p50": 0.883,
+        "p90": 1.455
+      },
+      "held": {
+        "n": 26,
+        "p50": [
+          0.813,
+          2.945,
+          2.021,
+          0.36
+        ],
+        "p90": [
+          0.902,
+          10.029,
+          3.635,
+          0.924
+        ]
+      },
+      "held_masks_total": 26,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 1,
+      "poses": 231,
+      "time": [
+        128.582,
+        134.97
+      ],
+      "predicted_s": 0.92,
+      "speed_p50": 19.17,
+      "speed_p95": 47.31,
+      "yaw_step_p95_deg": 0.46,
+      "max_step_m": 1.45,
+      "camera_ids": {
+        "front": [
+          392,
+          447
+        ],
+        "left_pillar": [
+          202
+        ],
+        "left_repeater": [
+          548
+        ],
+        "back": [
+          217,
+          232
+        ]
+      }
+    },
+    "black-oncoming-suv": {
+      "fit": {
+        "n": 221,
+        "p50": [
+          0.759,
+          3.949,
+          1.563,
+          0.278
+        ],
+        "p90": [
+          0.862,
+          12.697,
+          5.846,
+          0.791
+        ]
+      },
+      "depth_z_relative": {
+        "n": 221,
+        "p50": 0.408,
+        "p90": 0.899
+      },
+      "held": {
+        "n": 28,
+        "p50": [
+          0.757,
+          3.084,
+          1.548,
+          0.245
+        ],
+        "p90": [
+          0.862,
+          11.338,
+          5.249,
+          0.786
+        ]
+      },
+      "held_masks_total": 28,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 4,
+      "poses": 249,
+      "time": [
+        130.387,
+        137.276
+      ],
+      "predicted_s": 0.72,
+      "speed_p50": 14.62,
+      "speed_p95": 33.9,
+      "yaw_step_p95_deg": 1.04,
+      "max_step_m": 2.44,
+      "camera_ids": {
+        "left_pillar": [
+          211
+        ],
+        "front": [
+          430
+        ],
+        "left_repeater": [
+          565,
+          583
+        ],
+        "back": [
+          246,
+          253,
+          262
+        ]
+      }
+    },
+    "red-oncoming-sedan": {
+      "fit": {
+        "n": 65,
+        "p50": [
+          0.806,
+          1.652,
+          0.597,
+          0.149
+        ],
+        "p90": [
+          0.956,
+          3.584,
+          2.329,
+          0.432
+        ]
+      },
+      "depth_z_relative": {
+        "n": 65,
+        "p50": 0.879,
+        "p90": 1.513
+      },
+      "held": {
+        "n": 8,
+        "p50": [
+          0.794,
+          1.423,
+          0.771,
+          0.114
+        ],
+        "p90": [
+          0.933,
+          5.187,
+          1.148,
+          0.547
+        ]
+      },
+      "held_masks_total": 8,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 117,
+      "time": [
+        136.389,
+        139.612
+      ],
+      "predicted_s": 1.17,
+      "speed_p50": 24.08,
+      "speed_p95": 51.82,
+      "yaw_step_p95_deg": 0.48,
+      "max_step_m": 1.81,
+      "camera_ids": {
+        "left_pillar": [
+          234
+        ],
+        "back": [
+          288,
+          290,
+          292
+        ]
+      }
+    },
+    "junction-white-suv": {
+      "fit": {
+        "n": 36,
+        "p50": [
+          0.76,
+          3.335,
+          1.256,
+          0.208
+        ],
+        "p90": [
+          0.841,
+          5.871,
+          2.975,
+          0.319
+        ]
+      },
+      "depth_z_relative": {
+        "n": 5,
+        "p50": 0.146,
+        "p90": 0.192
+      },
+      "held": {
+        "n": 5,
+        "p50": [
+          0.682,
+          4.135,
+          0.923,
+          0.27
+        ],
+        "p90": [
+          0.856,
+          7.115,
+          3.009,
+          0.327
+        ]
+      },
+      "held_masks_total": 5,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 408,
+      "time": [
+        190.244,
+        201.55
+      ],
+      "predicted_s": 3.11,
+      "speed_p50": 10.62,
+      "speed_p95": 20.57,
+      "yaw_step_p95_deg": 0.51,
+      "max_step_m": 0.77,
+      "camera_ids": {
+        "front": [
+          1,
+          32
+        ]
+      }
+    },
+    "junction-silver-crossover": {
+      "fit": {
+        "n": 28,
+        "p50": [
+          0.829,
+          1.752,
+          0.768,
+          0.122
+        ],
+        "p90": [
+          0.917,
+          6.317,
+          2.001,
+          0.218
+        ]
+      },
+      "depth_z_relative": {
+        "n": 7,
+        "p50": 0.148,
+        "p90": 0.264
+      },
+      "held": {
+        "n": 3,
+        "p50": [
+          0.77,
+          2.528,
+          1.632,
+          0.134
+        ],
+        "p90": [
+          0.829,
+          5.941,
+          3.292,
+          0.195
+        ]
+      },
+      "held_masks_total": 3,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 309,
+      "time": [
+        194.744,
+        203.299
+      ],
+      "predicted_s": 2.19,
+      "speed_p50": 11.69,
+      "speed_p95": 23.66,
+      "yaw_step_p95_deg": 0.22,
+      "max_step_m": 0.75,
+      "camera_ids": {
+        "front": [
+          19
+        ]
+      }
+    },
+    "junction-red-suv": {
+      "fit": {
+        "n": 8,
+        "p50": [
+          0.715,
+          3.374,
+          1.295,
+          0.221
+        ],
+        "p90": [
+          0.811,
+          5.382,
+          3.814,
+          0.436
+        ]
+      },
+      "depth_z_relative": {
+        "n": 2,
+        "p50": 0.251,
+        "p90": 0.279
+      },
+      "held": {
+        "n": 1,
+        "p50": [
+          0.608,
+          7.253,
+          1.107,
+          0.517
+        ],
+        "p90": [
+          0.608,
+          7.253,
+          1.107,
+          0.517
+        ]
+      },
+      "held_masks_total": 1,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 111,
+      "time": [
+        202.243,
+        205.299
+      ],
+      "predicted_s": 1.14,
+      "speed_p50": 16.26,
+      "speed_p95": 21.03,
+      "yaw_step_p95_deg": 0.25,
+      "max_step_m": 0.61,
+      "camera_ids": {
+        "front": [
+          52
+        ]
+      }
+    },
+    "junction-approach-suv": {
+      "fit": {
+        "n": 12,
+        "p50": [
+          0.761,
+          1.755,
+          0.319,
+          0.101
+        ],
+        "p90": [
+          0.926,
+          3.363,
+          1.277,
+          0.188
+        ]
+      },
+      "depth_z_relative": {
+        "n": 2,
+        "p50": 0.383,
+        "p90": 0.392
+      },
+      "held": {
+        "n": 2,
+        "p50": [
+          0.735,
+          1.943,
+          0.853,
+          0.099
+        ],
+        "p90": [
+          0.737,
+          1.989,
+          0.947,
+          0.112
+        ]
+      },
+      "held_masks_total": 2,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 147,
+      "time": [
+        190.247,
+        194.302
+      ],
+      "predicted_s": 1.19,
+      "speed_p50": 6.14,
+      "speed_p95": 10.57,
+      "yaw_step_p95_deg": 2.11,
+      "max_step_m": 0.33,
+      "camera_ids": {
+        "left_pillar": [
+          1
+        ]
+      }
+    },
+    "departing-coupe": {
+      "fit": {
+        "n": 113,
+        "p50": [
+          0.843,
+          11.189,
+          2.56,
+          0.166
+        ],
+        "p90": [
+          0.898,
+          23.032,
+          16.175,
+          0.278
+        ]
+      },
+      "held": {
+        "n": 13,
+        "p50": [
+          0.838,
+          11.634,
+          1.805,
+          0.168
+        ],
+        "p90": [
+          0.887,
+          21.256,
+          3.847,
+          0.268
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.23,
+        "p90": 0.23
+      },
+      "held_masks_total": 13,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 312,
+      "time": [
+        286.129,
+        294.768
+      ],
+      "predicted_s": 1.53,
+      "speed_p50": 6.47,
+      "speed_p95": 11.97,
+      "yaw_step_p95_deg": 2.8,
+      "max_step_m": 0.35,
+      "camera_ids": {
+        "left_pillar": [
+          259
+        ],
+        "left_repeater": [
+          704
+        ]
+      }
+    },
+    "oncoming-pickup": {
+      "fit": {
+        "n": 28,
+        "p50": [
+          0.771,
+          5.873,
+          1.379,
+          0.22
+        ],
+        "p90": [
+          0.832,
+          12.835,
+          3.8,
+          0.551
+        ]
+      },
+      "held": {
+        "n": 4,
+        "p50": [
+          0.648,
+          6.393,
+          2.533,
+          0.208
+        ],
+        "p90": [
+          0.827,
+          10.744,
+          13.226,
+          0.383
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 2,
+      "poses": 63,
+      "time": [
+        310.35,
+        312.072
+      ],
+      "predicted_s": 0.64,
+      "speed_p50": 17.11,
+      "speed_p95": 17.21,
+      "yaw_step_p95_deg": 0.49,
+      "max_step_m": 0.49,
+      "camera_ids": {
+        "left_pillar": [
+          524,
+          518
+        ]
+      }
+    },
+    "oncoming-minivan": {
+      "fit": {
+        "n": 25,
+        "p50": [
+          0.861,
+          3.204,
+          1.176,
+          0.107
+        ],
+        "p90": [
+          0.925,
+          7.472,
+          2.543,
+          0.224
+        ]
+      },
+      "held": {
+        "n": 4,
+        "p50": [
+          0.857,
+          2.844,
+          1.016,
+          0.082
+        ],
+        "p90": [
+          0.922,
+          11.069,
+          1.238,
+          0.428
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 1,
+      "poses": 84,
+      "time": [
+        311.127,
+        313.433
+      ],
+      "predicted_s": 0.64,
+      "speed_p50": 14.14,
+      "speed_p95": 15.77,
+      "yaw_step_p95_deg": 0.45,
+      "max_step_m": 0.45,
+      "camera_ids": {
+        "left_pillar": [
+          558
+        ],
+        "back": [
+          608
+        ]
+      }
+    },
+    "oncoming-black-sedan": {
+      "fit": {
+        "n": 42,
+        "p50": [
+          0.817,
+          2.713,
+          1.329,
+          0.14
+        ],
+        "p90": [
+          0.908,
+          8.849,
+          2.472,
+          0.41
+        ]
+      },
+      "held": {
+        "n": 5,
+        "p50": [
+          0.806,
+          1.675,
+          1.178,
+          0.072
+        ],
+        "p90": [
+          0.885,
+          7.07,
+          2.306,
+          0.349
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.582,
+        "p90": 0.582
+      },
+      "held_masks_total": 5,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 117,
+      "time": [
+        312.405,
+        315.627
+      ],
+      "predicted_s": 0.69,
+      "speed_p50": 19.02,
+      "speed_p95": 30.82,
+      "yaw_step_p95_deg": 0.32,
+      "max_step_m": 0.93,
+      "camera_ids": {
+        "left_pillar": [
+          613
+        ],
+        "left_repeater": [
+          1288
+        ]
+      }
+    },
+    "oncoming-grey-suv": {
+      "fit": {
+        "n": 33,
+        "p50": [
+          0.857,
+          1.289,
+          0.735,
+          0.074
+        ],
+        "p90": [
+          0.924,
+          2.567,
+          1.849,
+          0.129
+        ]
+      },
+      "held": {
+        "n": 4,
+        "p50": [
+          0.89,
+          1.184,
+          0.485,
+          0.074
+        ],
+        "p90": [
+          0.927,
+          1.447,
+          1.054,
+          0.082
+        ]
+      },
+      "held_masks_total": 4,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 99,
+      "time": [
+        314.349,
+        317.072
+      ],
+      "predicted_s": 0.61,
+      "speed_p50": 15.34,
+      "speed_p95": 19.56,
+      "yaw_step_p95_deg": 0.19,
+      "max_step_m": 0.56,
+      "camera_ids": {
+        "left_pillar": [
+          683
+        ]
+      }
+    },
+    "turning-black-coupe": {
+      "fit": {
+        "n": 106,
+        "p50": [
+          0.86,
+          5.612,
+          1.703,
+          0.119
+        ],
+        "p90": [
+          0.932,
+          11.964,
+          5.378,
+          0.208
+        ]
+      },
+      "held": {
+        "n": 13,
+        "p50": [
+          0.861,
+          4.763,
+          1.631,
+          0.129
+        ],
+        "p90": [
+          0.93,
+          16.292,
+          5.311,
+          0.167
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.105,
+        "p90": 0.105
+      },
+      "held_masks_total": 13,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 267,
+      "time": [
+        315.546,
+        322.935
+      ],
+      "predicted_s": 0.61,
+      "speed_p50": 16.84,
+      "speed_p95": 17.35,
+      "yaw_step_p95_deg": 0.16,
+      "max_step_m": 0.48,
+      "camera_ids": {
+        "left_pillar": [
+          700,
+          743
+        ],
+        "back": [
+          627
+        ]
+      }
+    },
+    "turning-white-sedan": {
+      "fit": {
+        "n": 27,
+        "p50": [
+          0.838,
+          2.579,
+          0.803,
+          0.127
+        ],
+        "p90": [
+          0.896,
+          5.075,
+          2.883,
+          0.206
+        ]
+      },
+      "held": {
+        "n": 3,
+        "p50": [
+          0.849,
+          2.319,
+          1.529,
+          0.102
+        ],
+        "p90": [
+          0.873,
+          6.076,
+          1.564,
+          0.225
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.392,
+        "p90": 0.392
+      },
+      "held_masks_total": 3,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 84,
+      "time": [
+        317.013,
+        319.319
+      ],
+      "predicted_s": 0.61,
+      "speed_p50": 6.57,
+      "speed_p95": 7.14,
+      "yaw_step_p95_deg": 0.65,
+      "max_step_m": 0.21,
+      "camera_ids": {
+        "front": [
+          1676
+        ]
+      }
+    },
+    "turning-silver-crossover": {
+      "fit": {
+        "n": 44,
+        "p50": [
+          0.691,
+          6.241,
+          1.151,
+          0.316
+        ],
+        "p90": [
+          0.832,
+          12.165,
+          3.819,
+          0.477
+        ]
+      },
+      "held": {
+        "n": 5,
+        "p50": [
+          0.732,
+          5.235,
+          0.884,
+          0.234
+        ],
+        "p90": [
+          0.8,
+          19.411,
+          1.712,
+          0.783
+        ]
+      },
+      "held_masks_total": 5,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 1,
+      "poses": 141,
+      "time": [
+        320.016,
+        323.905
+      ],
+      "predicted_s": 0.69,
+      "speed_p50": 14.35,
+      "speed_p95": 20.14,
+      "yaw_step_p95_deg": 0.95,
+      "max_step_m": 0.6,
+      "camera_ids": {
+        "left_pillar": [
+          735
+        ],
+        "left_repeater": [
+          1439
+        ],
+        "back": [
+          817
+        ],
+        "right_repeater": [
+          1780
+        ]
+      }
+    },
+    "junction-white-sedan": {
+      "fit": {
+        "n": 64,
+        "p50": [
+          0.744,
+          3.19,
+          1.618,
+          0.202
+        ],
+        "p90": [
+          0.835,
+          11.803,
+          4.497,
+          0.691
+        ]
+      },
+      "held": {
+        "n": 8,
+        "p50": [
+          0.745,
+          3.718,
+          2.166,
+          0.232
+        ],
+        "p90": [
+          0.823,
+          8.377,
+          3.876,
+          0.518
+        ]
+      },
+      "depth_z_relative": {
+        "n": 1,
+        "p50": 0.324,
+        "p90": 0.324
+      },
+      "held_masks_total": 8,
+      "held_no_track": 0,
+      "held_projected_iou_below_half": 0,
+      "poses": 168,
+      "time": [
+        321.099,
+        325.738
+      ],
+      "predicted_s": 0.64,
+      "speed_p50": 4.16,
+      "speed_p95": 8.28,
+      "yaw_step_p95_deg": 4.27,
+      "max_step_m": 0.64,
+      "camera_ids": {
+        "left_pillar": [
+          755
+        ],
+        "left_repeater": [
+          1466
+        ]
+      }
+    }
+  }
+}

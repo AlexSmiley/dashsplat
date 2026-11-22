@@ -1,0 +1,51 @@
+# StreetNVS on the Tesla drive · 105–120 s
+
+**StreetNVS runs and the clip plays. It does not preserve the drive well enough to replace the reconstruction.** Round-one viewer entry retired after validation; see the [dense round-two comparison](round2/REPORT.md) · [15 s bare generation](report/generated.mp4) · [layered conditioning vs generation](report/side-by-side.mp4) · [pure live-v5 splats vs generation](report/splat-vs-generated.mp4).
+
+**Eight matched frames:** [generated](report/generated.jpg) · [layered conditioning](report/conditioning.jpg) · [pure splats](report/splat.jpg). Left-to-right, top-to-bottom: 105.0, 107.1, 109.3, 111.4, 113.5, 115.6, 117.8, 119.9 s. [Unblended window 1](report/track-000-81.mp4) and [window 2](report/track-069-81.mp4) are the actual model outputs. The final MP4 is only a temporal blend and encode, with no generated-frame compositing or baked-in ego/HUD.
+
+### What changes in the image
+
+| Question | Result on the final 150-frame clip |
+|---|---|
+| Does paint stay fixed? | **No.** Eight trackable anchors, 73 patch comparisons on 46 distinct frames. Only 35/73 exceeded the 0.60 correlation threshold. Of accepted matches, median displacement **6.08 px**, p90 **17.90 px** at 512×320. Only **9/73** were within 3 px; all tested patches passed in **3/46** frames. Initial turning arrows fare better than distant dashes; later lane branches/paint vanish or take a different course. These are local pattern matches, not proof of arrow semantics. No legible painted word was identified in this segment; text stability is unmeasured. |
+| How much changed? | ΔE76 >20 on **19.77% of all pixels**, **8.57% of supported pixels** on average against full layered input. A colour threshold is not a hallucination classifier: some changes repair holes. |
+| Does it shimmer? | Static, depth-consistent warp to the preceding frame: mean RGB absolute error **5.17** for generated vs **1.30** layered and **3.30** pure splat (0–255). This sees roughly **4×** the temporal residual of the selected input, on shared supported surfaces only. Shot-to-shot comparison shows speckled, panel-shaped foliage and sliding road edges. |
+| Does it agree with the real photos? | Rolling-shutter reprojection onto **2,635 depth-agreeing static samples, 38 exposures**: RGB MAE **15.52 generated**, **9.27 layered**, **17.19 live-v5 splat**. Better than the soft splat but materially worse than the input. Sparse physical cameras do not supply independent, full-frame chase ground truth. |
+| Is the sky/road believable? | A continuous road, some rooted trees, and a plausible curb replace holes. But the boulevard rises into an unsupported crest, the photographed junction/frontage disappears, markings move, car-like shapes appear along the left edge, and later sky develops magenta patches alongside persistent vertical fog bands. The ego itself is not present. The original photographs show a much crisper, differently lit environment. |
+
+**Window join:** two 81-frame windows start 6.9 s apart at 105.0 and 111.9 s, sharing 12 frames. Window 2 is anchored to generated frame 69. A linear cross-fade removes the hard cut; it cannot reconcile incompatible geometry. Before blending, mean RGB disagreement on corresponding overlap frames grows from **2.84 to 17.13 levels**. [Per-frame and per-anchor measurements](report/metrics.json) · [physical-camera samples](report/photo-metrics.json).
+
+**Viewer verification:** installed [manifest](report/generated.json) and H.264/yuv420p video in Studio’s `$RS/scene/live-v5/`, rebuilt the tile-cache index from basebook, then played the requested URL in Chrome. The actual 512×320 decoder advanced from frame 23 to 24 with video fade at 1.0, drive times 106.8824→106.9825 and media times 1.8711→1.9728 s (absolute sync error 9.7–11.3 ms). [Viewer screenshot near 118 s](report/viewer-playback.jpg) shows its own car, ribbon and HUD. ffprobe verifies 150 frames, 10 Hz, 15.00 s, no audio, a keyframe every 0.5 s. The installed clip and local copy have identical SHA-256. Every deliverable video is <6 MB.
+
+## Input and what the camera can verify
+
+The deliverable uses the [literal viewer track](report/chase-track.json) from live-v5: 150 poses at 10 Hz, 105.0–119.9 s inclusive. The drift test compares each generated frame with an input rendered at the **same** exported pose. No Tesla camera was mounted at that pose, so visual plausibility and physical accuracy are distinct claims.
+
+**Conditioning choice:** [112 s, three candidates side by side](report/conditioning-choice-112.jpg). The denser live-v4 left an overhead slab; live-v5 removed it but blurred foliage and lost frontage. Stitched-opt-v2 has the best splat-only tree geometry and its original ground mosaic; the layered IBR render has the clearer photographed office frontage, light poles and roadside sign. We used the latter's rigid-layer Python compositor in the live-v5 frame, not the earlier torn-triangle movie. Stitched ground supplies stable lane geometry. The selected render still has translucent cutouts and unreliable verge geometry. The final render is not a test of every candidate under identical diffusion settings. The live-v5 and ibr-v1 drive JSONs are byte-identical; stitched-opt-v2 is a different frame, so its official 112 s default view here is a time-matched comparison, not a pixel error target.
+
+Observed-support coverage after excluding both ego footprints: **54.35%** on average (44.40–62.86% by frame); mean excluded footprint **1.05%**. All its pixels were holes. Finite axial depth **5.30–148.5 m**. The painted sky/apron, assumed far cylinder and uncertain movers have no valid depth. The first RGB anchor still shows the complete layered view. Five [calibrated car-camera photographs per window](report/photographs.jpg), selected by frustum overlap, supplied reference appearance and per-lens rays. The camera-to-world axis conversion, depth encoding, photo correction and exact commands are in [README](README.md).
+
+## What ran on M5 Ultra
+
+All inference was local on the shared 96 GB Studio. Released StreetNVS parameters, Wan2.2 TI2V-5B and UMT5; no rental, training or replacement model. PyTorch 2.15.0 MPS, BF16, seed 42, block-streamed DiT, tiled VAE. The stock path fails on MPS float64. Against CPU, the replacement FP32 rotary, timestep and sliced full-key attention operations differed by at most 2.38e−7, 6.71e−5 and 9.54e−7 respectively. This validates those operations, not bitwise identity of a complete CUDA generation.
+
+| Trial | Pixels · frames · steps · CFG | Window time | s per generated s | Peak driver / process RSS |
+|---|---|---:|---:|---:|
+| Bring-up, superseded pose | 320×192 · 49 · 4 · 1 | 37.09 s | 7.57 | 4,194 / 3,349 MiB |
+| Native v4, superseded pose | 832×480 · 81 · 20 · 5 | 871.63 s | 107.61 | 4,478 / 3,809 MiB |
+| Reduced v5, superseded pose | 448×256 · 81 · 16 · 4 | 101.08 s | 12.48 | 3,255 / 3,718 MiB |
+| Final window 1, resumed | 512×320 · 81 · 20 · 5 | 453.39 s | 55.97 | 3,275 / 3,459 MiB |
+| Final window 2, continuous | 512×320 · 81 · 20 · 5 | 203.45 s | 25.12 | 3,275 / 3,478 MiB |
+
+Driver and RSS overlap in unified memory; **do not add them**. Native v4's system-wide swapouts rose by 959,299 16 KiB pages while unrelated jobs were active; the model's share is unknown. The reduced v5 benchmark recorded no swapout increase. Contention and window size make these end-to-end times unsuitable as isolated GPU benchmarks.
+
+**Delivered throughput:** 656.83 s of accounted inference for 15 unique seconds after overlap: **43.79 s per delivered second**. The first number includes checkpointed work and the final resume from step 11; it excludes aborted work after checkpoints and waits. From the last conditioning export to the encoded clip it actually took **21 min 22 s** (85.5 wall seconds per delivered second), including two pressure stops and idle/restart overhead. Successful invocations each sampled normal VM pressure but recorded system-wide swapout increases of 44,586 / 43,220 pages. No per-job attribution. The final-window peak figures describe the successful processes, not a measured peak across all interrupted attempts. [Timings 1](report/track-000-81.json) · [timings 2](report/track-069-81.json).
+
+**361 s projection:** at 10 Hz, 81 frames per window with 12 shared, 53 windows cover 3,610 frames. At the continuous second-window time, **3.0 h** of inference; at the final pair’s mean, **4.8 h**. Both exclude new conditioning, waiting, QC and I/O outside inference. The source assets tested here only cover the reconstruction slice, not the 361 s drive. Pre-rendered playback is interactive; generation is not. A new orbit or changed chase path needs fresh conditioning and generation. Keep splats for free camera movement and the generated clip as an explicitly experimental fixed-view overlay.
+
+The [native-resolution v4 comparison](report/v4-native-comparison.mp4) is an **old-pose baseline**, never installed in the viewer. At 832×480: 61/64 measured paint patches matched; median drift 8.06 px, p90 18.11 px, and only 2/32 tested frames kept every tested patch within 3 px. Generated/conditioning depth-warped RGB error was 4.65/2.07 levels. ΔE76 >20 on 16.27% of all pixels and 13.29% of supported pixels. Clouds and some road/lamp continuations looked plausible, but fog-like smears and invented lane geometry persisted. The v4 resolution benchmark would take **12.8 h** for 53 overlapping windows at that observed load, before render prep or quality control.
+
+## First model to try next
+
+[ViewNeXt](https://phai-lab.github.io/ViewNext/) is the first retest **when model weights and code appear**. It accepts a few posed photographs plus a target trajectory and does not need a rough chase render. That directly tests whether the scene errors originate in our intermediate conditioning. Its authors report leading perceptual scores in their comparisons; those are not measurements on this drive or evidence that it keeps paint fixed. On 2026-11-21 the [official repository](https://github.com/phai-lab/ViewNext) contains the project page/assets, no release; its README says “Code and model weights are coming soon” and lists arXiv/Hugging Face as forthcoming. We did not test it. StreetNVS did run, so no substitute model or gated weights were needed.

@@ -1,0 +1,7920 @@
+{
+  "status_meaning": "Observed shaft span is measured; lamp head and signal arm are not implied. Unverified lines are hypotheses, not counts of physical objects.",
+  "tracks": [
+    {
+      "id": "5-001",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1482.275,
+        -101.121
+      ],
+      "path_m": 5.28,
+      "ground_z": -0.08,
+      "top_z": 1.44,
+      "views": 8,
+      "height_bins": "3/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7514,
+        [
+          524,
+          239,
+          4,
+          23
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7649,
+        [
+          382,
+          150,
+          13,
+          84
+        ]
+      ]
+    },
+    {
+      "id": "5-002",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1434.783,
+        -171.898
+      ],
+      "path_m": 4.85,
+      "ground_z": -0.03,
+      "top_z": 1.86,
+      "views": 20,
+      "height_bins": "14/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6859,
+        [
+          528,
+          226,
+          3,
+          10
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7543,
+        [
+          621,
+          184,
+          6,
+          20
+        ]
+      ]
+    },
+    {
+      "id": "5-003",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1460.849,
+        -120.245
+      ],
+      "path_m": 14.89,
+      "ground_z": -0.12,
+      "top_z": 5.16,
+      "views": 23,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7204,
+        [
+          645,
+          186,
+          16,
+          73
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7677,
+        [
+          518,
+          163,
+          5,
+          37
+        ]
+      ]
+    },
+    {
+      "id": "5-004",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1435.167,
+        -171.306
+      ],
+      "path_m": 4.95,
+      "ground_z": -0.03,
+      "top_z": 2.31,
+      "views": 5,
+      "height_bins": "7/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7204,
+        [
+          540,
+          237,
+          4,
+          21
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7507,
+        [
+          601,
+          168,
+          4,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "5-005",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1439.833,
+        -150.294
+      ],
+      "path_m": 14.88,
+      "ground_z": -0.12,
+      "top_z": 8.07,
+      "views": 24,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6828,
+        [
+          651,
+          160,
+          5,
+          61
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7628,
+        [
+          534,
+          174,
+          5,
+          20
+        ]
+      ]
+    },
+    {
+      "id": "5-006",
+      "kind": "pole/shaft",
+      "status": "duplicate proposal",
+      "xy": [
+        -1439.579,
+        -150.336
+      ],
+      "path_m": 15.04,
+      "ground_z": -0.12,
+      "top_z": 2.52,
+      "views": 4,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": "5-005",
+      "first": [
+        "front",
+        6828,
+        [
+          656,
+          231,
+          4,
+          20
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7559,
+        [
+          441,
+          165,
+          3,
+          29
+        ]
+      ]
+    },
+    {
+      "id": "5-007",
+      "kind": "pole/shaft",
+      "status": "partial shaft",
+      "xy": [
+        -1489.548,
+        -124.621
+      ],
+      "path_m": 12.11,
+      "ground_z": -0.03,
+      "top_z": 10.92,
+      "views": 20,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7392,
+        [
+          381,
+          136,
+          10,
+          109
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7643,
+        [
+          266,
+          1,
+          17,
+          128
+        ]
+      ]
+    },
+    {
+      "id": "5-008",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1489.334,
+        -123.827
+      ],
+      "path_m": 11.54,
+      "ground_z": 0.02,
+      "top_z": 2.19,
+      "views": 5,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_repeater",
+        7640,
+        [
+          280,
+          126,
+          10,
+          75
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7664,
+        [
+          173,
+          187,
+          6,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "5-009",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1476.671,
+        -90.358
+      ],
+      "path_m": 14.92,
+      "ground_z": -0.07,
+      "top_z": 4.03,
+      "views": 13,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7466,
+        [
+          641,
+          208,
+          2,
+          12
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7691,
+        [
+          377,
+          129,
+          7,
+          58
+        ]
+      ]
+    },
+    {
+      "id": "5-010",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1410.053,
+        -188.402
+      ],
+      "path_m": 10.42,
+      "ground_z": -0.02,
+      "top_z": 6.97,
+      "views": 18,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          552,
+          109,
+          103,
+          143
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7507,
+        [
+          565,
+          143,
+          8,
+          33
+        ]
+      ]
+    },
+    {
+      "id": "5-011",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1446.758,
+        -180.134
+      ],
+      "path_m": 9.59,
+      "ground_z": 0.08,
+      "top_z": 2.1,
+      "views": 9,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6859,
+        [
+          311,
+          152,
+          8,
+          92
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7508,
+        [
+          199,
+          177,
+          7,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "5-012",
+      "kind": "pole/shaft",
+      "status": "partial shaft",
+      "xy": [
+        -1409.994,
+        -188.49
+      ],
+      "path_m": 10.4,
+      "ground_z": -0.02,
+      "top_z": 2.88,
+      "views": 5,
+      "height_bins": "15/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "right_pillar",
+        6898,
+        [
+          18,
+          159,
+          11,
+          70
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7507,
+        [
+          570,
+          190,
+          5,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "5-013",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1409.427,
+        -188.331
+      ],
+      "path_m": 10.89,
+      "ground_z": -0.03,
+      "top_z": 2.97,
+      "views": 8,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          664,
+          179,
+          3,
+          41
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7459,
+        [
+          528,
+          182,
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "5-014",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1454.556,
+        -174.61
+      ],
+      "path_m": 11.9,
+      "ground_z": 0.08,
+      "top_z": 8.38,
+      "views": 19,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          361,
+          170,
+          7,
+          71
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7560,
+        [
+          143,
+          62,
+          13,
+          136
+        ]
+      ]
+    },
+    {
+      "id": "5-015",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1437.365,
+        -222.928
+      ],
+      "path_m": 33.55,
+      "ground_z": 0.04,
+      "top_z": 7.02,
+      "views": 16,
+      "height_bins": "15/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        6795,
+        [
+          678,
+          148,
+          42,
+          65
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7490,
+        [
+          273,
+          143,
+          6,
+          53
+        ]
+      ]
+    },
+    {
+      "id": "5-016",
+      "kind": "pole/shaft",
+      "status": "partial shaft",
+      "xy": [
+        -1418.536,
+        -215.661
+      ],
+      "path_m": 15.89,
+      "ground_z": 0.2,
+      "top_z": 11.28,
+      "views": 24,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          1,
+          99,
+          1,
+          24
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7560,
+        [
+          44,
+          136,
+          4,
+          40
+        ]
+      ]
+    },
+    {
+      "id": "5-017",
+      "kind": "pole/shaft",
+      "status": "duplicate proposal",
+      "xy": [
+        -1418.625,
+        -215.329
+      ],
+      "path_m": 15.68,
+      "ground_z": 0.2,
+      "top_z": 4.5,
+      "views": 4,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": "5-016",
+      "first": [
+        "front",
+        6800,
+        [
+          1,
+          134,
+          5,
+          127
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7544,
+        [
+          57,
+          182,
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "5-018",
+      "kind": "pole/shaft",
+      "status": "continuous shaft",
+      "xy": [
+        -1437.376,
+        -223.11
+      ],
+      "path_m": 33.69,
+      "ground_z": 0.04,
+      "top_z": 2.43,
+      "views": 10,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        6967,
+        [
+          338,
+          185,
+          9,
+          34
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7508,
+        [
+          237,
+          162,
+          3,
+          29
+        ]
+      ]
+    },
+    {
+      "id": "5-019",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1488.642,
+        -108.307
+      ],
+      "path_m": 3.65,
+      "ground_z": -0.03,
+      "top_z": 5.45,
+      "views": 12,
+      "height_bins": "10/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7466,
+        [
+          429,
+          168,
+          14,
+          75
+        ]
+      ],
+      "last": [
+        "left_pillar",
+        7630,
+        [
+          512,
+          199,
+          6,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "5-020",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1428.568,
+        -173.106
+      ],
+      "path_m": 8.61,
+      "ground_z": -0.04,
+      "top_z": 2.8,
+      "views": 11,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          577,
+          225,
+          7,
+          17
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7477,
+        [
+          466,
+          179,
+          7,
+          43
+        ]
+      ]
+    },
+    {
+      "id": "5-021",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1486.534,
+        -96.929
+      ],
+      "path_m": 3.24,
+      "ground_z": -0.07,
+      "top_z": 1.51,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7484,
+        [
+          508,
+          234,
+          6,
+          15
+        ]
+      ],
+      "last": [
+        "right_pillar",
+        7650,
+        [
+          409,
+          156,
+          2,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "5-022",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1482.497,
+        -100.438
+      ],
+      "path_m": 5.36,
+      "ground_z": -0.08,
+      "top_z": 1.47,
+      "views": 7,
+      "height_bins": "6/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7670,
+        [
+          272,
+          98,
+          5,
+          10
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7687,
+        [
+          593,
+          203,
+          3,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "5-023",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1485.559,
+        -95.807
+      ],
+      "path_m": 4.57,
+      "ground_z": -0.06,
+      "top_z": 1.73,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7514,
+        [
+          521,
+          212,
+          5,
+          23
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7655,
+        [
+          280,
+          162,
+          3,
+          28
+        ]
+      ]
+    },
+    {
+      "id": "5-024",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1428.4,
+        -190.5
+      ],
+      "path_m": 3.53,
+      "ground_z": 0.07,
+      "top_z": 1.89,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7326,
+        [
+          182,
+          214,
+          4,
+          12
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7460,
+        [
+          77,
+          163,
+          2,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "5-025",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1433.749,
+        -170.679
+      ],
+      "path_m": 6.45,
+      "ground_z": -0.03,
+      "top_z": 1.17,
+      "views": 7,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7462,
+        [
+          128,
+          127,
+          3,
+          12
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7543,
+        [
+          605,
+          201,
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "5-026",
+      "kind": "pole/shaft",
+      "status": "partial shaft",
+      "xy": [
+        -1516.826,
+        -69.569
+      ],
+      "path_m": 21.11,
+      "ground_z": -0.03,
+      "top_z": 10.48,
+      "views": 13,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7598,
+        [
+          259,
+          118,
+          8,
+          131
+        ]
+      ],
+      "last": [
+        "left_pillar",
+        7693,
+        [
+          592,
+          1,
+          25,
+          214
+        ]
+      ]
+    },
+    {
+      "id": "5-027",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1426.112,
+        -191.988
+      ],
+      "path_m": 3.06,
+      "ground_z": 0.07,
+      "top_z": 2.55,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7204,
+        [
+          228,
+          67,
+          14,
+          26
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7565,
+        [
+          670,
+          193,
+          4,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "5-028",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1448.467,
+        -179.858
+      ],
+      "path_m": 10.7,
+      "ground_z": 0.09,
+      "top_z": 2.24,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7470,
+        [
+          623,
+          134,
+          8,
+          36
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7608,
+        [
+          49,
+          167,
+          7,
+          30
+        ]
+      ]
+    },
+    {
+      "id": "5-029",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1453.452,
+        -160.662
+      ],
+      "path_m": 2.31,
+      "ground_z": -0.0,
+      "top_z": 2.41,
+      "views": 6,
+      "height_bins": "8/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7326,
+        [
+          422,
+          149,
+          7,
+          90
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7544,
+        [
+          42,
+          123,
+          24,
+          52
+        ]
+      ]
+    },
+    {
+      "id": "5-030",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1423.208,
+        -182.152
+      ],
+      "path_m": 6.09,
+      "ground_z": -0.0,
+      "top_z": 2.23,
+      "views": 5,
+      "height_bins": "15/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7326,
+        [
+          703,
+          123,
+          4,
+          42
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7421,
+        [
+          377,
+          125,
+          2,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "5-031",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1489.168,
+        -90.319
+      ],
+      "path_m": 3.61,
+      "ground_z": -0.08,
+      "top_z": 1.94,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7532,
+        [
+          508,
+          216,
+          3,
+          29
+        ]
+      ],
+      "last": [
+        "right_pillar",
+        7664,
+        [
+          449,
+          130,
+          6,
+          59
+        ]
+      ]
+    },
+    {
+      "id": "5-032",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1455.459,
+        -158.12
+      ],
+      "path_m": 2.31,
+      "ground_z": -0.0,
+      "top_z": 5.0,
+      "views": 4,
+      "height_bins": "1/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6972,
+        [
+          439,
+          167,
+          5,
+          78
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7566,
+        [
+          40,
+          142,
+          4,
+          31
+        ]
+      ]
+    },
+    {
+      "id": "5-033",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1496.715,
+        -82.606
+      ],
+      "path_m": 0.57,
+      "ground_z": -0.07,
+      "top_z": 2.31,
+      "views": 11,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7628,
+        [
+          399,
+          156,
+          5,
+          86
+        ]
+      ],
+      "last": [
+        "back",
+        7684,
+        [
+          409,
+          54,
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "5-034",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1497.454,
+        -80.969
+      ],
+      "path_m": 0.71,
+      "ground_z": -0.08,
+      "top_z": 2.08,
+      "views": 5,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7635,
+        [
+          387,
+          217,
+          8,
+          25
+        ]
+      ],
+      "last": [
+        "front",
+        7684,
+        [
+          248,
+          171,
+          4,
+          25
+        ]
+      ]
+    },
+    {
+      "id": "5-035",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1487.939,
+        -108.485
+      ],
+      "path_m": 3.2,
+      "ground_z": -0.04,
+      "top_z": 4.44,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7428,
+        [
+          471,
+          205,
+          9,
+          38
+        ]
+      ],
+      "last": [
+        "left_pillar",
+        7630,
+        [
+          509,
+          165,
+          7,
+          22
+        ]
+      ]
+    },
+    {
+      "id": "5-036",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1492.318,
+        -102.501
+      ],
+      "path_m": 4.46,
+      "ground_z": -0.04,
+      "top_z": 3.2,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7628,
+        [
+          57,
+          185,
+          7,
+          73
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7664,
+        [
+          177,
+          28,
+          65,
+          66
+        ]
+      ]
+    },
+    {
+      "id": "5-037",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1482.377,
+        -99.9
+      ],
+      "path_m": 5.74,
+      "ground_z": -0.05,
+      "top_z": 1.44,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7566,
+        [
+          548,
+          240,
+          3,
+          16
+        ]
+      ],
+      "last": [
+        "right_pillar",
+        7640,
+        [
+          417,
+          125,
+          3,
+          30
+        ]
+      ]
+    },
+    {
+      "id": "5-038",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1445.119,
+        -180.567
+      ],
+      "path_m": 8.66,
+      "ground_z": 0.07,
+      "top_z": 1.49,
+      "views": 4,
+      "height_bins": "9/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7370,
+        [
+          121,
+          230,
+          2,
+          8
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7508,
+        [
+          171,
+          172,
+          5,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "5-039",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1484.332,
+        -53.35
+      ],
+      "path_m": 28.59,
+      "ground_z": -0.1,
+      "top_z": 5.19,
+      "views": 9,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7550,
+        [
+          701,
+          209,
+          2,
+          18
+        ]
+      ],
+      "last": [
+        "right_pillar",
+        7692,
+        [
+          173,
+          117,
+          7,
+          74
+        ]
+      ]
+    },
+    {
+      "id": "5-040",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1494.381,
+        -100.197
+      ],
+      "path_m": 5.28,
+      "ground_z": -0.04,
+      "top_z": 5.33,
+      "views": 4,
+      "height_bins": "2/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        7644,
+        [
+          596,
+          198,
+          3,
+          11
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7692,
+        [
+          114,
+          87,
+          6,
+          32
+        ]
+      ]
+    },
+    {
+      "id": "5-041",
+      "kind": "pole/shaft",
+      "status": "continuous shaft",
+      "xy": [
+        -1460.128,
+        -203.973
+      ],
+      "path_m": 35.54,
+      "ground_z": -0.05,
+      "top_z": 1.97,
+      "views": 8,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          39,
+          177,
+          8,
+          76
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7478,
+        [
+          564,
+          173,
+          4,
+          17
+        ]
+      ]
+    },
+    {
+      "id": "5-042",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1469.494,
+        -126.065
+      ],
+      "path_m": 4.47,
+      "ground_z": -0.06,
+      "top_z": 1.26,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7550,
+        [
+          598,
+          243,
+          9,
+          49
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7691,
+        [
+          621,
+          198,
+          3,
+          8
+        ]
+      ]
+    },
+    {
+      "id": "5-043",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1493.009,
+        -102.143
+      ],
+      "path_m": 4.89,
+      "ground_z": -0.04,
+      "top_z": 7.19,
+      "views": 6,
+      "height_bins": "3/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7452,
+        [
+          451,
+          176,
+          4,
+          35
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7672,
+        [
+          156,
+          53,
+          13,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "5-044",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1440.654,
+        -169.365
+      ],
+      "path_m": 2.16,
+      "ground_z": -0.01,
+      "top_z": 3.3,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          500,
+          169,
+          8,
+          68
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7543,
+        [
+          655,
+          158,
+          6,
+          45
+        ]
+      ]
+    },
+    {
+      "id": "5-045",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1464.047,
+        -150.629
+      ],
+      "path_m": 4.69,
+      "ground_z": 0.0,
+      "top_z": 3.08,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7370,
+        [
+          396,
+          232,
+          4,
+          9
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7687,
+        [
+          669,
+          183,
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "5-046",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1416.065,
+        -201.013
+      ],
+      "path_m": 3.05,
+      "ground_z": 0.09,
+      "top_z": 1.51,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        7321,
+        [
+          121,
+          172,
+          2,
+          18
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7422,
+        [
+          57,
+          183,
+          3,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "5-047",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1499.024,
+        -76.735
+      ],
+      "path_m": 2.26,
+      "ground_z": -0.08,
+      "top_z": 2.03,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7614,
+        [
+          416,
+          178,
+          7,
+          66
+        ]
+      ],
+      "last": [
+        "front",
+        7694,
+        [
+          229,
+          175,
+          2,
+          17
+        ]
+      ]
+    },
+    {
+      "id": "5-048",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1495.345,
+        -90.656
+      ],
+      "path_m": 2.35,
+      "ground_z": -0.06,
+      "top_z": 2.18,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7476,
+        [
+          473,
+          200,
+          5,
+          18
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7678,
+        [
+          144,
+          55,
+          52,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "5-049",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1422.43,
+        -172.323
+      ],
+      "path_m": 13.58,
+      "ground_z": -0.07,
+      "top_z": 1.17,
+      "views": 6,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6828,
+        [
+          668,
+          235,
+          3,
+          16
+        ]
+      ],
+      "last": [
+        "right_pillar",
+        7396,
+        [
+          263,
+          205,
+          5,
+          22
+        ]
+      ]
+    },
+    {
+      "id": "5-050",
+      "kind": "pole/shaft",
+      "status": "not in release",
+      "xy": [
+        -1479.798,
+        -120.876
+      ],
+      "path_m": 1.98,
+      "ground_z": -0.03,
+      "top_z": 3.28,
+      "views": 6,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7572,
+        [
+          297,
+          229,
+          2,
+          16
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7650,
+        [
+          36,
+          139,
+          3,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "5-051",
+      "kind": "pole/shaft",
+      "status": "not in release",
+      "xy": [
+        -1438.009,
+        -201.454
+      ],
+      "path_m": 18.09,
+      "ground_z": 0.18,
+      "top_z": 2.36,
+      "views": 4,
+      "height_bins": "7/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        7365,
+        [
+          401,
+          111,
+          8,
+          95
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7526,
+        [
+          150,
+          178,
+          5,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "5-052",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1500.849,
+        -77.667
+      ],
+      "path_m": 3.24,
+      "ground_z": -0.07,
+      "top_z": 2.33,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7646,
+        [
+          321,
+          184,
+          2,
+          13
+        ]
+      ],
+      "last": [
+        "front",
+        7684,
+        [
+          111,
+          225,
+          4,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "5-053",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1495.445,
+        -81.527
+      ],
+      "path_m": 1.11,
+      "ground_z": -0.08,
+      "top_z": 2.23,
+      "views": 5,
+      "height_bins": "10/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7566,
+        [
+          472,
+          206,
+          7,
+          36
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7691,
+        [
+          672,
+          159,
+          3,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "5-054",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1403.451,
+        -192.866
+      ],
+      "path_m": 11.29,
+      "ground_z": -0.02,
+      "top_z": 1.81,
+      "views": 6,
+      "height_bins": "12/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7356,
+        [
+          142,
+          114,
+          10,
+          26
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7363,
+        [
+          360,
+          179,
+          7,
+          38
+        ]
+      ]
+    },
+    {
+      "id": "5-055",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1501.986,
+        -80.932
+      ],
+      "path_m": 4.84,
+      "ground_z": -0.06,
+      "top_z": 1.66,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7642,
+        [
+          249,
+          180,
+          2,
+          8
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7692,
+        [
+          552,
+          184,
+          5,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "5-056",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1482.894,
+        -114.454
+      ],
+      "path_m": 1.57,
+      "ground_z": -0.04,
+      "top_z": 4.93,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7416,
+        [
+          484,
+          181,
+          5,
+          38
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7643,
+        [
+          41,
+          123,
+          25,
+          46
+        ]
+      ]
+    },
+    {
+      "id": "5-057",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1423.402,
+        -179.725
+      ],
+      "path_m": 7.68,
+      "ground_z": -0.02,
+      "top_z": 2.83,
+      "views": 4,
+      "height_bins": "7/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6828,
+        [
+          581,
+          214,
+          6,
+          33
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7477,
+        [
+          545,
+          117,
+          46,
+          51
+        ]
+      ]
+    },
+    {
+      "id": "5-058",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1502.113,
+        -76.522
+      ],
+      "path_m": 4.84,
+      "ground_z": -0.07,
+      "top_z": 1.62,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7635,
+        [
+          324,
+          226,
+          3,
+          12
+        ]
+      ],
+      "last": [
+        "front",
+        7684,
+        [
+          78,
+          222,
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "id": "5-059",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1487.948,
+        -96.314
+      ],
+      "path_m": 2.31,
+      "ground_z": -0.07,
+      "top_z": 1.8,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7572,
+        [
+          469,
+          203,
+          2,
+          16
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7655,
+        [
+          468,
+          163,
+          9,
+          62
+        ]
+      ]
+    },
+    {
+      "id": "5-060",
+      "kind": "pole/shaft",
+      "status": "partial shaft",
+      "xy": [
+        -1378.506,
+        -243.361
+      ],
+      "path_m": 20.93,
+      "ground_z": 0.17,
+      "top_z": 11.22,
+      "views": 15,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        6786,
+        [
+          572,
+          86,
+          8,
+          47
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7364,
+        [
+          96,
+          115,
+          7,
+          80
+        ]
+      ]
+    },
+    {
+      "id": "5-061",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1518.489,
+        -102.606
+      ],
+      "path_m": 28.27,
+      "ground_z": -0.08,
+      "top_z": 0.87,
+      "views": 4,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        7630,
+        [
+          525,
+          203,
+          2,
+          8
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7688,
+        [
+          585,
+          184,
+          4,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "5-062",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1425.575,
+        -202.048
+      ],
+      "path_m": 10.08,
+      "ground_z": 0.14,
+      "top_z": 2.74,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7470,
+        [
+          408,
+          52,
+          9,
+          48
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7364,
+        [
+          657,
+          158,
+          3,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "5-063",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1423.246,
+        -172.299
+      ],
+      "path_m": 13.02,
+      "ground_z": -0.07,
+      "top_z": 1.29,
+      "views": 4,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6828,
+        [
+          661,
+          203,
+          2,
+          15
+        ]
+      ],
+      "last": [
+        "right_pillar",
+        7364,
+        [
+          90,
+          197,
+          8,
+          26
+        ]
+      ]
+    },
+    {
+      "id": "5-064",
+      "kind": "pole/shaft",
+      "status": "partial",
+      "xy": [
+        -1376.561,
+        -207.802
+      ],
+      "path_m": 15.5,
+      "ground_z": 0.04,
+      "top_z": 6.98,
+      "views": 5,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "right_pillar",
+        6795,
+        [
+          459,
+          1,
+          17,
+          184
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        6898,
+        [
+          386,
+          180,
+          4,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "5-065",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1451.651,
+        -181.609
+      ],
+      "path_m": 14.24,
+      "ground_z": 0.11,
+      "top_z": 3.66,
+      "views": 4,
+      "height_bins": "9/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7482,
+        [
+          559,
+          96,
+          56,
+          59
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7566,
+        [
+          131,
+          178,
+          4,
+          18
+        ]
+      ]
+    },
+    {
+      "id": "5-066",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1471.071,
+        -92.232
+      ],
+      "path_m": 19.23,
+      "ground_z": -0.13,
+      "top_z": 3.75,
+      "views": 4,
+      "height_bins": "3/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7484,
+        [
+          693,
+          208,
+          2,
+          10
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7687,
+        [
+          337,
+          176,
+          2,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "5-067",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1425.055,
+        -204.766
+      ],
+      "path_m": 11.78,
+      "ground_z": 0.15,
+      "top_z": 7.14,
+      "views": 4,
+      "height_bins": "2/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7518,
+        [
+          384,
+          64,
+          3,
+          15
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7478,
+        [
+          93,
+          82,
+          60,
+          113
+        ]
+      ]
+    },
+    {
+      "id": "5-068",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1449.373,
+        -180.746
+      ],
+      "path_m": 11.97,
+      "ground_z": 0.1,
+      "top_z": 1.55,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6972,
+        [
+          201,
+          242,
+          2,
+          8
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7490,
+        [
+          367,
+          149,
+          4,
+          37
+        ]
+      ]
+    },
+    {
+      "id": "5-069",
+      "kind": "pole/shaft",
+      "status": "not in release",
+      "xy": [
+        -1457.776,
+        -204.287
+      ],
+      "path_m": 34.05,
+      "ground_z": -0.05,
+      "top_z": 2.52,
+      "views": 4,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7462,
+        [
+          639,
+          150,
+          7,
+          29
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7460,
+        [
+          630,
+          167,
+          6,
+          40
+        ]
+      ]
+    },
+    {
+      "id": "5-070",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1433.465,
+        -206.406
+      ],
+      "path_m": 18.6,
+      "ground_z": 0.2,
+      "top_z": 2.33,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        7199,
+        [
+          540,
+          151,
+          5,
+          55
+        ]
+      ],
+      "last": [
+        "left_pillar",
+        7387,
+        [
+          58,
+          173,
+          4,
+          21
+        ]
+      ]
+    },
+    {
+      "id": "5-071",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1412.559,
+        -204.695
+      ],
+      "path_m": 3.63,
+      "ground_z": 0.1,
+      "top_z": 3.14,
+      "views": 4,
+      "height_bins": "2/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        6967,
+        [
+          568,
+          125,
+          5,
+          83
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7396,
+        [
+          57,
+          113,
+          44,
+          52
+        ]
+      ]
+    },
+    {
+      "id": "5-072",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1430.523,
+        -180.338
+      ],
+      "path_m": 2.19,
+      "ground_z": 0.01,
+      "top_z": 3.73,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6828,
+        [
+          487,
+          168,
+          5,
+          57
+        ]
+      ],
+      "last": [
+        "back",
+        7438,
+        [
+          252,
+          37,
+          11,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "5-073",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1388.713,
+        -199.317
+      ],
+      "path_m": 15.41,
+      "ground_z": -0.0,
+      "top_z": 4.83,
+      "views": 4,
+      "height_bins": "14/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "right_pillar",
+        6795,
+        [
+          120,
+          134,
+          3,
+          41
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        6898,
+        [
+          116,
+          100,
+          10,
+          102
+        ]
+      ]
+    },
+    {
+      "id": "5-074",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1477.932,
+        -129.076
+      ],
+      "path_m": 4.3,
+      "ground_z": -0.01,
+      "top_z": 1.43,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7452,
+        [
+          392,
+          232,
+          4,
+          12
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7643,
+        [
+          69,
+          185,
+          2,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "5-075",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1515.144,
+        -61.031
+      ],
+      "path_m": 24.73,
+      "ground_z": -0.05,
+      "top_z": 2.63,
+      "views": 4,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7635,
+        [
+          264,
+          201,
+          3,
+          12
+        ]
+      ],
+      "last": [
+        "front",
+        7684,
+        [
+          79,
+          237,
+          4,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "5-076",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1480.677,
+        -116.58
+      ],
+      "path_m": 0.56,
+      "ground_z": -0.04,
+      "top_z": 4.78,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7370,
+        [
+          516,
+          204,
+          4,
+          26
+        ]
+      ],
+      "last": [
+        "back",
+        7684,
+        [
+          343,
+          73,
+          4,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "5-077",
+      "kind": "pole/shaft",
+      "status": "unverified",
+      "xy": [
+        -1430.714,
+        -234.317
+      ],
+      "path_m": 38.03,
+      "ground_z": 0.07,
+      "top_z": 2.78,
+      "views": 4,
+      "height_bins": "3/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        6854,
+        [
+          394,
+          188,
+          1,
+          8
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7410,
+        [
+          435,
+          162,
+          5,
+          22
+        ]
+      ]
+    },
+    {
+      "id": "6-078",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1428.367,
+        -210.394
+      ],
+      "path_m": 18.19,
+      "ground_z": 0.2,
+      "top_z": 7.18,
+      "views": 21,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          55,
+          125,
+          14,
+          21
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7544,
+        [
+          89,
+          147,
+          8,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "6-079",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1447.739,
+        -205.89
+      ],
+      "path_m": 28.04,
+      "ground_z": -0.06,
+      "top_z": 7.02,
+      "views": 18,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          53,
+          161,
+          7,
+          10
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7508,
+        [
+          295,
+          123,
+          8,
+          15
+        ]
+      ]
+    },
+    {
+      "id": "6-080",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1428.45,
+        -173.516
+      ],
+      "path_m": 8.41,
+      "ground_z": -0.05,
+      "top_z": 3.41,
+      "views": 14,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          579,
+          201,
+          7,
+          15
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7559,
+        [
+          586,
+          173,
+          8,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "6-081",
+      "kind": "signal head",
+      "status": "panel + continuous shaft",
+      "xy": [
+        -1459.83,
+        -203.878
+      ],
+      "path_m": 35.26,
+      "ground_z": -0.05,
+      "top_z": 3.07,
+      "views": 14,
+      "height_bins": "17/17",
+      "mounts": [
+        "5-041"
+      ],
+      "same_as": null,
+      "first": [
+        "back",
+        7452,
+        [
+          677,
+          179,
+          6,
+          6
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7526,
+        [
+          359,
+          167,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "6-082",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1450.727,
+        -205.33
+      ],
+      "path_m": 29.74,
+      "ground_z": -0.06,
+      "top_z": 6.95,
+      "views": 13,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7462,
+        [
+          603,
+          105,
+          3,
+          4
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7508,
+        [
+          324,
+          121,
+          11,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "6-083",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1430.657,
+        -213.475
+      ],
+      "path_m": 22.02,
+      "ground_z": 0.02,
+      "top_z": 7.08,
+      "views": 12,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        6898,
+        [
+          566,
+          98,
+          12,
+          17
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7508,
+        [
+          164,
+          137,
+          3,
+          7
+        ]
+      ]
+    },
+    {
+      "id": "6-084",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1410.06,
+        -188.189
+      ],
+      "path_m": 10.58,
+      "ground_z": -0.02,
+      "top_z": 3.71,
+      "views": 11,
+      "height_bins": "17/17",
+      "mounts": [
+        "5-012"
+      ],
+      "same_as": null,
+      "first": [
+        "front",
+        6828,
+        [
+          687,
+          185,
+          4,
+          7
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7507,
+        [
+          567,
+          174,
+          8,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "6-085",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1432.955,
+        -216.723
+      ],
+      "path_m": 25.97,
+      "ground_z": 0.03,
+      "top_z": 7.03,
+      "views": 10,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "back",
+        7518,
+        [
+          431,
+          76,
+          10,
+          11
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7526,
+        [
+          159,
+          142,
+          7,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "6-086",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1439.801,
+        -184.284
+      ],
+      "path_m": 7.24,
+      "ground_z": 0.08,
+      "top_z": 6.97,
+      "views": 16,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          360,
+          156,
+          13,
+          16
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7576,
+        [
+          38,
+          137,
+          8,
+          13
+        ]
+      ]
+    },
+    {
+      "id": "6-087",
+      "kind": "signal head",
+      "status": "panel + continuous shaft",
+      "xy": [
+        -1437.17,
+        -222.766
+      ],
+      "path_m": 33.3,
+      "ground_z": 0.04,
+      "top_z": 2.92,
+      "views": 9,
+      "height_bins": "14/17",
+      "mounts": [
+        "5-018"
+      ],
+      "same_as": null,
+      "first": [
+        "left_pillar",
+        6854,
+        [
+          554,
+          176,
+          10,
+          11
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7410,
+        [
+          521,
+          159,
+          6,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "6-088",
+      "kind": "signal head",
+      "status": "panel + continuous shaft",
+      "xy": [
+        -1437.128,
+        -223.386
+      ],
+      "path_m": 33.74,
+      "ground_z": 0.04,
+      "top_z": 3.24,
+      "views": 4,
+      "height_bins": "14/17",
+      "mounts": [
+        "5-018"
+      ],
+      "same_as": null,
+      "first": [
+        "left_repeater",
+        7422,
+        [
+          473,
+          158,
+          8,
+          9
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7478,
+        [
+          300,
+          170,
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "6-089",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1427.873,
+        -174.054
+      ],
+      "path_m": 8.46,
+      "ground_z": -0.04,
+      "top_z": 3.36,
+      "views": 4,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6972,
+        [
+          635,
+          191,
+          13,
+          20
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7477,
+        [
+          478,
+          132,
+          17,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "6-090",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1421.489,
+        -186.503
+      ],
+      "path_m": 4.14,
+      "ground_z": 0.02,
+      "top_z": 7.08,
+      "views": 13,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          498,
+          129,
+          20,
+          19
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7525,
+        [
+          620,
+          138,
+          14,
+          12
+        ]
+      ]
+    },
+    {
+      "id": "6-091",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1417.758,
+        -187.36
+      ],
+      "path_m": 6.06,
+      "ground_z": 0.01,
+      "top_z": 7.21,
+      "views": 12,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          537,
+          120,
+          16,
+          20
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7525,
+        [
+          608,
+          142,
+          8,
+          9
+        ]
+      ]
+    },
+    {
+      "id": "6-092",
+      "kind": "signal head",
+      "status": "not in release",
+      "xy": [
+        -1411.646,
+        -187.254
+      ],
+      "path_m": 10.23,
+      "ground_z": -0.02,
+      "top_z": 3.46,
+      "views": 4,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          633,
+          187,
+          9,
+          8
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7445,
+        [
+          504,
+          153,
+          14,
+          16
+        ]
+      ]
+    },
+    {
+      "id": "6-093",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1437.001,
+        -181.851
+      ],
+      "path_m": 3.55,
+      "ground_z": 0.05,
+      "top_z": 6.98,
+      "views": 10,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          412,
+          154,
+          7,
+          16
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7490,
+        [
+          81,
+          61,
+          6,
+          10
+        ]
+      ]
+    },
+    {
+      "id": "6-094",
+      "kind": "signal head",
+      "status": "panel; mount unverified",
+      "xy": [
+        -1434.136,
+        -179.651
+      ],
+      "path_m": 0.56,
+      "ground_z": 0.02,
+      "top_z": 6.9,
+      "views": 9,
+      "height_bins": "16/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          461,
+          154,
+          6,
+          13
+        ]
+      ],
+      "last": [
+        "right_repeater",
+        7489,
+        [
+          690,
+          76,
+          4,
+          6
+        ]
+      ]
+    },
+    {
+      "id": "7-095",
+      "kind": "sign panel",
+      "status": "not in release",
+      "xy": [
+        -1495.445,
+        -164.881
+      ],
+      "path_m": 38.5,
+      "ground_z": -0.04,
+      "top_z": 2.3,
+      "views": 7,
+      "height_bins": "17/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7326,
+        [
+          72,
+          227,
+          8,
+          7
+        ]
+      ],
+      "last": [
+        "left_repeater",
+        7656,
+        [
+          266,
+          181,
+          15,
+          11
+        ]
+      ]
+    },
+    {
+      "id": "7-096",
+      "kind": "sign panel",
+      "status": "unverified",
+      "xy": [
+        -1447.048,
+        -180.128
+      ],
+      "path_m": 9.8,
+      "ground_z": 0.08,
+      "top_z": 3.1,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        7204,
+        [
+          206,
+          190,
+          16,
+          19
+        ]
+      ],
+      "last": [
+        "left_pillar",
+        7423,
+        [
+          662,
+          137,
+          20,
+          29
+        ]
+      ]
+    },
+    {
+      "id": "7-097",
+      "kind": "sign panel",
+      "status": "unverified",
+      "xy": [
+        -1419.034,
+        -187.46
+      ],
+      "path_m": 5.13,
+      "ground_z": 0.01,
+      "top_z": 6.72,
+      "views": 5,
+      "height_bins": "0/17",
+      "mounts": [],
+      "same_as": null,
+      "first": [
+        "front",
+        6800,
+        [
+          525,
+          130,
+          12,
+          8
+        ]
+      ],
+      "last": [
+        "front",
+        6972,
+        [
+          613,
+          1,
+          52,
+          18
+        ]
+      ]
+    }
+  ],
+  "unmatched_image_components": [
+    {
+      "c": "front",
+      "n": 6800,
+      "bb": [
+        1,
+        3,
+        6,
+        76
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6800,
+      "bb": [
+        361,
+        128,
+        3,
+        31
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6800,
+      "bb": [
+        572,
+        203,
+        5,
+        13
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 6800,
+      "bb": [
+        357,
+        214,
+        3,
+        4
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 6800,
+      "bb": [
+        381,
+        160,
+        17,
+        6
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 6828,
+      "bb": [
+        333,
+        120,
+        7,
+        31
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6828,
+      "bb": [
+        358,
+        152,
+        21,
+        6
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 6859,
+      "bb": [
+        310,
+        110,
+        6,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6859,
+      "bb": [
+        333,
+        136,
+        25,
+        7
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 6903,
+      "bb": [
+        279,
+        102,
+        5,
+        23
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6903,
+      "bb": [
+        456,
+        170,
+        5,
+        75
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6903,
+      "bb": [
+        653,
+        183,
+        3,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6903,
+      "bb": [
+        300,
+        128,
+        33,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 6972,
+      "bb": [
+        244,
+        83,
+        5,
+        25
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6972,
+      "bb": [
+        548,
+        187,
+        3,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6972,
+      "bb": [
+        126,
+        225,
+        1,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 6972,
+      "bb": [
+        617,
+        195,
+        13,
+        11
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 6972,
+      "bb": [
+        227,
+        207,
+        13,
+        16
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 6972,
+      "bb": [
+        264,
+        107,
+        39,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7204,
+      "bb": [
+        241,
+        80,
+        45,
+        15
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7204,
+      "bb": [
+        89,
+        218,
+        18,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7326,
+      "bb": [
+        536,
+        179,
+        4,
+        59
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7326,
+      "bb": [
+        215,
+        61,
+        47,
+        17
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7370,
+      "bb": [
+        137,
+        1,
+        61,
+        18
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7416,
+      "bb": [
+        481,
+        220,
+        3,
+        22
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7416,
+      "bb": [
+        36,
+        233,
+        3,
+        18
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7476,
+      "bb": [
+        182,
+        240,
+        8,
+        16
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7476,
+      "bb": [
+        297,
+        243,
+        8,
+        7
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7514,
+      "bb": [
+        692,
+        201,
+        7,
+        36
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7514,
+      "bb": [
+        531,
+        221,
+        6,
+        6
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7532,
+      "bb": [
+        520,
+        223,
+        4,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7532,
+      "bb": [
+        277,
+        237,
+        7,
+        11
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7572,
+      "bb": [
+        85,
+        220,
+        7,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7572,
+      "bb": [
+        59,
+        227,
+        4,
+        21
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7598,
+      "bb": [
+        439,
+        170,
+        5,
+        76
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7598,
+      "bb": [
+        436,
+        223,
+        4,
+        3
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7598,
+      "bb": [
+        605,
+        227,
+        10,
+        11
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7614,
+      "bb": [
+        9,
+        214,
+        24,
+        35
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7628,
+      "bb": [
+        277,
+        202,
+        2,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7635,
+      "bb": [
+        512,
+        180,
+        4,
+        59
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7635,
+      "bb": [
+        91,
+        215,
+        6,
+        38
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7635,
+      "bb": [
+        29,
+        235,
+        2,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7635,
+      "bb": [
+        21,
+        238,
+        3,
+        19
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7635,
+      "bb": [
+        374,
+        210,
+        26,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7642,
+      "bb": [
+        504,
+        189,
+        5,
+        49
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7642,
+      "bb": [
+        104,
+        229,
+        6,
+        12
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7642,
+      "bb": [
+        307,
+        210,
+        7,
+        5
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7642,
+      "bb": [
+        364,
+        211,
+        17,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7642,
+      "bb": [
+        383,
+        215,
+        6,
+        5
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7642,
+      "bb": [
+        593,
+        222,
+        4,
+        4
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7646,
+      "bb": [
+        500,
+        183,
+        6,
+        54
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7646,
+      "bb": [
+        358,
+        210,
+        25,
+        10
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7646,
+      "bb": [
+        591,
+        218,
+        7,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7649,
+      "bb": [
+        497,
+        175,
+        6,
+        62
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7649,
+      "bb": [
+        157,
+        209,
+        2,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7649,
+      "bb": [
+        352,
+        209,
+        17,
+        10
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7649,
+      "bb": [
+        371,
+        212,
+        8,
+        7
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7649,
+      "bb": [
+        592,
+        219,
+        4,
+        5
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        221,
+        174,
+        2,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        490,
+        194,
+        5,
+        25
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        221,
+        221,
+        2,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        492,
+        221,
+        3,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        343,
+        208,
+        18,
+        13
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        363,
+        212,
+        5,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7656,
+      "bb": [
+        591,
+        219,
+        5,
+        4
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        484,
+        173,
+        3,
+        46
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        208,
+        177,
+        3,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        293,
+        184,
+        2,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        206,
+        199,
+        4,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        204,
+        217,
+        6,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        333,
+        208,
+        26,
+        13
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7662,
+      "bb": [
+        590,
+        218,
+        7,
+        6
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        188,
+        172,
+        3,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        474,
+        183,
+        4,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        188,
+        201,
+        3,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        298,
+        201,
+        5,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        448,
+        224,
+        3,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        187,
+        228,
+        5,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        297,
+        228,
+        3,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        318,
+        207,
+        12,
+        11
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7670,
+      "bb": [
+        339,
+        214,
+        6,
+        7
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7678,
+      "bb": [
+        464,
+        167,
+        4,
+        62
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7678,
+      "bb": [
+        305,
+        204,
+        5,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7678,
+      "bb": [
+        324,
+        207,
+        9,
+        14
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7678,
+      "bb": [
+        305,
+        203,
+        4,
+        5
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7678,
+      "bb": [
+        310,
+        207,
+        8,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7678,
+      "bb": [
+        585,
+        210,
+        13,
+        13
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        148,
+        162,
+        9,
+        81
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        455,
+        165,
+        6,
+        64
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        166,
+        175,
+        8,
+        67
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        95,
+        184,
+        4,
+        19
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        272,
+        200,
+        3,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        93,
+        207,
+        7,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        621,
+        222,
+        3,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        292,
+        201,
+        14,
+        16
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7684,
+      "bb": [
+        589,
+        210,
+        9,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        129,
+        164,
+        9,
+        78
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        447,
+        167,
+        5,
+        64
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        233,
+        175,
+        4,
+        21
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        185,
+        200,
+        2,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        248,
+        219,
+        3,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        536,
+        208,
+        7,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        567,
+        210,
+        6,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        279,
+        202,
+        17,
+        17
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        299,
+        207,
+        9,
+        8
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7691,
+      "bb": [
+        590,
+        213,
+        8,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        287,
+        119,
+        6,
+        123
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        120,
+        162,
+        8,
+        80
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        442,
+        167,
+        5,
+        62
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        141,
+        194,
+        2,
+        26
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        140,
+        221,
+        4,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        273,
+        203,
+        15,
+        16
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        293,
+        207,
+        8,
+        7
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7694,
+      "bb": [
+        589,
+        209,
+        11,
+        14
+      ],
+      "kind": 7
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        277,
+        115,
+        8,
+        130
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        105,
+        159,
+        14,
+        85
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        436,
+        164,
+        7,
+        68
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        217,
+        172,
+        4,
+        23
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        169,
+        198,
+        2,
+        23
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        297,
+        216,
+        1,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        229,
+        221,
+        7,
+        20
+      ],
+      "kind": 5
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        528,
+        208,
+        6,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        560,
+        211,
+        5,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "front",
+      "n": 7698,
+      "bb": [
+        589,
+        210,
+        12,
+        14
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 6845,
+      "bb": [
+        470,
+        33,
+        12,
+        40
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7312,
+      "bb": [
+        403,
+        52,
+        13,
+        50
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7356,
+      "bb": [
+        163,
+        104,
+        23,
+        26
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 7388,
+      "bb": [
+        383,
+        90,
+        5,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7438,
+      "bb": [
+        285,
+        22,
+        4,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "back",
+      "n": 7452,
+      "bb": [
+        659,
+        161,
+        9,
+        34
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7452,
+      "bb": [
+        528,
+        122,
+        4,
+        4
+      ],
+      "kind": 6
+    },
+    {
+      "c": "back",
+      "n": 7462,
+      "bb": [
+        173,
+        31,
+        9,
+        60
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7462,
+      "bb": [
+        285,
+        40,
+        25,
+        15
+      ],
+      "kind": 6
+    },
+    {
+      "c": "back",
+      "n": 7462,
+      "bb": [
+        202,
+        97,
+        18,
+        15
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 7462,
+      "bb": [
+        129,
+        136,
+        6,
+        16
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 7470,
+      "bb": [
+        597,
+        125,
+        6,
+        23
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7470,
+      "bb": [
+        266,
+        81,
+        10,
+        23
+      ],
+      "kind": 6
+    },
+    {
+      "c": "back",
+      "n": 7500,
+      "bb": [
+        277,
+        84,
+        11,
+        19
+      ],
+      "kind": 6
+    },
+    {
+      "c": "back",
+      "n": 7558,
+      "bb": [
+        422,
+        40,
+        9,
+        36
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7584,
+      "bb": [
+        76,
+        133,
+        19,
+        60
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 7614,
+      "bb": [
+        161,
+        59,
+        3,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7642,
+      "bb": [
+        93,
+        121,
+        14,
+        54
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 7648,
+      "bb": [
+        469,
+        24,
+        6,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "back",
+      "n": 7670,
+      "bb": [
+        181,
+        119,
+        23,
+        17
+      ],
+      "kind": 7
+    },
+    {
+      "c": "back",
+      "n": 7677,
+      "bb": [
+        277,
+        86,
+        11,
+        13
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_pillar",
+      "n": 6795,
+      "bb": [
+        64,
+        156,
+        4,
+        32
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6823,
+      "bb": [
+        622,
+        138,
+        69,
+        76
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6823,
+      "bb": [
+        454,
+        169,
+        5,
+        38
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6823,
+      "bb": [
+        717,
+        177,
+        1,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6854,
+      "bb": [
+        677,
+        135,
+        3,
+        36
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6854,
+      "bb": [
+        415,
+        160,
+        4,
+        48
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6854,
+      "bb": [
+        681,
+        181,
+        2,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6898,
+      "bb": [
+        620,
+        112,
+        7,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6898,
+      "bb": [
+        628,
+        151,
+        2,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6898,
+      "bb": [
+        628,
+        170,
+        3,
+        37
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6898,
+      "bb": [
+        365,
+        187,
+        3,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6898,
+      "bb": [
+        526,
+        107,
+        11,
+        17
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 6898,
+      "bb": [
+        713,
+        192,
+        7,
+        15
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 6967,
+      "bb": [
+        537,
+        91,
+        31,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6967,
+      "bb": [
+        509,
+        202,
+        2,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 6967,
+      "bb": [
+        399,
+        96,
+        12,
+        19
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7199,
+      "bb": [
+        480,
+        199,
+        3,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7199,
+      "bb": [
+        333,
+        91,
+        12,
+        19
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7321,
+      "bb": [
+        269,
+        159,
+        2,
+        20
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7321,
+      "bb": [
+        268,
+        185,
+        4,
+        20
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7321,
+      "bb": [
+        234,
+        31,
+        50,
+        72
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7365,
+      "bb": [
+        432,
+        110,
+        57,
+        55
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7365,
+      "bb": [
+        352,
+        188,
+        4,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7365,
+      "bb": [
+        38,
+        34,
+        41,
+        69
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7387,
+      "bb": [
+        332,
+        111,
+        7,
+        96
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7387,
+      "bb": [
+        292,
+        198,
+        3,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7387,
+      "bb": [
+        6,
+        175,
+        6,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7397,
+      "bb": [
+        252,
+        61,
+        128,
+        148
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7397,
+      "bb": [
+        261,
+        199,
+        2,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7397,
+      "bb": [
+        709,
+        3,
+        13,
+        25
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7397,
+      "bb": [
+        257,
+        97,
+        20,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_pillar",
+      "n": 7411,
+      "bb": [
+        191,
+        60,
+        125,
+        150
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7411,
+      "bb": [
+        132,
+        156,
+        7,
+        52
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7411,
+      "bb": [
+        28,
+        175,
+        4,
+        37
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7411,
+      "bb": [
+        209,
+        200,
+        5,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7411,
+      "bb": [
+        176,
+        97,
+        23,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_pillar",
+      "n": 7423,
+      "bb": [
+        141,
+        68,
+        114,
+        149
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7423,
+      "bb": [
+        9,
+        182,
+        5,
+        32
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7423,
+      "bb": [
+        109,
+        191,
+        5,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7423,
+      "bb": [
+        162,
+        198,
+        6,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7423,
+      "bb": [
+        105,
+        102,
+        20,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_pillar",
+      "n": 7447,
+      "bb": [
+        1,
+        80,
+        121,
+        137
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7447,
+      "bb": [
+        52,
+        164,
+        10,
+        47
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7461,
+      "bb": [
+        27,
+        169,
+        6,
+        47
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7471,
+      "bb": [
+        343,
+        1,
+        20,
+        245
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7479,
+      "bb": [
+        194,
+        1,
+        31,
+        248
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7491,
+      "bb": [
+        136,
+        171,
+        9,
+        44
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7561,
+      "bb": [
+        308,
+        201,
+        5,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7561,
+      "bb": [
+        213,
+        204,
+        2,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7561,
+      "bb": [
+        714,
+        188,
+        8,
+        22
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7593,
+      "bb": [
+        321,
+        215,
+        6,
+        29
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7623,
+      "bb": [
+        333,
+        192,
+        8,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7623,
+      "bb": [
+        373,
+        193,
+        6,
+        18
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7623,
+      "bb": [
+        135,
+        199,
+        6,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7623,
+      "bb": [
+        535,
+        198,
+        17,
+        31
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7630,
+      "bb": [
+        690,
+        167,
+        12,
+        42
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7630,
+      "bb": [
+        709,
+        176,
+        9,
+        40
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7644,
+      "bb": [
+        188,
+        192,
+        7,
+        25
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7644,
+      "bb": [
+        99,
+        204,
+        4,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7644,
+      "bb": [
+        618,
+        207,
+        9,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7644,
+      "bb": [
+        369,
+        219,
+        11,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7651,
+      "bb": [
+        715,
+        140,
+        7,
+        30
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7651,
+      "bb": [
+        710,
+        175,
+        11,
+        23
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_pillar",
+      "n": 7665,
+      "bb": [
+        342,
+        173,
+        15,
+        27
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7665,
+      "bb": [
+        487,
+        189,
+        5,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7665,
+      "bb": [
+        11,
+        211,
+        5,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7673,
+      "bb": [
+        488,
+        185,
+        4,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7673,
+      "bb": [
+        704,
+        203,
+        4,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7673,
+      "bb": [
+        647,
+        204,
+        5,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7673,
+      "bb": [
+        586,
+        208,
+        7,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7679,
+      "bb": [
+        595,
+        204,
+        8,
+        18
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7686,
+      "bb": [
+        415,
+        208,
+        8,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_pillar",
+      "n": 7689,
+      "bb": [
+        408,
+        155,
+        17,
+        25
+      ],
+      "kind": 7
+    },
+    {
+      "c": "right_pillar",
+      "n": 6795,
+      "bb": [
+        351,
+        53,
+        6,
+        100
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6823,
+      "bb": [
+        464,
+        98,
+        3,
+        18
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6823,
+      "bb": [
+        709,
+        168,
+        2,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6854,
+      "bb": [
+        576,
+        71,
+        5,
+        53
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6898,
+      "bb": [
+        168,
+        137,
+        4,
+        43
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6898,
+      "bb": [
+        6,
+        145,
+        22,
+        17
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 6967,
+      "bb": [
+        205,
+        135,
+        5,
+        40
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6967,
+      "bb": [
+        249,
+        177,
+        2,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6967,
+      "bb": [
+        445,
+        204,
+        10,
+        27
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6967,
+      "bb": [
+        433,
+        216,
+        2,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 6967,
+      "bb": [
+        107,
+        124,
+        20,
+        21
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 6967,
+      "bb": [
+        710,
+        154,
+        12,
+        21
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7199,
+      "bb": [
+        187,
+        105,
+        20,
+        25
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7320,
+      "bb": [
+        256,
+        121,
+        4,
+        61
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7364,
+      "bb": [
+        309,
+        115,
+        7,
+        64
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7386,
+      "bb": [
+        1,
+        28,
+        42,
+        107
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7386,
+      "bb": [
+        352,
+        113,
+        4,
+        65
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7396,
+      "bb": [
+        265,
+        191,
+        1,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7396,
+      "bb": [
+        39,
+        120,
+        22,
+        21
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7396,
+      "bb": [
+        241,
+        190,
+        22,
+        19
+      ],
+      "kind": 7
+    },
+    {
+      "c": "right_pillar",
+      "n": 7410,
+      "bb": [
+        146,
+        1,
+        24,
+        100
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7410,
+      "bb": [
+        411,
+        104,
+        6,
+        64
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7422,
+      "bb": [
+        447,
+        102,
+        5,
+        64
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7422,
+      "bb": [
+        258,
+        68,
+        30,
+        31
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7422,
+      "bb": [
+        312,
+        72,
+        28,
+        29
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7446,
+      "bb": [
+        527,
+        96,
+        6,
+        40
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7470,
+      "bb": [
+        618,
+        103,
+        5,
+        34
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7478,
+      "bb": [
+        648,
+        101,
+        6,
+        43
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7478,
+      "bb": [
+        652,
+        146,
+        2,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7490,
+      "bb": [
+        693,
+        110,
+        5,
+        47
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7508,
+      "bb": [
+        344,
+        154,
+        7,
+        29
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7508,
+      "bb": [
+        200,
+        156,
+        4,
+        33
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7508,
+      "bb": [
+        180,
+        163,
+        4,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7508,
+      "bb": [
+        149,
+        166,
+        2,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7508,
+      "bb": [
+        334,
+        165,
+        11,
+        7
+      ],
+      "kind": 7
+    },
+    {
+      "c": "right_pillar",
+      "n": 7526,
+      "bb": [
+        417,
+        152,
+        2,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7526,
+      "bb": [
+        197,
+        158,
+        4,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7526,
+      "bb": [
+        128,
+        162,
+        7,
+        26
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7526,
+      "bb": [
+        235,
+        163,
+        6,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7526,
+      "bb": [
+        162,
+        168,
+        4,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7560,
+      "bb": [
+        569,
+        145,
+        2,
+        31
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7566,
+      "bb": [
+        596,
+        148,
+        4,
+        45
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7566,
+      "bb": [
+        657,
+        172,
+        2,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7576,
+      "bb": [
+        639,
+        143,
+        7,
+        63
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7576,
+      "bb": [
+        680,
+        147,
+        3,
+        48
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7576,
+      "bb": [
+        369,
+        169,
+        3,
+        21
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7592,
+      "bb": [
+        702,
+        116,
+        13,
+        95
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7592,
+      "bb": [
+        714,
+        134,
+        8,
+        17
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7608,
+      "bb": [
+        406,
+        109,
+        17,
+        80
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7608,
+      "bb": [
+        64,
+        173,
+        3,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7622,
+      "bb": [
+        8,
+        181,
+        9,
+        70
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7629,
+      "bb": [
+        180,
+        99,
+        6,
+        37
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7629,
+      "bb": [
+        288,
+        111,
+        7,
+        81
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7629,
+      "bb": [
+        110,
+        174,
+        13,
+        89
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7636,
+      "bb": [
+        337,
+        135,
+        22,
+        153
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7636,
+      "bb": [
+        315,
+        140,
+        4,
+        25
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7636,
+      "bb": [
+        714,
+        69,
+        8,
+        22
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7640,
+      "bb": [
+        84,
+        165,
+        6,
+        26
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7643,
+      "bb": [
+        716,
+        50,
+        5,
+        28
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7643,
+      "bb": [
+        716,
+        84,
+        6,
+        43
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7643,
+      "bb": [
+        711,
+        147,
+        11,
+        36
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_pillar",
+      "n": 7650,
+      "bb": [
+        464,
+        112,
+        6,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7656,
+      "bb": [
+        407,
+        109,
+        6,
+        83
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7656,
+      "bb": [
+        361,
+        112,
+        6,
+        62
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7656,
+      "bb": [
+        337,
+        121,
+        2,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7656,
+      "bb": [
+        261,
+        152,
+        2,
+        23
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7656,
+      "bb": [
+        105,
+        171,
+        2,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7664,
+      "bb": [
+        449,
+        112,
+        3,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7664,
+      "bb": [
+        113,
+        155,
+        3,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7672,
+      "bb": [
+        125,
+        143,
+        2,
+        28
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7672,
+      "bb": [
+        321,
+        150,
+        2,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7678,
+      "bb": [
+        524,
+        111,
+        7,
+        80
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7678,
+      "bb": [
+        104,
+        124,
+        4,
+        40
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7678,
+      "bb": [
+        131,
+        139,
+        5,
+        46
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7678,
+      "bb": [
+        185,
+        165,
+        3,
+        18
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_pillar",
+      "n": 7692,
+      "bb": [
+        157,
+        151,
+        2,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 6795,
+      "bb": [
+        685,
+        144,
+        8,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 6795,
+      "bb": [
+        690,
+        166,
+        5,
+        28
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 6854,
+      "bb": [
+        345,
+        139,
+        2,
+        11
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 6854,
+      "bb": [
+        353,
+        183,
+        2,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 6898,
+      "bb": [
+        361,
+        141,
+        2,
+        35
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 6898,
+      "bb": [
+        360,
+        179,
+        4,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7199,
+      "bb": [
+        241,
+        177,
+        3,
+        22
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7320,
+      "bb": [
+        534,
+        124,
+        4,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7320,
+      "bb": [
+        533,
+        142,
+        5,
+        20
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7320,
+      "bb": [
+        533,
+        163,
+        6,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7364,
+      "bb": [
+        664,
+        152,
+        3,
+        21
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7364,
+      "bb": [
+        658,
+        137,
+        8,
+        9
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7364,
+      "bb": [
+        565,
+        152,
+        7,
+        14
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7364,
+      "bb": [
+        703,
+        159,
+        6,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7364,
+      "bb": [
+        660,
+        164,
+        4,
+        8
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7386,
+      "bb": [
+        592,
+        95,
+        27,
+        62
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7386,
+      "bb": [
+        602,
+        158,
+        18,
+        41
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7386,
+      "bb": [
+        549,
+        75,
+        3,
+        3
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7386,
+      "bb": [
+        625,
+        141,
+        2,
+        4
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7386,
+      "bb": [
+        627,
+        157,
+        4,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7396,
+      "bb": [
+        608,
+        151,
+        3,
+        35
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7396,
+      "bb": [
+        386,
+        166,
+        6,
+        17
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7396,
+      "bb": [
+        498,
+        82,
+        6,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7410,
+      "bb": [
+        665,
+        169,
+        2,
+        20
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7410,
+      "bb": [
+        573,
+        171,
+        6,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7422,
+      "bb": [
+        41,
+        116,
+        24,
+        54
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7422,
+      "bb": [
+        649,
+        190,
+        1,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7422,
+      "bb": [
+        716,
+        166,
+        6,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7422,
+      "bb": [
+        354,
+        85,
+        17,
+        9
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_repeater",
+      "n": 7446,
+      "bb": [
+        613,
+        80,
+        109,
+        125
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7446,
+      "bb": [
+        44,
+        131,
+        5,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7446,
+      "bb": [
+        608,
+        171,
+        3,
+        28
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7446,
+      "bb": [
+        165,
+        154,
+        2,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7446,
+      "bb": [
+        715,
+        154,
+        7,
+        22
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7460,
+      "bb": [
+        349,
+        166,
+        14,
+        9
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7470,
+      "bb": [
+        487,
+        69,
+        124,
+        135
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7470,
+      "bb": [
+        641,
+        171,
+        2,
+        26
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7470,
+      "bb": [
+        569,
+        174,
+        2,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7470,
+      "bb": [
+        647,
+        161,
+        72,
+        33
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_repeater",
+      "n": 7478,
+      "bb": [
+        392,
+        120,
+        9,
+        80
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7478,
+      "bb": [
+        106,
+        10,
+        8,
+        9
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7490,
+      "bb": [
+        564,
+        1,
+        14,
+        209
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7490,
+      "bb": [
+        369,
+        133,
+        2,
+        8
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7490,
+      "bb": [
+        494,
+        168,
+        12,
+        33
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7490,
+      "bb": [
+        292,
+        117,
+        12,
+        23
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7508,
+      "bb": [
+        414,
+        119,
+        22,
+        77
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7508,
+      "bb": [
+        204,
+        143,
+        11,
+        12
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7508,
+      "bb": [
+        168,
+        167,
+        5,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7526,
+      "bb": [
+        411,
+        166,
+        49,
+        22
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_repeater",
+      "n": 7560,
+      "bb": [
+        440,
+        157,
+        4,
+        38
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7560,
+      "bb": [
+        705,
+        175,
+        16,
+        24
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_repeater",
+      "n": 7566,
+      "bb": [
+        429,
+        167,
+        2,
+        24
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7576,
+      "bb": [
+        257,
+        172,
+        49,
+        18
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_repeater",
+      "n": 7592,
+      "bb": [
+        66,
+        80,
+        65,
+        67
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7592,
+      "bb": [
+        45,
+        160,
+        8,
+        9
+      ],
+      "kind": 6
+    },
+    {
+      "c": "left_repeater",
+      "n": 7608,
+      "bb": [
+        50,
+        96,
+        61,
+        55
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7636,
+      "bb": [
+        45,
+        189,
+        7,
+        12
+      ],
+      "kind": 7
+    },
+    {
+      "c": "left_repeater",
+      "n": 7650,
+      "bb": [
+        232,
+        3,
+        23,
+        99
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7656,
+      "bb": [
+        204,
+        13,
+        17,
+        87
+      ],
+      "kind": 5
+    },
+    {
+      "c": "left_repeater",
+      "n": 7685,
+      "bb": [
+        677,
+        172,
+        1,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6795,
+      "bb": [
+        288,
+        15,
+        5,
+        45
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6795,
+      "bb": [
+        281,
+        84,
+        10,
+        115
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6795,
+      "bb": [
+        508,
+        146,
+        3,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6795,
+      "bb": [
+        505,
+        178,
+        5,
+        19
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6795,
+      "bb": [
+        593,
+        191,
+        3,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6823,
+      "bb": [
+        385,
+        124,
+        6,
+        69
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6823,
+      "bb": [
+        525,
+        168,
+        2,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6854,
+      "bb": [
+        284,
+        29,
+        3,
+        14
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6854,
+      "bb": [
+        283,
+        53,
+        4,
+        29
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6854,
+      "bb": [
+        1,
+        171,
+        3,
+        21
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6898,
+      "bb": [
+        127,
+        1,
+        9,
+        46
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6898,
+      "bb": [
+        125,
+        57,
+        3,
+        10
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6898,
+      "bb": [
+        485,
+        148,
+        2,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6898,
+      "bb": [
+        389,
+        152,
+        2,
+        13
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 6898,
+      "bb": [
+        485,
+        166,
+        2,
+        12
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7363,
+      "bb": [
+        140,
+        88,
+        64,
+        30
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7385,
+      "bb": [
+        303,
+        112,
+        21,
+        19
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7385,
+      "bb": [
+        327,
+        112,
+        26,
+        19
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7421,
+      "bb": [
+        472,
+        147,
+        5,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7445,
+      "bb": [
+        178,
+        1,
+        28,
+        60
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7459,
+      "bb": [
+        527,
+        119,
+        5,
+        40
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7459,
+      "bb": [
+        586,
+        170,
+        4,
+        5
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7469,
+      "bb": [
+        424,
+        1,
+        122,
+        158
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7469,
+      "bb": [
+        542,
+        109,
+        42,
+        57
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7469,
+      "bb": [
+        1,
+        113,
+        5,
+        18
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7469,
+      "bb": [
+        602,
+        104,
+        5,
+        3
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7477,
+      "bb": [
+        27,
+        107,
+        8,
+        43
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7477,
+      "bb": [
+        516,
+        159,
+        9,
+        15
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7489,
+      "bb": [
+        72,
+        110,
+        6,
+        36
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7507,
+      "bb": [
+        536,
+        152,
+        25,
+        15
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7507,
+      "bb": [
+        604,
+        182,
+        3,
+        6
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7525,
+      "bb": [
+        194,
+        120,
+        5,
+        58
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7525,
+      "bb": [
+        677,
+        116,
+        5,
+        3
+      ],
+      "kind": 6
+    },
+    {
+      "c": "right_repeater",
+      "n": 7575,
+      "bb": [
+        16,
+        149,
+        5,
+        47
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7575,
+      "bb": [
+        48,
+        148,
+        5,
+        46
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7575,
+      "bb": [
+        313,
+        173,
+        4,
+        16
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7591,
+      "bb": [
+        407,
+        159,
+        14,
+        87
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7591,
+      "bb": [
+        341,
+        179,
+        2,
+        9
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7607,
+      "bb": [
+        141,
+        157,
+        5,
+        37
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7607,
+      "bb": [
+        113,
+        164,
+        5,
+        30
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7607,
+      "bb": [
+        561,
+        187,
+        10,
+        18
+      ],
+      "kind": 7
+    },
+    {
+      "c": "right_repeater",
+      "n": 7628,
+      "bb": [
+        380,
+        117,
+        7,
+        64
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7628,
+      "bb": [
+        208,
+        155,
+        6,
+        36
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7649,
+      "bb": [
+        266,
+        173,
+        1,
+        15
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7663,
+      "bb": [
+        295,
+        154,
+        5,
+        41
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7671,
+      "bb": [
+        211,
+        123,
+        9,
+        63
+      ],
+      "kind": 5
+    },
+    {
+      "c": "right_repeater",
+      "n": 7684,
+      "bb": [
+        665,
+        200,
+        14,
+        10
+      ],
+      "kind": 7
+    }
+  ],
+  "arms": [],
+  "ridge_only": []
+}

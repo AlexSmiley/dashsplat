@@ -1,0 +1,149 @@
+{
+ "rig_sha256": "3dc5805f28e45bb42fb6d30c3cf28bf4ab1b3529566660146117090556bac8af",
+ "reference": "calibrated HW4 drive, native exposures and telemetry only",
+ "normalization": "1448 px image width; median per lens over disjoint shutters, median across two starts, median across lenses",
+ "rule": "max(3 * worst reference, worst reference + 6 * scaled MAD)",
+ "windows": [
+  {
+   "window": [
+    115,
+    145
+   ],
+   "pooled_px": 1.4164511194161762,
+   "lens_px": {
+    "back": 0.917105285598578,
+    "left_pillar": 1.4164511194161762,
+    "right_pillar": 1.3577920289927659,
+    "left_repeater": 1.6966715925758973,
+    "right_repeater": 1.8195401959547126
+   },
+   "counts": {
+    "front": 12,
+    "back": 4326,
+    "left_pillar": 1334,
+    "right_pillar": 714,
+    "left_repeater": 3351,
+    "right_repeater": 3151
+   },
+   "supported_panels": {
+    "front": 1,
+    "back": 3,
+    "left_pillar": 3,
+    "right_pillar": 3,
+    "left_repeater": 3,
+    "right_repeater": 3
+   },
+   "panel_ranges": [
+    [
+     136.15734517601547,
+     136.9350697098646
+    ],
+    [
+     115.01990338104449,
+     115.9920590483559
+    ],
+    [
+     126.15802974081237,
+     126.9357542746615
+    ]
+   ]
+  },
+  {
+   "window": [
+    161,
+    191
+   ],
+   "pooled_px": 1.7854851197235062,
+   "lens_px": {
+    "front": 2.484249115146687,
+    "back": 0.934712411558643,
+    "left_pillar": 1.7036066434398953,
+    "right_pillar": 1.1668132544625687,
+    "left_repeater": 1.867363596007117,
+    "right_repeater": 1.9388204138727025
+   },
+   "counts": {
+    "front": 29,
+    "back": 2814,
+    "left_pillar": 961,
+    "right_pillar": 339,
+    "left_repeater": 2516,
+    "right_repeater": 1414
+   },
+   "supported_panels": {
+    "front": 2,
+    "back": 3,
+    "left_pillar": 3,
+    "right_pillar": 3,
+    "left_repeater": 3,
+    "right_repeater": 3
+   },
+   "panel_ranges": [
+    [
+     161.01675438297872,
+     161.85003066924563
+    ],
+    [
+     189.37592399226304,
+     190.8758213075435
+    ],
+    [
+     174.76581310638298,
+     175.5990893926499
+    ]
+   ]
+  },
+  {
+   "window": [
+    329,
+    359
+   ],
+   "pooled_px": 1.3311935686415586,
+   "lens_px": {
+    "back": 0.877698333171035,
+    "left_pillar": 1.1188732485366675,
+    "right_pillar": 1.3311935686415586,
+    "left_repeater": 1.6382643636534315,
+    "right_repeater": 1.7745020650132348
+   },
+   "counts": {
+    "front": 8,
+    "back": 3318,
+    "left_pillar": 933,
+    "right_pillar": 372,
+    "left_repeater": 2705,
+    "right_repeater": 2034
+   },
+   "supported_panels": {
+    "front": 1,
+    "back": 3,
+    "left_pillar": 3,
+    "right_pillar": 3,
+    "left_repeater": 3,
+    "right_repeater": 3
+   },
+   "panel_ranges": [
+    [
+     348.0039530212766,
+     348.8094534313346
+    ],
+    [
+     358.00326845647965,
+     358.8643206189555
+    ],
+    [
+     329.0052536943907,
+     330.282944
+    ]
+   ]
+  }
+ ],
+ "limit_px": 5.3565,
+ "lens_limits": {
+  "back": 2.8041,
+  "left_pillar": 5.1108,
+  "right_pillar": 4.0734,
+  "left_repeater": 5.6021,
+  "right_repeater": 5.8165
+ }
+}

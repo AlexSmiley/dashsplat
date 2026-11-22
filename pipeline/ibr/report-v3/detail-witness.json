@@ -1,0 +1,46 @@
+{
+  "original-v2-interiors": {
+    "pixels": 63578,
+    "popupV2": 12.509995460510254,
+    "popupV3": 7.367580890655518
+  },
+  "v3-interiors": {
+    "pixels": 29305,
+    "popupV2": 9.410764694213867,
+    "popupV3": 11.963486671447754
+  },
+  "common-interiors": {
+    "pixels": 9967,
+    "popupV2": 12.374368667602539,
+    "popupV3": 14.638347625732422
+  },
+  "99.267s-arrows": {
+    "left-marking": {
+      "box": [
+        494,
+        455,
+        608,
+        482
+      ],
+      "staticCardPixels": 0
+    },
+    "right-marking": {
+      "box": [
+        616,
+        445,
+        667,
+        467
+      ],
+      "staticCardPixels": 0
+    },
+    "previous-tree-foot": {
+      "box": [
+        475,
+        432,
+        507,
+        464
+      ],
+      "staticCardPixels": 0
+    }
+  }
+}

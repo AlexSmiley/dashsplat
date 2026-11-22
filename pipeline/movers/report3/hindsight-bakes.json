@@ -1,0 +1,155 @@
+{
+  "crossing-suv": {
+    "photographs": 18,
+    "fine_cells": 20013,
+    "real_fine": 5464,
+    "observed_records": 14165,
+    "predicted_records": 5188,
+    "first_photo": 101.80560397082654,
+    "coarse_cells": 4116
+  },
+  "passing-bus": {
+    "photographs": 61,
+    "fine_cells": 45557,
+    "real_fine": 17487,
+    "observed_records": 123036,
+    "predicted_records": 17795,
+    "first_photo": 128.05380698823467,
+    "coarse_cells": 8448
+  },
+  "black-oncoming-suv": {
+    "photographs": 62,
+    "fine_cells": 36178,
+    "real_fine": 18672,
+    "observed_records": 107509,
+    "predicted_records": 9990,
+    "first_photo": 129.859238941813,
+    "coarse_cells": 7173
+  },
+  "red-oncoming-sedan": {
+    "photographs": 19,
+    "fine_cells": 28983,
+    "real_fine": 6574,
+    "observed_records": 30588,
+    "predicted_records": 8584,
+    "first_photo": 136.3338988536893,
+    "coarse_cells": 5334
+  },
+  "junction-white-suv": {
+    "photographs": 37,
+    "fine_cells": 28709,
+    "real_fine": 8459,
+    "observed_records": 52542,
+    "predicted_records": 6483,
+    "first_photo": 189.68847629577817,
+    "coarse_cells": 5265
+  },
+  "junction-silver-crossover": {
+    "photographs": 29,
+    "fine_cells": 27788,
+    "real_fine": 8612,
+    "observed_records": 23773,
+    "predicted_records": 6171,
+    "first_photo": 194.18816824161956,
+    "coarse_cells": 5039
+  },
+  "junction-red-suv": {
+    "photographs": 9,
+    "fine_cells": 27488,
+    "real_fine": 4618,
+    "observed_records": 20822,
+    "predicted_records": 6472,
+    "first_photo": 201.68765481802188,
+    "coarse_cells": 5074
+  },
+  "junction-approach-suv": {
+    "photographs": 13,
+    "fine_cells": 19064,
+    "real_fine": 2612,
+    "observed_records": 28331,
+    "predicted_records": 4782,
+    "first_photo": 190.16354694653265,
+    "coarse_cells": 3970
+  },
+  "departing-coupe": {
+    "photographs": 70,
+    "fine_cells": 28887,
+    "real_fine": 11536,
+    "observed_records": 55683,
+    "predicted_records": 7294,
+    "first_photo": 286.01809574343787,
+    "coarse_cells": 5411
+  },
+  "oncoming-pickup": {
+    "photographs": 9,
+    "fine_cells": 30906,
+    "real_fine": 7837,
+    "observed_records": 30137,
+    "predicted_records": 10074,
+    "first_photo": 310.2386597975965,
+    "coarse_cells": 6338
+  },
+  "oncoming-minivan": {
+    "photographs": 14,
+    "fine_cells": 29135,
+    "real_fine": 7888,
+    "observed_records": 45688,
+    "predicted_records": 10017,
+    "first_photo": 311.0163843314456,
+    "coarse_cells": 5596
+  },
+  "oncoming-black-sedan": {
+    "photographs": 23,
+    "fine_cells": 26156,
+    "real_fine": 6643,
+    "observed_records": 31062,
+    "predicted_records": 7913,
+    "first_photo": 312.2940746370549,
+    "coarse_cells": 4908
+  },
+  "oncoming-grey-suv": {
+    "photographs": 18,
+    "fine_cells": 24711,
+    "real_fine": 5774,
+    "observed_records": 38215,
+    "predicted_records": 8093,
+    "first_photo": 314.2383859716777,
+    "coarse_cells": 4496
+  },
+  "turning-black-coupe": {
+    "photographs": 54,
+    "fine_cells": 27951,
+    "real_fine": 10858,
+    "observed_records": 98980,
+    "predicted_records": 9477,
+    "first_photo": 315.407017918608,
+    "coarse_cells": 5042
+  },
+  "turning-white-sedan": {
+    "photographs": 15,
+    "fine_cells": 22004,
+    "real_fine": 4707,
+    "observed_records": 37927,
+    "predicted_records": 5284,
+    "first_photo": 316.40202356076844,
+    "coarse_cells": 4093
+  },
+  "turning-silver-crossover": {
+    "photographs": 25,
+    "fine_cells": 20209,
+    "real_fine": 4262,
+    "observed_records": 16801,
+    "predicted_records": 6445,
+    "first_photo": 319.9046647182928,
+    "coarse_cells": 4125
+  },
+  "junction-white-sedan": {
+    "photographs": 34,
+    "fine_cells": 32060,
+    "real_fine": 6944,
+    "observed_records": 33856,
+    "predicted_records": 10198,
+    "first_photo": 320.9879238904398,
+    "coarse_cells": 6706
+  }
+}

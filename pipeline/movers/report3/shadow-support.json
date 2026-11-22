@@ -1,0 +1,112 @@
+{
+  "total": {
+    "n": 136,
+    "with_road_mask": 136,
+    "shadow_extended": 83,
+    "extra_grid_px": 10280
+  },
+  "by_episode": {
+    "crossing-suv": {
+      "n": 4,
+      "with_road_mask": 4,
+      "shadow_extended": 2,
+      "extra_grid_px": 187
+    },
+    "oncoming-pickup": {
+      "n": 4,
+      "with_road_mask": 4,
+      "shadow_extended": 3,
+      "extra_grid_px": 142
+    },
+    "oncoming-minivan": {
+      "n": 4,
+      "with_road_mask": 4,
+      "shadow_extended": 2,
+      "extra_grid_px": 33
+    },
+    "oncoming-black-sedan": {
+      "n": 5,
+      "with_road_mask": 5,
+      "shadow_extended": 2,
+      "extra_grid_px": 60
+    },
+    "oncoming-grey-suv": {
+      "n": 4,
+      "with_road_mask": 4,
+      "shadow_extended": 4,
+      "extra_grid_px": 248
+    },
+    "turning-black-coupe": {
+      "n": 13,
+      "with_road_mask": 13,
+      "shadow_extended": 12,
+      "extra_grid_px": 2664
+    },
+    "turning-white-sedan": {
+      "n": 3,
+      "with_road_mask": 3,
+      "shadow_extended": 3,
+      "extra_grid_px": 61
+    },
+    "turning-silver-crossover": {
+      "n": 5,
+      "with_road_mask": 5,
+      "shadow_extended": 4,
+      "extra_grid_px": 183
+    },
+    "junction-white-sedan": {
+      "n": 8,
+      "with_road_mask": 8,
+      "shadow_extended": 2,
+      "extra_grid_px": 37
+    },
+    "passing-bus": {
+      "n": 26,
+      "with_road_mask": 26,
+      "shadow_extended": 10,
+      "extra_grid_px": 158
+    },
+    "black-oncoming-suv": {
+      "n": 28,
+      "with_road_mask": 28,
+      "shadow_extended": 11,
+      "extra_grid_px": 84
+    },
+    "red-oncoming-sedan": {
+      "n": 8,
+      "with_road_mask": 8,
+      "shadow_extended": 5,
+      "extra_grid_px": 456
+    },
+    "junction-white-suv": {
+      "n": 5,
+      "with_road_mask": 5,
+      "shadow_extended": 5,
+      "extra_grid_px": 256
+    },
+    "junction-silver-crossover": {
+      "n": 3,
+      "with_road_mask": 3,
+      "shadow_extended": 3,
+      "extra_grid_px": 331
+    },
+    "junction-red-suv": {
+      "n": 1,
+      "with_road_mask": 1,
+      "shadow_extended": 1,
+      "extra_grid_px": 22
+    },
+    "junction-approach-suv": {
+      "n": 2,
+      "with_road_mask": 2,
+      "shadow_extended": 1,
+      "extra_grid_px": 8
+    },
+    "departing-coupe": {
+      "n": 13,
+      "with_road_mask": 13,
+      "shadow_extended": 13,
+      "extra_grid_px": 5350
+    }
+  }
+}

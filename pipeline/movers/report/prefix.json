@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "cutoff_s": 103.7,
+    "track_samples": 45,
+    "max_track_difference": 0.0,
+    "identical_released_rows": [
+      7570,
+      3495
+    ]
+  },
+  {
+    "id": 2,
+    "cutoff_s": 131.3,
+    "track_samples": 75,
+    "max_track_difference": 0.0,
+    "identical_released_rows": [
+      16201,
+      5690
+    ]
+  }
+]

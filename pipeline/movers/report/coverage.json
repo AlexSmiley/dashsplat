@@ -1,0 +1,241 @@
+{
+  "windows": {
+    "80": {
+      "fragments": 187,
+      "proposal_pool": 93,
+      "unassigned_proposals": 80,
+      "retained_episodes": 4,
+      "represented_ids": 21,
+      "retained_people": 0,
+      "person_like_fragments": 12,
+      "per_camera_fragments": {
+        "front": 26,
+        "back": 16,
+        "left_pillar": 37,
+        "right_pillar": 47,
+        "left_repeater": 25,
+        "right_repeater": 36
+      }
+    },
+    "190": {
+      "fragments": 23,
+      "proposal_pool": 11,
+      "unassigned_proposals": 6,
+      "retained_episodes": 4,
+      "represented_ids": 5,
+      "retained_people": 0,
+      "person_like_fragments": 0,
+      "per_camera_fragments": {
+        "front": 8,
+        "left_pillar": 14,
+        "right_pillar": 1
+      }
+    },
+    "286": {
+      "fragments": 409,
+      "proposal_pool": 154,
+      "unassigned_proposals": 137,
+      "retained_episodes": 9,
+      "represented_ids": 19,
+      "retained_people": 0,
+      "person_like_fragments": 6,
+      "per_camera_fragments": {
+        "front": 104,
+        "back": 74,
+        "left_pillar": 60,
+        "right_pillar": 35,
+        "left_repeater": 88,
+        "right_repeater": 48
+      }
+    }
+  },
+  "observations": {
+    "crossing-suv": {
+      "photos": 33,
+      "native_rows": 120,
+      "depth_maps_used_for_diagnostics": 33,
+      "max_gap": 0.112,
+      "release_lag_s_p50_p95_max": [
+        0.177,
+        0.26,
+        0.261
+      ]
+    },
+    "passing-bus": {
+      "photos": 211,
+      "native_rows": 303,
+      "depth_maps_used_for_diagnostics": 211,
+      "max_gap": 0.167,
+      "release_lag_s_p50_p95_max": [
+        0.095,
+        0.125,
+        0.125
+      ]
+    },
+    "black-oncoming-suv": {
+      "photos": 222,
+      "native_rows": 306,
+      "depth_maps_used_for_diagnostics": 222,
+      "max_gap": 0.139,
+      "release_lag_s_p50_p95_max": [
+        0.094,
+        0.123,
+        0.125
+      ]
+    },
+    "red-oncoming-sedan": {
+      "photos": 66,
+      "native_rows": 82,
+      "depth_maps_used_for_diagnostics": 66,
+      "max_gap": 0.525,
+      "release_lag_s_p50_p95_max": [
+        0.094,
+        0.125,
+        0.125
+      ]
+    },
+    "junction-white-suv": {
+      "photos": 37,
+      "native_rows": 264,
+      "depth_maps_used_for_diagnostics": 5,
+      "max_gap": 0.583,
+      "release_lag_s_p50_p95_max": [
+        0.233,
+        0.345,
+        0.483
+      ]
+    },
+    "junction-silver-crossover": {
+      "photos": 29,
+      "native_rows": 204,
+      "depth_maps_used_for_diagnostics": 7,
+      "max_gap": 0.333,
+      "release_lag_s_p50_p95_max": [
+        0.205,
+        0.344,
+        0.456
+      ]
+    },
+    "junction-red-suv": {
+      "photos": 9,
+      "native_rows": 62,
+      "depth_maps_used_for_diagnostics": 2,
+      "max_gap": 0.333,
+      "release_lag_s_p50_p95_max": [
+        0.262,
+        0.399,
+        0.456
+      ]
+    },
+    "junction-approach-suv": {
+      "photos": 13,
+      "native_rows": 93,
+      "depth_maps_used_for_diagnostics": 2,
+      "max_gap": 0.333,
+      "release_lag_s_p50_p95_max": [
+        0.205,
+        0.344,
+        0.399
+      ]
+    },
+    "departing-coupe": {
+      "photos": 114,
+      "native_rows": 376,
+      "depth_maps_used_for_diagnostics": 1,
+      "max_gap": 0.334,
+      "release_lag_s_p50_p95_max": [
+        0.175,
+        0.342,
+        0.509
+      ]
+    },
+    "oncoming-pickup": {
+      "photos": 29,
+      "native_rows": 43,
+      "depth_maps_used_for_diagnostics": 0,
+      "max_gap": 0.028,
+      "release_lag_s_p50_p95_max": [
+        0.094,
+        0.177,
+        0.177
+      ]
+    },
+    "oncoming-minivan": {
+      "photos": 26,
+      "native_rows": 66,
+      "depth_maps_used_for_diagnostics": 0,
+      "max_gap": 0.056,
+      "release_lag_s_p50_p95_max": [
+        0.149,
+        0.177,
+        0.179
+      ]
+    },
+    "oncoming-black-sedan": {
+      "photos": 43,
+      "native_rows": 103,
+      "depth_maps_used_for_diagnostics": 1,
+      "max_gap": 0.028,
+      "release_lag_s_p50_p95_max": [
+        0.122,
+        0.177,
+        0.178
+      ]
+    },
+    "oncoming-grey-suv": {
+      "photos": 34,
+      "native_rows": 80,
+      "depth_maps_used_for_diagnostics": 0,
+      "max_gap": 0.028,
+      "release_lag_s_p50_p95_max": [
+        0.122,
+        0.178,
+        0.178
+      ]
+    },
+    "turning-black-coupe": {
+      "photos": 107,
+      "native_rows": 285,
+      "depth_maps_used_for_diagnostics": 1,
+      "max_gap": 0.028,
+      "release_lag_s_p50_p95_max": [
+        0.146,
+        0.254,
+        0.288
+      ]
+    },
+    "turning-white-sedan": {
+      "photos": 28,
+      "native_rows": 64,
+      "depth_maps_used_for_diagnostics": 1,
+      "max_gap": 0.028,
+      "release_lag_s_p50_p95_max": [
+        0.122,
+        0.178,
+        0.178
+      ]
+    },
+    "turning-silver-crossover": {
+      "photos": 45,
+      "native_rows": 144,
+      "depth_maps_used_for_diagnostics": 0,
+      "max_gap": 0.083,
+      "release_lag_s_p50_p95_max": [
+        0.177,
+        0.26,
+        0.264
+      ]
+    },
+    "junction-white-sedan": {
+      "photos": 65,
+      "native_rows": 173,
+      "depth_maps_used_for_diagnostics": 1,
+      "max_gap": 0.028,
+      "release_lag_s_p50_p95_max": [
+        0.122,
+        0.233,
+        0.261
+      ]
+    }
+  }
+}

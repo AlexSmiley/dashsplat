@@ -1,0 +1,87 @@
+{
+  "1": {
+    "native_samples": 51890,
+    "photographs": 16,
+    "measured_file": "objects/1.ply"
+  },
+  "2": {
+    "native_samples": 148330,
+    "photographs": 50,
+    "measured_file": "objects/2.ply"
+  },
+  "3": {
+    "native_samples": 146693,
+    "photographs": 50,
+    "measured_file": "objects/3.ply"
+  },
+  "4": {
+    "native_samples": 26809,
+    "photographs": 14,
+    "measured_file": "objects/4.ply"
+  },
+  "5": {
+    "native_samples": 151937,
+    "photographs": 37,
+    "measured_file": "objects/5.ply"
+  },
+  "6": {
+    "native_samples": 124839,
+    "photographs": 29,
+    "measured_file": "objects/6.ply"
+  },
+  "7": {
+    "native_samples": 27381,
+    "photographs": 8,
+    "measured_file": "objects/7.ply"
+  },
+  "8": {
+    "native_samples": 22866,
+    "photographs": 13,
+    "measured_file": "objects/8.ply"
+  },
+  "9": {
+    "native_samples": 284741,
+    "photographs": 55,
+    "measured_file": "objects/9.ply"
+  },
+  "10": {
+    "native_samples": 26472,
+    "photographs": 7,
+    "measured_file": "objects/10.ply"
+  },
+  "11": {
+    "native_samples": 44409,
+    "photographs": 10,
+    "measured_file": "objects/11.ply"
+  },
+  "12": {
+    "native_samples": 53308,
+    "photographs": 16,
+    "measured_file": "objects/12.ply"
+  },
+  "13": {
+    "native_samples": 38039,
+    "photographs": 13,
+    "measured_file": "objects/13.ply"
+  },
+  "14": {
+    "native_samples": 177478,
+    "photographs": 40,
+    "measured_file": "objects/14.ply"
+  },
+  "15": {
+    "native_samples": 37661,
+    "photographs": 10,
+    "measured_file": "objects/15.ply"
+  },
+  "16": {
+    "native_samples": 68212,
+    "photographs": 24,
+    "measured_file": "objects/16.ply"
+  },
+  "17": {
+    "native_samples": 83119,
+    "photographs": 26,
+    "measured_file": "objects/17.ply"
+  }
+}

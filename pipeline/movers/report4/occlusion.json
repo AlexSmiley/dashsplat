@@ -1,0 +1,126 @@
+{
+  "objects": 32,
+  "method": "Fixed-pose viewer A/B: entire scene, static without target, target without static, neither. Wait for 30 animation frames with confirmed renderer splat count appropriate to each toggle. Count RGB delta >10 within projected target bounds in 480×300 capture.",
+  "samples": [
+    {
+      "tag": "bus-a",
+      "t": 129.25,
+      "id": 2,
+      "bounds": [
+        292,
+        184,
+        320,
+        206
+      ],
+      "actor_signal": 126,
+      "with_static": 0,
+      "visible_fraction": 0,
+      "splats_drawn": [
+        "933495",
+        "1024486",
+        "34423",
+        "0"
+      ]
+    },
+    {
+      "tag": "bus-b",
+      "t": 130.25,
+      "id": 2,
+      "bounds": [
+        214,
+        193,
+        271,
+        233
+      ],
+      "actor_signal": 487,
+      "with_static": 0,
+      "visible_fraction": 0,
+      "splats_drawn": [
+        "2479735",
+        "2526380",
+        "52855",
+        "17580"
+      ]
+    },
+    {
+      "tag": "bus-c",
+      "t": 130.75,
+      "id": 2,
+      "bounds": [
+        89,
+        202,
+        206,
+        262
+      ],
+      "actor_signal": 1329,
+      "with_static": 0,
+      "visible_fraction": 0,
+      "splats_drawn": [
+        "3978871",
+        "4349100",
+        "52855",
+        "17580"
+      ]
+    },
+    {
+      "tag": "corner",
+      "t": 320.2,
+      "id": 10972,
+      "bounds": [
+        324,
+        226,
+        388,
+        254
+      ],
+      "actor_signal": 342,
+      "with_static": 274,
+      "visible_fraction": 0.8011695906432749,
+      "splats_drawn": [
+        "1196548",
+        "1482838",
+        "82436",
+        "67670"
+      ]
+    },
+    {
+      "tag": "post",
+      "t": 320.55,
+      "id": 10972,
+      "bounds": [
+        254,
+        231,
+        327,
+        263
+      ],
+      "actor_signal": 425,
+      "with_static": 337,
+      "visible_fraction": 0.7929411764705883,
+      "splats_drawn": [
+        "3168772",
+        "3702870",
+        "82436",
+        "67670"
+      ]
+    },
+    {
+      "tag": "post2",
+      "t": 320.85,
+      "id": 10972,
+      "bounds": [
+        178,
+        236,
+        262,
+        273
+      ],
+      "actor_signal": 529,
+      "with_static": 428,
+      "visible_fraction": 0.8090737240075614,
+      "splats_drawn": [
+        "3981828",
+        "3967062",
+        "82436",
+        "67670"
+      ]
+    }
+  ]
+}

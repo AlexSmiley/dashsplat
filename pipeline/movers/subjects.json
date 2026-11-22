@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "name": "crossing-suv",
+    "class": "car",
+    "window": [
+      101.5,
+      105.4
+    ],
+    "fragments": {
+      "front": [
+        46
+      ],
+      "right_pillar": [
+        54,
+        56,
+        61
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "passing-bus",
+    "class": "bus",
+    "window": [
+      128.4,
+      134.2
+    ],
+    "fragments": {
+      "front": [
+        392,
+        447
+      ],
+      "left_pillar": [
+        202
+      ],
+      "left_repeater": [
+        548
+      ],
+      "back": [
+        217,
+        232
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "name": "black-oncoming-suv",
+    "class": "car",
+    "window": [
+      130.35,
+      136.5
+    ],
+    "fragments": {
+      "left_pillar": [
+        211
+      ],
+      "front": [
+        430
+      ],
+      "left_repeater": [
+        565,
+        583
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "name": "red-oncoming-sedan",
+    "class": "car",
+    "window": [
+      134.5,
+      139.9
+    ],
+    "fragments": {
+      "left_pillar": [
+        234
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "name": "junction-white-suv",
+    "class": "car",
+    "window": [
+      190,
+      201.1
+    ],
+    "fragments": {
+      "front": [
+        1,
+        32
+      ]
+    },
+    "input": "extra"
+  },
+  {
+    "id": 6,
+    "name": "junction-silver-crossover",
+    "class": "car",
+    "window": [
+      193.5,
+      202.9
+    ],
+    "fragments": {
+      "front": [
+        19
+      ]
+    },
+    "input": "extra"
+  },
+  {
+    "id": 7,
+    "name": "junction-red-suv",
+    "class": "car",
+    "window": [
+      201.5,
+      205.7
+    ],
+    "fragments": {
+      "front": [
+        52
+      ]
+    },
+    "input": "extra"
+  },
+  {
+    "id": 8,
+    "name": "junction-approach-suv",
+    "class": "car",
+    "window": [
+      190,
+      194.2
+    ],
+    "fragments": {
+      "left_pillar": [
+        1
+      ]
+    },
+    "input": "extra"
+  },
+  {
+    "id": 9,
+    "name": "departing-coupe",
+    "class": "car",
+    "window": [
+      286,
+      294
+    ],
+    "fragments": {
+      "left_pillar": [
+        259
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "name": "oncoming-pickup",
+    "class": "car",
+    "window": [
+      308,
+      313
+    ],
+    "fragments": {
+      "left_pillar": [
+        524
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "name": "oncoming-minivan",
+    "class": "car",
+    "window": [
+      309.5,
+      314.5
+    ],
+    "fragments": {
+      "left_pillar": [
+        558
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "name": "oncoming-black-sedan",
+    "class": "car",
+    "window": [
+      310.6,
+      316.4
+    ],
+    "fragments": {
+      "left_pillar": [
+        613
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "name": "oncoming-grey-suv",
+    "class": "car",
+    "window": [
+      312.6,
+      318.6
+    ],
+    "fragments": {
+      "left_pillar": [
+        683
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "name": "turning-black-coupe",
+    "class": "car",
+    "window": [
+      315.5,
+      324.4
+    ],
+    "fragments": {
+      "left_pillar": [
+        700,
+        743
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "turning-white-sedan",
+    "class": "car",
+    "window": [
+      315.6,
+      321.5
+    ],
+    "fragments": {
+      "front": [
+        1676
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "name": "turning-silver-crossover",
+    "class": "car",
+    "window": [
+      318.3,
+      323.6
+    ],
+    "fragments": {
+      "left_pillar": [
+        735
+      ],
+      "left_repeater": [
+        1439
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "name": "junction-white-sedan",
+    "class": "car",
+    "window": [
+      319.6,
+      325
+    ],
+    "fragments": {
+      "left_pillar": [
+        755
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "name": "turning-blue-suv",
+    "class": "car",
+    "window": [
+      316.4,
+      324.6
+    ],
+    "fragments": {
+      "front": [
+        1662
+      ],
+      "left_repeater": [
+        1458
+      ]
+    },
+    "review_only": "Blue SUV identity confirmed; sustained world motion not confirmed by the hindsight fit."
+  }
+]

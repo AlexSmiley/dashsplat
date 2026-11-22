@@ -1,0 +1,126 @@
+{
+ "000-81": [
+  {
+   "cam": "front",
+   "n": 3850,
+   "photo_t": 107.60374443326886,
+   "target_t": 110.0,
+   "horizontal_distance": 4.730857579634222,
+   "height_difference": 4.2733832779521235,
+   "angle_deg": 54.851743400902315,
+   "overlap": 0.3468208092485549
+  },
+  {
+   "cam": "front",
+   "n": 4056,
+   "photo_t": 113.32557493230173,
+   "target_t": 114.5,
+   "horizontal_distance": 0.3989658830991812,
+   "height_difference": 4.404859168239027,
+   "angle_deg": 11.92379273329397,
+   "overlap": 0.49403578528827036
+  },
+  {
+   "cam": "front",
+   "n": 4003,
+   "photo_t": 111.85345349323016,
+   "target_t": 114.5,
+   "horizontal_distance": 17.729902920974087,
+   "height_difference": 4.334481575118737,
+   "angle_deg": 12.726815550340064,
+   "overlap": 0.941351888667992
+  },
+  {
+   "cam": "front",
+   "n": 4125,
+   "photo_t": 115.24211039071567,
+   "target_t": 117.0,
+   "horizontal_distance": 13.445259146161023,
+   "height_difference": 4.440090354387971,
+   "angle_deg": 12.871665396009057,
+   "overlap": 0.8478900883218842
+  },
+  {
+   "cam": "right_pillar",
+   "n": 3823,
+   "photo_t": 106.44626974507679,
+   "target_t": 110.0,
+   "horizontal_distance": 8.256167663678731,
+   "height_difference": 4.355979808798747,
+   "angle_deg": 8.259241392362282,
+   "overlap": 0.7302504816955684
+  },
+  {
+   "cam": "front",
+   "n": 3939,
+   "photo_t": 110.07579741586073,
+   "target_t": 112.5,
+   "horizontal_distance": 7.085085276870691,
+   "height_difference": 4.340342105308804,
+   "angle_deg": 12.189351457454844,
+   "overlap": 0.6975845410628019
+  }
+ ],
+ "069-81": [
+  {
+   "cam": "front",
+   "n": 4150,
+   "photo_t": 115.9365072959381,
+   "target_t": 116.9,
+   "horizontal_distance": 0.5410389533530044,
+   "height_difference": 4.472092936462269,
+   "angle_deg": 12.371150949689206,
+   "overlap": 0.501980198019802
+  },
+  {
+   "cam": "front",
+   "n": 4320,
+   "photo_t": 120.54730274661507,
+   "target_t": 121.4,
+   "horizontal_distance": 0.4702877155849333,
+   "height_difference": 4.616214065719854,
+   "angle_deg": 12.060156630348391,
+   "overlap": 0.4501323918799647
+  },
+  {
+   "cam": "front",
+   "n": 4211,
+   "photo_t": 117.63083574468084,
+   "target_t": 119.4,
+   "horizontal_distance": 16.500111568657967,
+   "height_difference": 4.62488041847249,
+   "angle_deg": 12.57192621525251,
+   "overlap": 0.8714153561517114
+  },
+  {
+   "cam": "front",
+   "n": 4383,
+   "photo_t": 122.29718294777562,
+   "target_t": 123.9,
+   "horizontal_distance": 15.750067757620979,
+   "height_difference": 4.652742836361797,
+   "angle_deg": 12.436116529799696,
+   "overlap": 0.8550218340611354
+  },
+  {
+   "cam": "front",
+   "n": 4097,
+   "photo_t": 114.46438585686653,
+   "target_t": 116.9,
+   "horizontal_distance": 23.954792902252024,
+   "height_difference": 4.416182900999957,
+   "angle_deg": 13.449080674503966,
+   "overlap": 0.9138613861386139
+  },
+  {
+   "cam": "front",
+   "n": 4267,
+   "photo_t": 119.1862848123791,
+   "target_t": 121.4,
+   "horizontal_distance": 26.629617255140673,
+   "height_difference": 4.6579186713074545,
+   "angle_deg": 13.47845115012461,
+   "overlap": 0.9143865842894969
+  }
+ ]
+}

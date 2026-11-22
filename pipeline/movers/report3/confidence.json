@@ -1,0 +1,139 @@
+{
+  "blue_landmarks": [
+    {
+      "cam": "front",
+      "mask_id": 1662,
+      "available_at_s": 320.7350602493565,
+      "state": "parked",
+      "evidence_strength": 0.8300000000000001,
+      "cameras": [
+        "front"
+      ],
+      "baseline_s": 4.722108438056409,
+      "speed_mps": 0.043119355975690825
+    },
+    {
+      "cam": "left_pillar",
+      "mask_id": 748,
+      "available_at_s": 322.76557996780923,
+      "state": "parked",
+      "evidence_strength": 0.8500000000000001,
+      "cameras": [
+        "front",
+        "left_pillar"
+      ],
+      "baseline_s": 6.75045074384235,
+      "speed_mps": 0.38064695328598985
+    },
+    {
+      "cam": "front",
+      "mask_id": 1662,
+      "available_at_s": 322.76557996780923,
+      "state": "parked",
+      "evidence_strength": 0.8500000000000001,
+      "cameras": [
+        "front",
+        "left_pillar"
+      ],
+      "baseline_s": 6.75045074384235,
+      "speed_mps": 0.38064695328598985
+    },
+    {
+      "cam": "front",
+      "mask_id": 1662,
+      "available_at_s": 323.0433387298982,
+      "state": "parked",
+      "evidence_strength": 0.8500000000000001,
+      "cameras": [
+        "front",
+        "left_pillar"
+      ],
+      "baseline_s": 7.028348518186931,
+      "speed_mps": 0.34803332511543655
+    },
+    {
+      "cam": "left_repeater",
+      "mask_id": 1458,
+      "available_at_s": 324.433424509917,
+      "state": "parked",
+      "evidence_strength": 0.8500000000000001,
+      "cameras": [
+        "front",
+        "left_pillar",
+        "left_repeater"
+      ],
+      "baseline_s": 8.416828088928241,
+      "speed_mps": 0.3336587446738094
+    },
+    {
+      "cam": "left_pillar",
+      "mask_id": 748,
+      "available_at_s": 324.433424509917,
+      "state": "parked",
+      "evidence_strength": 0.8500000000000001,
+      "cameras": [
+        "front",
+        "left_pillar",
+        "left_repeater"
+      ],
+      "baseline_s": 8.416828088928241,
+      "speed_mps": 0.3336587446738094
+    },
+    {
+      "cam": "front",
+      "mask_id": 1662,
+      "available_at_s": 324.433424509917,
+      "state": "parked",
+      "evidence_strength": 0.8500000000000001,
+      "cameras": [
+        "front",
+        "left_pillar",
+        "left_repeater"
+      ],
+      "baseline_s": 8.416828088928241,
+      "speed_mps": 0.3336587446738094
+    },
+    {
+      "cam": "left_repeater",
+      "mask_id": 1458,
+      "available_at_s": 324.433424509917,
+      "state": "moving",
+      "evidence_strength": 0.83,
+      "cameras": [
+        "left_repeater"
+      ],
+      "baseline_s": 2.1940392775231317,
+      "speed_mps": 4.3220673316676255
+    }
+  ],
+  "ego_matched_lane": {
+    "exposures": 159,
+    "ids": 3,
+    "states": {
+      "unknown": 105,
+      "moving": 54
+    },
+    "example": {
+      "track_id": 474,
+      "state": "moving",
+      "confidence": 0.776,
+      "baseline_s": 2.278,
+      "displacement_m": 48.95,
+      "world_velocity": [
+        -0.67,
+        21.48
+      ],
+      "stationary_residual": 0.69,
+      "moving_residual": 0.22,
+      "matched_speed": true,
+      "c": "front",
+      "n": 10995,
+      "id": 656,
+      "root": ".",
+      "t": 307.1734149941973,
+      "release": 307.1804326594145,
+      "context": "lane-ahead",
+      "camera_agreement": 0
+    }
+  }
+}

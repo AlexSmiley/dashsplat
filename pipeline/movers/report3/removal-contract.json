@@ -1,0 +1,135 @@
+{
+  "full_drive": {
+    "native": 77593,
+    "supported": 27506,
+    "files": 27506,
+    "unsupported": 50087
+  },
+  "unexpected_paths": [],
+  "missing_paths": [],
+  "signs": {
+    "storefront-sign": [
+      17,
+      0,
+      0.0
+    ],
+    "fuel-price-sign": [
+      24,
+      0,
+      0.0
+    ]
+  },
+  "fields": [
+    "cam",
+    "frame",
+    "mask_id",
+    "track_id",
+    "state",
+    "confidence",
+    "context",
+    "remove",
+    "evidence",
+    "available_at_s",
+    "mask_namespace"
+  ],
+  "quarantined_paths": [
+    [
+      "front",
+      10789
+    ],
+    [
+      "front",
+      4300
+    ],
+    [
+      "front",
+      4301
+    ],
+    [
+      "front",
+      4302
+    ],
+    [
+      "front",
+      4303
+    ],
+    [
+      "front",
+      4304
+    ],
+    [
+      "front",
+      4305
+    ],
+    [
+      "front",
+      4306
+    ],
+    [
+      "front",
+      4307
+    ],
+    [
+      "front",
+      4308
+    ],
+    [
+      "front",
+      4309
+    ],
+    [
+      "front",
+      4310
+    ],
+    [
+      "front",
+      4311
+    ],
+    [
+      "front",
+      4312
+    ],
+    [
+      "front",
+      4313
+    ],
+    [
+      "front",
+      4314
+    ],
+    [
+      "front",
+      4315
+    ],
+    [
+      "front",
+      4316
+    ],
+    [
+      "front",
+      4317
+    ],
+    [
+      "back",
+      4302
+    ],
+    [
+      "left_pillar",
+      4316
+    ],
+    [
+      "right_pillar",
+      4315
+    ],
+    [
+      "left_repeater",
+      4315
+    ],
+    [
+      "right_repeater",
+      4316
+    ]
+  ],
+  "inputs_sha256": "a0735bd5401047694852abf46e02f82229a53954c2ed1c936db5d99da401e0a8",
+  "decisions_sha256": "e1c79229ce46e75d4d16321401c1d66000e1023c0a115b836d8c55812e2f9c72"
+}

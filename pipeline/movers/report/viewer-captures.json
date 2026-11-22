@@ -1,0 +1,30 @@
+[
+  {
+    "name": "bus",
+    "hud": "\"fps      61  (16.6 ms)\\nres      1952x1250 @1.00\\nsplats   554k drawn\\n         2.03M loaded\\ntiles    97/1411  +0\\nmovers   2/17\\nfetched  108 MB\\nT        130.92 s\"",
+    "frames": 53,
+    "durationMs": 2648,
+    "url": "http://10.0.50.51:8090/?scene=live-v5-movers-v1&t=130.92&paused=1&stats=1&orbit=40,6,1.15&dpr=1"
+  },
+  {
+    "name": "suv",
+    "hud": "\"fps      60  (16.7 ms)\\nres      1952x1250 @1.00\\nsplats   647k drawn\\n         1.36M loaded\\ntiles    154/1411  +0\\nmovers   1/17\\nfetched  45 MB\\nT        102.85 s\"",
+    "frames": 51,
+    "durationMs": 2515,
+    "url": "http://10.0.50.51:8090/?scene=live-v5-movers-v1&t=102.85&paused=1&stats=1&orbit=0,0,1&dpr=1"
+  },
+  {
+    "name": "junction",
+    "hud": "\"fps      61  (16.7 ms)\\nres      1952x1250 @1.00\\nsplats   775k drawn\\n         1.04M loaded\\ntiles    49/1411  +0\\nmovers   2/17\\nfetched  85 MB\\nT        195.90 s\"",
+    "frames": 53,
+    "durationMs": 2582,
+    "url": "http://10.0.50.51:8090/?scene=live-v5-movers-v1&t=195.9&paused=1&stats=1&orbit=0,0,1&dpr=1"
+  },
+  {
+    "name": "coupe",
+    "hud": "\"fps      60  (16.8 ms)\\nres      1952x1250 @1.00\\nsplats   309k drawn\\n         1.46M loaded\\ntiles    35/1411  +0\\nmovers   3/17\\nfetched  99 MB\\nT        319.05 s\"",
+    "frames": 52,
+    "durationMs": 2563,
+    "url": "http://10.0.50.51:8090/?scene=live-v5-movers-v1&t=319.05&paused=1&stats=1&orbit=43,5,1.1&dpr=1"
+  }
+]

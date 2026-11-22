@@ -1,0 +1,122 @@
+{
+  "window": {
+    "drive": "hw4-raw-224-254",
+    "seconds": [
+      224,
+      248
+    ],
+    "recipe": "v5fit",
+    "steps": 1600,
+    "rng_seed": 503,
+    "studio_main": "058a4432b62ddf6a0aebdac5995703a98e166dd2",
+    "metalsplat": "84e8c3a433f71c107e9387d3f72a765436c11f6e",
+    "reference": "The published fit used v4. A fresh v5 Studio fit used the same native seed, training split and window as CUDA."
+  },
+  "studio": {
+    "device": "Apple M5 Ultra",
+    "seconds": 39.50369099999807,
+    "steps_per_s": 40.50254443312849,
+    "counts": {
+      "ground": 1462887,
+      "objects": 828139
+    },
+    "fit": {
+      "updates": {
+        "real": 980,
+        "teacher": 620,
+        "gen": 0
+      },
+      "native_crops": [
+        288,
+        112
+      ],
+      "gen_available": 0,
+      "held_stations": 24
+    }
+  },
+  "cuda": {
+    "device": "NVIDIA A40",
+    "torch": "2.7.0a0+7c8ec84dab.nv25.03",
+    "one_time_build_s": 1.4397032749839127,
+    "seconds": 58.22439771395875,
+    "steps_per_s": 27.479889235787063,
+    "peak_device_mib": 1106,
+    "peak_allocated_mib": 353.73095703125,
+    "fit": {
+      "updates": {
+        "real": 980,
+        "teacher": 620,
+        "gen": 0
+      },
+      "native_crops": [
+        288,
+        112
+      ],
+      "gen_available": 0,
+      "held_stations": 24
+    },
+    "counts": {
+      "ground": 1462887,
+      "objects": 828139
+    }
+  },
+  "comparison": {
+    "teacher": {
+      "views": 168,
+      "metal": 7.221600589298067,
+      "cuda": 7.221592426300049,
+      "delta": -0.000008162998017979817,
+      "studio_group_se": 0.3116851573294639,
+      "groups": 24,
+      "passes": true
+    },
+    "photo": {
+      "views": 234,
+      "metal": 14.631578420981382,
+      "cuda": 14.63150119373941,
+      "delta": -0.00007722724197201103,
+      "studio_group_se": 0.4755657129932103,
+      "groups": 12,
+      "passes": true
+    },
+    "chase": [
+      {
+        "id": "0000-chase",
+        "t": 226,
+        "mae": 0.003116255144032922,
+        "p99": 0,
+        "max": 7
+      },
+      {
+        "id": "0050-chase",
+        "t": 236.4378939949513,
+        "mae": 0.0024408436213991767,
+        "p99": 0,
+        "max": 6
+      },
+      {
+        "id": "0200-chase",
+        "t": 245.74821463999334,
+        "mae": 0.0006229423868312757,
+        "p99": 0,
+        "max": 4
+      }
+    ]
+  },
+  "metrics": "MAE on 0–255 RGB levels, averaged over held views: confidence-weighted teachers; native photographs exclude sky, dynamic regions and the vehicle body. Sampling SE over teacher stations or 2 s photo blocks. Equivalence cutoff min(0.1 RGB level, one SE). Chase differences measured before JPEG encoding.",
+  "billing": {
+    "owned": [
+      {
+        "name": "rs-fit4-REDACTED",
+        "runtime_upper_s": 562.32953954197,
+        "hourly": 0.5983333333333333,
+        "meter_usd": 0.0934612521738737,
+        "owned_remaining": []
+      }
+    ],
+    "owned_remaining": [],
+    "balance": "REDACTED",
+    "checked_utc": "2026-11-22T16:01:16.256760+00:00",
+    "meter": "Upper bound, create request through confirmed deletion; GPU rate plus 60 GiB disk at $0.10/GiB-month (720 h/month)."
+  }
+}

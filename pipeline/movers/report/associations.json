@@ -1,0 +1,180 @@
+{
+ "crossing-suv": [],
+ "passing-bus": [],
+ "black-oncoming-suv": [
+  {
+   "cam": "back",
+   "id": 246,
+   "iou": 0.63,
+   "color": 3.55,
+   "t": [
+    134.7,
+    134.89
+   ]
+  },
+  {
+   "cam": "back",
+   "id": 253,
+   "iou": 0.59,
+   "color": 3.09,
+   "t": [
+    134.97,
+    135.28
+   ]
+  },
+  {
+   "cam": "back",
+   "id": 262,
+   "iou": 0.66,
+   "color": 2.31,
+   "t": [
+    135.56,
+    135.7
+   ]
+  }
+ ],
+ "red-oncoming-sedan": [
+  {
+   "cam": "back",
+   "id": 288,
+   "iou": 0.59,
+   "color": 3.33,
+   "t": [
+    138.22,
+    138.39
+   ]
+  },
+  {
+   "cam": "back",
+   "id": 290,
+   "iou": 0.41,
+   "color": 3.03,
+   "t": [
+    138.45,
+    138.5
+   ]
+  },
+  {
+   "cam": "back",
+   "id": 292,
+   "iou": 0.53,
+   "color": 3.94,
+   "t": [
+    138.53,
+    138.92
+   ]
+  }
+ ],
+ "departing-coupe": [
+  {
+   "cam": "left_repeater",
+   "id": 704,
+   "iou": 0.41,
+   "color": 1.96,
+   "t": [
+    287.87,
+    293.99
+   ]
+  }
+ ],
+ "oncoming-pickup": [
+  {
+   "cam": "left_pillar",
+   "id": 518,
+   "iou": 0.44,
+   "color": 2.31,
+   "t": [
+    310.34,
+    310.4
+   ]
+  }
+ ],
+ "oncoming-minivan": [
+  {
+   "cam": "back",
+   "id": 608,
+   "iou": 0.52,
+   "color": 2.82,
+   "t": [
+    312.38,
+    312.66
+   ]
+  }
+ ],
+ "oncoming-black-sedan": [
+  {
+   "cam": "left_repeater",
+   "id": 1288,
+   "iou": 0.41,
+   "color": 1.49,
+   "t": [
+    313.71,
+    314.82
+   ]
+  }
+ ],
+ "oncoming-grey-suv": [],
+ "turning-black-coupe": [
+  {
+   "cam": "back",
+   "id": 627,
+   "iou": 0.66,
+   "color": 3.04,
+   "t": [
+    315.55,
+    317.99
+   ]
+  }
+ ],
+ "turning-white-sedan": [],
+ "turning-silver-crossover": [
+  {
+   "cam": "back",
+   "id": 817,
+   "iou": 0.42,
+   "color": 5.08,
+   "t": [
+    321.63,
+    321.96
+   ]
+  },
+  {
+   "cam": "right_repeater",
+   "id": 1780,
+   "iou": 0.37,
+   "color": 1.44,
+   "t": [
+    322.09,
+    323.09
+   ]
+  }
+ ],
+ "junction-white-sedan": [
+  {
+   "cam": "left_repeater",
+   "id": 1466,
+   "iou": 0.5,
+   "color": 2.53,
+   "t": [
+    322.62,
+    324.96
+   ]
+  }
+ ],
+ "turning-blue-suv": [
+  {
+   "cam": "left_pillar",
+   "id": 748,
+   "iou": 0.53,
+   "color": 2.75,
+   "t": [
+    320.84,
+    322.87
+   ]
+  }
+ ],
+ "junction-white-suv": [],
+ "junction-silver-crossover": [],
+ "junction-red-suv": [],
+ "junction-approach-suv": []
+}

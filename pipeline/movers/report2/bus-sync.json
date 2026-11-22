@@ -1,0 +1,16 @@
+{
+  "left_pillar": {
+    "frames": 43,
+    "min_drive_s": 130.74,
+    "max_drive_s": 131.84,
+    "decoded_hud": 42,
+    "max_exposure_offset_s": 0.013884532930831028
+  },
+  "left_repeater": {
+    "frames": 51,
+    "min_drive_s": 131.71,
+    "max_drive_s": 133.13,
+    "decoded_hud": 47,
+    "max_exposure_offset_s": 0.013630658973511345
+  }
+}

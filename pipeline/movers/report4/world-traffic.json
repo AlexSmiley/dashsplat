@@ -1,0 +1,5510 @@
+{
+  "objects": {
+    "1": {
+      "name": "crossing-suv",
+      "parked": false,
+      "ground": {
+        "samples": 147,
+        "supported_wheels": 588,
+        "total_wheels": 588,
+        "before_abs_p50_m": 0.05167680539131164,
+        "after_signed_p50_m": 0.0006167559529713373,
+        "after_abs_p90_m": 0.015397880791166836,
+        "nearest_p50_m": 0.023338568427076666
+      },
+      "measured": 2851,
+      "inferred": 6670,
+      "paint_rgb": [
+        102.0,
+        133.0,
+        127.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 3671,
+          "mask_id": 46,
+          "t": 102.6332990436051,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 3665,
+          "mask_id": 46,
+          "t": 102.46664378635172,
+          "cells": 4
+        },
+        {
+          "cam": "front",
+          "n": 3680,
+          "mask_id": 46,
+          "t": 102.88310237301909,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 3659,
+          "mask_id": 46,
+          "t": 102.30001845517603,
+          "cells": 488
+        },
+        {
+          "cam": "front",
+          "n": 3686,
+          "mask_id": 46,
+          "t": 103.04981748242783,
+          "cells": 557
+        },
+        {
+          "cam": "front",
+          "n": 3653,
+          "mask_id": 46,
+          "t": 102.13339312400034,
+          "cells": 4
+        },
+        {
+          "cam": "front",
+          "n": 3647,
+          "mask_id": 46,
+          "t": 101.96676779282463,
+          "cells": 1222
+        },
+        {
+          "cam": "front",
+          "n": 3692,
+          "mask_id": 46,
+          "t": 103.2165026657589,
+          "cells": 465
+        },
+        {
+          "cam": "right_pillar",
+          "n": 3728,
+          "mask_id": 56,
+          "t": 103.8003445557401,
+          "cells": 6
+        },
+        {
+          "cam": "right_pillar",
+          "n": 3722,
+          "mask_id": 56,
+          "t": 103.63356152861004,
+          "cells": 13
+        },
+        {
+          "cam": "right_pillar",
+          "n": 3734,
+          "mask_id": 56,
+          "t": 103.96668038830182,
+          "cells": 45
+        },
+        {
+          "cam": "right_pillar",
+          "n": 3716,
+          "mask_id": 54,
+          "t": 103.46697015629499,
+          "cells": 4
+        },
+        {
+          "cam": "right_pillar",
+          "n": 3767,
+          "mask_id": 61,
+          "t": 104.8833162456646,
+          "cells": 19
+        },
+        {
+          "cam": "right_pillar",
+          "n": 3773,
+          "mask_id": 61,
+          "t": 105.04997150291798,
+          "cells": 22
+        }
+      ]
+    },
+    "2": {
+      "name": "passing-bus",
+      "parked": false,
+      "ground": {
+        "samples": 249,
+        "supported_wheels": 39,
+        "total_wheels": 996,
+        "before_abs_p50_m": 0.06924913607025146,
+        "after_signed_p50_m": -0.06297064289283752,
+        "after_abs_p90_m": 0.07244948061599732,
+        "nearest_p50_m": 3.7706865652141217
+      },
+      "measured": 12372,
+      "inferred": 20087,
+      "paint_rgb": [
+        58.0,
+        77.0,
+        88.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 4659,
+          "mask_id": 447,
+          "t": 129.96398315514043,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 4652,
+          "mask_id": 392,
+          "t": 129.76934253913433,
+          "cells": 1450
+        },
+        {
+          "cam": "front",
+          "n": 4648,
+          "mask_id": 392,
+          "t": 129.65823903429873,
+          "cells": 33
+        },
+        {
+          "cam": "front",
+          "n": 4638,
+          "mask_id": 392,
+          "t": 129.38051019828745,
+          "cells": 2
+        },
+        {
+          "cam": "front",
+          "n": 4626,
+          "mask_id": 392,
+          "t": 129.04702012731454,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 4620,
+          "mask_id": 392,
+          "t": 128.88042472221653,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 4607,
+          "mask_id": 392,
+          "t": 128.51927078834356,
+          "cells": 54
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4711,
+          "mask_id": 202,
+          "t": 131.49232976308852,
+          "cells": 521
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4715,
+          "mask_id": 202,
+          "t": 131.60364178630755,
+          "cells": 8071
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4707,
+          "mask_id": 202,
+          "t": 131.381191505189,
+          "cells": 138
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4703,
+          "mask_id": 202,
+          "t": 131.26998374116172,
+          "cells": 183
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4719,
+          "mask_id": 202,
+          "t": 131.71460627888752,
+          "cells": 157
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4699,
+          "mask_id": 202,
+          "t": 131.1587064710066,
+          "cells": 43
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4695,
+          "mask_id": 202,
+          "t": 131.0475334600432,
+          "cells": 39
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4691,
+          "mask_id": 202,
+          "t": 130.9364647082715,
+          "cells": 17
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4687,
+          "mask_id": 202,
+          "t": 130.82543070956376,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4683,
+          "mask_id": 202,
+          "t": 130.71436195779205,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4679,
+          "mask_id": 202,
+          "t": 130.60329320602037,
+          "cells": 4
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4675,
+          "mask_id": 202,
+          "t": 130.4921897011848,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4722,
+          "mask_id": 548,
+          "t": 131.82571999312714,
+          "cells": 116
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4726,
+          "mask_id": 548,
+          "t": 131.93685991838836,
+          "cells": 11
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4730,
+          "mask_id": 548,
+          "t": 132.04785416194693,
+          "cells": 11
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4734,
+          "mask_id": 548,
+          "t": 132.15895766678253,
+          "cells": 10
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4714,
+          "mask_id": 548,
+          "t": 131.60362224473297,
+          "cells": 1
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4738,
+          "mask_id": 548,
+          "t": 132.26998833076678,
+          "cells": 1304
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4742,
+          "mask_id": 548,
+          "t": 132.38105541517666,
+          "cells": 87
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4746,
+          "mask_id": 548,
+          "t": 132.49219534043795,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4758,
+          "mask_id": 548,
+          "t": 132.82543301409333,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4762,
+          "mask_id": 548,
+          "t": 132.9366093597803,
+          "cells": 5
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4766,
+          "mask_id": 548,
+          "t": 133.04760360333887,
+          "cells": 29
+        },
+        {
+          "cam": "back",
+          "n": 4732,
+          "mask_id": 217,
+          "t": 132.40662360532815,
+          "cells": 41
+        },
+        {
+          "cam": "back",
+          "n": 4737,
+          "mask_id": 217,
+          "t": 132.54531323822192,
+          "cells": 6
+        },
+        {
+          "cam": "back",
+          "n": 4742,
+          "mask_id": 217,
+          "t": 132.68404082074585,
+          "cells": 12
+        },
+        {
+          "cam": "back",
+          "n": 4747,
+          "mask_id": 217,
+          "t": 132.82273045363962,
+          "cells": 4
+        },
+        {
+          "cam": "back",
+          "n": 4754,
+          "mask_id": 217,
+          "t": 133.01697183895118,
+          "cells": 3
+        }
+      ]
+    },
+    "3": {
+      "name": "black-oncoming-suv",
+      "parked": false,
+      "ground": {
+        "samples": 267,
+        "supported_wheels": 299,
+        "total_wheels": 1068,
+        "before_abs_p50_m": 0.10304644340562821,
+        "after_signed_p50_m": -0.0019769457051625056,
+        "after_abs_p90_m": 0.03395428215538433,
+        "nearest_p50_m": 1.7007878971368862
+      },
+      "measured": 10901,
+      "inferred": 5292,
+      "paint_rgb": [
+        28.0,
+        41.0,
+        45.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 4746,
+          "mask_id": 430,
+          "t": 132.38036468100375,
+          "cells": 1559
+        },
+        {
+          "cam": "front",
+          "n": 4742,
+          "mask_id": 430,
+          "t": 132.26923125009048,
+          "cells": 25
+        },
+        {
+          "cam": "front",
+          "n": 4738,
+          "mask_id": 430,
+          "t": 132.15797811486644,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 4733,
+          "mask_id": 430,
+          "t": 132.01909873382195,
+          "cells": 12
+        },
+        {
+          "cam": "front",
+          "n": 4709,
+          "mask_id": 430,
+          "t": 131.3524802784511,
+          "cells": 26
+        },
+        {
+          "cam": "front",
+          "n": 4714,
+          "mask_id": 430,
+          "t": 131.4913570858529,
+          "cells": 44
+        },
+        {
+          "cam": "front",
+          "n": 4729,
+          "mask_id": 430,
+          "t": 131.9079653029087,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 4703,
+          "mask_id": 430,
+          "t": 131.18576259539967,
+          "cells": 80
+        },
+        {
+          "cam": "front",
+          "n": 4689,
+          "mask_id": 430,
+          "t": 130.79687040239742,
+          "cells": 3094
+        },
+        {
+          "cam": "front",
+          "n": 4719,
+          "mask_id": 430,
+          "t": 131.6302364668974,
+          "cells": 100
+        },
+        {
+          "cam": "front",
+          "n": 4672,
+          "mask_id": 430,
+          "t": 130.32471043292384,
+          "cells": 490
+        },
+        {
+          "cam": "front",
+          "n": 4659,
+          "mask_id": 430,
+          "t": 129.96371382044126,
+          "cells": 46
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4806,
+          "mask_id": 211,
+          "t": 134.13131602744502,
+          "cells": 13
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4810,
+          "mask_id": 211,
+          "t": 134.24245428534454,
+          "cells": 3723
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4802,
+          "mask_id": 211,
+          "t": 134.0200387572899,
+          "cells": 28
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4798,
+          "mask_id": 211,
+          "t": 133.9088657463265,
+          "cells": 17
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4794,
+          "mask_id": 211,
+          "t": 133.7976927353631,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4814,
+          "mask_id": 211,
+          "t": 134.35359254324402,
+          "cells": 40
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4790,
+          "mask_id": 211,
+          "t": 133.68651972439972,
+          "cells": 9
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4786,
+          "mask_id": 211,
+          "t": 133.57541621956412,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4782,
+          "mask_id": 211,
+          "t": 133.4642779616646,
+          "cells": 23
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4778,
+          "mask_id": 211,
+          "t": 133.35317445682904,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4774,
+          "mask_id": 211,
+          "t": 133.24203619892955,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4770,
+          "mask_id": 211,
+          "t": 133.13096744715784,
+          "cells": 1
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4812,
+          "mask_id": 565,
+          "t": 134.32580379490764,
+          "cells": 47
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4816,
+          "mask_id": 565,
+          "t": 134.43683445889187,
+          "cells": 6
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4820,
+          "mask_id": 565,
+          "t": 134.54782870245043,
+          "cells": 17
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4826,
+          "mask_id": 565,
+          "t": 134.71430185757544,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4830,
+          "mask_id": 565,
+          "t": 134.82536894198535,
+          "cells": 4
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4834,
+          "mask_id": 565,
+          "t": 134.93647244682094,
+          "cells": 72
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4838,
+          "mask_id": 565,
+          "t": 135.04753953123083,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4842,
+          "mask_id": 583,
+          "t": 135.15864303606642,
+          "cells": 1263
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4846,
+          "mask_id": 583,
+          "t": 135.2697829613277,
+          "cells": 60
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4850,
+          "mask_id": 583,
+          "t": 135.38088646616328,
+          "cells": 21
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4854,
+          "mask_id": 583,
+          "t": 135.4919535505732,
+          "cells": 34
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4858,
+          "mask_id": 583,
+          "t": 135.60307570266673,
+          "cells": 6
+        },
+        {
+          "cam": "left_repeater",
+          "n": 4862,
+          "mask_id": 583,
+          "t": 135.71419698067007,
+          "cells": 3
+        },
+        {
+          "cam": "back",
+          "n": 4829,
+          "mask_id": 253,
+          "t": 135.1006179501802,
+          "cells": 1
+        },
+        {
+          "cam": "back",
+          "n": 4843,
+          "mask_id": 262,
+          "t": 135.48906277117322,
+          "cells": 9
+        }
+      ]
+    },
+    "4": {
+      "name": "red-oncoming-sedan",
+      "parked": false,
+      "ground": {
+        "samples": 117,
+        "supported_wheels": 0,
+        "total_wheels": 468
+      },
+      "measured": 5319,
+      "inferred": 7790,
+      "paint_rgb": [
+        90.0,
+        69.0,
+        77.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 4922,
+          "mask_id": 234,
+          "t": 137.35300489010197,
+          "cells": 29
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4926,
+          "mask_id": 234,
+          "t": 137.4642474071932,
+          "cells": 2430
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4918,
+          "mask_id": 234,
+          "t": 137.2419013852664,
+          "cells": 295
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4914,
+          "mask_id": 234,
+          "t": 137.1306936212391,
+          "cells": 23
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4930,
+          "mask_id": 234,
+          "t": 137.57534507351406,
+          "cells": 162
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4910,
+          "mask_id": 234,
+          "t": 137.0195206102757,
+          "cells": 12
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4906,
+          "mask_id": 234,
+          "t": 136.9083475993123,
+          "cells": 25
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4894,
+          "mask_id": 234,
+          "t": 136.5749675786777,
+          "cells": 955
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4890,
+          "mask_id": 234,
+          "t": 136.46389882690602,
+          "cells": 57
+        },
+        {
+          "cam": "left_pillar",
+          "n": 4886,
+          "mask_id": 234,
+          "t": 136.35279532207045,
+          "cells": 19
+        },
+        {
+          "cam": "back",
+          "n": 4939,
+          "mask_id": 288,
+          "t": 138.15619203093976,
+          "cells": 766
+        },
+        {
+          "cam": "back",
+          "n": 4944,
+          "mask_id": 288,
+          "t": 138.2948437142034,
+          "cells": 181
+        },
+        {
+          "cam": "back",
+          "n": 4952,
+          "mask_id": 292,
+          "t": 138.51674712683348,
+          "cells": 223
+        },
+        {
+          "cam": "back",
+          "n": 4956,
+          "mask_id": 292,
+          "t": 138.62777473240877,
+          "cells": 66
+        },
+        {
+          "cam": "back",
+          "n": 4960,
+          "mask_id": 292,
+          "t": 138.73880233798405,
+          "cells": 69
+        },
+        {
+          "cam": "back",
+          "n": 4964,
+          "mask_id": 292,
+          "t": 138.84982994355937,
+          "cells": 6
+        },
+        {
+          "cam": "back",
+          "n": 4948,
+          "mask_id": 290,
+          "t": 138.405681571628,
+          "cells": 1
+        }
+      ]
+    },
+    "5": {
+      "name": "junction-white-suv",
+      "parked": false,
+      "ground": {
+        "samples": 408,
+        "supported_wheels": 1632,
+        "total_wheels": 1632,
+        "before_abs_p50_m": 0.03768355513322353,
+        "after_signed_p50_m": 2.2662446294521854e-05,
+        "after_abs_p90_m": 0.011826505913220129,
+        "nearest_p50_m": 0.025460481070795484
+      },
+      "measured": 3812,
+      "inferred": 9141,
+      "paint_rgb": [
+        88.0,
+        110.0,
+        112.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 6851,
+          "mask_id": 1,
+          "t": 191.43202713150822,
+          "cells": 15
+        },
+        {
+          "cam": "front",
+          "n": 6878,
+          "mask_id": 1,
+          "t": 192.1820954934592,
+          "cells": 31
+        },
+        {
+          "cam": "front",
+          "n": 6869,
+          "mask_id": 1,
+          "t": 191.93202282934607,
+          "cells": 80
+        },
+        {
+          "cam": "front",
+          "n": 6860,
+          "mask_id": 1,
+          "t": 191.6820100173883,
+          "cells": 2059
+        },
+        {
+          "cam": "front",
+          "n": 6887,
+          "mask_id": 1,
+          "t": 192.43216815757233,
+          "cells": 21
+        },
+        {
+          "cam": "front",
+          "n": 6842,
+          "mask_id": 1,
+          "t": 191.18204424562813,
+          "cells": 12
+        },
+        {
+          "cam": "front",
+          "n": 6896,
+          "mask_id": 1,
+          "t": 192.68221089560777,
+          "cells": 96
+        },
+        {
+          "cam": "front",
+          "n": 6905,
+          "mask_id": 1,
+          "t": 192.93228355972093,
+          "cells": 9
+        },
+        {
+          "cam": "front",
+          "n": 6833,
+          "mask_id": 1,
+          "t": 190.93212121190345,
+          "cells": 75
+        },
+        {
+          "cam": "front",
+          "n": 6914,
+          "mask_id": 1,
+          "t": 193.18238614991174,
+          "cells": 61
+        },
+        {
+          "cam": "front",
+          "n": 6824,
+          "mask_id": 1,
+          "t": 190.68216825210106,
+          "cells": 52
+        },
+        {
+          "cam": "front",
+          "n": 6923,
+          "mask_id": 1,
+          "t": 193.4323989618695,
+          "cells": 613
+        },
+        {
+          "cam": "front",
+          "n": 6815,
+          "mask_id": 1,
+          "t": 190.43206566191023,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 6932,
+          "mask_id": 1,
+          "t": 193.68238184774958,
+          "cells": 687
+        }
+      ]
+    },
+    "6": {
+      "name": "junction-silver-crossover",
+      "parked": false,
+      "ground": {
+        "samples": 309,
+        "supported_wheels": 1236,
+        "total_wheels": 1236,
+        "before_abs_p50_m": 0.020565624721765517,
+        "after_signed_p50_m": -5.7975748504905666e-05,
+        "after_abs_p90_m": 0.011907047566013677,
+        "nearest_p50_m": 0.023413859014087206
+      },
+      "measured": 3677,
+      "inferred": 8358,
+      "paint_rgb": [
+        70.0,
+        96.0,
+        100.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 6968,
+          "mask_id": 19,
+          "t": 194.6825228738137,
+          "cells": 298
+        },
+        {
+          "cam": "front",
+          "n": 6977,
+          "mask_id": 19,
+          "t": 194.932386055383,
+          "cells": 38
+        },
+        {
+          "cam": "front",
+          "n": 6986,
+          "mask_id": 19,
+          "t": 195.18224923695234,
+          "cells": 32
+        },
+        {
+          "cam": "front",
+          "n": 6995,
+          "mask_id": 19,
+          "t": 195.43217227067709,
+          "cells": 17
+        },
+        {
+          "cam": "front",
+          "n": 6959,
+          "mask_id": 19,
+          "t": 194.43256991401128,
+          "cells": 1792
+        },
+        {
+          "cam": "front",
+          "n": 7004,
+          "mask_id": 19,
+          "t": 195.6820055261687,
+          "cells": 82
+        },
+        {
+          "cam": "front",
+          "n": 7013,
+          "mask_id": 19,
+          "t": 195.93189863381573,
+          "cells": 60
+        },
+        {
+          "cam": "front",
+          "n": 7022,
+          "mask_id": 19,
+          "t": 196.18179174146277,
+          "cells": 60
+        },
+        {
+          "cam": "front",
+          "n": 7031,
+          "mask_id": 19,
+          "t": 196.43171477518746,
+          "cells": 1166
+        },
+        {
+          "cam": "front",
+          "n": 7040,
+          "mask_id": 19,
+          "t": 196.68163780891217,
+          "cells": 25
+        },
+        {
+          "cam": "front",
+          "n": 6950,
+          "mask_id": 19,
+          "t": 194.18267680636427,
+          "cells": 47
+        },
+        {
+          "cam": "front",
+          "n": 7049,
+          "mask_id": 19,
+          "t": 196.93158613017252,
+          "cells": 37
+        },
+        {
+          "cam": "front",
+          "n": 7058,
+          "mask_id": 19,
+          "t": 197.18151380243927,
+          "cells": 18
+        },
+        {
+          "cam": "front",
+          "n": 7067,
+          "mask_id": 19,
+          "t": 197.43146676224166,
+          "cells": 5
+        }
+      ]
+    },
+    "7": {
+      "name": "junction-red-suv",
+      "parked": false,
+      "ground": {
+        "samples": 111,
+        "supported_wheels": 440,
+        "total_wheels": 444,
+        "before_abs_p50_m": 0.016993993371248246,
+        "after_signed_p50_m": 0.0006249770431518524,
+        "after_abs_p90_m": 0.01133410065228938,
+        "nearest_p50_m": 0.10056260886115279
+      },
+      "measured": 3052,
+      "inferred": 9244,
+      "paint_rgb": [
+        93.0,
+        56.0,
+        72.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 7302,
+          "mask_id": 52,
+          "t": 203.95894730172097,
+          "cells": 2621
+        },
+        {
+          "cam": "front",
+          "n": 7293,
+          "mask_id": 52,
+          "t": 203.7088815505318,
+          "cells": 131
+        },
+        {
+          "cam": "front",
+          "n": 7284,
+          "mask_id": 52,
+          "t": 203.4588618256501,
+          "cells": 39
+        },
+        {
+          "cam": "front",
+          "n": 7275,
+          "mask_id": 52,
+          "t": 203.20884901369232,
+          "cells": 24
+        },
+        {
+          "cam": "front",
+          "n": 7266,
+          "mask_id": 52,
+          "t": 202.95883620173458,
+          "cells": 22
+        },
+        {
+          "cam": "front",
+          "n": 7257,
+          "mask_id": 52,
+          "t": 202.70867375938838,
+          "cells": 80
+        },
+        {
+          "cam": "front",
+          "n": 7238,
+          "mask_id": 52,
+          "t": 202.1808405675477,
+          "cells": 15
+        },
+        {
+          "cam": "front",
+          "n": 7229,
+          "mask_id": 52,
+          "t": 201.93091929946155,
+          "cells": 104
+        },
+        {
+          "cam": "front",
+          "n": 7248,
+          "mask_id": 52,
+          "t": 202.4586468821741,
+          "cells": 16
+        }
+      ]
+    },
+    "8": {
+      "name": "junction-approach-suv",
+      "parked": false,
+      "ground": {
+        "samples": 147,
+        "supported_wheels": 241,
+        "total_wheels": 588,
+        "before_abs_p50_m": 0.028636165559768667,
+        "after_signed_p50_m": 0.00257728606591906,
+        "after_abs_p90_m": 0.010835533695561533,
+        "nearest_p50_m": 1.6375280457568424
+      },
+      "measured": 1733,
+      "inferred": 7255,
+      "paint_rgb": [
+        57.0,
+        71.0,
+        73.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 6899,
+          "mask_id": 1,
+          "t": 192.90468780176914,
+          "cells": 1363
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6908,
+          "mask_id": 1,
+          "t": 193.15470544071314,
+          "cells": 30
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6890,
+          "mask_id": 1,
+          "t": 192.65463540976126,
+          "cells": 182
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6872,
+          "mask_id": 1,
+          "t": 192.1545653788094,
+          "cells": 83
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6917,
+          "mask_id": 1,
+          "t": 193.40479258578492,
+          "cells": 58
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6881,
+          "mask_id": 1,
+          "t": 192.40458301775337,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6854,
+          "mask_id": 1,
+          "t": 191.65453010092142,
+          "cells": 5
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6827,
+          "mask_id": 1,
+          "t": 190.9046857024729,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6926,
+          "mask_id": 1,
+          "t": 193.65487973085672,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 6809,
+          "mask_id": 1,
+          "t": 190.40471993071273,
+          "cells": 8
+        }
+      ]
+    },
+    "9": {
+      "name": "departing-coupe",
+      "parked": false,
+      "ground": {
+        "samples": 312,
+        "supported_wheels": 1172,
+        "total_wheels": 1248,
+        "before_abs_p50_m": 0.004930241756916046,
+        "after_signed_p50_m": 1.6856034074516635e-05,
+        "after_abs_p90_m": 0.008903938759313322,
+        "nearest_p50_m": 0.045629377139432555
+      },
+      "measured": 3845,
+      "inferred": 9287,
+      "paint_rgb": [
+        15.0,
+        23.0,
+        26.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 10313,
+          "mask_id": 259,
+          "t": 287.98495261815185,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10331,
+          "mask_id": 259,
+          "t": 288.48516166135937,
+          "cells": 43
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10320,
+          "mask_id": 259,
+          "t": 288.1791404801668,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10326,
+          "mask_id": 259,
+          "t": 288.3458304904841,
+          "cells": 41
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10336,
+          "mask_id": 259,
+          "t": 288.62400628933995,
+          "cells": 94
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10305,
+          "mask_id": 259,
+          "t": 287.7625023370333,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10341,
+          "mask_id": 259,
+          "t": 288.7628856703844,
+          "cells": 2076
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10295,
+          "mask_id": 259,
+          "t": 287.48460456268873,
+          "cells": 55
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10349,
+          "mask_id": 259,
+          "t": 288.98495366779997,
+          "cells": 33
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10353,
+          "mask_id": 259,
+          "t": 289.0960919256995,
+          "cells": 6
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10357,
+          "mask_id": 259,
+          "t": 289.2073691958546,
+          "cells": 3
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10361,
+          "mask_id": 259,
+          "t": 289.31829893537065,
+          "cells": 3
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10365,
+          "mask_id": 259,
+          "t": 289.42943719327013,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10374,
+          "mask_id": 704,
+          "t": 289.76161018331027,
+          "cells": 32
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10368,
+          "mask_id": 704,
+          "t": 289.59528270988795,
+          "cells": 326
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10358,
+          "mask_id": 704,
+          "t": 289.31756036822475,
+          "cells": 5
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10362,
+          "mask_id": 704,
+          "t": 289.42859103220894,
+          "cells": 6
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10354,
+          "mask_id": 704,
+          "t": 289.2064932838148,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10380,
+          "mask_id": 704,
+          "t": 289.928229020138,
+          "cells": 6
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10350,
+          "mask_id": 704,
+          "t": 289.09531693812784,
+          "cells": 1
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10386,
+          "mask_id": 704,
+          "t": 290.09481143654,
+          "cells": 342
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10392,
+          "mask_id": 704,
+          "t": 290.26132101209066,
+          "cells": 44
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10408,
+          "mask_id": 704,
+          "t": 290.7054072476019,
+          "cells": 44
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10398,
+          "mask_id": 704,
+          "t": 290.427867008067,
+          "cells": 649
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10338,
+          "mask_id": 704,
+          "t": 288.7613508559589,
+          "cells": 2
+        }
+      ]
+    },
+    "10": {
+      "name": "oncoming-pickup",
+      "parked": false,
+      "ground": {
+        "samples": 63,
+        "supported_wheels": 248,
+        "total_wheels": 252,
+        "before_abs_p50_m": 0.02092472422790527,
+        "after_signed_p50_m": 0.0002678393779822763,
+        "after_abs_p90_m": 0.013591952714858753,
+        "nearest_p50_m": 0.11019740869473252
+      },
+      "measured": 4513,
+      "inferred": 9232,
+      "paint_rgb": [
+        42.0,
+        63.0,
+        69.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 11125,
+          "mask_id": 524,
+          "t": 311.0080262195764,
+          "cells": 570
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11129,
+          "mask_id": 524,
+          "t": 311.1192687366676,
+          "cells": 2377
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11121,
+          "mask_id": 524,
+          "t": 310.896853208613,
+          "cells": 47
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11117,
+          "mask_id": 524,
+          "t": 310.7855759384579,
+          "cells": 25
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11113,
+          "mask_id": 524,
+          "t": 310.67433342136667,
+          "cells": 47
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11133,
+          "mask_id": 524,
+          "t": 311.2304069945671,
+          "cells": 245
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11108,
+          "mask_id": 524,
+          "t": 310.53541928725826,
+          "cells": 1191
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11104,
+          "mask_id": 524,
+          "t": 310.4243852885505,
+          "cells": 4
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11097,
+          "mask_id": 518,
+          "t": 310.2298846489604,
+          "cells": 7
+        }
+      ]
+    },
+    "11": {
+      "name": "oncoming-minivan",
+      "parked": false,
+      "ground": {
+        "samples": 84,
+        "supported_wheels": 335,
+        "total_wheels": 336,
+        "before_abs_p50_m": 0.019373016979217533,
+        "after_signed_p50_m": 0.0006844209285463698,
+        "after_abs_p90_m": 0.014928460918017795,
+        "nearest_p50_m": 0.12234099464219614
+      },
+      "measured": 5407,
+      "inferred": 7861,
+      "paint_rgb": [
+        64.0,
+        75.0,
+        75.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 11165,
+          "mask_id": 558,
+          "t": 312.11933929244356,
+          "cells": 156
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11159,
+          "mask_id": 558,
+          "t": 311.95264928212623,
+          "cells": 368
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11155,
+          "mask_id": 558,
+          "t": 311.84147627116283,
+          "cells": 32
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11151,
+          "mask_id": 558,
+          "t": 311.73030326019943,
+          "cells": 11
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11169,
+          "mask_id": 558,
+          "t": 312.2304427972791,
+          "cells": 26
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11147,
+          "mask_id": 558,
+          "t": 311.6189912369804,
+          "cells": 15
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11143,
+          "mask_id": 558,
+          "t": 311.5077487198892,
+          "cells": 21
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11139,
+          "mask_id": 558,
+          "t": 311.3966104619897,
+          "cells": 18
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11135,
+          "mask_id": 558,
+          "t": 311.2855069571541,
+          "cells": 1065
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11131,
+          "mask_id": 558,
+          "t": 311.1742644400629,
+          "cells": 12
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11127,
+          "mask_id": 558,
+          "t": 311.0630914290995,
+          "cells": 44
+        },
+        {
+          "cam": "back",
+          "n": 11165,
+          "mask_id": 608,
+          "t": 312.28638570308016,
+          "cells": 2550
+        },
+        {
+          "cam": "back",
+          "n": 11169,
+          "mask_id": 608,
+          "t": 312.3963507190115,
+          "cells": 557
+        },
+        {
+          "cam": "back",
+          "n": 11173,
+          "mask_id": 608,
+          "t": 312.50665728161414,
+          "cells": 532
+        }
+      ]
+    },
+    "12": {
+      "name": "oncoming-black-sedan",
+      "parked": false,
+      "ground": {
+        "samples": 114,
+        "supported_wheels": 193,
+        "total_wheels": 456,
+        "before_abs_p50_m": 0.015244905570983902,
+        "after_signed_p50_m": -0.001243746874945495,
+        "after_abs_p90_m": 0.011321376773616243,
+        "nearest_p50_m": 0.9969640088400697
+      },
+      "measured": 4718,
+      "inferred": 6999,
+      "paint_rgb": [
+        35.0,
+        41.0,
+        43.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 11213,
+          "mask_id": 613,
+          "t": 313.45230332595935,
+          "cells": 1776
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11217,
+          "mask_id": 613,
+          "t": 313.5636153491784,
+          "cells": 255
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11209,
+          "mask_id": 613,
+          "t": 313.34109556193204,
+          "cells": 17
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11205,
+          "mask_id": 613,
+          "t": 313.22985304484087,
+          "cells": 33
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11221,
+          "mask_id": 613,
+          "t": 313.67468410095006,
+          "cells": 3
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11201,
+          "mask_id": 613,
+          "t": 313.1186800338774,
+          "cells": 18
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11197,
+          "mask_id": 613,
+          "t": 313.00750702291407,
+          "cells": 25
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11193,
+          "mask_id": 613,
+          "t": 312.8963687650146,
+          "cells": 6
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11189,
+          "mask_id": 613,
+          "t": 312.78526526017896,
+          "cells": 22
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11185,
+          "mask_id": 613,
+          "t": 312.6741965084073,
+          "cells": 556
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11181,
+          "mask_id": 613,
+          "t": 312.5631277566356,
+          "cells": 446
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11177,
+          "mask_id": 613,
+          "t": 312.4519199926083,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11173,
+          "mask_id": 613,
+          "t": 312.3408164877727,
+          "cells": 7
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11218,
+          "mask_id": 1288,
+          "t": 313.674600055333,
+          "cells": 319
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11222,
+          "mask_id": 1288,
+          "t": 313.7855214580402,
+          "cells": 23
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11226,
+          "mask_id": 1288,
+          "t": 313.89651570159873,
+          "cells": 11
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11214,
+          "mask_id": 1288,
+          "t": 313.56353297092306,
+          "cells": 12
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11230,
+          "mask_id": 1288,
+          "t": 314.00758278600864,
+          "cells": 30
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11234,
+          "mask_id": 1288,
+          "t": 314.11868629084427,
+          "cells": 1057
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11238,
+          "mask_id": 1288,
+          "t": 314.22971695482846,
+          "cells": 61
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11242,
+          "mask_id": 1288,
+          "t": 314.34085688008975,
+          "cells": 9
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11246,
+          "mask_id": 1288,
+          "t": 314.4519603849253,
+          "cells": 28
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11250,
+          "mask_id": 1288,
+          "t": 314.5630638897609,
+          "cells": 2
+        }
+      ]
+    },
+    "13": {
+      "name": "oncoming-grey-suv",
+      "parked": false,
+      "ground": {
+        "samples": 99,
+        "supported_wheels": 0,
+        "total_wheels": 396
+      },
+      "measured": 4258,
+      "inferred": 7026,
+      "paint_rgb": [
+        48.0,
+        62.0,
+        61.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 11291,
+          "mask_id": 683,
+          "t": 315.6186826579978,
+          "cells": 18
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11305,
+          "mask_id": 683,
+          "t": 316.0075101718584,
+          "cells": 1842
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11295,
+          "mask_id": 683,
+          "t": 315.7295081383221,
+          "cells": 27
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11299,
+          "mask_id": 683,
+          "t": 315.8406463962216,
+          "cells": 44
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11309,
+          "mask_id": 683,
+          "t": 316.11868318282177,
+          "cells": 495
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11287,
+          "mask_id": 683,
+          "t": 315.5071621163953,
+          "cells": 5
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11283,
+          "mask_id": 683,
+          "t": 315.3959891054319,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11279,
+          "mask_id": 683,
+          "t": 315.28488560059634,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11313,
+          "mask_id": 683,
+          "t": 316.2297866876574,
+          "cells": 473
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11275,
+          "mask_id": 683,
+          "t": 315.1737473426968,
+          "cells": 17
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11271,
+          "mask_id": 683,
+          "t": 315.0626090847973,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11267,
+          "mask_id": 683,
+          "t": 314.9515055799617,
+          "cells": 7
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11263,
+          "mask_id": 683,
+          "t": 314.84043682819004,
+          "cells": 26
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11259,
+          "mask_id": 683,
+          "t": 314.72933332335447,
+          "cells": 1282
+        }
+      ]
+    },
+    "14": {
+      "name": "turning-black-coupe",
+      "parked": false,
+      "ground": {
+        "samples": 270,
+        "supported_wheels": 829,
+        "total_wheels": 1080,
+        "before_abs_p50_m": 0.00822911018371586,
+        "after_signed_p50_m": 0.0007496314841679563,
+        "after_abs_p90_m": 0.018446634113230016,
+        "nearest_p50_m": 0.037644373110859844
+      },
+      "measured": 4689,
+      "inferred": 7741,
+      "paint_rgb": [
+        19.0,
+        25.0,
+        27.0
+      ],
+      "views": [
+        {
+          "cam": "back",
+          "n": 11349,
+          "mask_id": 627,
+          "t": 317.39919620554497,
+          "cells": 119
+        },
+        {
+          "cam": "back",
+          "n": 11353,
+          "mask_id": 627,
+          "t": 317.5107930555724,
+          "cells": 180
+        },
+        {
+          "cam": "back",
+          "n": 11345,
+          "mask_id": 627,
+          "t": 317.28733370810653,
+          "cells": 358
+        },
+        {
+          "cam": "back",
+          "n": 11357,
+          "mask_id": 627,
+          "t": 317.6215550137367,
+          "cells": 48
+        },
+        {
+          "cam": "back",
+          "n": 11337,
+          "mask_id": 627,
+          "t": 317.0640641087914,
+          "cells": 5
+        },
+        {
+          "cam": "back",
+          "n": 11361,
+          "mask_id": 627,
+          "t": 317.73273441783255,
+          "cells": 76
+        },
+        {
+          "cam": "back",
+          "n": 11341,
+          "mask_id": 627,
+          "t": 317.1758127573394,
+          "cells": 10
+        },
+        {
+          "cam": "back",
+          "n": 11333,
+          "mask_id": 627,
+          "t": 316.95258110765434,
+          "cells": 152
+        },
+        {
+          "cam": "back",
+          "n": 11325,
+          "mask_id": 627,
+          "t": 316.7297289542708,
+          "cells": 23
+        },
+        {
+          "cam": "back",
+          "n": 11321,
+          "mask_id": 627,
+          "t": 316.6183176779347,
+          "cells": 20
+        },
+        {
+          "cam": "back",
+          "n": 11317,
+          "mask_id": 627,
+          "t": 316.50695270014745,
+          "cells": 1
+        },
+        {
+          "cam": "back",
+          "n": 11313,
+          "mask_id": 627,
+          "t": 316.3955835479009,
+          "cells": 649
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11385,
+          "mask_id": 700,
+          "t": 318.23263853819384,
+          "cells": 65
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11389,
+          "mask_id": 700,
+          "t": 318.3436377838378,
+          "cells": 27
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11381,
+          "mask_id": 700,
+          "t": 318.1215697864222,
+          "cells": 1819
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11393,
+          "mask_id": 700,
+          "t": 318.4546022764177,
+          "cells": 14
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11377,
+          "mask_id": 700,
+          "t": 318.01064004690613,
+          "cells": 26
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11397,
+          "mask_id": 700,
+          "t": 318.5654972628698,
+          "cells": 20
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11401,
+          "mask_id": 700,
+          "t": 318.676392249322,
+          "cells": 42
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11373,
+          "mask_id": 700,
+          "t": 317.8991890114315,
+          "cells": 23
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11405,
+          "mask_id": 700,
+          "t": 318.78728723577416,
+          "cells": 10
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11409,
+          "mask_id": 700,
+          "t": 318.8981474691625,
+          "cells": 14
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11413,
+          "mask_id": 700,
+          "t": 319.00925097399806,
+          "cells": 27
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11417,
+          "mask_id": 700,
+          "t": 319.12004170125846,
+          "cells": 953
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11365,
+          "mask_id": 700,
+          "t": 317.67712101401594,
+          "cells": 8
+        }
+      ]
+    },
+    "15": {
+      "name": "turning-white-sedan",
+      "parked": false,
+      "ground": {
+        "samples": 84,
+        "supported_wheels": 336,
+        "total_wheels": 336,
+        "before_abs_p50_m": 0.17288315943145754,
+        "after_signed_p50_m": -4.405538429530509e-05,
+        "after_abs_p90_m": 0.01657451663092202,
+        "nearest_p50_m": 0.02513866249848736
+      },
+      "measured": 1918,
+      "inferred": 7668,
+      "paint_rgb": [
+        95.0,
+        120.0,
+        115.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11367,
+          "mask_id": 1676,
+          "t": 317.50741754348064,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 11371,
+          "mask_id": 1676,
+          "t": 317.61861082654934,
+          "cells": 282
+        },
+        {
+          "cam": "front",
+          "n": 11363,
+          "mask_id": 1676,
+          "t": 317.39622426041205,
+          "cells": 1292
+        },
+        {
+          "cam": "front",
+          "n": 11359,
+          "mask_id": 1676,
+          "t": 317.2850221790765,
+          "cells": 197
+        },
+        {
+          "cam": "front",
+          "n": 11355,
+          "mask_id": 1676,
+          "t": 317.17395739858546,
+          "cells": 22
+        },
+        {
+          "cam": "front",
+          "n": 11379,
+          "mask_id": 1676,
+          "t": 317.8408776883758,
+          "cells": 98
+        },
+        {
+          "cam": "front",
+          "n": 11349,
+          "mask_id": 1676,
+          "t": 317.0071294678639,
+          "cells": 4
+        },
+        {
+          "cam": "front",
+          "n": 11341,
+          "mask_id": 1676,
+          "t": 316.78479587088407,
+          "cells": 7
+        },
+        {
+          "cam": "front",
+          "n": 11345,
+          "mask_id": 1676,
+          "t": 316.8959293017973,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11337,
+          "mask_id": 1676,
+          "t": 316.67369236604844,
+          "cells": 11
+        },
+        {
+          "cam": "front",
+          "n": 11383,
+          "mask_id": 1676,
+          "t": 317.95198119321145,
+          "cells": 1
+        }
+      ]
+    },
+    "16": {
+      "name": "turning-silver-crossover",
+      "parked": false,
+      "ground": {
+        "samples": 141,
+        "supported_wheels": 408,
+        "total_wheels": 564,
+        "before_abs_p50_m": 0.04245262772750852,
+        "after_signed_p50_m": -0.000288043582294617,
+        "after_abs_p90_m": 0.06380668605927059,
+        "nearest_p50_m": 0.13633303556148973
+      },
+      "measured": 3830,
+      "inferred": 5743,
+      "paint_rgb": [
+        80.0,
+        90.0,
+        99.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 11478,
+          "mask_id": 735,
+          "t": 320.8132580519562,
+          "cells": 17
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11472,
+          "mask_id": 735,
+          "t": 320.6463595232555,
+          "cells": 23
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11466,
+          "mask_id": 735,
+          "t": 320.4795652537465,
+          "cells": 6
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11460,
+          "mask_id": 735,
+          "t": 320.3128404903653,
+          "cells": 879
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11454,
+          "mask_id": 735,
+          "t": 320.1459767147285,
+          "cells": 57
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11448,
+          "mask_id": 735,
+          "t": 319.9791824452195,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11478,
+          "mask_id": 1439,
+          "t": 320.8966868657822,
+          "cells": 1422
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11487,
+          "mask_id": 1439,
+          "t": 321.1464564372291,
+          "cells": 89
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11493,
+          "mask_id": 1439,
+          "t": 321.31303885363116,
+          "cells": 6
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11499,
+          "mask_id": 1439,
+          "t": 321.4797305313102,
+          "cells": 294
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11505,
+          "mask_id": 1439,
+          "t": 321.6464950498406,
+          "cells": 11
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11511,
+          "mask_id": 1439,
+          "t": 321.81318672751974,
+          "cells": 34
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11472,
+          "mask_id": 1439,
+          "t": 320.7301717543269,
+          "cells": 14
+        },
+        {
+          "cam": "back",
+          "n": 11505,
+          "mask_id": 817,
+          "t": 321.72635070146094,
+          "cells": 2
+        },
+        {
+          "cam": "right_repeater",
+          "n": 11529,
+          "mask_id": 1780,
+          "t": 322.36819975769833,
+          "cells": 7
+        },
+        {
+          "cam": "right_repeater",
+          "n": 11537,
+          "mask_id": 1780,
+          "t": 322.5902394820166,
+          "cells": 335
+        },
+        {
+          "cam": "right_repeater",
+          "n": 11543,
+          "mask_id": 1780,
+          "t": 322.75682782512894,
+          "cells": 44
+        },
+        {
+          "cam": "right_repeater",
+          "n": 11547,
+          "mask_id": 1780,
+          "t": 322.8679313299645,
+          "cells": 575
+        },
+        {
+          "cam": "right_repeater",
+          "n": 11515,
+          "mask_id": 1780,
+          "t": 321.9793709478443,
+          "cells": 13
+        }
+      ]
+    },
+    "17": {
+      "name": "junction-white-sedan",
+      "parked": false,
+      "ground": {
+        "samples": 300,
+        "supported_wheels": 1075,
+        "total_wheels": 1200,
+        "before_abs_p50_m": 0.13833011675262452,
+        "after_signed_p50_m": 0.0031663047794614485,
+        "after_abs_p90_m": 0.06866898523927413,
+        "nearest_p50_m": 0.11883130031794333
+      },
+      "measured": 4343,
+      "inferred": 8779,
+      "paint_rgb": [
+        89.0,
+        113.0,
+        113.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11477,
+          "mask_id": 1742,
+          "t": 320.5620756266726,
+          "cells": 8
+        },
+        {
+          "cam": "front",
+          "n": 11451,
+          "mask_id": 1709,
+          "t": 319.8397232887752,
+          "cells": 191
+        },
+        {
+          "cam": "front",
+          "n": 11456,
+          "mask_id": 1709,
+          "t": 319.9785428176643,
+          "cells": 2
+        },
+        {
+          "cam": "front",
+          "n": 11443,
+          "mask_id": 1709,
+          "t": 319.6174265008709,
+          "cells": 961
+        },
+        {
+          "cam": "front",
+          "n": 11447,
+          "mask_id": 1709,
+          "t": 319.72853000570655,
+          "cells": 8
+        },
+        {
+          "cam": "front",
+          "n": 11437,
+          "mask_id": 1709,
+          "t": 319.45086102185064,
+          "cells": 7
+        },
+        {
+          "cam": "front",
+          "n": 11431,
+          "mask_id": 1709,
+          "t": 319.284325468908,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 11421,
+          "mask_id": 1709,
+          "t": 319.00662655897435,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11417,
+          "mask_id": 1709,
+          "t": 318.8954931280611,
+          "cells": 81
+        },
+        {
+          "cam": "front",
+          "n": 11409,
+          "mask_id": 1709,
+          "t": 318.6733160444676,
+          "cells": 165
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11536,
+          "mask_id": 755,
+          "t": 322.4234247985386,
+          "cells": 46
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11529,
+          "mask_id": 755,
+          "t": 322.2289589120124,
+          "cells": 26
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11546,
+          "mask_id": 755,
+          "t": 322.7014268320749,
+          "cells": 67
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11542,
+          "mask_id": 755,
+          "t": 322.59025382111145,
+          "cells": 2197
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11550,
+          "mask_id": 755,
+          "t": 322.8126345961022,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11554,
+          "mask_id": 755,
+          "t": 322.9237760512836,
+          "cells": 1
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11549,
+          "mask_id": 1466,
+          "t": 322.86808729664693,
+          "cells": 19
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11553,
+          "mask_id": 1466,
+          "t": 322.97919080148256,
+          "cells": 9
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11541,
+          "mask_id": 1466,
+          "t": 322.64591670740145,
+          "cells": 10
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11567,
+          "mask_id": 1466,
+          "t": 323.36790738670436,
+          "cells": 10
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11575,
+          "mask_id": 1466,
+          "t": 323.5901872372269,
+          "cells": 56
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11581,
+          "mask_id": 1466,
+          "t": 323.75683739562066,
+          "cells": 28
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11591,
+          "mask_id": 1466,
+          "t": 324.0346376769949,
+          "cells": 50
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11595,
+          "mask_id": 1466,
+          "t": 324.14574118183054,
+          "cells": 43
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11585,
+          "mask_id": 1466,
+          "t": 323.86798241974157,
+          "cells": 4
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11603,
+          "mask_id": 1466,
+          "t": 324.36787535065037,
+          "cells": 344
+        }
+      ]
+    },
+    "20562": {
+      "name": "blue crossing off-roader",
+      "parked": false,
+      "ground": {
+        "samples": 114,
+        "supported_wheels": 0,
+        "total_wheels": 456
+      },
+      "measured": 5982,
+      "inferred": 10294,
+      "paint_rgb": [
+        16.0,
+        38.0,
+        50.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 7645,
+          "mask_id": 2490,
+          "t": 213.48604291529514,
+          "cells": 69
+        },
+        {
+          "cam": "front",
+          "n": 7649,
+          "mask_id": 2490,
+          "t": 213.5971070374125,
+          "cells": 60
+        },
+        {
+          "cam": "front",
+          "n": 7637,
+          "mask_id": 2490,
+          "t": 213.26374612739093,
+          "cells": 1463
+        },
+        {
+          "cam": "front",
+          "n": 7633,
+          "mask_id": 2490,
+          "t": 213.15258277039996,
+          "cells": 42
+        },
+        {
+          "cam": "front",
+          "n": 7627,
+          "mask_id": 2490,
+          "t": 212.98589758706888,
+          "cells": 38
+        },
+        {
+          "cam": "front",
+          "n": 7622,
+          "mask_id": 2490,
+          "t": 212.8470182060244,
+          "cells": 64
+        },
+        {
+          "cam": "front",
+          "n": 7618,
+          "mask_id": 2490,
+          "t": 212.7359147011888,
+          "cells": 16
+        },
+        {
+          "cam": "front",
+          "n": 7614,
+          "mask_id": 2490,
+          "t": 212.62478127027552,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 7610,
+          "mask_id": 2490,
+          "t": 212.51373761759532,
+          "cells": 26
+        },
+        {
+          "cam": "front",
+          "n": 7641,
+          "mask_id": 2490,
+          "t": 213.37487393220155,
+          "cells": 12
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7690,
+          "mask_id": 1058,
+          "t": 214.8756491544544,
+          "cells": 142
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7686,
+          "mask_id": 1058,
+          "t": 214.7644413904271,
+          "cells": 27
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7694,
+          "mask_id": 1058,
+          "t": 214.9868916715456,
+          "cells": 3738
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7682,
+          "mask_id": 1058,
+          "t": 214.65326837946367,
+          "cells": 108
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7678,
+          "mask_id": 1058,
+          "t": 214.5420953685003,
+          "cells": 17
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7674,
+          "mask_id": 1058,
+          "t": 214.4309571106008,
+          "cells": 59
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7669,
+          "mask_id": 1058,
+          "t": 214.2920777295563,
+          "cells": 40
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7663,
+          "mask_id": 1058,
+          "t": 214.12542247230292,
+          "cells": 55
+        }
+      ]
+    },
+    "20709": {
+      "name": "white sedan ahead",
+      "parked": false,
+      "ground": {
+        "samples": 489,
+        "supported_wheels": 1956,
+        "total_wheels": 1956,
+        "before_abs_p50_m": 0.13166074759292606,
+        "after_signed_p50_m": -0.003887480058261339,
+        "after_abs_p90_m": 0.05354746790313725,
+        "nearest_p50_m": 0.022803097115306155
+      },
+      "measured": 1702,
+      "inferred": 11673,
+      "paint_rgb": [
+        86.0,
+        115.0,
+        117.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11319,
+          "mask_id": 656,
+          "t": 316.1735769638999,
+          "cells": 69
+        },
+        {
+          "cam": "front",
+          "n": 11313,
+          "mask_id": 656,
+          "t": 316.00695163272417,
+          "cells": 1179
+        },
+        {
+          "cam": "front",
+          "n": 11325,
+          "mask_id": 656,
+          "t": 316.34023222115326,
+          "cells": 32
+        },
+        {
+          "cam": "front",
+          "n": 11309,
+          "mask_id": 656,
+          "t": 315.8958182018109,
+          "cells": 326
+        },
+        {
+          "cam": "front",
+          "n": 11305,
+          "mask_id": 656,
+          "t": 315.7846548448199,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 11301,
+          "mask_id": 656,
+          "t": 315.673491487829,
+          "cells": 26
+        },
+        {
+          "cam": "front",
+          "n": 11297,
+          "mask_id": 656,
+          "t": 315.56235805691574,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 11293,
+          "mask_id": 656,
+          "t": 315.45134433031313,
+          "cells": 19
+        },
+        {
+          "cam": "front",
+          "n": 11287,
+          "mask_id": 656,
+          "t": 315.2847356380367,
+          "cells": 5
+        },
+        {
+          "cam": "front",
+          "n": 11277,
+          "mask_id": 656,
+          "t": 315.0067806805824,
+          "cells": 15
+        },
+        {
+          "cam": "front",
+          "n": 11241,
+          "mask_id": 656,
+          "t": 314.00672943275134,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 11237,
+          "mask_id": 656,
+          "t": 313.8957157061488,
+          "cells": 18
+        }
+      ]
+    },
+    "20773": {
+      "name": "dark SUV ahead",
+      "parked": false,
+      "ground": {
+        "samples": 270,
+        "supported_wheels": 1080,
+        "total_wheels": 1080,
+        "before_abs_p50_m": 0.16833283079147338,
+        "after_signed_p50_m": -0.0006829128482001012,
+        "after_abs_p90_m": 0.01033884080469949,
+        "nearest_p50_m": 0.023184654921739357
+      },
+      "measured": 1287,
+      "inferred": 11836,
+      "paint_rgb": [
+        63.0,
+        79.0,
+        81.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11201,
+          "mask_id": 1297,
+          "t": 312.8956345322401,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 11227,
+          "mask_id": 1297,
+          "t": 313.617747461516,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11183,
+          "mask_id": 1297,
+          "t": 312.3958183908683,
+          "cells": 21
+        },
+        {
+          "cam": "front",
+          "n": 11187,
+          "mask_id": 1297,
+          "t": 312.5069817478593,
+          "cells": 63
+        },
+        {
+          "cam": "front",
+          "n": 11191,
+          "mask_id": 1297,
+          "t": 312.6181151787726,
+          "cells": 274
+        },
+        {
+          "cam": "front",
+          "n": 11209,
+          "mask_id": 1297,
+          "t": 313.1179013940666,
+          "cells": 7
+        },
+        {
+          "cam": "front",
+          "n": 11179,
+          "mask_id": 1297,
+          "t": 312.28471488603276,
+          "cells": 867
+        },
+        {
+          "cam": "front",
+          "n": 11197,
+          "mask_id": 1297,
+          "t": 312.7845908795598,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11155,
+          "mask_id": 1297,
+          "t": 311.61809385701923,
+          "cells": 48
+        }
+      ]
+    },
+    "20787": {
+      "name": "silver SUV ahead",
+      "parked": false,
+      "ground": {
+        "samples": 462,
+        "supported_wheels": 1326,
+        "total_wheels": 1848,
+        "before_abs_p50_m": 0.14511592856788635,
+        "after_signed_p50_m": 0.00042892474821637494,
+        "after_abs_p90_m": 0.01632253229236605,
+        "nearest_p50_m": 0.05253423497673801
+      },
+      "measured": 1545,
+      "inferred": 11990,
+      "paint_rgb": [
+        66.0,
+        83.0,
+        86.5
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11321,
+          "mask_id": 642,
+          "t": 316.2287097512301,
+          "cells": 819
+        },
+        {
+          "cam": "front",
+          "n": 11333,
+          "mask_id": 642,
+          "t": 316.56202218100583,
+          "cells": 5
+        },
+        {
+          "cam": "front",
+          "n": 11303,
+          "mask_id": 642,
+          "t": 315.7287739055476,
+          "cells": 152
+        },
+        {
+          "cam": "front",
+          "n": 11325,
+          "mask_id": 642,
+          "t": 316.3398255856097,
+          "cells": 12
+        },
+        {
+          "cam": "front",
+          "n": 11337,
+          "mask_id": 642,
+          "t": 316.67312377057243,
+          "cells": 48
+        },
+        {
+          "cam": "front",
+          "n": 11307,
+          "mask_id": 642,
+          "t": 315.8399073364609,
+          "cells": 90
+        },
+        {
+          "cam": "front",
+          "n": 11317,
+          "mask_id": 642,
+          "t": 316.1176660985499,
+          "cells": 417
+        },
+        {
+          "cam": "front",
+          "n": 11329,
+          "mask_id": 642,
+          "t": 316.45097661305664,
+          "cells": 2
+        }
+      ]
+    },
+    "21062": {
+      "name": "dark SUV after the turn",
+      "parked": false,
+      "ground": {
+        "samples": 288,
+        "supported_wheels": 975,
+        "total_wheels": 1152,
+        "before_abs_p50_m": 0.25493773195648195,
+        "after_signed_p50_m": -0.010157925510270283,
+        "after_abs_p90_m": 0.2012597075336457,
+        "nearest_p50_m": 0.18115326269186818
+      },
+      "measured": 5353,
+      "inferred": 10999,
+      "paint_rgb": [
+        49.0,
+        67.0,
+        74.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11816,
+          "mask_id": 1805,
+          "t": 329.9780677354112,
+          "cells": 66
+        },
+        {
+          "cam": "front",
+          "n": 11812,
+          "mask_id": 1805,
+          "t": 329.86693430449793,
+          "cells": 4
+        },
+        {
+          "cam": "front",
+          "n": 11808,
+          "mask_id": 1805,
+          "t": 329.75577094750696,
+          "cells": 35
+        },
+        {
+          "cam": "front",
+          "n": 11804,
+          "mask_id": 1805,
+          "t": 329.64466133775153,
+          "cells": 29
+        },
+        {
+          "cam": "front",
+          "n": 11800,
+          "mask_id": 1805,
+          "t": 329.5335340117581,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11796,
+          "mask_id": 1805,
+          "t": 329.4224005808448,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11790,
+          "mask_id": 1805,
+          "t": 329.25568547143604,
+          "cells": 5084
+        },
+        {
+          "cam": "front",
+          "n": 11786,
+          "mask_id": 1805,
+          "t": 329.1445520405228,
+          "cells": 100
+        },
+        {
+          "cam": "front",
+          "n": 11782,
+          "mask_id": 1805,
+          "t": 329.0334186096095,
+          "cells": 11
+        },
+        {
+          "cam": "front",
+          "n": 11778,
+          "mask_id": 1805,
+          "t": 328.92228517869626,
+          "cells": 13
+        },
+        {
+          "cam": "front",
+          "n": 11768,
+          "mask_id": 1805,
+          "t": 328.6444366383742,
+          "cells": 5
+        }
+      ]
+    },
+    "21074": {
+      "name": "white sedan after the turn",
+      "parked": false,
+      "ground": {
+        "samples": 273,
+        "supported_wheels": 1092,
+        "total_wheels": 1092,
+        "before_abs_p50_m": 0.16088757206726073,
+        "after_signed_p50_m": 0.00013435885129658987,
+        "after_abs_p90_m": 0.01831657513153893,
+        "nearest_p50_m": 0.02376233351214527
+      },
+      "measured": 1871,
+      "inferred": 11951,
+      "paint_rgb": [
+        90.0,
+        122.0,
+        131.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11814,
+          "mask_id": 1866,
+          "t": 329.92272546553716,
+          "cells": 928
+        },
+        {
+          "cam": "front",
+          "n": 11810,
+          "mask_id": 1866,
+          "t": 329.81156210854624,
+          "cells": 36
+        },
+        {
+          "cam": "front",
+          "n": 11806,
+          "mask_id": 1866,
+          "t": 329.70042867763294,
+          "cells": 462
+        },
+        {
+          "cam": "front",
+          "n": 11802,
+          "mask_id": 1866,
+          "t": 329.58926532064197,
+          "cells": 13
+        },
+        {
+          "cam": "front",
+          "n": 11798,
+          "mask_id": 1866,
+          "t": 329.47813188972873,
+          "cells": 8
+        },
+        {
+          "cam": "front",
+          "n": 11780,
+          "mask_id": 1866,
+          "t": 328.9780763397355,
+          "cells": 26
+        },
+        {
+          "cam": "front",
+          "n": 11792,
+          "mask_id": 1866,
+          "t": 329.31144670639765,
+          "cells": 42
+        },
+        {
+          "cam": "front",
+          "n": 11786,
+          "mask_id": 1866,
+          "t": 329.1447914491443,
+          "cells": 17
+        },
+        {
+          "cam": "front",
+          "n": 11772,
+          "mask_id": 1866,
+          "t": 328.75580947790894,
+          "cells": 6
+        },
+        {
+          "cam": "front",
+          "n": 11762,
+          "mask_id": 1866,
+          "t": 328.47805071581996,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 11758,
+          "mask_id": 1866,
+          "t": 328.3669472109844,
+          "cells": 12
+        },
+        {
+          "cam": "front",
+          "n": 11766,
+          "mask_id": 1866,
+          "t": 328.5891242945779,
+          "cells": 35
+        },
+        {
+          "cam": "front",
+          "n": 11754,
+          "mask_id": 1866,
+          "t": 328.2558437061488,
+          "cells": 7
+        },
+        {
+          "cam": "front",
+          "n": 11746,
+          "mask_id": 1866,
+          "t": 328.03360677039996,
+          "cells": 276
+        }
+      ]
+    },
+    "20401": {
+      "name": "far white sedan behind the blue SUV queue",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 8,
+        "total_wheels": 8,
+        "before_abs_p50_m": 0.014214307069778442,
+        "after_signed_p50_m": 0.0,
+        "after_abs_p90_m": 0.01889289915561676,
+        "nearest_p50_m": 0.07473645676588946
+      },
+      "measured": 2955,
+      "inferred": 8102,
+      "paint_rgb": [
+        91.0,
+        113.0,
+        115.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 11550,
+          "mask_id": 798,
+          "t": 322.8125650899744,
+          "cells": 266
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11558,
+          "mask_id": 798,
+          "t": 323.0348416057734,
+          "cells": 1146
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11554,
+          "mask_id": 798,
+          "t": 322.9237033478739,
+          "cells": 446
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11540,
+          "mask_id": 798,
+          "t": 322.53456305643806,
+          "cells": 6
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11544,
+          "mask_id": 798,
+          "t": 322.6457360674015,
+          "cells": 19
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11562,
+          "mask_id": 798,
+          "t": 323.14601461673675,
+          "cells": 485
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11566,
+          "mask_id": 798,
+          "t": 323.2571181215724,
+          "cells": 374
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11570,
+          "mask_id": 798,
+          "t": 323.36818687334403,
+          "cells": 15
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11563,
+          "mask_id": 1474,
+          "t": 323.25694956357154,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11575,
+          "mask_id": 1474,
+          "t": 323.5902600780783,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11597,
+          "mask_id": 1474,
+          "t": 324.20129293424833,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11583,
+          "mask_id": 1474,
+          "t": 323.8124670877495,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11591,
+          "mask_id": 1474,
+          "t": 324.03467409742063,
+          "cells": 85
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11551,
+          "mask_id": 1474,
+          "t": 322.92367546949043,
+          "cells": 7
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11587,
+          "mask_id": 1474,
+          "t": 323.92357059258507,
+          "cells": 38
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11605,
+          "mask_id": 1474,
+          "t": 324.4234271030682,
+          "cells": 57
+        }
+      ]
+    },
+    "10004": {
+      "name": "silver sedan",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 0,
+        "total_wheels": 8
+      },
+      "measured": 3108,
+      "inferred": 7955,
+      "paint_rgb": [
+        76.0,
+        107.0,
+        115.0
+      ],
+      "views": [
+        {
+          "cam": "left_repeater",
+          "n": 3376,
+          "mask_id": 21,
+          "t": 94.02275247281763,
+          "cells": 35
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3384,
+          "mask_id": 21,
+          "t": 94.24492306206314,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3482,
+          "mask_id": 21,
+          "t": 96.9672867143662,
+          "cells": 35
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3363,
+          "mask_id": 21,
+          "t": 93.661775343379,
+          "cells": 12
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3507,
+          "mask_id": 21,
+          "t": 97.6617200400143,
+          "cells": 392
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3392,
+          "mask_id": 21,
+          "t": 94.46716649215999,
+          "cells": 32
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3401,
+          "mask_id": 21,
+          "t": 94.71722221889142,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3470,
+          "mask_id": 21,
+          "t": 96.63383051815671,
+          "cells": 48
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3464,
+          "mask_id": 21,
+          "t": 96.46713884047765,
+          "cells": 8
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3411,
+          "mask_id": 21,
+          "t": 94.9949809809804,
+          "cells": 309
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3502,
+          "mask_id": 21,
+          "t": 97.52276781811847,
+          "cells": 15
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3421,
+          "mask_id": 21,
+          "t": 95.2727033226437,
+          "cells": 1054
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3476,
+          "mask_id": 21,
+          "t": 96.80052219583578,
+          "cells": 79
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3458,
+          "mask_id": 21,
+          "t": 96.30044716279858,
+          "cells": 4
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3338,
+          "mask_id": 17,
+          "t": 92.93903130143585,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3353,
+          "mask_id": 17,
+          "t": 93.35570419763322,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3334,
+          "mask_id": 17,
+          "t": 92.82782353740853,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3358,
+          "mask_id": 17,
+          "t": 93.4946183317416,
+          "cells": 22
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3377,
+          "mask_id": 17,
+          "t": 94.02246423890237,
+          "cells": 3
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3326,
+          "mask_id": 17,
+          "t": 92.60561652773735,
+          "cells": 9
+        },
+        {
+          "cam": "left_pillar",
+          "n": 3330,
+          "mask_id": 17,
+          "t": 92.71672003257295,
+          "cells": 1042
+        }
+      ]
+    },
+    "10007": {
+      "name": "burgundy sedan",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 0,
+        "total_wheels": 8
+      },
+      "measured": 1793,
+      "inferred": 11442,
+      "paint_rgb": [
+        27.0,
+        27.0,
+        24.0
+      ],
+      "views": [
+        {
+          "cam": "left_repeater",
+          "n": 3401,
+          "mask_id": 28,
+          "t": 94.71711295761439,
+          "cells": 29
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3487,
+          "mask_id": 28,
+          "t": 97.10569262987686,
+          "cells": 94
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3411,
+          "mask_id": 28,
+          "t": 94.99443467459523,
+          "cells": 3
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3464,
+          "mask_id": 28,
+          "t": 96.46662895451814,
+          "cells": 46
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3452,
+          "mask_id": 28,
+          "t": 96.13342770128841,
+          "cells": 909
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3497,
+          "mask_id": 28,
+          "t": 97.38327424301534,
+          "cells": 62
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3430,
+          "mask_id": 28,
+          "t": 95.52213990213859,
+          "cells": 1
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3476,
+          "mask_id": 28,
+          "t": 96.79993946902492,
+          "cells": 606
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3482,
+          "mask_id": 28,
+          "t": 96.96662546511757,
+          "cells": 29
+        },
+        {
+          "cam": "left_repeater",
+          "n": 3458,
+          "mask_id": 28,
+          "t": 96.29982801556204,
+          "cells": 14
+        }
+      ]
+    },
+    "10492": {
+      "name": "distant blue vehicle",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 0,
+        "total_wheels": 8
+      },
+      "measured": 955,
+      "inferred": 8298,
+      "paint_rgb": [
+        79.0,
+        99.0,
+        95.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 7151,
+          "mask_id": 25,
+          "t": 199.90361780432494,
+          "cells": 177
+        },
+        {
+          "cam": "left_pillar",
+          "n": 7232,
+          "mask_id": 25,
+          "t": 202.15346377724563,
+          "cells": 778
+        }
+      ]
+    },
+    "10587": {
+      "name": "grey Tesla at the light",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 8,
+        "total_wheels": 8,
+        "before_abs_p50_m": 0.00440574437379837,
+        "after_signed_p50_m": 0.0,
+        "after_abs_p90_m": 0.007394760847091675,
+        "nearest_p50_m": 0.015332115555976392
+      },
+      "measured": 4525,
+      "inferred": 9443,
+      "paint_rgb": [
+        48.0,
+        67.0,
+        72.0
+      ],
+      "views": [
+        {
+          "cam": "left_pillar",
+          "n": 10242,
+          "mask_id": 258,
+          "t": 286.01707052805267,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10260,
+          "mask_id": 258,
+          "t": 286.5170710528767,
+          "cells": 116
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10278,
+          "mask_id": 258,
+          "t": 287.01710633076465,
+          "cells": 3
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10295,
+          "mask_id": 258,
+          "t": 287.4898175222745,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 10305,
+          "mask_id": 258,
+          "t": 287.7676457904913,
+          "cells": 16
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10239,
+          "mask_id": 699,
+          "t": 286.01590956235947,
+          "cells": 9
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10275,
+          "mask_id": 699,
+          "t": 287.01624173056223,
+          "cells": 9
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10292,
+          "mask_id": 699,
+          "t": 287.48763037674854,
+          "cells": 5
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10302,
+          "mask_id": 699,
+          "t": 287.76444220776983,
+          "cells": 25
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10310,
+          "mask_id": 699,
+          "t": 287.9858115476504,
+          "cells": 18
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10323,
+          "mask_id": 699,
+          "t": 288.34580532559573,
+          "cells": 68
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10328,
+          "mask_id": 699,
+          "t": 288.48432050238347,
+          "cells": 21
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10333,
+          "mask_id": 699,
+          "t": 288.62283567917115,
+          "cells": 14
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10338,
+          "mask_id": 699,
+          "t": 288.7614601172359,
+          "cells": 17
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10342,
+          "mask_id": 699,
+          "t": 288.8723450995174,
+          "cells": 28
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10346,
+          "mask_id": 699,
+          "t": 288.98333934307595,
+          "cells": 81
+        },
+        {
+          "cam": "left_repeater",
+          "n": 10350,
+          "mask_id": 699,
+          "t": 289.0942607457832,
+          "cells": 647
+        },
+        {
+          "cam": "back",
+          "n": 10323,
+          "mask_id": 299,
+          "t": 288.48652040248015,
+          "cells": 488
+        },
+        {
+          "cam": "back",
+          "n": 10328,
+          "mask_id": 299,
+          "t": 288.62464079092183,
+          "cells": 496
+        },
+        {
+          "cam": "back",
+          "n": 10341,
+          "mask_id": 299,
+          "t": 288.98428509569214,
+          "cells": 8
+        },
+        {
+          "cam": "back",
+          "n": 10333,
+          "mask_id": 299,
+          "t": 288.76260938084295,
+          "cells": 68
+        },
+        {
+          "cam": "back",
+          "n": 10318,
+          "mask_id": 299,
+          "t": 288.3476789710658,
+          "cells": 385
+        },
+        {
+          "cam": "back",
+          "n": 10337,
+          "mask_id": 299,
+          "t": 288.87325749011677,
+          "cells": 5
+        },
+        {
+          "cam": "back",
+          "n": 10312,
+          "mask_id": 299,
+          "t": 288.1799231745383,
+          "cells": 863
+        },
+        {
+          "cam": "back",
+          "n": 10305,
+          "mask_id": 299,
+          "t": 287.98537819218564,
+          "cells": 1
+        },
+        {
+          "cam": "back",
+          "n": 10297,
+          "mask_id": 299,
+          "t": 287.76404402400766,
+          "cells": 859
+        },
+        {
+          "cam": "back",
+          "n": 10345,
+          "mask_id": 299,
+          "t": 289.09324626800696,
+          "cells": 11
+        },
+        {
+          "cam": "back",
+          "n": 10349,
+          "mask_id": 299,
+          "t": 289.2037976816232,
+          "cells": 98
+        },
+        {
+          "cam": "back",
+          "n": 10287,
+          "mask_id": 299,
+          "t": 287.4867027078503,
+          "cells": 128
+        },
+        {
+          "cam": "back",
+          "n": 10353,
+          "mask_id": 299,
+          "t": 289.3144837405273,
+          "cells": 9
+        },
+        {
+          "cam": "back",
+          "n": 10357,
+          "mask_id": 299,
+          "t": 289.4251318498011,
+          "cells": 26
+        }
+      ]
+    },
+    "10593": {
+      "name": "white Tesla across the intersection",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 8,
+        "total_wheels": 8,
+        "before_abs_p50_m": 0.007102142088115215,
+        "after_signed_p50_m": 0.0,
+        "after_abs_p90_m": 0.011448755860328674,
+        "nearest_p50_m": 0.1902417806450058
+      },
+      "measured": 3819,
+      "inferred": 9515,
+      "paint_rgb": [
+        84.0,
+        108.0,
+        108.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 10486,
+          "mask_id": 603,
+          "t": 292.6476791496629,
+          "cells": 22
+        },
+        {
+          "cam": "front",
+          "n": 10490,
+          "mask_id": 603,
+          "t": 292.75881258057615,
+          "cells": 2041
+        },
+        {
+          "cam": "front",
+          "n": 10482,
+          "mask_id": 603,
+          "t": 292.5365457187496,
+          "cells": 63
+        },
+        {
+          "cam": "front",
+          "n": 10470,
+          "mask_id": 603,
+          "t": 292.2031869634056,
+          "cells": 30
+        },
+        {
+          "cam": "front",
+          "n": 10494,
+          "mask_id": 603,
+          "t": 292.8699759375671,
+          "cells": 1276
+        },
+        {
+          "cam": "front",
+          "n": 10466,
+          "mask_id": 603,
+          "t": 292.09205377190096,
+          "cells": 2
+        },
+        {
+          "cam": "front",
+          "n": 10400,
+          "mask_id": 603,
+          "t": 290.25877423923157,
+          "cells": 344
+        },
+        {
+          "cam": "front",
+          "n": 10462,
+          "mask_id": 603,
+          "t": 291.98093841633863,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 10454,
+          "mask_id": 603,
+          "t": 291.7587613327451,
+          "cells": 3
+        },
+        {
+          "cam": "front",
+          "n": 10446,
+          "mask_id": 603,
+          "t": 291.5365229605445,
+          "cells": 37
+        }
+      ]
+    },
+    "10935": {
+      "name": "red SUV at the roadside",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 8,
+        "total_wheels": 8,
+        "before_abs_p50_m": 0.006905794143676758,
+        "after_signed_p50_m": 0.0,
+        "after_abs_p90_m": 0.01257653534412384,
+        "nearest_p50_m": 0.10678419925441401
+      },
+      "measured": 1670,
+      "inferred": 12374,
+      "paint_rgb": [
+        87.0,
+        68.0,
+        81.0
+      ],
+      "views": [
+        {
+          "cam": "left_repeater",
+          "n": 11252,
+          "mask_id": 1298,
+          "t": 314.61861564217867,
+          "cells": 119
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11246,
+          "mask_id": 1298,
+          "t": 314.4519603849253,
+          "cells": 127
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11256,
+          "mask_id": 1298,
+          "t": 314.729646306163,
+          "cells": 12
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11292,
+          "mask_id": 1298,
+          "t": 315.7296506905346,
+          "cells": 15
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11270,
+          "mask_id": 1298,
+          "t": 315.11858141393884,
+          "cells": 1
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11242,
+          "mask_id": 1298,
+          "t": 314.34078403923843,
+          "cells": 216
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11288,
+          "mask_id": 1298,
+          "t": 315.618547185699,
+          "cells": 32
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11300,
+          "mask_id": 1298,
+          "t": 315.95178485935446,
+          "cells": 26
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11236,
+          "mask_id": 1298,
+          "t": 314.17420162283634,
+          "cells": 719
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11264,
+          "mask_id": 1298,
+          "t": 314.9519261566855,
+          "cells": 249
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11278,
+          "mask_id": 1298,
+          "t": 315.34064274190735,
+          "cells": 5
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11296,
+          "mask_id": 1298,
+          "t": 315.84071777494455,
+          "cells": 103
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11284,
+          "mask_id": 1298,
+          "t": 315.50740726043773,
+          "cells": 46
+        }
+      ]
+    },
+    "10972": {
+      "name": "blue SUV at the corner",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 8,
+        "total_wheels": 8,
+        "before_abs_p50_m": 0.020027994017601025,
+        "after_signed_p50_m": 0.0,
+        "after_abs_p90_m": 0.02488650381565094,
+        "nearest_p50_m": 0.07973946942634307
+      },
+      "measured": 4030,
+      "inferred": 8708,
+      "paint_rgb": [
+        18.0,
+        70.0,
+        81.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11468,
+          "mask_id": 1662,
+          "t": 320.31233214941403,
+          "cells": 1550
+        },
+        {
+          "cam": "front",
+          "n": 11462,
+          "mask_id": 1662,
+          "t": 320.1454374835392,
+          "cells": 558
+        },
+        {
+          "cam": "front",
+          "n": 11449,
+          "mask_id": 1662,
+          "t": 319.7842613145904,
+          "cells": 135
+        },
+        {
+          "cam": "front",
+          "n": 11445,
+          "mask_id": 1662,
+          "t": 319.6730680315218,
+          "cells": 64
+        },
+        {
+          "cam": "front",
+          "n": 11441,
+          "mask_id": 1662,
+          "t": 319.56193460060854,
+          "cells": 281
+        },
+        {
+          "cam": "front",
+          "n": 11437,
+          "mask_id": 1662,
+          "t": 319.4508909479283,
+          "cells": 16
+        },
+        {
+          "cam": "front",
+          "n": 11431,
+          "mask_id": 1662,
+          "t": 319.28435539498565,
+          "cells": 30
+        },
+        {
+          "cam": "front",
+          "n": 11427,
+          "mask_id": 1662,
+          "t": 319.17331078467095,
+          "cells": 17
+        },
+        {
+          "cam": "front",
+          "n": 11474,
+          "mask_id": 1662,
+          "t": 320.47880785020135,
+          "cells": 43
+        },
+        {
+          "cam": "front",
+          "n": 11407,
+          "mask_id": 1662,
+          "t": 318.6177942181275,
+          "cells": 57
+        },
+        {
+          "cam": "front",
+          "n": 11421,
+          "mask_id": 1662,
+          "t": 319.006656485052,
+          "cells": 21
+        },
+        {
+          "cam": "front",
+          "n": 11417,
+          "mask_id": 1662,
+          "t": 318.8954931280611,
+          "cells": 1
+        },
+        {
+          "cam": "front",
+          "n": 11413,
+          "mask_id": 1662,
+          "t": 318.78441954930315,
+          "cells": 32
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11514,
+          "mask_id": 748,
+          "t": 321.8123207688789,
+          "cells": 8
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11523,
+          "mask_id": 748,
+          "t": 322.06244266701464,
+          "cells": 1
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11529,
+          "mask_id": 748,
+          "t": 322.22913267733196,
+          "cells": 4
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11538,
+          "mask_id": 748,
+          "t": 322.4791850693398,
+          "cells": 42
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11490,
+          "mask_id": 748,
+          "t": 321.1456997398654,
+          "cells": 2
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11542,
+          "mask_id": 748,
+          "t": 322.5903076188544,
+          "cells": 580
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11478,
+          "mask_id": 748,
+          "t": 320.8124587314864,
+          "cells": 23
+        },
+        {
+          "cam": "left_pillar",
+          "n": 11546,
+          "mask_id": 748,
+          "t": 322.7014615851388,
+          "cells": 342
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11539,
+          "mask_id": 1458,
+          "t": 322.590219273281,
+          "cells": 49
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11543,
+          "mask_id": 1458,
+          "t": 322.70132277811655,
+          "cells": 24
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11547,
+          "mask_id": 1458,
+          "t": 322.8123898625264,
+          "cells": 20
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11555,
+          "mask_id": 1458,
+          "t": 323.0345968721976,
+          "cells": 5
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11561,
+          "mask_id": 1458,
+          "t": 323.201252129451,
+          "cells": 74
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11585,
+          "mask_id": 1458,
+          "t": 323.86790957889025,
+          "cells": 2
+        },
+        {
+          "cam": "left_repeater",
+          "n": 11591,
+          "mask_id": 1458,
+          "t": 324.0346376769949,
+          "cells": 49
+        }
+      ]
+    },
+    "11091": {
+      "name": "silver SUV stationary at end of observation",
+      "parked": true,
+      "ground": {
+        "samples": 2,
+        "supported_wheels": 4,
+        "total_wheels": 8,
+        "before_abs_p50_m": 0.007419764995574951,
+        "after_signed_p50_m": 0.0,
+        "after_abs_p90_m": 0.007419764995574951,
+        "nearest_p50_m": 0.4756202855037084
+      },
+      "measured": 4352,
+      "inferred": 11848,
+      "paint_rgb": [
+        59.0,
+        84.0,
+        92.0
+      ],
+      "views": [
+        {
+          "cam": "front",
+          "n": 11814,
+          "mask_id": 1838,
+          "t": 329.92230650044957,
+          "cells": 37
+        },
+        {
+          "cam": "front",
+          "n": 11810,
+          "mask_id": 1838,
+          "t": 329.8111730695363,
+          "cells": 23
+        },
+        {
+          "cam": "front",
+          "n": 11806,
+          "mask_id": 1838,
+          "t": 329.70006848736193,
+          "cells": 13
+        },
+        {
+          "cam": "front",
+          "n": 11802,
+          "mask_id": 1838,
+          "t": 329.58893613378746,
+          "cells": 30
+        },
+        {
+          "cam": "front",
+          "n": 11798,
+          "mask_id": 1838,
+          "t": 329.4777727767965,
+          "cells": 9
+        },
+        {
+          "cam": "front",
+          "n": 11788,
+          "mask_id": 1838,
+          "t": 329.19998408862983,
+          "cells": 58
+        },
+        {
+          "cam": "front",
+          "n": 11794,
+          "mask_id": 1838,
+          "t": 329.36666927196086,
+          "cells": 241
+        },
+        {
+          "cam": "front",
+          "n": 11784,
+          "mask_id": 1838,
+          "t": 329.08882073163886,
+          "cells": 5
+        },
+        {
+          "cam": "front",
+          "n": 11780,
+          "mask_id": 1838,
+          "t": 328.9776873007256,
+          "cells": 3527
+        },
+        {
+          "cam": "front",
+          "n": 11774,
+          "mask_id": 1838,
+          "t": 328.8110320434722,
+          "cells": 22
+        },
+        {
+          "cam": "front",
+          "n": 11770,
+          "mask_id": 1838,
+          "t": 328.6998779037132,
+          "cells": 46
+        },
+        {
+          "cam": "front",
+          "n": 11764,
+          "mask_id": 1838,
+          "t": 328.5332134292279,
+          "cells": 291
+        },
+        {
+          "cam": "front",
+          "n": 11760,
+          "mask_id": 1838,
+          "t": 328.42216953713904,
+          "cells": 37
+        },
+        {
+          "cam": "front",
+          "n": 11748,
+          "mask_id": 1838,
+          "t": 328.088780736013,
+          "cells": 13
+        }
+      ]
+    }
+  },
+  "parked": {
+    "4": {
+      "cameras": [
+        "left_pillar",
+        "left_repeater"
+      ],
+      "times": [
+        90.49431739204464,
+        100.02144293169647
+      ],
+      "center": [
+        -33.17964331454237,
+        11.904313745134598,
+        0.16910200148515722
+      ],
+      "yaw": 0.2972409511718636,
+      "size": [
+        4.526855099960749,
+        1.8786418999218923,
+        1.1200000000000006
+      ],
+      "footprint_splats": 31,
+      "tests": [
+        [
+          0.722,
+          0.148
+        ],
+        [
+          0.746,
+          0.146
+        ],
+        [
+          0.782,
+          0.171
+        ],
+        [
+          0.785,
+          0.18
+        ],
+        [
+          0.653,
+          0.117
+        ],
+        [
+          0.74,
+          0.165
+        ]
+      ],
+      "median_iou": 0.743,
+      "median_coverage": 0.1565,
+      "tokens": [
+        [
+          "left_pillar",
+          17
+        ],
+        [
+          "left_pillar",
+          31
+        ],
+        [
+          "left_repeater",
+          21
+        ]
+      ],
+      "review": "silver sedan",
+      "added_as": 10004
+    },
+    "7": {
+      "cameras": [
+        "left_repeater"
+      ],
+      "times": [
+        94.02707999306553,
+        97.38796101434212
+      ],
+      "center": [
+        -18.599203185303306,
+        4.123497974312423,
+        0.07276513236198404
+      ],
+      "yaw": 9.493715865948005,
+      "size": [
+        4.678160032079191,
+        1.879398935151741,
+        1.539046890172394
+      ],
+      "footprint_splats": 5,
+      "tests": [
+        [
+          0.509,
+          0.049
+        ],
+        [
+          0.525,
+          0.061
+        ],
+        [
+          0.735,
+          0.051
+        ],
+        [
+          0.822,
+          0.035
+        ],
+        [
+          0.524,
+          0.072
+        ],
+        [
+          0.592,
+          0.069
+        ]
+      ],
+      "median_iou": 0.5585,
+      "median_coverage": 0.055999999999999994,
+      "tokens": [
+        [
+          "left_repeater",
+          28
+        ]
+      ],
+      "review": "burgundy sedan",
+      "added_as": 10007
+    },
+    "47": {
+      "cameras": [
+        "left_pillar"
+      ],
+      "times": [
+        102.46572003807945,
+        104.46558312512008
+      ],
+      "center": [
+        -34.78623288364731,
+        12.538234472952903,
+        0.4472946410545384
+      ],
+      "yaw": -1.2080739619859266,
+      "size": [
+        4.65287249630177,
+        1.8781241376768807,
+        1.12
+      ],
+      "footprint_splats": 81,
+      "tests": [
+        [
+          0.39,
+          0.231
+        ],
+        [
+          0.359,
+          0.148
+        ],
+        [
+          0.307,
+          0.227
+        ],
+        [
+          0.356,
+          0.229
+        ]
+      ],
+      "median_iou": 0.3575,
+      "median_coverage": 0.228,
+      "tokens": [
+        [
+          "left_pillar",
+          106
+        ]
+      ],
+      "review": "same silver sedan as 4 across the island",
+      "added_as": null
+    },
+    "492": {
+      "cameras": [
+        "left_pillar"
+      ],
+      "times": [
+        196.40373337657076,
+        204.15320283885313
+      ],
+      "center": [
+        -1455.3383739700107,
+        -234.95901601426397,
+        0.50153663620726
+      ],
+      "yaw": 3.7645006887582055,
+      "size": [
+        3.5222574028006943,
+        1.7987512380743864,
+        1.1849275487075086
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.616,
+          0.0
+        ],
+        [
+          0.676,
+          0.0
+        ],
+        [
+          0.563,
+          0.0
+        ],
+        [
+          0.581,
+          0.0
+        ],
+        [
+          0.107,
+          0.0
+        ],
+        [
+          0.616,
+          0.0
+        ]
+      ],
+      "median_iou": 0.5985,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "left_pillar",
+          25
+        ],
+        [
+          "left_pillar",
+          913
+        ]
+      ],
+      "review": "distant blue vehicle",
+      "added_as": 10492
+    },
+    "497": {
+      "cameras": [
+        "left_pillar"
+      ],
+      "times": [
+        197.90363069185122,
+        201.1534082082922
+      ],
+      "center": [
+        -1458.2649748024771,
+        -241.91725611634763,
+        0.5613359105336793
+      ],
+      "yaw": -11.860309577868977,
+      "size": [
+        4.654346134919674,
+        1.8575833140881883,
+        1.1200002341930613
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.722,
+          0.0
+        ],
+        [
+          0.656,
+          0.0
+        ],
+        [
+          0.682,
+          0.0
+        ],
+        [
+          0.668,
+          0.0
+        ],
+        [
+          0.67,
+          0.0
+        ],
+        [
+          0.717,
+          0.0
+        ]
+      ],
+      "median_iou": 0.676,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "left_pillar",
+          29
+        ]
+      ],
+      "review": "background behind trunks; a car is not established",
+      "added_as": null
+    },
+    "498": {
+      "cameras": [
+        "right_repeater"
+      ],
+      "times": [
+        199.15374889423308,
+        202.23687115342068
+      ],
+      "center": [
+        -1341.7191289330563,
+        -156.07157000389427,
+        -0.5592947064503173
+      ],
+      "yaw": 0.5735278720676575,
+      "size": [
+        4.648001841433709,
+        1.718356143270459,
+        1.7467984974938362
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.708,
+          0.0
+        ],
+        [
+          0.805,
+          0.0
+        ],
+        [
+          0.723,
+          0.0
+        ],
+        [
+          0.723,
+          0.0
+        ],
+        [
+          0.652,
+          0.0
+        ],
+        [
+          0.644,
+          0.0
+        ]
+      ],
+      "median_iou": 0.7155,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "right_repeater",
+          32
+        ],
+        [
+          "right_repeater",
+          1889
+        ]
+      ],
+      "review": "occluded sliver at a concrete support; class and heading indeterminate",
+      "added_as": null
+    },
+    "502": {
+      "cameras": [
+        "left_pillar"
+      ],
+      "times": [
+        200.2368042933986,
+        201.2367358369189
+      ],
+      "center": [
+        -1454.065132191116,
+        -203.67016254867653,
+        0.28921698423911035
+      ],
+      "yaw": -3.1258966120124194,
+      "size": [
+        4.655311198697489,
+        1.802285316790216,
+        1.134923292298566
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.666,
+          0.0
+        ],
+        [
+          0.697,
+          0.0
+        ],
+        [
+          0.672,
+          0.0
+        ]
+      ],
+      "median_iou": 0.672,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "left_pillar",
+          918
+        ]
+      ],
+      "review": "three distant dark fragments split by a post; class not established",
+      "added_as": null
+    },
+    "504": {
+      "cameras": [
+        "left_pillar"
+      ],
+      "times": [
+        201.65337398005238,
+        203.4032541812129
+      ],
+      "center": [
+        -1441.3027815662847,
+        -233.93190434848938,
+        0.42796015491736217
+      ],
+      "yaw": -2.3085614774428938,
+      "size": [
+        3.4534004172286332,
+        1.8312492500220385,
+        1.326378710982552
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.8,
+          0.0
+        ],
+        [
+          0.482,
+          0.0
+        ],
+        [
+          0.422,
+          0.0
+        ],
+        [
+          0.354,
+          0.0
+        ]
+      ],
+      "median_iou": 0.45199999999999996,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "left_pillar",
+          33
+        ]
+      ],
+      "review": "hedge and pale facade; no reliable car outline",
+      "added_as": null
+    },
+    "587": {
+      "cameras": [
+        "left_pillar",
+        "left_repeater"
+      ],
+      "times": [
+        286.00871002647403,
+        291.88065221741647
+      ],
+      "center": [
+        -1527.904603301556,
+        361.6285627735595,
+        0.12682569026947021
+      ],
+      "yaw": 1.8554703354311914,
+      "size": [
+        5.009449487806824,
+        1.8864210790587739,
+        1.6259276339820687
+      ],
+      "footprint_splats": 1821,
+      "tests": [
+        [
+          0.703,
+          0.436
+        ],
+        [
+          0.701,
+          0.436
+        ],
+        [
+          0.672,
+          0.425
+        ],
+        [
+          0.677,
+          0.43
+        ],
+        [
+          0.697,
+          0.448
+        ],
+        [
+          0.668,
+          0.523
+        ]
+      ],
+      "median_iou": 0.687,
+      "median_coverage": 0.436,
+      "tokens": [
+        [
+          "back",
+          299
+        ],
+        [
+          "left_pillar",
+          258
+        ],
+        [
+          "left_repeater",
+          699
+        ]
+      ],
+      "review": "grey Tesla at the light",
+      "added_as": 10587
+    },
+    "589": {
+      "cameras": [
+        "front",
+        "right_pillar",
+        "right_repeater"
+      ],
+      "times": [
+        290.5078892688588,
+        295.8248266390799
+      ],
+      "center": [
+        -1511.005686069116,
+        434.19785797286283,
+        -0.013808956369757652
+      ],
+      "yaw": 3.8891513251934198,
+      "size": [
+        4.473939306263403,
+        1.8744750622249047,
+        1.5200622241707125
+      ],
+      "footprint_splats": 1777,
+      "tests": [
+        [
+          0.853,
+          0.928
+        ],
+        [
+          0.893,
+          0.936
+        ],
+        [
+          0.95,
+          0.963
+        ],
+        [
+          0.934,
+          0.988
+        ],
+        [
+          0.887,
+          0.834
+        ],
+        [
+          0.836,
+          0.979
+        ]
+      ],
+      "median_iou": 0.89,
+      "median_coverage": 0.9495,
+      "tokens": [
+        [
+          "back",
+          328
+        ],
+        [
+          "front",
+          608
+        ],
+        [
+          "right_pillar",
+          868
+        ],
+        [
+          "right_repeater",
+          694
+        ]
+      ],
+      "review": "static splats already describe the bonnet, roof, flank and wheels",
+      "added_as": null
+    },
+    "593": {
+      "cameras": [
+        "front"
+      ],
+      "times": [
+        288.8691125725338,
+        293.20214926112186
+      ],
+      "center": [
+        -1511.4235608941183,
+        441.8114365167451,
+        -0.02658133953809738
+      ],
+      "yaw": 1.690869403337841,
+      "size": [
+        4.60925796057566,
+        1.8820731265133235,
+        1.6219451706349493
+      ],
+      "footprint_splats": 112,
+      "tests": [
+        [
+          0.849,
+          0.261
+        ],
+        [
+          0.447,
+          0.09
+        ],
+        [
+          0.795,
+          0.214
+        ],
+        [
+          0.44,
+          0.097
+        ],
+        [
+          0.767,
+          0.247
+        ],
+        [
+          0.342,
+          0.042
+        ]
+      ],
+      "median_iou": 0.607,
+      "median_coverage": 0.1555,
+      "tokens": [
+        [
+          "front",
+          596
+        ],
+        [
+          "front",
+          603
+        ]
+      ],
+      "review": "white Tesla across the intersection",
+      "added_as": 10593
+    },
+    "770": {
+      "cameras": [
+        "left_pillar",
+        "left_repeater"
+      ],
+      "times": [
+        306.8458435056381,
+        308.4012925733363
+      ],
+      "center": [
+        -1577.0155896229212,
+        659.7204281337741,
+        0.04881717734628577
+      ],
+      "yaw": 0.4274744652659016,
+      "size": [
+        4.608608424143957,
+        1.8865219517401572,
+        1.575010902723484
+      ],
+      "footprint_splats": 10,
+      "tests": [
+        [
+          0.607,
+          0.136
+        ],
+        [
+          0.569,
+          0.239
+        ],
+        [
+          0.685,
+          0.006
+        ]
+      ],
+      "median_iou": 0.607,
+      "median_coverage": 0.136,
+      "tokens": [
+        [
+          "left_pillar",
+          394
+        ],
+        [
+          "left_repeater",
+          1021
+        ]
+      ],
+      "review": "roadside board overlaps the mask; vehicle extent not established",
+      "added_as": null
+    },
+    "789": {
+      "cameras": [
+        "left_repeater"
+      ],
+      "times": [
+        322.23367892536726,
+        324.42797314587017
+      ],
+      "center": [
+        -1557.8748374554598,
+        907.0128263447614,
+        0.36438554525375366
+      ],
+      "yaw": -6.090538397453449,
+      "size": [
+        4.654354254073015,
+        1.8749899047586636,
+        1.551221598484746
+      ],
+      "footprint_splats": 70,
+      "tests": [
+        [
+          0.476,
+          0.582
+        ],
+        [
+          0.471,
+          0.615
+        ],
+        [
+          0.527,
+          0.544
+        ],
+        [
+          0.56,
+          0.516
+        ]
+      ],
+      "median_iou": 0.5015000000000001,
+      "median_coverage": 0.563,
+      "tokens": [
+        [
+          "left_repeater",
+          1458
+        ]
+      ],
+      "review": "same blue SUV as 972",
+      "added_as": null
+    },
+    "935": {
+      "cameras": [
+        "left_repeater"
+      ],
+      "times": [
+        314.178674824787,
+        315.9563309021564
+      ],
+      "center": [
+        -1546.596876945678,
+        751.2888802378428,
+        0.2718242406845093
+      ],
+      "yaw": 4.568662592633006,
+      "size": [
+        4.649252353768188,
+        1.8907409774966317,
+        1.787814586059163
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.467,
+          0.0
+        ],
+        [
+          0.469,
+          0.0
+        ],
+        [
+          0.522,
+          0.0
+        ]
+      ],
+      "median_iou": 0.469,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "left_repeater",
+          1298
+        ]
+      ],
+      "review": "red SUV at the roadside",
+      "added_as": 10935
+    },
+    "972": {
+      "cameras": [
+        "front",
+        "left_pillar"
+      ],
+      "times": [
+        316.00614362862666,
+        322.7561942508454
+      ],
+      "center": [
+        -1555.951603645312,
+        906.6843522727726,
+        0.37973010540008545
+      ],
+      "yaw": 6.505467243758597,
+      "size": [
+        4.2608481368741495,
+        1.8696234304633126,
+        1.6787873707665621
+      ],
+      "footprint_splats": 75,
+      "tests": [
+        [
+          0.755,
+          0.656
+        ],
+        [
+          0.762,
+          0.638
+        ],
+        [
+          0.824,
+          0.57
+        ],
+        [
+          0.809,
+          0.633
+        ],
+        [
+          0.746,
+          0.564
+        ],
+        [
+          0.82,
+          0.61
+        ]
+      ],
+      "median_iou": 0.7855000000000001,
+      "median_coverage": 0.6214999999999999,
+      "tokens": [
+        [
+          "front",
+          1662
+        ],
+        [
+          "left_pillar",
+          748
+        ]
+      ],
+      "review": "blue SUV at the corner",
+      "added_as": 10972
+    },
+    "976": {
+      "cameras": [
+        "front"
+      ],
+      "times": [
+        326.19989019729206,
+        329.9774093617021
+      ],
+      "center": [
+        -1236.8714096563242,
+        978.4125975375729,
+        -2.419252242828918
+      ],
+      "yaw": 8.336343605308155,
+      "size": [
+        6.335755508269017,
+        1.8834996321497641,
+        2.0779677765766262
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.15,
+          0.0
+        ],
+        [
+          0.165,
+          0.0
+        ],
+        [
+          0.186,
+          0.0
+        ],
+        [
+          0.193,
+          0.0
+        ],
+        [
+          0.252,
+          0.0
+        ],
+        [
+          0.275,
+          0.0
+        ]
+      ],
+      "median_iou": 0.1895,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "front",
+          1771
+        ]
+      ],
+      "review": "pickup in the moving queue; poor fixed fit; do not freeze",
+      "added_as": null
+    },
+    "1040": {
+      "cameras": [
+        "left_pillar"
+      ],
+      "times": [
+        320.97853817347595,
+        323.0339530129344
+      ],
+      "center": [
+        -1553.408942062634,
+        910.8266907088524,
+        0.3700008690357208
+      ],
+      "yaw": 0.24197097043267185,
+      "size": [
+        3.7878538664978576,
+        1.8681488227830965,
+        1.5346677730697253
+      ],
+      "footprint_splats": 160,
+      "tests": [
+        [
+          0.543,
+          0.604
+        ],
+        [
+          0.612,
+          0.733
+        ],
+        [
+          0.719,
+          0.87
+        ],
+        [
+          0.621,
+          0.865
+        ],
+        [
+          0.467,
+          0.895
+        ]
+      ],
+      "median_iou": 0.612,
+      "median_coverage": 0.865,
+      "tokens": [
+        [
+          "left_pillar",
+          755
+        ]
+      ],
+      "review": "merged near and far white cars; near car creeps forward (17); far car separately fitted using two clean mask IDs (10401)",
+      "added_as": null
+    },
+    "1091": {
+      "cameras": [
+        "front"
+      ],
+      "times": [
+        326.8109594738878,
+        329.9774093617021
+      ],
+      "center": [
+        -1387.7150258829538,
+        946.5994012083137,
+        -0.48500365018844604
+      ],
+      "yaw": 0.6552719924630058,
+      "size": [
+        4.630348923582361,
+        1.8798566969621275,
+        2.0799999999999996
+      ],
+      "footprint_splats": 0,
+      "tests": [
+        [
+          0.608,
+          0.0
+        ],
+        [
+          0.796,
+          0.0
+        ],
+        [
+          0.856,
+          0.0
+        ],
+        [
+          0.887,
+          0.0
+        ],
+        [
+          0.734,
+          0.0
+        ],
+        [
+          0.699,
+          0.0
+        ]
+      ],
+      "median_iou": 0.765,
+      "median_coverage": 0.0,
+      "tokens": [
+        [
+          "front",
+          1838
+        ]
+      ],
+      "review": "silver SUV stationary at end of observation",
+      "added_as": 11091
+    },
+    "10401": {
+      "cameras": [
+        "left_pillar",
+        "left_repeater"
+      ],
+      "times": [
+        322.5339872411742,
+        325.92787046115063
+      ],
+      "center": [
+        -1555.0327428811481,
+        917.7666949306623,
+        0.34393370151519775
+      ],
+      "yaw": 0.05976080308837778,
+      "size": [
+        4.4804799224029885,
+        1.878560837400475,
+        1.12
+      ],
+      "footprint_splats": 18,
+      "tests": [
+        [
+          0.642,
+          0.469
+        ],
+        [
+          0.811,
+          0.448
+        ],
+        [
+          0.534,
+          0.447
+        ],
+        [
+          0.622,
+          0.418
+        ],
+        [
+          0.457,
+          0.263
+        ],
+        [
+          0.674,
+          0.489
+        ]
+      ],
+      "median_iou": 0.632,
+      "median_coverage": 0.4475,
+      "tokens": [
+        [
+          "left_pillar",
+          798
+        ],
+        [
+          "left_repeater",
+          1474
+        ]
+      ],
+      "review": "far white sedan behind the blue SUV queue",
+      "added_as": 20401
+    }
+  },
+  "unsupported_moving": []
+}

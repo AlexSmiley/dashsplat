@@ -1,0 +1,64 @@
+{
+  "format": "photo-layers",
+  "revision": 3,
+  "sceneDigest": "6c7c9381a4b8f0fd7fcacf004ba18ae49b539456e5b192117368b8e5ed0a1df1",
+  "bytes": 453405727,
+  "files": 5216,
+  "groups": {
+    "metadata": 2329111,
+    "pano-r2": 2540611,
+    "objects": 4942886,
+    "tiles": 286348827,
+    "movers": 7402899,
+    "rsb": 98437605,
+    "backdrop-r3": 51403788
+  },
+  "cutouts": 768,
+  "baseKnots": 243,
+  "bases": {
+    "front": 243,
+    "left_pillar": 243,
+    "right_pillar": 243
+  },
+  "lifetimes": {
+    "multiple": 460,
+    "single": 308
+  },
+  "stream": {
+    "93-104": {
+      "layersBytes": 5193721,
+      "layersMBs": 0.4721564545454546,
+      "layerPeakRollingMB": 0.861744,
+      "cacheAndMetadataBytes": 34055058,
+      "allMBs": 3.568070818181818,
+      "dominantCameras": {
+        "front": 247,
+        "left_pillar": 83
+      }
+    },
+    "105-120": {
+      "layersBytes": 15919643,
+      "layersMBs": 1.0613095333333333,
+      "layerPeakRollingMB": 1.890514,
+      "cacheAndMetadataBytes": 57355514,
+      "allMBs": 4.8850104666666665,
+      "dominantCameras": {
+        "front": 369,
+        "right_pillar": 81
+      }
+    },
+    "93-140": {
+      "layersBytes": 60911098,
+      "layersMBs": 1.2959808085106383,
+      "layerPeakRollingMB": 2.725246,
+      "cacheAndMetadataBytes": 102758170,
+      "allMBs": 3.4823248510638294,
+      "dominantCameras": {
+        "front": 1246,
+        "left_pillar": 83,
+        "right_pillar": 81
+      }
+    }
+  },
+  "groundSplats": 2982651
+}
