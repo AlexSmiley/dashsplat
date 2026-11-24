@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "buildCommand": "cd viewer && npm install --no-audit --no-fund && npm run build",
+  "outputDirectory": "viewer/dist",
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/((?!assets/|models/|scenes/|streets\\.json).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
