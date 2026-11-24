@@ -41,6 +41,7 @@ function listScenes() {
 function handler(req: IncomingMessage, res: ServerResponse, next: () => void) {
   const url = decodeURIComponent((req.url ?? "/").split("?")[0]);
   if (url === "/index.json" || url === "/") {
+    if (!existsSync(SCENES)) return next(); // use bundled demo index from viewer/public
     res.setHeader("Content-Type", "application/json");
     res.setHeader("Cache-Control", "no-cache");
     res.end(JSON.stringify({ scenes: listScenes() }));
@@ -48,9 +49,7 @@ function handler(req: IncomingMessage, res: ServerResponse, next: () => void) {
   }
   const file = path.resolve(SCENES, "." + url);
   if (!file.startsWith(SCENES + path.sep) || !existsSync(file) || !statSync(file).isFile()) {
-    res.statusCode = 404;
-    res.end("not found");
-    return;
+    return next(); // Vite serves viewer/public/scenes/demo when local scenes are absent
   }
   const st = statSync(file);
   const mtime = st.mtime.toUTCString();
