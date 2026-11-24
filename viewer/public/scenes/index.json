@@ -1,0 +1,11 @@
+{
+  "scenes": [
+    {
+      "name": "demo",
+      "url": "/scenes/demo/",
+      "hasMap": false,
+      "tiles": 0,
+      "splats": 0
+    }
+  ]
+}
